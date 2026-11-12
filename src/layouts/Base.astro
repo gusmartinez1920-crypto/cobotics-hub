@@ -1,6 +1,7 @@
 ---
 import "../styles/global.css";
 import { htmlLang, languages, langs, path, useT, type Lang } from "../i18n/ui";
+import { REPO_URL } from "../site-config";
 
 interface Props {
   lang: Lang;
@@ -89,6 +90,7 @@ const isActive = (seg: string) => current.startsWith(path(lang, seg));
         <ul>
           <li><a href={path(lang, "team")}>{t("nav.team")}</a></li>
           <li><a href={path(lang, "contribute")}>{t("nav.contribute")}</a></li>
+          <li><a href={REPO_URL} rel="noopener">{t("footer.source")}</a></li>
         </ul>
         <div class="foot-meta">
           <p>{t("footer.phase")}</p>

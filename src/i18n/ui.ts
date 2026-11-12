@@ -155,6 +155,7 @@ const en = {
   "contribute.rule4": "Disclose any link with the manufacturers or authors you write about.",
 
   "footer.license": "Texts licensed under CC BY 4.0 unless stated otherwise.",
+  "footer.source": "Source code on GitHub",
   "footer.phase": "Phase 1: open knowledge. Nothing is sold on this site.",
   "notfound.title": "This page does not exist",
   "notfound.back": "Go to the home page",
@@ -313,6 +314,7 @@ const pt: Dict = {
   "contribute.rule4": "Declare qualquer vínculo com os fabricantes ou autores sobre quem você escreve.",
 
   "footer.license": "Textos sob licença CC BY 4.0, salvo indicação em contrário.",
+  "footer.source": "Código-fonte no GitHub",
   "footer.phase": "Fase 1: conhecimento aberto. Nada é vendido neste site.",
   "notfound.title": "Esta página não existe",
   "notfound.back": "Ir para a página inicial",
@@ -469,6 +471,7 @@ const es: Dict = {
   "contribute.rule4": "Declara cualquier vínculo con los fabricantes o autores sobre los que escribes.",
 
   "footer.license": "Textos bajo licencia CC BY 4.0, salvo que se indique lo contrario.",
+  "footer.source": "Código fuente en GitHub",
   "footer.phase": "Fase 1: conocimiento abierto. En este sitio no se vende nada.",
   "notfound.title": "Esta página no existe",
   "notfound.back": "Ir a la página de inicio",
