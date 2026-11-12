@@ -3,6 +3,9 @@
 #   FTP_SERVER    ex.: ftp.cobotics-hub.com  (hPanel → Arquivos → Contas FTP)
 #   FTP_USERNAME  usuário FTP
 #   FTP_PASSWORD  senha FTP
+# Opcional, em "Variables" (não é segredo):
+#   FTP_SERVER_DIR  pasta de destino. Padrão: ./public_html/
+#                   Use ./ se o "Diretório" da conta FTP no hPanel já terminar em public_html.
 name: Publicar site
 
 on:
@@ -38,4 +41,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/
-          server-dir: ./public_html/
+          server-dir: ${{ vars.FTP_SERVER_DIR || './public_html/' }}

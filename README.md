@@ -60,4 +60,8 @@ Configuração única, em **GitHub → Settings → Secrets and variables → Ac
 
 As senhas ficam só nos *secrets* do GitHub — nunca no código nem em mensagens.
 
+**Pasta de destino:** por padrão o site vai para `public_html/`. Se no hPanel o campo "Diretório" da conta FTP
+já terminar em `public_html`, crie em **Settings → Secrets and variables → Actions → Variables** a variável
+`FTP_SERVER_DIR` com o valor `./`.
+
 `public/.htaccess` força HTTPS, remove o `www` e usa a página 404 do site. O domínio fica em `site` no `astro.config.mjs`.
