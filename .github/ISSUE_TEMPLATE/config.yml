@@ -1,0 +1,9 @@
+# Só os formulários abaixo ficam disponíveis (sem mensagem "em branco").
+blank_issues_enabled: false
+contact_links:
+  - name: "How to contribute / Como contribuir / Cómo contribuir"
+    url: https://cobotics-hub.com/en/contribute/
+    about: "Rules and guidance before submitting / Regras antes de enviar / Reglas antes de enviar."
+  - name: "Privacy / Privacidade / Privacidad"
+    url: https://cobotics-hub.com/en/privacy/
+    about: "How we handle personal data / Como tratamos dados pessoais / Cómo tratamos los datos personales."

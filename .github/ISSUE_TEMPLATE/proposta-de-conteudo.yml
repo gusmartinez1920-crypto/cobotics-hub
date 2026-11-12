@@ -3,6 +3,13 @@ description: "Propose an article or tutorial for the Cobotics Hub."
 title: "[Proposal] "
 labels: ["content-proposal"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        > **⚠️ Public / Público / Público**
+        > EN: Everything you write here is **public** on the internet. Do not include phone numbers, addresses or other people's data.
+        > PT: Tudo o que você escrever aqui é **público** na internet. Não informe telefone, endereço ou dados de outras pessoas.
+        > ES: Todo lo que escribas aquí es **público** en internet. No incluyas teléfonos, direcciones ni datos de otras personas.
   - type: dropdown
     id: kind
     attributes:
