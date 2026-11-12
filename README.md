@@ -47,21 +47,13 @@ A página **Contribua** leva aos formulários em `.github/ISSUE_TEMPLATE/`. O en
 
 ## Publicação (Hostinger)
 
-Cada *push* na branch `main` dispara `.github/workflows/deploy.yml`: o GitHub gera o site e envia `dist/`
-para `public_html/` na Hostinger por FTP. Dá para publicar manualmente em **Actions → Publicar site → Run workflow**.
+1. Cada *push* na branch `main` dispara `.github/workflows/deploy.yml`: o GitHub confere e gera o site
+   e grava o resultado (`dist/`) na branch **`deploy`**.
+2. A Hostinger busca a branch `deploy` pela função **GIT** do hPanel (Sites → cobotics-hub.com → Gerenciar →
+   Avançado → GIT), com **implantação automática**: o webhook da Hostinger está cadastrado em
+   GitHub → Settings → Webhooks e é chamado a cada *push*.
 
-Configuração única, em **GitHub → Settings → Secrets and variables → Actions → New repository secret**:
-
-| Secret | Onde achar (hPanel) |
-|---|---|
-| `FTP_SERVER` | Arquivos → Contas FTP → "Servidor FTP" (IP ou ftp.seudominio) |
-| `FTP_USERNAME` | mesma tela |
-| `FTP_PASSWORD` | a senha da conta FTP (pode redefinir lá) |
-
-As senhas ficam só nos *secrets* do GitHub — nunca no código nem em mensagens.
-
-**Pasta de destino:** por padrão o site vai para `public_html/`. Se no hPanel o campo "Diretório" da conta FTP
-já terminar em `public_html`, crie em **Settings → Secrets and variables → Actions → Variables** a variável
-`FTP_SERVER_DIR` com o valor `./`.
+Não há FTP nem senhas nesse fluxo. Para publicar manualmente: **Actions → Publicar site → Run workflow**,
+e se preciso, **Implantar** na tela GIT do hPanel.
 
 `public/.htaccess` força HTTPS, remove o `www` e usa a página 404 do site. O domínio fica em `site` no `astro.config.mjs`.
