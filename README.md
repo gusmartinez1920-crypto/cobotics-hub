@@ -49,9 +49,9 @@ A página **Contribua** leva aos formulários em `.github/ISSUE_TEMPLATE/`. O en
 
 1. Cada *push* na branch `main` dispara `.github/workflows/deploy.yml`: o GitHub confere e gera o site
    e grava o resultado (`dist/`) na branch **`deploy`**.
-2. A Hostinger busca a branch `deploy` pela função **GIT** do hPanel (Sites → cobotics-hub.com → Gerenciar →
-   Avançado → GIT), com **implantação automática**: o webhook da Hostinger está cadastrado em
-   GitHub → Settings → Webhooks e é chamado a cada *push*.
+2. A Hostinger publica a branch `deploy` automaticamente, pelo aplicativo **Hostinger** instalado no GitHub
+   (só com acesso a este repositório) e configurado em hPanel → Sites → cobotics-hub.com → Avançado → GIT.
+   Do *push* ao site no ar leva cerca de 1 minuto.
 
 Não há FTP nem senhas nesse fluxo. Para publicar manualmente: **Actions → Publicar site → Run workflow**,
 e se preciso, **Implantar** na tela GIT do hPanel.
