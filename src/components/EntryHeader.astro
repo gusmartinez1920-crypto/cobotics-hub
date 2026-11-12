@@ -1,0 +1,139 @@
+---
+import { getEntries } from "astro:content";
+import PillarTag from "./PillarTag.astro";
+import SdgBadge from "./SdgBadge.astro";
+import type { SdgGoal } from "../lib/sdgs";
+import { formatDate, languages, path, useT, type Lang } from "../i18n/ui";
+
+interface Props {
+  lang: Lang;
+  section: "learn" | "research" | "tutorials";
+  data: {
+    title: string;
+    description: string;
+    pillars: ("iot" | "twin" | "cobot")[];
+    authors: { collection: "authors"; id: string }[];
+    date: Date;
+    updated?: Date;
+    draft: boolean;
+    translationReviewed: boolean;
+    sdgs: { goal: SdgGoal; why: string }[];
+  };
+  translations: { lang: Lang; slug: string }[];
+  bylineLabel?: string;
+}
+const { lang, section, data, translations, bylineLabel } = Astro.props;
+const t = useT(lang);
+const authors = await getEntries(data.authors);
+---
+
+<header class="entry-head">
+  <div class="tags">{data.pillars.map((p) => <PillarTag pillar={p} lang={lang} />)}</div>
+  <h1>{data.title}</h1>
+  <p class="lead">{data.description}</p>
+  <p class="byline">
+    {bylineLabel ?? t("meta.by")}{" "}
+    {authors.map((a, i) => <>{i > 0 && ", "}<a href={`${path(lang, "team")}#${a.id}`}>{a.data.name}</a></>)}
+    <span aria-hidden="true"> · </span>
+    {t("meta.published")} <time datetime={data.date.toISOString()}>{formatDate(lang, data.date)}</time>
+    {data.updated && (
+      <>
+        <span aria-hidden="true"> · </span>
+        {t("meta.updated")} <time datetime={data.updated.toISOString()}>{formatDate(lang, data.updated)}</time>
+      </>
+    )}
+  </p>
+  {translations.length > 0 && (
+    <p class="langs">
+      {t("meta.otherLangs")}:{" "}
+      {translations.map((tr, i) => (
+        <>
+          {i > 0 && " · "}
+          <a href={path(tr.lang, `${section}/${tr.slug}`)} hreflang={tr.lang} lang={tr.lang}>{languages[tr.lang]}</a>
+        </>
+      ))}
+    </p>
+  )}
+  {data.sdgs.length > 0 && (
+    <details class="sdgs">
+      <summary>
+        <span class="sdgs-label">{t("sdg.linked")}</span>
+        {data.sdgs.map((s) => <SdgBadge goal={s.goal} lang={lang} compact />)}
+      </summary>
+      <ul>
+        {data.sdgs.map((s) => (
+          <li><SdgBadge goal={s.goal} lang={lang} /> <span>{s.why}</span></li>
+        ))}
+      </ul>
+      <p class="sdgs-more"><a href={path(lang, "sdgs")}>{t("sdg.title")} →</a></p>
+    </details>
+  )}
+  {data.draft && <p class="notice">{t("meta.draft")}</p>}
+  {!data.translationReviewed && <p class="notice">{t("meta.translation")}</p>}
+</header>
+
+<style>
+  .entry-head {
+    padding-block: clamp(2rem, 6vw, 4rem) 1.5rem;
+    max-width: 52rem;
+  }
+  .entry-head h1 {
+    font-size: var(--step-3);
+  }
+  .tags {
+    display: flex;
+    gap: 0.9rem;
+    margin-bottom: 0.9rem;
+  }
+  .lead {
+    max-width: 60ch;
+  }
+  .byline,
+  .langs {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    margin-bottom: 0.5rem;
+  }
+  .notice {
+    margin-top: 1rem;
+  }
+  .sdgs {
+    margin-top: 1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    padding: 0.6rem 0.9rem;
+    max-width: 52rem;
+  }
+  .sdgs summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+  }
+  .sdgs-label {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    margin-right: 0.3rem;
+  }
+  .sdgs ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.9rem 0 0;
+    display: grid;
+    gap: 0.6rem;
+  }
+  .sdgs li span {
+    display: block;
+    margin-top: 0.3rem;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .sdgs-more {
+    font-size: var(--step--1);
+    margin: 0.8rem 0 0.2rem;
+  }
+</style>

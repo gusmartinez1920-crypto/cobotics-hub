@@ -1,0 +1,83 @@
+---
+import Base from "../../layouts/Base.astro";
+import { langs, useT, type Lang } from "../../i18n/ui";
+import { REPO_URL } from "../../site-config";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const summaryForm = `${REPO_URL}/issues/new?template=resumo-de-artigo.yml`;
+const topicForm = `${REPO_URL}/issues/new?template=proposta-de-conteudo.yml`;
+---
+
+<Base lang={lang} title={t("contribute.title")} description={t("contribute.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("contribute.title")}</h1>
+      <p class="lead">{t("contribute.lead")}</p>
+    </header>
+
+    <div class="ways">
+      <section class="way primary">
+        <h2>{t("contribute.summary.title")}</h2>
+        <p>{t("contribute.summary.desc")}</p>
+        <a class="button primary" href={summaryForm}>{t("contribute.summary.cta")}</a>
+      </section>
+      <section class="way">
+        <h2>{t("contribute.article.title")}</h2>
+        <p>{t("contribute.article.desc")}</p>
+        <a class="button" href={topicForm}>{t("contribute.article.cta")}</a>
+      </section>
+    </div>
+
+    <section class="rules">
+      <h2>{t("contribute.rules.title")}</h2>
+      <ul>
+        <li>{t("contribute.rule1")}</li>
+        <li>{t("contribute.rule2")}</li>
+        <li>{t("contribute.rule3")}</li>
+        <li>{t("contribute.rule4")}</li>
+      </ul>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .ways {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .way {
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .way.primary {
+    border-top: 3px solid var(--twin);
+  }
+  .way h2 {
+    font-size: var(--step-1);
+  }
+  .way p {
+    color: var(--graphite-soft);
+  }
+  .rules {
+    margin-top: 2.5rem;
+    max-width: var(--measure);
+  }
+  .rules h2 {
+    font-size: var(--step-1);
+  }
+  .rules li {
+    margin-bottom: 0.5rem;
+  }
+  @media (max-width: 48rem) {
+    .ways {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

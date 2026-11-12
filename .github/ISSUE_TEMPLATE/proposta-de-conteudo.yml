@@ -1,0 +1,28 @@
+name: "Content proposal / Proposta de conteúdo / Propuesta de contenido"
+description: "Propose an article or tutorial for the Cobotics Hub."
+title: "[Proposal] "
+labels: ["content-proposal"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: "Type"
+      options: ["Article", "Tutorial (DIY)"]
+    validations: { required: true }
+  - type: input
+    id: topic
+    attributes: { label: "Topic" }
+    validations: { required: true }
+  - type: textarea
+    id: outline
+    attributes: { label: "Short outline", description: "Main sections and what the reader will learn" }
+    validations: { required: true }
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Language you will write in"
+      options: ["English", "Português", "Español"]
+    validations: { required: true }
+  - type: input
+    id: who
+    attributes: { label: "Your name and background" }

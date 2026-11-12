@@ -1,0 +1,14 @@
+---
+import Base from "../layouts/Base.astro";
+import { path, useT, type Lang } from "../i18n/ui";
+const match = Astro.url.pathname.match(/^\/(en|pt|es)\//);
+const lang = (match?.[1] ?? "en") as Lang;
+const t = useT(lang);
+---
+
+<Base lang={lang} title={t("notfound.title")}>
+  <div class="wrap page-head">
+    <h1>{t("notfound.title")}</h1>
+    <p><a class="button" href={path(lang)}>{t("notfound.back")}</a></p>
+  </div>
+</Base>

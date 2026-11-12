@@ -1,0 +1,274 @@
+---
+import "../styles/global.css";
+import { htmlLang, languages, langs, path, useT, type Lang } from "../i18n/ui";
+
+interface Props {
+  lang: Lang;
+  title?: string;
+  description?: string;
+  /** URL equivalente desta página em cada idioma. Se faltar, usa o mesmo caminho com outro prefixo. */
+  alternates?: Partial<Record<Lang, string>>;
+}
+
+const { lang, title, description, alternates = {} } = Astro.props;
+const t = useT(lang);
+const pageTitle = title ? `${title} · ${t("site.name")}` : `${t("site.name")} — ${t("site.tagline")}`;
+const desc = description ?? t("site.tagline");
+
+const current = Astro.url.pathname;
+const sameUrlIn = (l: Lang) => alternates[l] ?? current.replace(/^\/(en|pt|es)(\/|$)/, `/${l}/`);
+
+const nav = [
+  ["learn", t("nav.learn")],
+  ["research", t("nav.research")],
+  ["tutorials", t("nav.tutorials")],
+  ["catalog", t("nav.catalog")],
+  ["roi", t("nav.roi")],
+  ["sdgs", t("nav.sdgs")],
+] as const;
+const isActive = (seg: string) => current.startsWith(path(lang, seg));
+---
+
+<!doctype html>
+<html lang={htmlLang[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <meta name="description" content={desc} />
+    <link rel="canonical" href={new URL(current, Astro.site)} />
+    {langs.map((l) => <link rel="alternate" hreflang={htmlLang[l]} href={new URL(sameUrlIn(l), Astro.site)} />)}
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={desc} />
+    <meta name="theme-color" content="#18221f" />
+  </head>
+  <body>
+    <a class="skip visually-hidden" href="#main">{t("nav.skip")}</a>
+    <header class="site-header">
+      <div class="wrap bar">
+        <a class="brand" href={path(lang)} aria-label={t("site.name")}>
+          <svg viewBox="0 0 28 28" width="28" height="28" aria-hidden="true">
+            <path d="M6 22 L12 12 L21 8" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M8 23 L14 13 L23 9" fill="none" stroke="var(--twin)" stroke-width="1.5" stroke-dasharray="2.5 2" stroke-linecap="round" />
+            <circle cx="12" cy="12" r="2.6" fill="var(--physical)" />
+          </svg>
+          <span>Cobotics<b>Hub</b></span>
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav">{t("nav.menu")}</button>
+        <nav id="main-nav" class="menu" aria-label="Main">
+          <ul>
+            {nav.map(([seg, label]) => (
+              <li><a href={path(lang, seg)} aria-current={isActive(seg) ? "page" : undefined}>{label}</a></li>
+            ))}
+            <li><a class="contribute" href={path(lang, "contribute")}>{t("nav.contribute")}</a></li>
+          </ul>
+        </nav>
+
+        <nav class="langs" aria-label={t("lang.label")}>
+          {langs.map((l) => (
+            <a href={sameUrlIn(l)} hreflang={htmlLang[l]} lang={htmlLang[l]} aria-current={l === lang ? "true" : undefined} title={languages[l]}>
+              {l.toUpperCase()}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap foot">
+        <div>
+          <p class="foot-brand">Cobotics Hub</p>
+          <p>{t("site.tagline")}</p>
+        </div>
+        <ul>
+          <li><a href={path(lang, "team")}>{t("nav.team")}</a></li>
+          <li><a href={path(lang, "contribute")}>{t("nav.contribute")}</a></li>
+        </ul>
+        <div class="foot-meta">
+          <p>{t("footer.phase")}</p>
+          <p>{t("footer.license")}</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const toggle = document.querySelector<HTMLButtonElement>(".menu-toggle");
+      const menu = document.getElementById("main-nav");
+      document.documentElement.classList.add("js");
+      toggle?.addEventListener("click", () => {
+        const open = toggle.getAttribute("aria-expanded") !== "true";
+        toggle.setAttribute("aria-expanded", String(open));
+        menu?.classList.toggle("open", open);
+      });
+    </script>
+  </body>
+</html>
+
+<style>
+  .skip:focus {
+    position: fixed !important;
+    top: 0.5rem;
+    left: 0.5rem;
+    width: auto;
+    height: auto;
+    clip: auto;
+    padding: 0.5rem 1rem;
+    background: var(--graphite);
+    color: var(--mineral);
+    z-index: 100;
+  }
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: color-mix(in srgb, var(--mineral) 92%, transparent);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--line);
+  }
+  .bar {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    min-height: 3.75rem;
+  }
+  .brand {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.55rem;
+    color: var(--graphite);
+    text-decoration: none;
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+  }
+  .brand b {
+    font-weight: 600;
+    color: var(--twin);
+    margin-left: 0.1em;
+  }
+  .menu {
+    margin-left: auto;
+  }
+  .menu-toggle {
+    display: none;
+  }
+  .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 0.25rem;
+    margin: 0;
+    padding: 0;
+  }
+  .menu a {
+    display: block;
+    padding: 0.45rem 0.7rem;
+    border-radius: var(--radius);
+    color: var(--graphite);
+    text-decoration: none;
+    font-size: 0.95rem;
+  }
+  .menu a:hover {
+    background: var(--twin-tint);
+  }
+  .menu a[aria-current="page"] {
+    color: var(--twin);
+    font-weight: 600;
+  }
+  .menu a.contribute {
+    border: 1px solid var(--line);
+  }
+  .langs {
+    display: flex;
+    gap: 0.1rem;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+  }
+  .langs a {
+    padding: 0.3rem 0.4rem;
+    color: var(--graphite-soft);
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .langs a[aria-current="true"] {
+    color: var(--graphite);
+    background: var(--surface);
+    box-shadow: inset 0 0 0 1px var(--line);
+  }
+
+  @media (max-width: 62rem) {
+    .bar {
+      flex-wrap: wrap;
+      gap: 0.5rem 1rem;
+    }
+    .langs {
+      margin-left: auto;
+    }
+    .menu-toggle {
+      display: inline-block;
+      font: inherit;
+      font-family: var(--font-mono);
+      font-size: 0.85rem;
+      background: none;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      padding: 0.3rem 0.7rem;
+      color: var(--graphite);
+      cursor: pointer;
+    }
+    .menu {
+      order: 3;
+      width: 100%;
+      margin-left: 0;
+    }
+    .menu ul {
+      flex-direction: column;
+      padding-bottom: 0.75rem;
+    }
+    /* com JS: menu recolhido até abrir; sem JS: sempre visível */
+    :global(html.js) .menu:not(.open) {
+      display: none;
+    }
+  }
+
+  .site-footer {
+    margin-top: clamp(3rem, 8vw, 6rem);
+    border-top: 1px solid var(--line);
+    background: var(--surface);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .foot {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    gap: 1.5rem;
+    padding-block: 2.5rem;
+  }
+  .foot-brand {
+    font-family: var(--font-display);
+    font-size: 1.1rem;
+    color: var(--graphite);
+    margin-bottom: 0.25rem;
+  }
+  .foot ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .foot li {
+    margin-bottom: 0.35rem;
+  }
+  .foot-meta p {
+    margin-bottom: 0.4rem;
+  }
+  @media (max-width: 48rem) {
+    .foot {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

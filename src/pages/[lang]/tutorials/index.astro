@@ -1,0 +1,62 @@
+---
+import Base from "../../../layouts/Base.astro";
+import EntryCard from "../../../components/EntryCard.astro";
+import PillarFilter from "../../../components/PillarFilter.astro";
+import { langs, path, useT, type Lang } from "../../../i18n/ui";
+import { entries, presentSdgs, splitId } from "../../../lib/content";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const list = await entries("tutorials", lang);
+---
+
+<Base lang={lang} title={t("tutorials.title")} description={t("tutorials.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("tutorials.title")}</h1>
+      <p class="lead">{t("tutorials.lead")}</p>
+    </header>
+    {list.length === 0 ? (
+      <div class="empty">
+        <p>{t("list.empty.tutorials")}</p>
+        <a class="button" href={path(lang, "contribute")}>{t("list.empty.cta")}</a>
+      </div>
+    ) : (
+      <>
+        <PillarFilter lang={lang} target="tutorials" sdgs={presentSdgs(list)} />
+        <div id="tutorials" class="grid">
+          {list.map((e) => (
+            <EntryCard
+              lang={lang}
+              href={path(lang, `tutorials/${splitId(e.id).slug}`)}
+              title={e.data.title}
+              description={e.data.description}
+              pillars={e.data.pillars}
+              meta={`${t(`difficulty.${e.data.difficulty}`)} · ${e.data.duration}`}
+              draft={e.data.draft}
+              sdgs={e.data.sdgs.map((s) => s.goal)}
+            />
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</Base>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 1rem;
+  }
+  .empty {
+    max-width: 40rem;
+    padding: 2rem;
+    border: 1px dashed var(--line);
+    border-radius: var(--radius);
+    color: var(--graphite-soft);
+  }
+</style>

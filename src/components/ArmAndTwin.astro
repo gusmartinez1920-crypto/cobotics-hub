@@ -1,0 +1,179 @@
+---
+// Elemento-assinatura da página inicial: o braço físico (linha sólida, âmbar nas articulações)
+// e o seu gêmeo digital (tracejado, azul-petróleo), que repete o movimento com um pequeno atraso.
+// Os pontos verdes são sensores IoT emitindo leituras.
+interface Props {
+  caption: string;
+}
+const { caption } = Astro.props;
+
+// Geometria (coordenadas do viewBox)
+const base = { x: 150, y: 330 };
+const j2 = { x: 150, y: 205 };
+const j3 = { x: 275, y: 205 };
+const tool = { x: 275, y: 262 };
+
+const arm = (cls: string) => ({ cls });
+const variants = [arm("physical"), arm("twin")];
+---
+
+<figure class="arm-figure">
+  <svg viewBox="70 125 290 245" role="img" aria-labelledby="arm-cap">
+    <defs>
+      <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+        <path d="M20 0H0V20" fill="none" stroke="var(--line)" stroke-width="0.6" />
+      </pattern>
+    </defs>
+    <rect x="0" y="0" width="440" height="380" fill="url(#grid)" opacity="0.7" />
+    <line x1="40" y1="350" x2="420" y2="350" stroke="var(--graphite-soft)" stroke-width="1.5" />
+
+    {
+      variants.map(({ cls }) => (
+        <g class={`arm ${cls}`}>
+          <rect x={base.x - 34} y={base.y} width="68" height="20" rx="3" class="base" />
+          <g class="j1" style={`transform-origin:${base.x}px ${base.y}px`}>
+            <line x1={base.x} y1={base.y} x2={j2.x} y2={j2.y} class="link" />
+            <g class="j2" style={`transform-origin:${j2.x}px ${j2.y}px`}>
+              <line x1={j2.x} y1={j2.y} x2={j3.x} y2={j3.y} class="link" />
+              <g class="j3" style={`transform-origin:${j3.x}px ${j3.y}px`}>
+                <line x1={j3.x} y1={j3.y} x2={tool.x} y2={tool.y} class="link thin" />
+                <path d={`M${tool.x - 14} ${tool.y + 16} V${tool.y} H${tool.x + 14} V${tool.y + 16}`} class="grip" />
+                <circle cx={j3.x} cy={j3.y} r="9" class="joint" />
+                {cls === "physical" && <circle cx={tool.x} cy={tool.y - 12} r="3.2" class="sensor" />}
+              </g>
+              <circle cx={j2.x} cy={j2.y} r="11" class="joint" />
+              {cls === "physical" && <circle cx={j2.x + 62} cy={j2.y - 9} r="3.2" class="sensor s2" />}
+            </g>
+            <circle cx={base.x} cy={base.y} r="13" class="joint" />
+            {cls === "physical" && <circle cx={base.x - 12} cy={base.y - 62} r="3.2" class="sensor s3" />}
+          </g>
+        </g>
+      ))
+    }
+  </svg>
+  <figcaption id="arm-cap">{caption}</figcaption>
+</figure>
+
+<style>
+  .arm-figure {
+    margin: 0;
+  }
+  svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  figcaption {
+    margin-top: 0.6rem;
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+
+  .link {
+    stroke-width: 16;
+    stroke-linecap: round;
+    fill: none;
+  }
+  .link.thin {
+    stroke-width: 10;
+  }
+  .grip {
+    fill: none;
+    stroke-width: 5;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  /* físico */
+  .physical .link,
+  .physical .grip {
+    stroke: var(--graphite);
+  }
+  .physical .base {
+    fill: var(--graphite);
+  }
+  .physical .joint {
+    fill: var(--physical);
+    stroke: var(--surface);
+    stroke-width: 3;
+  }
+
+  /* gêmeo: só contorno tracejado, deslocado e atrasado */
+  .twin {
+    transform: translate(14px, -10px);
+  }
+  .twin .link,
+  .twin .grip {
+    stroke: var(--twin);
+    stroke-width: 1.6;
+    stroke-dasharray: 5 4;
+  }
+  .twin .link {
+    stroke-width: 1.6;
+  }
+  .twin .base {
+    fill: none;
+    stroke: var(--twin);
+    stroke-width: 1.4;
+    stroke-dasharray: 5 4;
+  }
+  .twin .joint {
+    fill: var(--surface);
+    stroke: var(--twin);
+    stroke-width: 1.4;
+    stroke-dasharray: 3 3;
+  }
+
+  .sensor {
+    fill: var(--sense);
+    animation: ping 2.4s ease-out infinite;
+    transform-box: fill-box;
+    transform-origin: center;
+  }
+  .s2 {
+    animation-delay: 0.8s;
+  }
+  .s3 {
+    animation-delay: 1.6s;
+  }
+
+  .j1 {
+    animation: j1 9s ease-in-out infinite;
+  }
+  .j2 {
+    animation: j2 9s ease-in-out infinite;
+  }
+  .j3 {
+    animation: j3 9s ease-in-out infinite;
+  }
+  .twin .j1,
+  .twin .j2,
+  .twin .j3 {
+    animation-delay: 0.45s;
+  }
+
+  @keyframes j1 {
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(-16deg); }
+    65% { transform: rotate(8deg); }
+  }
+  @keyframes j2 {
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(22deg); }
+    65% { transform: rotate(-12deg); }
+  }
+  @keyframes j3 {
+    0%, 100% { transform: rotate(0deg); }
+    30% { transform: rotate(-28deg); }
+    65% { transform: rotate(18deg); }
+  }
+  @keyframes ping {
+    0% { transform: scale(1); opacity: 1; }
+    60% { transform: scale(2.6); opacity: 0.15; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+</style>

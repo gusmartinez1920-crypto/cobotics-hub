@@ -1,0 +1,136 @@
+---
+import Base from "../../layouts/Base.astro";
+import SdgBadge from "../../components/SdgBadge.astro";
+import EntryCard from "../../components/EntryCard.astro";
+import { langs, path, useT, type Lang } from "../../i18n/ui";
+import { SDG_GOALS, sdgPage, sdgColor } from "../../lib/sdgs";
+import { entries, splitId } from "../../lib/content";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const page = sdgPage[lang];
+
+// Conteúdos do hub marcados com cada ODS
+const tagged = [
+  ...(await entries("articles", lang)).map((e) => ({ e, section: "learn" as const })),
+  ...(await entries("research", lang)).map((e) => ({ e, section: "research" as const })),
+  ...(await entries("tutorials", lang)).map((e) => ({ e, section: "tutorials" as const })),
+];
+const byGoal = (g: number) => tagged.filter(({ e }) => e.data.sdgs.some((s) => s.goal === g));
+---
+
+<Base lang={lang} title={t("sdg.title")} description={t("sdg.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("sdg.title")}</h1>
+      <p class="lead">{t("sdg.lead")}</p>
+    </header>
+
+    <div class="intro prose">
+      {page.intro.map((p) => <p>{p}</p>)}
+      <p class="rule">{page.rule}</p>
+    </div>
+
+    <div class="goals">
+      {SDG_GOALS.map((g) => {
+        const text = page.goals[g];
+        const items = byGoal(g);
+        return (
+          <section class="goal" id={`sdg-${g}`} style={`--sdg:${sdgColor[g]}`}>
+            <h2><SdgBadge goal={g} lang={lang} /></h2>
+            {text.body.map((p) => <p>{p}</p>)}
+            {text.caution && (
+              <p class="caution"><strong>{t("sdg.caution")}:</strong> {text.caution}</p>
+            )}
+            {items.length > 0 && (
+              <div class="items">
+                {items.map(({ e, section }) => (
+                  <EntryCard
+                    lang={lang}
+                    href={path(lang, `${section}/${splitId(e.id).slug}`)}
+                    title={e.data.title}
+                    description={e.data.sdgs.find((s) => s.goal === g)?.why ?? e.data.description}
+                    pillars={e.data.pillars}
+                    draft={e.data.draft}
+                  />
+                ))}
+              </div>
+            )}
+          </section>
+        );
+      })}
+    </div>
+
+    <section class="tradeoff prose">
+      <h2>{page.tradeoffTitle}</h2>
+      {page.tradeoff.map((p) => <p>{p}</p>)}
+    </section>
+
+    <footer class="un">
+      <p><a href="https://sdgs.un.org/goals" rel="noopener">{t("sdg.official")} ↗</a></p>
+      <p class="disclaimer">{t("sdg.disclaimer")}</p>
+    </footer>
+  </div>
+</Base>
+
+<style>
+  .intro {
+    margin-bottom: 2.5rem;
+  }
+  .rule {
+    border-left: 3px solid var(--twin);
+    padding-left: 1rem;
+    color: var(--graphite-soft);
+  }
+  .goals {
+    display: grid;
+    gap: 1rem;
+  }
+  .goal {
+    padding: 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--sdg);
+    border-radius: var(--radius);
+  }
+  .goal h2 {
+    font-size: var(--step-1);
+    margin-bottom: 1rem;
+  }
+  .goal h2 :global(.sdg) {
+    font-size: var(--step-0);
+  }
+  .goal p {
+    max-width: var(--measure);
+  }
+  .caution {
+    font-size: var(--step--1);
+    background: var(--physical-tint);
+    border-left: 3px solid var(--physical);
+    padding: 0.6rem 0.9rem;
+    border-radius: 0 var(--radius) var(--radius) 0;
+  }
+  .items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  .tradeoff {
+    margin-top: 2.5rem;
+  }
+  .tradeoff h2 {
+    font-size: var(--step-1);
+  }
+  .un {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    max-width: var(--measure);
+  }
+</style>

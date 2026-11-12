@@ -1,0 +1,55 @@
+---
+// Marca do pilar tratado no conteúdo. O glifo é o mesmo do diagrama da página inicial:
+// IoT = ponto de leitura, Gêmeo = contorno tracejado, Cobot = articulação sólida.
+import { useT, type Lang } from "../i18n/ui";
+interface Props {
+  pillar: "iot" | "twin" | "cobot";
+  lang: Lang;
+  verb?: boolean;
+}
+const { pillar, lang, verb = false } = Astro.props;
+const t = useT(lang);
+---
+
+<span class={`pillar pillar-${pillar}`}>
+  <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+    {pillar === "iot" && (
+      <>
+        <circle cx="8" cy="8" r="2.6" fill="currentColor" />
+        <circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.2" opacity="0.5" />
+      </>
+    )}
+    {pillar === "twin" && (
+      <rect x="2" y="2" width="12" height="12" rx="1.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2.5 2" />
+    )}
+    {pillar === "cobot" && (
+      <>
+        <circle cx="8" cy="8" r="5.5" fill="currentColor" />
+        <circle cx="8" cy="8" r="2" fill="var(--surface)" />
+      </>
+    )}
+  </svg>
+  {verb ? t(`pillar.${pillar}.verb`) : t(`pillar.${pillar}`)}
+</span>
+
+<style>
+  .pillar {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .pillar-iot {
+    color: var(--sense);
+  }
+  .pillar-twin {
+    color: var(--twin);
+  }
+  .pillar-cobot {
+    color: var(--physical);
+  }
+</style>

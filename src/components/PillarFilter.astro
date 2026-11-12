@@ -1,0 +1,83 @@
+---
+// Filtros de lista: por pilar e (se houver conteúdos marcados) por ODS.
+// Funciona sem recarregar a página; sem JavaScript, mostra tudo.
+import PillarTag from "./PillarTag.astro";
+import SdgBadge from "./SdgBadge.astro";
+import { useT, type Lang } from "../i18n/ui";
+import type { SdgGoal } from "../lib/sdgs";
+interface Props {
+  lang: Lang;
+  target: string; // id do contêiner com os cartões
+  sdgs?: SdgGoal[]; // ODS presentes na lista
+}
+const { lang, target, sdgs = [] } = Astro.props;
+const t = useT(lang);
+---
+
+<div class="filters" data-target={target}>
+  <div class="filter" role="group" aria-label={t("list.filter.label")} data-dim="pillars">
+    <button type="button" data-value="" aria-pressed="true">{t("list.filter.all")}</button>
+    {(["iot", "twin", "cobot"] as const).map((p) => (
+      <button type="button" data-value={p} aria-pressed="false"><PillarTag pillar={p} lang={lang} /></button>
+    ))}
+  </div>
+  {sdgs.length > 0 && (
+    <div class="filter" role="group" aria-label={t("list.filter.sdg")} data-dim="sdgs">
+      <button type="button" data-value="" aria-pressed="true">{t("list.filter.all")}</button>
+      {sdgs.map((g) => (
+        <button type="button" data-value={String(g)} aria-pressed="false"><SdgBadge goal={g} lang={lang} compact /></button>
+      ))}
+    </div>
+  )}
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>(".filters").forEach((box) => {
+    const list = document.getElementById(box.dataset.target ?? "");
+    if (!list) return;
+    const state: Record<string, string> = { pillars: "", sdgs: "" };
+    const apply = () => {
+      list.querySelectorAll<HTMLElement>("[data-pillars]").forEach((card) => {
+        const ok = Object.entries(state).every(
+          ([dim, v]) => !v || (card.dataset[dim] ?? "").split(" ").includes(v),
+        );
+        card.hidden = !ok;
+      });
+    };
+    box.addEventListener("click", (ev) => {
+      const btn = (ev.target as HTMLElement).closest("button");
+      const group = btn?.closest<HTMLElement>("[data-dim]");
+      if (!btn || !group) return;
+      state[group.dataset.dim!] = btn.dataset.value ?? "";
+      group.querySelectorAll("button").forEach((b) => b.setAttribute("aria-pressed", String(b === btn)));
+      apply();
+    });
+  });
+</script>
+
+<style>
+  .filters {
+    display: grid;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  .filter {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  button {
+    font: inherit;
+    font-size: var(--step--1);
+    background: var(--surface);
+    color: var(--graphite);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.35rem 0.85rem;
+    cursor: pointer;
+  }
+  button[aria-pressed="true"] {
+    border-color: var(--graphite);
+    box-shadow: inset 0 0 0 1px var(--graphite);
+  }
+</style>

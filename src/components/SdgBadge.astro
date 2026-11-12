@@ -1,0 +1,46 @@
+---
+// Selo de ODS: número + nome + cor oficial. Não usa os ícones oficiais da ONU.
+import { sdgColor, sdgName, sdgShort, type SdgGoal } from "../lib/sdgs";
+import type { Lang } from "../i18n/ui";
+interface Props {
+  goal: SdgGoal;
+  lang: Lang;
+  /** compact = só "ODS 9" (usado em cartões e filtros) */
+  compact?: boolean;
+}
+const { goal, lang, compact = false } = Astro.props;
+---
+
+<span class:list={["sdg", { compact }]} style={`--sdg:${sdgColor[goal]}`} title={compact ? sdgName[goal][lang] : undefined}>
+  <span class="num">{sdgShort[lang]} {goal}</span>
+  {!compact && <span class="name">{sdgName[goal][lang]}</span>}
+</span>
+
+<style>
+  .sdg {
+    display: inline-flex;
+    align-items: stretch;
+    border-radius: 4px;
+    overflow: hidden;
+    font-size: var(--step--1);
+    line-height: 1.3;
+    border: 1px solid var(--sdg);
+    vertical-align: middle;
+  }
+  .num {
+    background: var(--sdg);
+    color: #fff;
+    font-family: var(--font-mono);
+    font-weight: 500;
+    padding: 0.15rem 0.45rem;
+    white-space: nowrap;
+  }
+  .name {
+    padding: 0.15rem 0.5rem;
+    color: var(--graphite);
+    background: var(--surface);
+  }
+  .compact {
+    border: 0;
+  }
+</style>

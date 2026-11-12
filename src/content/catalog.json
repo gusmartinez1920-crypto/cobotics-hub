@@ -1,0 +1,46 @@
+[
+  {
+    "id": "ur5e",
+    "name": "UR5e",
+    "brand": "Universal Robots",
+    "pillar": "cobot",
+    "kind": "cobot",
+    "line": "industrial",
+    "specs": { "payload_kg": 5, "reach_mm": 850, "axes": 6, "ip": "IP54", "repeatability_mm": 0.03 },
+    "sourceUrl": "https://www.universal-robots.com/products/ur5e/",
+    "verified": false
+  },
+  {
+    "id": "fanuc-crx-10ia",
+    "name": "CRX-10iA",
+    "brand": "FANUC",
+    "pillar": "cobot",
+    "kind": "cobot",
+    "line": "industrial",
+    "specs": { "payload_kg": 10, "reach_mm": 1249, "axes": 6, "ip": "IP67" },
+    "sourceUrl": "https://www.fanuc.eu/",
+    "verified": false
+  },
+  {
+    "id": "abb-gofa-crb15000",
+    "name": "GoFa CRB 15000",
+    "brand": "ABB",
+    "pillar": "cobot",
+    "kind": "cobot",
+    "line": "industrial",
+    "specs": { "payload_kg": 5, "reach_mm": 950, "axes": 6 },
+    "sourceUrl": "https://new.abb.com/products/robotics/robots/collaborative-robots",
+    "verified": false
+  },
+  {
+    "id": "franka-research-3",
+    "name": "Franka Research 3",
+    "brand": "Franka Robotics",
+    "pillar": "cobot",
+    "kind": "cobot",
+    "line": "both",
+    "specs": { "payload_kg": 3, "reach_mm": 855, "axes": 7 },
+    "sourceUrl": "https://franka.de/",
+    "verified": false
+  }
+]

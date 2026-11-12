@@ -1,0 +1,61 @@
+name: "Research summary / Resumo de artigo / Resumen de artículo"
+description: "Submit a summary of a scientific paper for the Cobotics Hub."
+title: "[Summary] "
+labels: ["research-summary"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Write in your own words (EN, PT or ES). Do not paste the abstract. The team reviews every submission before publishing.
+        Escreva com suas palavras (EN, PT ou ES). Não cole o abstract. A equipe revisa tudo antes de publicar.
+  - type: input
+    id: paper_title
+    attributes: { label: "Paper title", description: "Exact title of the original paper" }
+    validations: { required: true }
+  - type: input
+    id: paper_authors
+    attributes: { label: "Paper authors" }
+    validations: { required: true }
+  - type: input
+    id: venue_year
+    attributes: { label: "Journal / conference and year" }
+    validations: { required: true }
+  - type: input
+    id: doi
+    attributes: { label: "DOI or stable link" }
+    validations: { required: true }
+  - type: dropdown
+    id: pillars
+    attributes:
+      label: "Pillars"
+      multiple: true
+      options: ["Industrial IoT", "Digital twin", "Cobotics"]
+    validations: { required: true }
+  - type: textarea
+    id: why
+    attributes: { label: "Why it matters (2–3 sentences)" }
+    validations: { required: true }
+  - type: textarea
+    id: method
+    attributes: { label: "Method" }
+    validations: { required: true }
+  - type: textarea
+    id: findings
+    attributes: { label: "Key findings (one per line)" }
+    validations: { required: true }
+  - type: textarea
+    id: limitations
+    attributes: { label: "Limitations" }
+    validations: { required: true }
+  - type: input
+    id: who
+    attributes: { label: "Your name, affiliation and ORCID (optional)" }
+  - type: checkboxes
+    id: rules
+    attributes:
+      label: "Confirmations"
+      options:
+        - label: "The summary is written in my own words."
+          required: true
+        - label: "I disclosed any link with the paper's authors or with manufacturers mentioned."
+          required: true

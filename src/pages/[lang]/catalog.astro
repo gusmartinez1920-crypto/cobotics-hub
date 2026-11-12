@@ -1,0 +1,121 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import PillarTag from "../../components/PillarTag.astro";
+import { langs, useT, type Lang, type UIKey } from "../../i18n/ui";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const items = (await getCollection("catalog")).sort((a, b) => a.data.brand.localeCompare(b.data.brand));
+const specLabel = (k: string) => {
+  const key = `catalog.spec.${k}` as UIKey;
+  const label = t(key);
+  return label ?? k;
+};
+---
+
+<Base lang={lang} title={t("catalog.title")} description={t("catalog.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("catalog.title")}</h1>
+      <p class="lead">{t("catalog.lead")}</p>
+    </header>
+
+    <div class="grid">
+      {items.map(({ id, data }) => (
+        <article class="item" id={id}>
+          <div class="top">
+            <PillarTag pillar={data.pillar} lang={lang} />
+            <span class="line">{t(`catalog.line.${data.line}`)}</span>
+          </div>
+          <p class="brand">{data.brand}</p>
+          <h2>{data.name}</h2>
+          <dl>
+            {Object.entries(data.specs).map(([k, v]) => (
+              <div><dt>{specLabel(k)}</dt><dd>{v}</dd></div>
+            ))}
+          </dl>
+          {!data.verified && <p class="unverified">{t("catalog.unverified")}</p>}
+          <a class="source" href={data.sourceUrl} rel="noopener">{t("catalog.source")} ↗</a>
+        </article>
+      ))}
+    </div>
+    <p class="notice-small">{t("catalog.notice")}</p>
+  </div>
+</Base>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr));
+    gap: 1rem;
+  }
+  .item {
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    margin-bottom: 0.9rem;
+  }
+  .line {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .brand {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--graphite-soft);
+    margin: 0;
+  }
+  h2 {
+    font-size: var(--step-1);
+    margin: 0.15rem 0 1rem;
+  }
+  dl {
+    margin: 0 0 1rem;
+    display: grid;
+    gap: 0.35rem;
+  }
+  dl div {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-bottom: 1px dotted var(--line);
+    padding-bottom: 0.3rem;
+  }
+  dt {
+    color: var(--graphite-soft);
+    font-size: var(--step--1);
+  }
+  dd {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-weight: 500;
+  }
+  .unverified {
+    font-size: var(--step--1);
+    color: var(--physical);
+  }
+  .source {
+    margin-top: auto;
+    font-size: var(--step--1);
+  }
+  .notice-small {
+    margin-top: 2rem;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+</style>

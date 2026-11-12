@@ -1,0 +1,269 @@
+---
+import Base from "../../layouts/Base.astro";
+import ArmAndTwin from "../../components/ArmAndTwin.astro";
+import EntryCard from "../../components/EntryCard.astro";
+import PillarTag from "../../components/PillarTag.astro";
+import { langs, path, useT, formatDate, type Lang } from "../../i18n/ui";
+import { entries, splitId } from "../../lib/content";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const articles = (await entries("articles", lang)).slice(0, 3);
+const research = (await entries("research", lang)).slice(0, 3);
+
+const loop = [
+  ["iot", t("home.loop.iot")],
+  ["twin", t("home.loop.twin")],
+  ["cobot", t("home.loop.cobot")],
+] as const;
+
+const paths = [
+  { title: t("home.path.maker"), desc: t("home.path.maker.desc"), href: path(lang, "tutorials") },
+  { title: t("home.path.company"), desc: t("home.path.company.desc"), href: path(lang, "roi") },
+  { title: t("home.path.research"), desc: t("home.path.research.desc"), href: path(lang, "research") },
+];
+---
+
+<Base lang={lang}>
+  <section class="hero wrap">
+    <div class="hero-text">
+      <p class="eyebrow">{t("home.eyebrow")}</p>
+      <h1>{t("home.title")}</h1>
+      <p class="lead">{t("home.lead")}</p>
+      <div class="ctas">
+        <a class="button primary" href={path(lang, "learn")}>{t("home.cta.learn")}</a>
+        <a class="button" href={path(lang, "research")}>{t("home.cta.research")}</a>
+      </div>
+      <p class="free">{t("home.free")}</p>
+    </div>
+    <ArmAndTwin caption={t("home.figure.caption")} />
+  </section>
+
+  <section class="wrap loop" aria-labelledby="loop-title">
+    <h2 id="loop-title" class="visually-hidden">{t("home.loop.title")}</h2>
+    <ol>
+      {loop.map(([p, text]) => (
+        <li>
+          <PillarTag pillar={p} lang={lang} verb />
+          <p>{text}</p>
+        </li>
+      ))}
+    </ol>
+  </section>
+
+  <section class="wrap block" aria-labelledby="paths-title">
+    <h2 id="paths-title">{t("home.paths.title")}</h2>
+    <div class="paths">
+      {paths.map((p) => (
+        <a class="path" href={p.href}>
+          <span class="path-title">{p.title}</span>
+          <span class="path-desc">{p.desc}</span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="wrap block split">
+    <div>
+      <div class="block-head">
+        <h2>{t("home.latest.research")}</h2>
+        <a href={path(lang, "research")}>{t("home.all")}</a>
+      </div>
+      {research.length === 0 ? (
+        <div class="empty">
+          <p>{t("list.empty.research")}</p>
+          <a class="button" href={path(lang, "contribute")}>{t("list.empty.cta")}</a>
+        </div>
+      ) : (
+        <div class="stack">
+          {research.map((e) => (
+            <EntryCard
+              lang={lang}
+              href={path(lang, `research/${splitId(e.id).slug}`)}
+              title={e.data.title}
+              description={e.data.description}
+              pillars={e.data.pillars}
+              meta={`${e.data.paper.year} · ${e.data.paper.venue}`}
+              draft={e.data.draft}
+              sdgs={e.data.sdgs.map((s) => s.goal)}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+    <div>
+      <div class="block-head">
+        <h2>{t("home.latest.articles")}</h2>
+        <a href={path(lang, "learn")}>{t("home.all")}</a>
+      </div>
+      {articles.length === 0 ? (
+        <div class="empty"><p>{t("list.empty.articles")}</p></div>
+      ) : (
+        <div class="stack">
+          {articles.map((e) => (
+            <EntryCard
+              lang={lang}
+              href={path(lang, `learn/${splitId(e.id).slug}`)}
+              title={e.data.title}
+              description={e.data.description}
+              pillars={e.data.pillars}
+              meta={`${formatDate(lang, e.data.date)} · ${t(`level.${e.data.level}`)}`}
+              draft={e.data.draft}
+              sdgs={e.data.sdgs.map((s) => s.goal)}
+            />
+          ))}
+        </div>
+      )}
+    </div>
+  </section>
+</Base>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: clamp(2rem, 5vw, 4rem);
+    align-items: center;
+    padding-block: clamp(2.5rem, 7vw, 5.5rem) clamp(2rem, 5vw, 3.5rem);
+  }
+  .hero h1 {
+    max-width: 14ch;
+  }
+  .ctas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.75rem;
+  }
+  .free {
+    margin-top: 1rem;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+
+  .loop ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .loop li {
+    padding: 1.25rem 1.25rem 0.5rem;
+    position: relative;
+  }
+  .loop li + li {
+    border-left: 1px solid var(--line);
+  }
+  /* seta do ciclo: o fluxo realmente vai de um pilar ao próximo */
+  .loop li + li::before {
+    content: "→";
+    position: absolute;
+    left: -0.55rem;
+    top: 1.15rem;
+    background: var(--mineral);
+    color: var(--graphite-soft);
+    font-family: var(--font-mono);
+    line-height: 1;
+    padding: 0.1rem 0;
+  }
+  .loop p {
+    margin-top: 0.5rem;
+    color: var(--graphite-soft);
+  }
+
+  .block {
+    margin-top: clamp(3rem, 7vw, 5rem);
+  }
+  .paths {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .path {
+    display: grid;
+    gap: 0.4rem;
+    padding: 1.4rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--graphite);
+    text-decoration: none;
+    transition: border-color 0.15s, transform 0.15s;
+  }
+  .path:hover {
+    border-color: var(--twin);
+    transform: translateY(-2px);
+  }
+  .path-title {
+    font-family: var(--font-display);
+    font-size: var(--step-1);
+    font-weight: 600;
+  }
+  .path-desc {
+    color: var(--graphite-soft);
+  }
+  .arrow {
+    color: var(--twin);
+    font-family: var(--font-mono);
+  }
+
+  .split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1.5rem, 4vw, 3rem);
+  }
+  .block-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  .block-head h2 {
+    font-size: var(--step-1);
+    margin: 0;
+  }
+  .block-head a {
+    font-size: var(--step--1);
+    font-family: var(--font-mono);
+  }
+  .stack {
+    display: grid;
+    gap: 0.75rem;
+  }
+  .empty {
+    padding: 1.5rem;
+    border: 1px dashed var(--line);
+    border-radius: var(--radius);
+    color: var(--graphite-soft);
+  }
+
+  @media (max-width: 56rem) {
+    .hero,
+    .split {
+      grid-template-columns: 1fr;
+    }
+    .loop ol,
+    .paths {
+      grid-template-columns: 1fr;
+    }
+    .loop li + li {
+      border-left: 0;
+      border-top: 1px solid var(--line);
+    }
+    .loop li + li::before {
+      content: "↓";
+      left: 1.25rem;
+      top: -0.6rem;
+      padding: 0 0.3rem;
+    }
+  }
+</style>

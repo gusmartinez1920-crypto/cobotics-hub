@@ -1,0 +1,63 @@
+---
+import Base from "../../../layouts/Base.astro";
+import EntryCard from "../../../components/EntryCard.astro";
+import PillarFilter from "../../../components/PillarFilter.astro";
+import { langs, path, useT, type Lang } from "../../../i18n/ui";
+import { entries, presentSdgs, splitId } from "../../../lib/content";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const list = await entries("research", lang);
+---
+
+<Base lang={lang} title={t("research.title")} description={t("research.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("research.title")}</h1>
+      <p class="lead">{t("research.lead")}</p>
+    </header>
+    {list.length === 0 ? (
+      <div class="empty">
+        <p>{t("list.empty.research")}</p>
+        <p>{t("contribute.summary.desc")}</p>
+        <a class="button primary" href={path(lang, "contribute")}>{t("list.empty.cta")}</a>
+      </div>
+    ) : (
+      <>
+        <PillarFilter lang={lang} target="papers" sdgs={presentSdgs(list)} />
+        <div id="papers" class="grid">
+          {list.map((e) => (
+            <EntryCard
+              lang={lang}
+              href={path(lang, `research/${splitId(e.id).slug}`)}
+              title={e.data.title}
+              description={e.data.description}
+              pillars={e.data.pillars}
+              meta={`${e.data.paper.authors[0]}${e.data.paper.authors.length > 1 ? " et al." : ""} · ${e.data.paper.year} · ${e.data.paper.venue}`}
+              draft={e.data.draft}
+              sdgs={e.data.sdgs.map((s) => s.goal)}
+            />
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</Base>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    gap: 1rem;
+  }
+  .empty {
+    max-width: 40rem;
+    padding: 2rem;
+    border: 1px dashed var(--line);
+    border-radius: var(--radius);
+    color: var(--graphite-soft);
+  }
+</style>

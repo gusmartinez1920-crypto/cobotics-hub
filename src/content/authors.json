@@ -1,0 +1,23 @@
+[
+  {
+    "id": "gustavo-martinez",
+    "name": "Gustavo Martinez",
+    "kind": "team",
+    "role": { "en": "Founder and editor", "pt": "Fundador e editor", "es": "Fundador y editor" }
+  },
+  {
+    "id": "claude",
+    "name": "Claude (Anthropic)",
+    "kind": "ai",
+    "role": {
+      "en": "AI assistant for drafting, translation and review",
+      "pt": "Assistente de IA para redação, tradução e revisão",
+      "es": "Asistente de IA para redacción, traducción y revisión"
+    },
+    "bio": {
+      "en": "Texts written with AI assistance are marked as such and are always reviewed by a person on the team.",
+      "pt": "Textos escritos com apoio de IA são identificados e sempre revisados por uma pessoa da equipe.",
+      "es": "Los textos escritos con apoyo de IA se identifican y siempre los revisa una persona del equipo."
+    }
+  }
+]

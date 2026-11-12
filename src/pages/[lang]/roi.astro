@@ -1,0 +1,174 @@
+---
+import Base from "../../layouts/Base.astro";
+import { htmlLang, langs, useT, type Lang } from "../../i18n/ui";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const defaultCurrency = lang === "pt" ? "BRL" : lang === "es" ? "EUR" : "USD";
+// Valores iniciais apenas ilustrativos, por moeda.
+const fields = [
+  { id: "investment", label: t("roi.investment"), value: 300000, step: 1000, money: true },
+  { id: "maintenance", label: t("roi.maintenance"), value: 15000, step: 500, money: true },
+  { id: "hourly", label: t("roi.hourly"), value: 40, step: 1, money: true },
+  { id: "hours", label: t("roi.hours"), value: 6, step: 0.5, money: false },
+  { id: "shifts", label: t("roi.shifts"), value: 2, step: 1, money: false },
+  { id: "days", label: t("roi.days"), value: 250, step: 1, money: false },
+];
+---
+
+<Base lang={lang} title={t("roi.title")} description={t("roi.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("roi.title")}</h1>
+      <p class="lead">{t("roi.lead")}</p>
+    </header>
+
+    <form id="roi" class="calc" data-locale={htmlLang[lang]} data-months={t("roi.months")} data-never={t("roi.never")}>
+      <fieldset>
+        <label class="field">
+          <span>{t("roi.currency")}</span>
+          <select name="currency">
+            {["BRL", "USD", "EUR"].map((c) => <option value={c} selected={c === defaultCurrency}>{c}</option>)}
+          </select>
+        </label>
+        {fields.map((f) => (
+          <label class="field">
+            <span>{f.label}</span>
+            <input type="number" name={f.id} value={f.value} min="0" step={f.step} inputmode="decimal" data-money={f.money ? "1" : undefined} />
+          </label>
+        ))}
+      </fieldset>
+
+      <output class="results" for="investment maintenance hourly hours shifts days" aria-live="polite">
+        <div>
+          <span class="r-label">{t("roi.result.savings")}</span>
+          <span class="r-value" data-r="savings">—</span>
+        </div>
+        <div class="main">
+          <span class="r-label">{t("roi.result.payback")}</span>
+          <span class="r-value" data-r="payback">—</span>
+        </div>
+        <div>
+          <span class="r-label">{t("roi.result.roi3")}</span>
+          <span class="r-value" data-r="roi3">—</span>
+        </div>
+      </output>
+    </form>
+    <p class="note">{t("roi.note")}</p>
+  </div>
+</Base>
+
+<script>
+  const form = document.getElementById("roi") as HTMLFormElement | null;
+  if (form) {
+    const locale = form.dataset.locale ?? "en";
+    const num = (name: string) => Math.max(0, Number((form.elements.namedItem(name) as HTMLInputElement).value) || 0);
+    const out = (k: string) => form.querySelector<HTMLElement>(`[data-r="${k}"]`)!;
+    const update = () => {
+      const currency = (form.elements.namedItem("currency") as HTMLSelectElement).value;
+      const money = new Intl.NumberFormat(locale, { style: "currency", currency, maximumFractionDigits: 0 });
+      const pct = new Intl.NumberFormat(locale, { style: "percent", maximumFractionDigits: 0 });
+      const investment = num("investment");
+      const hoursPerYear = num("hours") * num("shifts") * num("days");
+      const savings = hoursPerYear * num("hourly") - num("maintenance");
+      out("savings").textContent = money.format(savings);
+      if (savings <= 0) {
+        out("payback").textContent = form.dataset.never ?? "—";
+      } else {
+        const months = (investment / savings) * 12;
+        out("payback").textContent = `${new Intl.NumberFormat(locale, { maximumFractionDigits: 1 }).format(months)} ${form.dataset.months}`;
+      }
+      out("roi3").textContent = investment > 0 ? pct.format((3 * savings - investment) / investment) : "—";
+    };
+    form.addEventListener("input", update);
+    form.addEventListener("submit", (e) => e.preventDefault());
+    update();
+  }
+</script>
+
+<style>
+  .calc {
+    display: grid;
+    grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: start;
+  }
+  fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+  }
+  .field {
+    display: grid;
+    gap: 0.35rem;
+  }
+  .field span {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  input,
+  select {
+    font: inherit;
+    font-family: var(--font-mono);
+    padding: 0.6rem 0.75rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+    color: var(--graphite);
+    width: 100%;
+  }
+  input:focus,
+  select:focus {
+    border-color: var(--twin);
+  }
+  .results {
+    position: sticky;
+    top: 5rem;
+    display: grid;
+    gap: 0;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .results div {
+    display: grid;
+    gap: 0.2rem;
+    padding: 1.1rem 1.25rem;
+  }
+  .results div + div {
+    border-top: 1px solid var(--line);
+  }
+  .r-label {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .r-value {
+    font-family: var(--font-display);
+    font-size: var(--step-2);
+    font-weight: 600;
+  }
+  .main .r-value {
+    font-size: var(--step-3);
+    color: var(--twin);
+  }
+  .note {
+    margin-top: 1.5rem;
+    max-width: var(--measure);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  @media (max-width: 48rem) {
+    .calc {
+      grid-template-columns: 1fr;
+    }
+    .results {
+      position: static;
+    }
+  }
+</style>

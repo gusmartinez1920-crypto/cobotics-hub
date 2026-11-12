@@ -1,0 +1,85 @@
+---
+import PillarTag from "./PillarTag.astro";
+import SdgBadge from "./SdgBadge.astro";
+import type { SdgGoal } from "../lib/sdgs";
+import { useT, type Lang } from "../i18n/ui";
+interface Props {
+  lang: Lang;
+  href: string;
+  title: string;
+  description: string;
+  pillars: ("iot" | "twin" | "cobot")[];
+  meta?: string;
+  draft?: boolean;
+  sdgs?: SdgGoal[];
+}
+const { lang, href, title, description, pillars, meta, draft, sdgs = [] } = Astro.props;
+const t = useT(lang);
+---
+
+<article class="card" data-pillars={pillars.join(" ")} data-sdgs={sdgs.join(" ")}>
+  <div class="tags">
+    {pillars.map((p) => <PillarTag pillar={p} lang={lang} />)}
+    {draft && <span class="draft">{t("meta.draft")}</span>}
+  </div>
+  <h3><a href={href}>{title}</a></h3>
+  <p>{description}</p>
+  {(meta || sdgs.length > 0) && (
+    <p class="meta">
+      {meta}
+      {sdgs.map((g) => <SdgBadge goal={g} lang={lang} compact />)}
+    </p>
+  )}
+</article>
+
+<style>
+  .card {
+    position: relative;
+    padding: 1.25rem 1.25rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: border-color 0.15s;
+  }
+  .card:hover {
+    border-color: var(--twin);
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    margin-bottom: 0.6rem;
+  }
+  h3 {
+    font-size: var(--step-1);
+    margin-bottom: 0.4rem;
+  }
+  h3 a {
+    color: var(--graphite);
+    text-decoration: none;
+  }
+  /* o cartão inteiro é clicável, mantendo um único link acessível */
+  h3 a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+  p {
+    color: var(--graphite-soft);
+    margin-bottom: 0.6rem;
+  }
+  .meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.4rem 0.6rem;
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    margin: 0;
+  }
+  .draft {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--physical);
+  }
+</style>

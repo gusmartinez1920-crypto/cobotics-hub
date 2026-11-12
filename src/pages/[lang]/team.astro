@@ -1,0 +1,86 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../../layouts/Base.astro";
+import { langs, useT, type Lang } from "../../i18n/ui";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const people = await getCollection("authors");
+const groups = (["team", "researcher", "ai"] as const)
+  .map((kind) => ({ kind, members: people.filter((p) => p.data.kind === kind) }))
+  .filter((g) => g.members.length > 0);
+---
+
+<Base lang={lang} title={t("team.title")} description={t("team.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("team.title")}</h1>
+      <p class="lead">{t("team.lead")}</p>
+    </header>
+    {groups.map((g) => (
+      <section class="group">
+        <h2>{t(`team.kind.${g.kind}`)}</h2>
+        <ul>
+          {g.members.map(({ id, data }) => (
+            <li id={id}>
+              <p class="name">{data.name}</p>
+              <p class="role">{data.role[lang]}</p>
+              {data.bio && <p>{data.bio[lang]}</p>}
+              <p class="links">
+                {data.orcid && <a href={`https://orcid.org/${data.orcid}`}>ORCID</a>}
+                {data.github && <a href={`https://github.com/${data.github}`}>GitHub</a>}
+                {data.linkedin && <a href={data.linkedin}>LinkedIn</a>}
+              </p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .group + .group {
+    margin-top: 2.5rem;
+  }
+  .group h2 {
+    font-size: var(--step-1);
+  }
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 18rem), 1fr));
+    gap: 1rem;
+  }
+  li {
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  li:target {
+    border-color: var(--twin);
+  }
+  .name {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: var(--step-1);
+    margin-bottom: 0.1rem;
+  }
+  .role {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .links {
+    display: flex;
+    gap: 1rem;
+    font-size: var(--step--1);
+    margin: 0;
+  }
+</style>
