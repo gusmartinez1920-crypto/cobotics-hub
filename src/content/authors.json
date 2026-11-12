@@ -6,6 +6,18 @@
     "role": { "en": "Founder and editor", "pt": "Fundador e editor", "es": "Fundador y editor" }
   },
   {
+    "id": "eloah-martinez",
+    "name": "Eloah Martinez",
+    "kind": "team",
+    "role": { "en": "Editor", "pt": "Edição e revisão", "es": "Edición y revisión" }
+  },
+  {
+    "id": "jose-carlos",
+    "name": "Jose Carlos",
+    "kind": "team",
+    "role": { "en": "Editor", "pt": "Edição e revisão", "es": "Edición y revisión" }
+  },
+  {
     "id": "claude",
     "name": "Claude (Anthropic)",
     "kind": "ai",
