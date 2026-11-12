@@ -1,17 +1,16 @@
-# Publica o site na Hostinger a cada mudança na branch main.
-# Configure em GitHub → Settings → Secrets and variables → Actions:
-#   FTP_SERVER    ex.: ftp.cobotics-hub.com  (hPanel → Arquivos → Contas FTP)
-#   FTP_USERNAME  usuário FTP
-#   FTP_PASSWORD  senha FTP
-# Opcional, em "Variables" (não é segredo):
-#   FTP_SERVER_DIR  pasta de destino. Padrão: ./public_html/
-#                   Use ./ se o "Diretório" da conta FTP no hPanel já terminar em public_html.
+# Gera o site a cada mudança na branch main e grava o resultado (pasta dist/)
+# na branch "deploy". A Hostinger busca essa branch pela função GIT do hPanel
+# (implantação automática por webhook). Não usa FTP nem senhas: só o token
+# interno do GitHub, com permissão de escrita neste repositório.
 name: Publicar site
 
 on:
   push:
     branches: [main]
   workflow_dispatch: # permite publicar manualmente pela aba Actions
+
+permissions:
+  contents: write
 
 concurrency:
   group: deploy
@@ -34,13 +33,12 @@ jobs:
       - name: Conferir e gerar o site
         run: npm run build
 
-      - name: Enviar para a Hostinger (FTP)
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Gravar o site gerado na branch deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist/
-          server-dir: ${{ vars.FTP_SERVER_DIR || './public_html/' }}
-          timeout: 120000
-          log-level: verbose
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: deploy
+          force_orphan: true # a branch deploy guarda só a versão atual do site
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
