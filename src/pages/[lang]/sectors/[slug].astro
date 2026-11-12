@@ -1,0 +1,59 @@
+---
+import { render } from "astro:content";
+import Base from "../../../layouts/Base.astro";
+import EntryHeader from "../../../components/EntryHeader.astro";
+import { useT, type Lang } from "../../../i18n/ui";
+import { alternatesFor, entries, splitId, translationsOf } from "../../../lib/content";
+
+export async function getStaticPaths() {
+  const all = await entries("sectors");
+  return all.map((entry) => ({ params: splitId(entry.id), props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const { Content } = await render(entry);
+const translations = await translationsOf("sectors", entry);
+const alternates = alternatesFor("sectors", lang, splitId(entry.id).slug, translations);
+const d = entry.data;
+---
+
+<Base lang={lang} title={d.title} description={d.description} alternates={alternates}>
+  <article class="wrap">
+    <EntryHeader lang={lang} section="sectors" data={d} translations={translations} />
+    <aside class="apps" aria-label={t("sectors.applications")}>
+      <p class="eyebrow">{t("sectors.applications")}</p>
+      <ul>{d.applications.map((a) => <li>{a}</li>)}</ul>
+    </aside>
+    <div class="prose">
+      <Content />
+      {d.aiAssisted && d.humanReviewed && <p class="ai">{t("meta.ai")}</p>}
+    </div>
+  </article>
+</Base>
+
+<style>
+  .apps {
+    max-width: var(--measure);
+    margin: 0 0 2rem;
+    padding: 1.1rem 1.25rem 0.6rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--physical);
+    border-radius: var(--radius);
+  }
+  .apps ul {
+    margin: 0 0 0.5rem;
+    padding-left: 1.1em;
+  }
+  .apps li {
+    margin-bottom: 0.35rem;
+  }
+  .ai {
+    margin-top: 2.5rem;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    font-style: italic;
+  }
+</style>

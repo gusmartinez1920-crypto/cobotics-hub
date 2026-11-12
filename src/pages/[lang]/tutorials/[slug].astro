@@ -29,7 +29,7 @@ const d = entry.data;
     </dl>
     <div class="prose">
       <Content />
-      {d.aiAssisted && <p class="ai">{t("meta.ai")}</p>}
+      {d.aiAssisted && entry.data.humanReviewed && <p class="ai">{t("meta.ai")}</p>}
     </div>
   </article>
 </Base>

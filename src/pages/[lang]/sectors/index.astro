@@ -1,0 +1,101 @@
+---
+import Base from "../../../layouts/Base.astro";
+import PillarTag from "../../../components/PillarTag.astro";
+import SdgBadge from "../../../components/SdgBadge.astro";
+import { langs, path, useT, type Lang } from "../../../i18n/ui";
+import { entries, splitId } from "../../../lib/content";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const list = (await entries("sectors", lang)).sort((a, b) => a.data.order - b.data.order);
+---
+
+<Base lang={lang} title={t("sectors.title")} description={t("sectors.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("sectors.title")}</h1>
+      <p class="lead">{t("sectors.lead")}</p>
+    </header>
+
+    {list.length === 0 ? (
+      <p>{t("sectors.empty")}</p>
+    ) : (
+      <div class="grid">
+        {list.map((e) => (
+          <article class="sector">
+            <div class="tags">{e.data.pillars.map((p) => <PillarTag pillar={p} lang={lang} />)}</div>
+            <h2><a href={path(lang, `sectors/${splitId(e.id).slug}`)}>{e.data.title}</a></h2>
+            <p class="desc">{e.data.description}</p>
+            <p class="label">{t("sectors.applications")}</p>
+            <ul>{e.data.applications.slice(0, 4).map((a) => <li>{a}</li>)}</ul>
+            {e.data.sdgs.length > 0 && (
+              <p class="sdgs">{e.data.sdgs.map((s) => <SdgBadge goal={s.goal} lang={lang} compact />)}</p>
+            )}
+          </article>
+        ))}
+      </div>
+    )}
+  </div>
+</Base>
+
+<style>
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+    gap: 1rem;
+  }
+  .sector {
+    position: relative;
+    padding: 1.4rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: border-color 0.15s;
+  }
+  .sector:hover {
+    border-color: var(--twin);
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 0.9rem;
+    margin-bottom: 0.7rem;
+  }
+  h2 {
+    font-size: var(--step-2);
+    margin-bottom: 0.4rem;
+  }
+  h2 a {
+    color: var(--graphite);
+    text-decoration: none;
+  }
+  h2 a::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+  }
+  .desc {
+    color: var(--graphite-soft);
+  }
+  .label {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    margin: 0 0 0.3rem;
+  }
+  ul {
+    margin: 0 0 0.8rem;
+    padding-left: 1.1em;
+  }
+  li {
+    margin-bottom: 0.2rem;
+  }
+  .sdgs {
+    display: flex;
+    gap: 0.4rem;
+    margin: 0;
+  }
+</style>

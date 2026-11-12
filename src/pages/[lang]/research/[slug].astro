@@ -58,7 +58,7 @@ const paperHref = paper.doi ? `https://doi.org/${paper.doi}` : paper.url;
 
         <hr />
         <p class="disclaimer">{t("paper.disclaimer")}</p>
-        {entry.data.aiAssisted && <p class="disclaimer">{t("meta.ai")}</p>}
+        {entry.data.aiAssisted && entry.data.humanReviewed && <p class="disclaimer">{t("meta.ai")}</p>}
       </div>
     </div>
   </article>

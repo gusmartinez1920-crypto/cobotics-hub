@@ -1,0 +1,109 @@
+---
+import Base from "../../layouts/Base.astro";
+import { langs, path, useT, type Lang } from "../../i18n/ui";
+import { CONTACT_EMAIL, REPO_URL } from "../../site-config";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const contactHref = CONTACT_EMAIL ? `mailto:${CONTACT_EMAIL}` : `${REPO_URL}/issues/new`;
+const contactText = CONTACT_EMAIL || "GitHub";
+
+type Section = { h: string; p: string[] };
+const updated = { en: "Last updated: November 12, 2026.", pt: "Última atualização: 12 de novembro de 2026.", es: "Última actualización: 12 de noviembre de 2026." };
+const intro = {
+  en: "Cobotics Hub is a free knowledge site. This notice explains which personal data we handle and why. We collect as little as possible.",
+  pt: "O Cobotics Hub é um site de conhecimento gratuito. Este aviso explica quais dados pessoais tratamos e por quê. Coletamos o mínimo possível.",
+  es: "Cobotics Hub es un sitio de conocimiento gratuito. Este aviso explica qué datos personales tratamos y por qué. Recogemos lo mínimo posible.",
+};
+const sections: Record<Lang, Section[]> = {
+  pt: [
+    { h: "Navegação no site", p: [
+      "O site não usa cookies próprios, ferramentas de análise de audiência nem publicidade. As fontes são servidas pelo próprio site, sem chamadas a serviços de terceiros.",
+      "Como qualquer servidor web, o nosso provedor de hospedagem (Hostinger) pode registrar dados técnicos de acesso, como endereço IP, data e página visitada, para segurança e funcionamento do serviço.",
+    ] },
+    { h: "Newsletter", p: [
+      "Se você se inscrever, tratamos o seu e-mail (e o nome, se você informar) apenas para enviar a newsletter, com base no seu consentimento.",
+      "O cadastro e o envio são feitos pela ferramenta Hostinger Reach, que atua em nosso nome. O formulário de inscrição pode usar cookies ou tecnologias semelhantes da própria ferramenta para funcionar.",
+      "Todo e-mail tem um link para cancelar a inscrição. Você também pode pedir a exclusão dos seus dados a qualquer momento.",
+    ] },
+    { h: "Contribuições pelo GitHub", p: [
+      "Resumos e propostas enviados pela página Contribua ficam no GitHub, de forma pública, e seguem a política de privacidade do GitHub. Ao publicar uma contribuição, mostramos o nome que você indicar.",
+    ] },
+    { h: "Seus direitos", p: [
+      "Você pode pedir acesso, correção ou exclusão dos seus dados, e retirar o consentimento da newsletter. Esses direitos são previstos, por exemplo, na LGPD (Brasil) e no GDPR (União Europeia).",
+    ] },
+  ],
+  en: [
+    { h: "Browsing the site", p: [
+      "The site uses no first-party cookies, no audience analytics and no advertising. Fonts are served by the site itself, with no calls to third-party services.",
+      "Like any web server, our hosting provider (Hostinger) may log technical access data, such as IP address, date and page visited, for the security and operation of the service.",
+    ] },
+    { h: "Newsletter", p: [
+      "If you subscribe, we process your email address (and name, if you provide it) only to send the newsletter, based on your consent.",
+      "Sign-up and sending are handled by Hostinger Reach, acting on our behalf. The sign-up form may use the tool's own cookies or similar technologies to work.",
+      "Every email has an unsubscribe link. You can also ask us to delete your data at any time.",
+    ] },
+    { h: "Contributions via GitHub", p: [
+      "Summaries and proposals sent through the Contribute page are stored publicly on GitHub and are subject to GitHub's privacy policy. When we publish a contribution, we show the name you give us.",
+    ] },
+    { h: "Your rights", p: [
+      "You can ask to access, correct or delete your data, and withdraw your newsletter consent. These rights are provided, for example, by the LGPD (Brazil) and the GDPR (European Union).",
+    ] },
+  ],
+  es: [
+    { h: "Navegación por el sitio", p: [
+      "El sitio no usa cookies propias, herramientas de analítica de audiencia ni publicidad. Las fuentes las sirve el propio sitio, sin llamadas a servicios de terceros.",
+      "Como cualquier servidor web, nuestro proveedor de alojamiento (Hostinger) puede registrar datos técnicos de acceso, como dirección IP, fecha y página visitada, para la seguridad y el funcionamiento del servicio.",
+    ] },
+    { h: "Boletín", p: [
+      "Si te suscribes, tratamos tu correo electrónico (y tu nombre, si lo indicas) solo para enviar el boletín, con base en tu consentimiento.",
+      "El registro y el envío los realiza la herramienta Hostinger Reach, que actúa en nuestro nombre. El formulario de suscripción puede usar cookies o tecnologías similares de la propia herramienta para funcionar.",
+      "Cada correo tiene un enlace para darse de baja. También puedes pedir la eliminación de tus datos en cualquier momento.",
+    ] },
+    { h: "Contribuciones por GitHub", p: [
+      "Los resúmenes y propuestas enviados desde la página Contribuye quedan publicados en GitHub y se rigen por la política de privacidad de GitHub. Al publicar una contribución, mostramos el nombre que nos indiques.",
+    ] },
+    { h: "Tus derechos", p: [
+      "Puedes pedir acceso, rectificación o eliminación de tus datos, y retirar tu consentimiento al boletín. Estos derechos están previstos, por ejemplo, en la LGPD (Brasil) y el RGPD (Unión Europea).",
+    ] },
+  ],
+};
+const contactLabel = { en: "Contact for privacy requests", pt: "Contato para pedidos sobre privacidade", es: "Contacto para solicitudes de privacidad" };
+---
+
+<Base lang={lang} title={t("privacy.title")}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{t("privacy.title")}</h1>
+      <p class="lead">{intro[lang]}</p>
+    </header>
+    <div class="prose">
+      {sections[lang].map((s) => (
+        <section>
+          <h2>{s.h}</h2>
+          {s.p.map((x) => <p>{x}</p>)}
+        </section>
+      ))}
+      <h2>{contactLabel[lang]}</h2>
+      <p><a href={contactHref}>{contactText}</a></p>
+      <p class="updated">{updated[lang]}</p>
+      <p><a href={path(lang)}>{t("notfound.back")}</a></p>
+    </div>
+  </div>
+</Base>
+
+<style>
+  .prose section h2 {
+    font-size: var(--step-1);
+  }
+  .prose > h2 {
+    font-size: var(--step-1);
+  }
+  .updated {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+</style>

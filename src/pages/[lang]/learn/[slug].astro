@@ -23,7 +23,7 @@ const alternates = alternatesFor("learn", lang, splitId(entry.id).slug, translat
     <EntryHeader lang={lang} section="learn" data={entry.data} translations={translations} />
     <div class="prose">
       <Content />
-      {entry.data.aiAssisted && <p class="ai">{t("meta.ai")}</p>}
+      {entry.data.aiAssisted && entry.data.humanReviewed && <p class="ai">{t("meta.ai")}</p>}
     </div>
   </article>
 </Base>

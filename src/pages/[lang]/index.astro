@@ -3,6 +3,8 @@ import Base from "../../layouts/Base.astro";
 import ArmAndTwin from "../../components/ArmAndTwin.astro";
 import EntryCard from "../../components/EntryCard.astro";
 import PillarTag from "../../components/PillarTag.astro";
+import Newsletter from "../../components/Newsletter.astro";
+import { newsletterMode } from "../../lib/newsletter";
 import { langs, path, useT, formatDate, type Lang } from "../../i18n/ui";
 import { entries, splitId } from "../../lib/content";
 
@@ -23,7 +25,7 @@ const loop = [
 
 const paths = [
   { title: t("home.path.maker"), desc: t("home.path.maker.desc"), href: path(lang, "tutorials") },
-  { title: t("home.path.company"), desc: t("home.path.company.desc"), href: path(lang, "roi") },
+  { title: t("home.path.company"), desc: t("home.path.company.desc"), href: path(lang, "sectors") },
   { title: t("home.path.research"), desc: t("home.path.research.desc"), href: path(lang, "research") },
 ];
 ---
@@ -67,6 +69,12 @@ const paths = [
       ))}
     </div>
   </section>
+
+  {newsletterMode(lang).kind !== "off" && (
+    <div class="wrap block">
+      <Newsletter lang={lang} />
+    </div>
+  )}
 
   <section class="wrap block split">
     <div>

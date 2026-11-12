@@ -1,7 +1,7 @@
 import { getCollection, type CollectionEntry } from "astro:content";
 import type { Lang } from "../i18n/ui";
 
-type Editorial = "articles" | "tutorials" | "research";
+type Editorial = "articles" | "tutorials" | "research" | "sectors";
 
 /** Rascunhos aparecem só em `npm run dev` (pré-visualização da equipe), nunca no site publicado. */
 const showDrafts = import.meta.env.DEV;

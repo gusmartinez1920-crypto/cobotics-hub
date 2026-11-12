@@ -2,6 +2,9 @@
 
 Site estático em **Astro**, em três idiomas (EN, PT, ES). Todo o conteúdo fica em arquivos Markdown nesta pasta e é publicado pelo GitHub.
 
+> **Equipe e alunos:** o passo a passo completo para escrever, revisar e publicar está em
+> [docs/GUIA-DA-EQUIPE.md](docs/GUIA-DA-EQUIPE.md) — tudo pelo navegador, sem instalar nada.
+
 ## Rodar no seu computador
 
 ```bash
@@ -22,9 +25,11 @@ npm run build    # confere erros e gera o site final em dist/
 | Resumos de artigos científicos ("Pesquisa") | `src/content/research/<idioma>/<slug>.md` — modelo em `research/_modelo.md` |
 | Tutoriais | `src/content/tutorials/<idioma>/<slug>.md` — modelo em `tutorials/_modelo.md` |
 | Autores e equipe | `src/content/authors.json` |
+| Setores | `src/content/sectors/<idioma>/<slug>.md` |
 | Catálogo (vitrine, sem venda) | `src/content/catalog.json` |
 | Textos fixos da interface (menus, botões) | `src/i18n/ui.ts` |
-| Endereço do repositório no GitHub | `src/site-config.ts` |
+| Endereço do repositório, newsletter, e-mail de contato | `src/site-config.ts` |
+| Newsletter (Hostinger Reach) | `src/newsletter/` — ver `LEIA-ME.md` |
 
 `<idioma>` é `en`, `pt` ou `es`. As versões do mesmo texto em idiomas diferentes usam o **mesmo `translationKey`** — é assim que o site liga uma à outra no seletor de idioma.
 

@@ -18,6 +18,7 @@ const tagged = [
   ...(await entries("articles", lang)).map((e) => ({ e, section: "learn" as const })),
   ...(await entries("research", lang)).map((e) => ({ e, section: "research" as const })),
   ...(await entries("tutorials", lang)).map((e) => ({ e, section: "tutorials" as const })),
+  ...(await entries("sectors", lang)).map((e) => ({ e, section: "sectors" as const })),
 ];
 const byGoal = (g: number) => tagged.filter(({ e }) => e.data.sdgs.some((s) => s.goal === g));
 ---

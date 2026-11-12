@@ -24,6 +24,11 @@ const common = {
   /** Texto redigido ou traduzido com apoio de IA (exibido no rodapé do texto). */
   aiAssisted: z.boolean().default(false),
   /**
+   * false = o texto (no idioma original) ainda não foi revisado por uma pessoa da equipe.
+   * O site mostra um aviso até alguém revisar e trocar para true.
+   */
+  humanReviewed: z.boolean().default(true),
+  /**
    * ODS ligados ao conteúdo. Regra editorial: só marque um ODS se o texto explicar o vínculo;
    * `why` é exibido junto do conteúdo. Objetivos aceitos: ver src/lib/sdgs.ts.
    */
@@ -50,6 +55,17 @@ const tutorials = defineCollection({
     duration: z.string(), // ex.: "2 h"
     hardware: z.array(z.string()).default([]),
     repo: z.string().url().optional(),
+  }),
+});
+
+/** Aplicações por setor industrial (automotivo, eletrônica, alimentos, logística...). */
+const sectors = defineCollection({
+  loader: glob({ pattern: ["**/*.md", "!**/_*.md"], base: "./src/content/sectors" }),
+  schema: z.object({
+    ...common,
+    order: z.number().int().default(100), // posição na lista
+    /** Aplicações típicas, em frases curtas (aparecem no cartão e no topo da página). */
+    applications: z.array(z.string()).min(1),
   }),
 });
 
@@ -105,5 +121,5 @@ const catalog = defineCollection({
   }),
 });
 
-export const collections = { articles, tutorials, research, authors, catalog };
+export const collections = { articles, tutorials, research, sectors, authors, catalog };
 export type Lang = z.infer<typeof lang>;

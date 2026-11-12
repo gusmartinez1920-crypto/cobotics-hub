@@ -7,7 +7,7 @@ import { formatDate, languages, path, useT, type Lang } from "../i18n/ui";
 
 interface Props {
   lang: Lang;
-  section: "learn" | "research" | "tutorials";
+  section: "learn" | "research" | "tutorials" | "sectors";
   data: {
     title: string;
     description: string;
@@ -17,6 +17,7 @@ interface Props {
     updated?: Date;
     draft: boolean;
     translationReviewed: boolean;
+    humanReviewed: boolean;
     sdgs: { goal: SdgGoal; why: string }[];
   };
   translations: { lang: Lang; slug: string }[];
@@ -69,7 +70,8 @@ const authors = await getEntries(data.authors);
     </details>
   )}
   {data.draft && <p class="notice">{t("meta.draft")}</p>}
-  {!data.translationReviewed && <p class="notice">{t("meta.translation")}</p>}
+  {!data.humanReviewed && <p class="notice">{t("meta.unreviewed")}</p>}
+  {data.humanReviewed && !data.translationReviewed && <p class="notice">{t("meta.translation")}</p>}
 </header>
 
 <style>

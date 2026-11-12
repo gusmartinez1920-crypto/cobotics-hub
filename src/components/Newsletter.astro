@@ -1,0 +1,56 @@
+---
+// Bloco de inscrição na newsletter (Hostinger Reach). Não aparece enquanto não estiver configurado.
+import { path, useT, type Lang } from "../i18n/ui";
+import { newsletterMode } from "../lib/newsletter";
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useT(lang);
+const mode = newsletterMode(lang);
+---
+
+{mode.kind !== "off" && (
+  <section class="newsletter" id="newsletter" aria-labelledby="nl-title">
+    <div class="text">
+      <h2 id="nl-title">{t("newsletter.title")}</h2>
+      <p>{t("newsletter.lead")}</p>
+      <p class="privacy"><a href={path(lang, "privacy")}>{t("newsletter.privacy")}</a></p>
+    </div>
+    <div class="form">
+      {mode.kind === "embed" && <Fragment set:html={mode.html} />}
+      {mode.kind === "link" && (
+        <a class="button primary" href={mode.url} rel="noopener">{t("newsletter.cta")}</a>
+      )}
+    </div>
+  </section>
+)}
+
+<style>
+  .newsletter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: clamp(1rem, 4vw, 3rem);
+    align-items: center;
+    padding: clamp(1.5rem, 4vw, 2.5rem);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-left: 4px solid var(--twin);
+    border-radius: var(--radius);
+  }
+  h2 {
+    font-size: var(--step-2);
+  }
+  p {
+    color: var(--graphite-soft);
+  }
+  .privacy {
+    font-size: var(--step--1);
+    margin: 0;
+  }
+  @media (max-width: 48rem) {
+    .newsletter {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
