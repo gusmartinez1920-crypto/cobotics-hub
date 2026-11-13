@@ -23,6 +23,8 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2020.101998"
   url: "https://doi.org/10.1016/j.rcim.2020.101998"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "The review works as a map of the field: it separates avoiding contact, detecting and mitigating contact, physical ergonomics, and cognitive and organizational ergonomics. For anyone designing a cell, it shows that making the robot safe is not enough if the person does not accept or trust the system."
 method: "The authors carried out a systematic literature review in the Scopus database, with journal papers in English published from 2015 to 2018 in engineering and computer science. They started from 7,589 documents on collaborative robotics and, after filters and screening by three independent researchers, arrived at 55 papers. They classified each paper by theme and measured the output and annual growth of each group."
 findings:

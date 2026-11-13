@@ -24,6 +24,8 @@ paper:
   venue: "International Journal of Robust and Nonlinear Control"
   doi: "10.1002/rnc.7922"
   url: "https://doi.org/10.1002/rnc.7922"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "En la colaboración física, el robot debe ceder cuando la persona lo empuja a propósito y, a la vez, no invadir zonas prohibidas, que pueden ser un obstáculo móvil o el propio operador. El estudio muestra cómo la ingeniería de control trata este problema: la seguridad se convierte en una restricción matemática de posición, algo distinto de los límites de fuerza de las normas."
 method: "Es un estudio teórico y de simulación, sin robot físico ni participantes. El controlador reúne el control de admitancia, que trata la fuerza humana como entrada y no como perturbación, una función de barrera que impide al robot cruzar límites variables en el tiempo, garantía de convergencia en tiempo fijo y una red neuronal que compensa la dinámica desconocida. Los autores demuestran la estabilidad y prueban el método en un manipulador plano de dos eslabones, con fuerza humana simulada, y en un UR10 simulado con un obstáculo móvil."
 findings:

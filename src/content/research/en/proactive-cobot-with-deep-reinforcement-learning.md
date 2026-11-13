@@ -23,6 +23,7 @@ paper:
   venue: "IEEE Robotics and Automation Letters"
   doi: "10.1109/lra.2020.3047730"
   url: "https://doi.org/10.1109/lra.2020.3047730"
+  openAccess: true
 whyItMatters: "A robot that acts only once it is sure of what the person did leaves its partner waiting; one that acts too early makes mistakes and delays the task. The study shows a way for the robot to learn this balance on its own, without anyone having to label human activities by hand."
 method: "The robot receives only the person's body motion, captured by a motion capture suit, and is rewarded with the time it saves by acting early; a wrong action is penalized by the delay needed to undo it. Perception and the decision policy are neural networks trained together with deep reinforcement learning. Training used a simulator of the interactions, built from 200 real sessions of collaboration between two people, on a packaging task with an ABB YuMi robot. The authors compared the result with a supervised classifier that acts only above a certain confidence level."
 findings:

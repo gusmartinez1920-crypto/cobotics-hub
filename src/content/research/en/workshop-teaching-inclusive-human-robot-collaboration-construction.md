@@ -26,6 +26,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-025-00164-y"
   url: "https://doi.org/10.1007/s41693-025-00164-y"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Teaching human-robot collaboration tends to favor technique and overlook who will use the system. This study describes a hands-on class format that can be reproduced: a simple cobot demonstrator, role rotation and a list of questions for assessing the design. It also shows where voice and vision interfaces fail outside ideal conditions."
 method: "A teaching case study: a four-day workshop at an architecture institute in Barcelona, with 17 master's students in architecture, design and engineering, in four groups. The students first built a tower of wooden blocks, taking turns with a UR10e cobot that did not react to them, and then created new robot behaviors using sensors. The authors assessed each project with a rubric of four dimensions, with four questions each, drawn from a feminist technoscience framework."
 findings:

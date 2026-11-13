@@ -29,6 +29,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s21248266"
   url: "https://doi.org/10.3390/s21248266"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Digital twins of robot cells usually model the machine well and the person poorly. This work includes a detailed model of the worker's body and computes the effort at each joint instead of using quick posture indices. It shows one way to connect ergonomics and production scheduling in real time, and also what is still missing to take this to a factory."
 method: "The authors developed and demonstrated a system with three modules linked by wireless communication. The first is a digital human with 48 degrees of freedom, fitted to the worker's body and fed by optical motion capture with 16 cameras and 37 markers on the clothing; it computes joint torque. The second is the virtual model of a mobile robot. The third predicts cycle time and reallocates parts from the worker to the robot. The scenario was picking parts from 40 boxes, with a live demonstration with one operator, over 8 cycles of 40 parts, and a validation with data that mimic three delay profiles."
 findings:

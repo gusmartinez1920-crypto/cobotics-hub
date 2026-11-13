@@ -22,6 +22,8 @@ paper:
   venue: "International Journal of Computer Integrated Manufacturing"
   doi: "10.1080/0951192x.2023.2204467"
   url: "https://doi.org/10.1080/0951192x.2023.2204467"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Decidir o que fica com a pessoa e o que fica com o robô define o tempo de ciclo, a ergonomia e até se o trabalho será monótono ou estressante. A revisão organiza as opções e mostra o que costuma ficar de fora da decisão, como a segurança, o que ajuda quem planeja uma célula colaborativa."
 method: "Os autores fizeram uma revisão sistemática com busca em janeiro de 2022 nas bases Scopus e IEEE Xplore, restrita a textos revisados por pares em inglês ou alemão. Dos 576 registros, três rodadas de triagem deixaram 24 estudos de alta relevância, e a busca nas referências e citações acrescentou 13, num total de 37. As abordagens foram classificadas em duas categorias e quatro subcategorias, definidas em discussão entre os autores."
 findings:

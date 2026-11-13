@@ -22,6 +22,7 @@ paper:
   venue: "IEEE Robotics and Automation Letters"
   doi: "10.1109/lra.2020.3047730"
   url: "https://doi.org/10.1109/lra.2020.3047730"
+  openAccess: true
 whyItMatters: "Um robô que só age depois de ter certeza do que a pessoa fez deixa o parceiro esperando; um que age cedo demais erra e atrasa a tarefa. O estudo mostra uma forma de o robô aprender esse equilíbrio sozinho, sem que alguém precise rotular à mão as atividades humanas."
 method: "O robô recebe apenas o movimento do corpo da pessoa, captado por um traje de captura de movimento, e ganha como recompensa o tempo que economiza ao agir antes; a ação errada é punida pelo atraso para desfazê-la. A percepção e a política de decisão são redes neurais treinadas juntas por aprendizado por reforço profundo. O treino usou um simulador das interações, montado com 200 sessões reais de colaboração entre duas pessoas, numa tarefa de embalagem com um robô ABB YuMi. Os autores compararam o resultado com um classificador supervisionado que só age acima de certo nível de confiança."
 findings:

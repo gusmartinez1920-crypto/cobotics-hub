@@ -24,6 +24,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-025-00156-y"
   url: "https://doi.org/10.1007/s41693-025-00156-y"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Quem monta um curso ou um treinamento sobre trabalho com robôs precisa saber se o que a universidade ensina é o que a empresa procura. Este estudo mostra onde os dois lados concordam e onde se afastam. Os exemplos são robôs de construção civil (pintura, impressão 3D, drones, máquinas autônomas), e a aplicação da lista a cobots de fábrica cabe ao leitor."
 method: "Os autores partiram de uma lista de 20 conhecimentos, 10 habilidades e 12 aptidões tirada da literatura. Aplicaram o método Delphi, uma consulta a especialistas em rodadas, em três rodadas e em separado com um painel da indústria e outro da academia, ambos nos Estados Unidos; na última rodada havia 13 e 14 participantes. As notas dos dois grupos foram comparadas com um teste estatístico, e a prioridade de cada competência foi calculada por um índice de importância relativa que vai de 0 a 1."
 findings:

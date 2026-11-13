@@ -22,6 +22,7 @@ paper:
   venue: "Applied Ergonomics"
   doi: "10.1016/j.apergo.2026.104747"
   url: "https://doi.org/10.1016/j.apergo.2026.104747"
+  openAccess: true
 whyItMatters: "O estudo trata de um robô móvel autônomo de armazém, não de um braço colaborativo: a ponte com cobots é do leitor. Mesmo assim, traz evidência útil para quem projeta espaços compartilhados entre pessoas e robôs, porque mostra que o modo de aproximação muda o que o trabalhador sente e como ele se comporta. Também é um exemplo de uso de simulação imersiva para testar a interação antes de colocar um robô real no corredor."
 method: "Experimento em uma sala de realidade virtual por projeção, com rastreamento do corpo, que simulava um armazém. Participaram 56 adultos da população geral, com idade média de 24,8 anos; só 9 tinham alguma experiência com robôs. Cada um pegou uma caixa e a colocou no robô virtual em 18 condições, que combinavam três alturas de prateleira do robô, três velocidades (0,5, 1,0 e 1,5 m/s) e duas trajetórias (reta e curva). Os autores mediram surpresa e medo, carga mental, confiança, tempos da tarefa e distância mantida em relação ao robô."
 findings:

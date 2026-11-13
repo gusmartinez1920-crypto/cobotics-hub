@@ -26,6 +26,7 @@ paper:
   venue: "Journal of Higher Education Theory and Practice"
   doi: "10.33423/jhetp.v21i16.4924"
   url: "https://doi.org/10.33423/jhetp.v21i16.4924"
+  openAccess: true
 whyItMatters: "Los docentes que quieren llevar el cobot al aula suelen carecer de una referencia sobre qué enseñar. Este estudio parte de lo que la industria hace realmente y llega a dos perfiles de formación, operador y programador, con un diseño de curso que puede adaptarse: clase en el aula, práctica con el robot, taller y evaluación."
 method: "El estudio tiene dos etapas. En la primera, los autores volvieron a analizar 60 entrevistas hechas en 21 fabricantes neerlandeses con experiencia en cobots, con 29 ingenieros, 11 jefes de línea y 20 operarios; tres investigadores clasificaron las declaraciones con base en un modelo estandarizado de descripción de ocupaciones. En la segunda, un grupo de docentes de dos escuelas técnicas, investigadores, diseñadores educativos, profesionales de empresas y un integrador diseñó el curso, probado en un piloto con 5 estudiantes."
 findings:

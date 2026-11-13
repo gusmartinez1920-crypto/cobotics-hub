@@ -25,6 +25,7 @@ paper:
   venue: "Automation in Construction"
   doi: "10.1016/j.autcon.2018.09.008"
   url: "https://doi.org/10.1016/j.autcon.2018.09.008"
+  openAccess: true
 whyItMatters: "A workstation can be safe by the standards and still not feel safe to the person in it. The study shows that this feeling affects willingness to work with the robot and that it depends on trust and on feeling part of the team. It also shows how a virtual environment can be used to test a workstation before it exists."
 method: "The authors ran a laboratory experiment with 30 participants from a university in the United States, split into two groups: an area shared with the robot (14) or areas separated by a pile of blocks (16). Wearing a virtual reality headset, each person laid blocks on a wall for 7 minutes next to a virtual bricklaying robot. Questionnaires measured team identification, trust in the robot, perceived safety and intention to work with the robot, and the analysis used statistical mediation models."
 findings:

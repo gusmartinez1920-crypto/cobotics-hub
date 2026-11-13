@@ -24,6 +24,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2020.02.188"
   url: "https://doi.org/10.1016/j.procir.2020.02.188"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "A cobot leaves the factory with safety measures, but that condition changes once it gets a gripper and is placed in a workstation. The paper brings together in one place what the integrator needs to consider, and notes that ergonomics and efficiency are often left out of the design."
 method: "The authors compiled and classified guidelines from international standards, research papers and use cases, following the logic of concurrent engineering, which treats product, assembly cycle, robot, layout and operator at the same time. The safety guidelines come from standards such as ISO 12100, ISO 10218-2 and ISO/TS 15066; those on physical ergonomics from ISO/TR 12295; those on cognitive ergonomics from eight studies; those on efficiency from five sources on design for assembly and machine vision."
 findings:

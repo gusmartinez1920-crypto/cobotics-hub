@@ -22,6 +22,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3472224"
   url: "https://doi.org/10.1145/3472224"
+  openAccess: true
 whyItMatters: "Many cobots come with eyes or faces on a screen, on the idea that this brings the person closer to the robot. This study indicates that, in industry, a face that conveys nothing about the task can cost attention exactly where hands and robot meet. It matters to anyone who designs or chooses the interface of a collaborative workstation."
 method: "The authors ran a preregistered laboratory experiment with 40 students on a simulated assembly task: a Sawyer cobot handed over boxes of parts and the person assembled and checked a board. Half saw on the robot's screen an abstract face with eyes that blinked and changed direction with no relation to the task; the other half saw the company logo. There were 25 handovers and, in the final part, the robot dropped a box. Trust was measured with questionnaires and by the time spent with hands in the handover area, and attention by eye tracking."
 findings:

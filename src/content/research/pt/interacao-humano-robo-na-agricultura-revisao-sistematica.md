@@ -26,6 +26,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s23156776"
   url: "https://doi.org/10.3390/s23156776"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O campo é um ambiente incerto, em que trocar o trabalhador por um robô autônomo é muito difícil; dividir a tarefa entre os dois aparece como alternativa. A revisão organiza os modos de trabalho conjunto e os níveis de automação, duas classificações úteis também para quem projeta aplicações com cobots na fábrica. Os robôs estudados são máquinas agrícolas móveis, não braços colaborativos industriais."
 method: "Os autores fizeram uma revisão sistemática com protocolo definido antes da busca, em cinco bases de artigos, com a última busca em dezembro de 2022. Selecionaram 32 estudos, 21 de periódicos e 11 de congressos, e avaliaram a qualidade de cada um com uma ferramenta de risco de viés. Classificaram os estudos por modo de trabalho conjunto e por uma escala de 10 níveis de automação, que vai do humano fazendo tudo ao robô decidindo e agindo sozinho."
 findings:

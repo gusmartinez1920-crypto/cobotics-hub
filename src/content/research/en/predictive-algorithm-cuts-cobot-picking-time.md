@@ -18,6 +18,8 @@ paper:
   venue: "Scientific Reports"
   doi: "10.1038/s41598-025-34643-7"
   url: "https://doi.org/10.1038/s41598-025-34643-7"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "The proposal tackles the cycle time of a pick-and-place cell without buying new equipment: it uses only software and the data the robot already records. It is a simple example of how statistics on the behavior of the person at the previous station can tune the cobot program."
 method: "The author models the position where the part is left as a random variable, fits a statistical distribution for each operator and, when none fits, uses a non-parametric estimate. With the prediction, the camera on the robot's wrist moves lower and covers a smaller area. The data came from a laboratory bench, with 5 operators placing 30 bearings each. The robot, a UR10e, was tested in simulation in RoboDK, with and without prediction, using the collected data and then synthetic data for 5, 10 and 15 parts."
 findings:

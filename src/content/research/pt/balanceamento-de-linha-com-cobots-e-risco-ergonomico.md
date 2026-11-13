@@ -21,6 +21,8 @@ paper:
   venue: "Flexible Services and Manufacturing Journal"
   doi: "10.1007/s10696-026-09662-9"
   url: "https://doi.org/10.1007/s10696-026-09662-9"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Quem projeta uma linha com cobots precisa decidir quais tarefas vão para a pessoa, para o robô ou para os dois juntos. O estudo mostra que dá para incluir a ergonomia nessa decisão sem necessariamente perder produtividade, e que acrescentar robôs tem retorno decrescente. Isso interessa a quem avalia quantos cobots comprar."
 method: "Os autores formularam um modelo de programação linear inteira mista para linhas que montam vários modelos de produto. Cada tarefa pode ser feita por pessoa, robô ou em colaboração, e o modelo minimiza ao mesmo tempo o tempo de ciclo e dois indicadores de risco ergonômico por posto. O risco de cada tarefa combina avaliações físicas, ambientais e psicossociais num só valor. Testaram o modelo em 164 configurações derivadas de 13 linhas de referência, com tempos e riscos gerados por sorteio, e em dois estudos de caso, um deles uma linha de ferramentas elétricas com 62 tarefas e 5 postos."
 findings:

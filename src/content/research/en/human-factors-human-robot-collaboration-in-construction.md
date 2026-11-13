@@ -23,6 +23,8 @@ paper:
   venue: "Journal of Safety Research"
   doi: "10.1016/j.jsr.2026.08.009"
   url: "https://doi.org/10.1016/j.jsr.2026.08.009"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The review brings together what is known about how workers react to robots and exoskeletons: cognitive load, trust, stress, fatigue. People who work with industrial cobots will find results here on autonomy, failures and communication, but should keep in mind that the study is about construction and that robot arms are a minority in it."
 method: "The authors carried out a systematic review following the PRISMA protocol in two databases (Scopus and Web of Science), covering 2000 to January 2026. From 1682 unique records, they read 411 in full and included 163 studies, 14 of them found through citation tracking. One researcher extracted and coded the results by theme and a second reviewed the work."
 findings:

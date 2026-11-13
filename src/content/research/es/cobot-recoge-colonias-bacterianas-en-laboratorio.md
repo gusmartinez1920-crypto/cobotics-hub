@@ -21,6 +21,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s22082862"
   url: "https://doi.org/10.3390/s22082862"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Los sistemas automáticos de recogida de colonias son grandes y caros, o sirven para una sola tarea. El estudio prueba el cobot como alternativa que el propio personal del laboratorio podría enseñar guiando el brazo con las manos, sin programar. También muestra el límite de este tipo de enseñanza cuando la tarea exige una precisión inferior a un milímetro."
 method: "Los autores montaron, en un laboratorio universitario, un cobot Franka Emika Panda con una herramienta propia: cámara, medidor de perfil láser, sensor de fuerza y una aguja de acero esterilizada por calor en cada uso. Un operador demostró la recogida guiando el brazo, y un método de generalización adaptó el movimiento a nuevas posiciones a partir de una sola demostración. El robot recogió y depositó 56 colonias de dos especies de bacteria, que pasaron a la identificación por espectrometría de masas. No hubo comparación directa con un operador humano: la referencia manual proviene de otro estudio."
 findings:

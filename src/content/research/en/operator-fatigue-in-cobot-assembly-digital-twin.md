@@ -30,6 +30,8 @@ paper:
   venue: "Digital Twin"
   doi: "10.1080/27525783.2025.2610579"
   url: "https://doi.org/10.1080/27525783.2025.2610579"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "Physical fatigue is usually assessed with a single measure and without considering that people differ. This study shows how to bring cameras and muscle sensors together in a digital twin of the operator to point out the heaviest station on the line and test adjustments to height, distance and support. It is a concrete example of wearable sensors and simulation serving ergonomics in a collaborative cell."
 method: "The authors modeled the assembly process of a nine-part differential to locate the stations with the highest load. At the chosen station, they measured fatigue from three sources: eye closure and joint angles, captured by camera, and electrical signals from two muscles (surface electromyography), classified by a neural network trained with 10 volunteers. The three indices were weighted and fused into a score from 0 to 1. In the laboratory, with a lightweight benchtop cobot, they compared three workstation configurations with three male participants."
 findings:

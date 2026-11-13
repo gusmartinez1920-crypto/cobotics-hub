@@ -25,6 +25,8 @@ paper:
   venue: "Robotics"
   doi: "10.3390/robotics11010009"
   url: "https://doi.org/10.3390/robotics11010009"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Complex programming is cited as one of the main barriers to the spread of cobots, especially for small, varied batches. The study shows a way to divide the work among specialists, process engineering and operators so that the cobot can change stations often. It also offers a simple formula for deciding from what batch size the robot is worth using."
 method: "This is a proposed method tested in an industrial pilot case. Robotics specialists prepare libraries of ready-made skills, process engineering assembles the task sequence, and the operator enters parameters and corrects errors with the help of a graphical interface. The test took place at an ABB plant in the Milan area, in a pick-and-place task with electronic boards using a dual-arm cobot, with two non-expert users. The economic analysis covered six processes in the same department, with demand simulated from historical data."
 findings:

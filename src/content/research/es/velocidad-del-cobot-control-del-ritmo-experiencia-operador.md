@@ -24,6 +24,8 @@ paper:
   venue: "Journal of Intelligent & Robotic Systems"
   doi: "10.1007/s10846-022-01744-8"
   url: "https://doi.org/10.1007/s10846-022-01744-8"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La velocidad, la distancia y quién marca el ritmo son decisiones que todo integrador toma al configurar una celda colaborativa. El estudio muestra cómo cada una cambia lo que siente la persona y prueba si una pulsera con sensores logra captar esas reacciones. Ayuda a diseñar tareas pensando también en la carga mental del operador."
 method: "Experimento de laboratorio en Turín con 42 participantes, la mayoría sin contacto previo con cobots. Cada persona montó dos bridas con un cobot UR3e en 12 configuraciones, que combinaban tres velocidades del robot, dos distancias (30 y 40 cm del pecho) y dos modos de ritmo: el operador libera el robot con un botón o el robot continúa tras 25 segundos fijos. Después de cada intento, los participantes respondieron cuestionarios sobre emoción y calidad de la interacción, y una pulsera registró la actividad eléctrica de la piel y la variabilidad de la frecuencia cardíaca."
 findings:

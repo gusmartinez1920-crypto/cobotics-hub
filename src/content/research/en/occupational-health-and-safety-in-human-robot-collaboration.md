@@ -24,6 +24,8 @@ paper:
   venue: "Safety Science"
   doi: "10.1016/j.ssci.2023.106313"
   url: "https://doi.org/10.1016/j.ssci.2023.106313"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The review shows where research on cobot safety is concentrated and where there is little material. For anyone deploying a cell, the message is practical: many published solutions have not yet been tested in factories, and the risk assessment used day to day falls short of what research proposes."
 method: "The authors carried out a bibliometric analysis followed by a literature review, started in November 2022. In the Scopus database (1980 to 2022) they arrived at 1,847 papers on collaborative robots from highly ranked journals, analyzed by country, journal and keywords. With safety and health filters, plus a complementary search in Web of Science, 58 papers remained and were read in full. There was no quality assessment of the studies and no gray literature was included."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "Safety Science"
   doi: "10.1016/j.ssci.2023.106313"
   url: "https://doi.org/10.1016/j.ssci.2023.106313"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A revisão mostra onde a pesquisa sobre segurança com cobots está concentrada e onde há pouco material. Para quem implanta uma célula, o recado é prático: muitas soluções publicadas ainda não foram testadas em fábricas, e a avaliação de risco usada no dia a dia fica aquém do que a pesquisa propõe."
 method: "Os autores fizeram uma análise bibliométrica seguida de revisão de literatura, iniciada em novembro de 2022. Na base Scopus (1980 a 2022) chegaram a 1.847 artigos de periódicos bem classificados sobre robôs colaborativos, analisados por país, periódico e palavras-chave. Com filtros de segurança e saúde, e uma busca complementar na Web of Science, restaram 58 artigos lidos na íntegra. Não houve avaliação da qualidade dos estudos nem inclusão de literatura cinzenta."
 findings:

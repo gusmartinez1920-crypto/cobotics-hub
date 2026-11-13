@@ -21,6 +21,8 @@ paper:
   venue: "Advanced Intelligent Systems"
   doi: "10.1002/aisy.202300359"
   url: "https://doi.org/10.1002/aisy.202300359"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Every sensor fails in its own way: the camera loses the part under occlusion, the microphone gets lost in factory noise. Combining modalities is the way out, and this review organizes the options, the ways to fuse the data and the limits of each sensor. It is a good starting point for anyone designing the perception of a collaborative cell."
 method: "The authors carried out a literature review in the Web of Science and Scopus databases, restricted to top journals and to robotics and artificial intelligence conferences, with the search run in December 2022. After screening and inclusion through references, the final set has 199 papers. The material is organized into four modalities (vision, audio and language, touch and physiological signals) and three dimensions: perception, cognition and action."
 findings:

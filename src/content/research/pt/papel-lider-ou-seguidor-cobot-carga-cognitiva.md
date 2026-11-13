@@ -23,6 +23,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app15020744"
   url: "https://doi.org/10.3390/app15020744"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Ao projetar uma célula colaborativa, costuma-se pensar na ergonomia física e esquecer quem decide o ritmo e a ordem das ações. Este estudo trata o papel do operador, líder ou seguidor, como uma variável de projeto e mostra que ela afeta a carga mental. É uma decisão barata de tomar no início do projeto."
 method: "O trabalho tem duas partes. Na primeira, os autores analisaram 50 aplicações colaborativas da literatura com um quadro de quatro componentes: nível de interação, papel de trabalho, interface de comunicação e controles de segurança. Na segunda, 17 estudantes de graduação, treinados por um semestre em robótica colaborativa, inspecionaram a pintura de blocos de madeira com um cobot UR3 em quatro cenários, que combinavam interação de apoio ou sequencial com o papel de líder ou de seguidor. Mediram a carga de trabalho (NASA-TLX), a capacidade mental de reserva (Escala de Bedford) e a frequência cardíaca média."
 findings:

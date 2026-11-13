@@ -23,6 +23,8 @@ paper:
   venue: "International Journal of Production Research"
   doi: "10.1080/00207543.2023.2183343"
   url: "https://doi.org/10.1080/00207543.2023.2183343"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Es habitual suponer que perder autonomía frente a la máquina deja al trabajador menos satisfecho. Este experimento encontró lo contrario, al menos a corto plazo, y muestra que la utilidad que la persona ve en el robot pesa en la satisfacción. Interesa a quien diseña el reparto del control entre persona y robot en la logística."
 method: "Los autores hicieron un experimento controlado con 60 estudiantes de un colegio técnico de logística de los Países Bajos, con una edad media de 18 años. En un almacén de laboratorio con 300 posiciones de recogida, cada participante preparó pedidos de tres formas, en rondas de 20 minutos: a mano con carrito, guiando a un robot móvil autónomo y siguiendo al robot. Los cuestionarios midieron satisfacción laboral, autoestima, confianza en la propia capacidad y confianza para interactuar con robots. El análisis usó modelos estadísticos que tienen en cuenta las medidas repetidas de cada persona."
 findings:

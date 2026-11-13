@@ -21,6 +21,7 @@ paper:
   venue: "Journal of Manufacturing Systems"
   doi: "10.1016/j.jmsy.2021.07.017"
   url: "https://doi.org/10.1016/j.jmsy.2021.07.017"
+  openAccess: true
 whyItMatters: "The text offers a map of where cobot research wants to go: from the robot that reacts to commands to the robot that understands context and predicts the person's next step. It helps students and researchers place technologies such as digital twin, augmented reality and machine learning within a single roadmap. It is worth reading critically, because it is a vision of the future, not a tested result."
 method: "This is a short conceptual technical note, supported by 53 references; there is no empirical method. The authors organize the evolution of the relationship between people and robots by the role of each and the level of automation, trace a historical line starting in 1980, and propose a roadmap and a control architecture. They discuss each skill on the basis of the literature on computer vision, digital twin, augmented reality, the industrial internet of things and machine learning."
 findings:

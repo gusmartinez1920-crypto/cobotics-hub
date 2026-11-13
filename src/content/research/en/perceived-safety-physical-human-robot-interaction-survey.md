@@ -25,6 +25,8 @@ paper:
   venue: "Robotics and Autonomous Systems"
   doi: "10.1016/j.robot.2022.104047"
   url: "https://doi.org/10.1016/j.robot.2022.104047"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "A cobot can meet every force and speed limit and still leave the operator tense. This survey gathers what experiments indicate about distance, speed, predictability of motion and operator control, and it works as a checklist for designing a cell. It also shows how to measure this perception, from questionnaires to physiological signals."
 method: "The authors reviewed journal articles, conference proceedings and book chapters in English published up to 2020 that reported experiments with people sharing space with a robot, physical or in virtual reality, and some measure of perceived safety. They started from the studies cited in five earlier surveys, followed citations backward and forward, and completed the set with direct searches in four databases, reaching 114 papers. They covered six types of system: industrial manipulators, mobile robots, mobile manipulators, humanoids, drones and autonomous vehicles."
 findings:

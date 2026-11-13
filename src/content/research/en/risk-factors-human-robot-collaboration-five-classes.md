@@ -25,6 +25,7 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2021.107827"
   url: "https://doi.org/10.1016/j.cie.2021.107827"
+  openAccess: true
 whyItMatters: "People who install a cobot often assess the risk of physical contact and stop there. This study offers a broader list that can guide risk assessment early in the design: it includes what happens to the person, to the way work is organized and to the data."
 method: "The authors carried out a state-of-the-art review in two article databases (Web of Science and Scopus), covering 2011 to early 2021, and added documents from European bodies and ISO standards, for a total of 32 sources. They extracted every risk factor mentioned, grouped the factors into classes over three rounds of comparison, and checked the result against models of sociotechnical systems."
 findings:

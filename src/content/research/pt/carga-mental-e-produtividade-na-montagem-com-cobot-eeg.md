@@ -25,6 +25,8 @@ paper:
   venue: "Machines"
   doi: "10.3390/machines13090783"
   url: "https://doi.org/10.3390/machines13090783"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Estudos anteriores divergem: uns dizem que o cobot alivia a carga mental, outros que a aumenta, e quase todos medem por questionário. Este combina questionário e sinais cerebrais captados por eletroencefalografia (EEG) com um aparelho sem fio. Mostra um jeito de avaliar o posto de trabalho além da opinião do operador."
 method: "Dez estudantes de engenharia, todos homens e sem experiência em montagem ou cobots, fizeram a mesma montagem em três cenários de 90 minutos: manual, com um cobot que entrega as peças, e com cobot mais um guia em que um robô imprime rótulos na peça para indicar a sequência e uma câmera confere. A ordem dos cenários foi fixa, com pelo menos quatro meses entre eles. A carga mental foi estimada por um índice do EEG e por um questionário padronizado (NASA-TLX); a produtividade, pelo número de componentes corretos entre 75."
 findings:

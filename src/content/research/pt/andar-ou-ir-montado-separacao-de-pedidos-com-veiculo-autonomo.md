@@ -21,6 +21,7 @@ paper:
   venue: "Transportation Research Part E: Logistics and Transportation Review"
   doi: "10.1016/j.tre.2024.103696"
   url: "https://doi.org/10.1016/j.tre.2024.103696"
+  openAccess: true
 whyItMatters: "Em armazéns de paletes, o separador sobe e desce do veículo cerca de 1.200 vezes por turno, segundo um fabricante citado, o que cansa e força os joelhos. O estudo mostra que planejar em conjunto a rota e os trechos a pé reduz ao mesmo tempo o tempo e esse esforço. O veículo aqui é uma empilhadeira de separação autônoma, não um braço colaborativo: a colaboração é a divisão do percurso entre andar e ir montado."
 method: "É um trabalho de pesquisa operacional. Os autores formularam um modelo que minimiza o tempo total de percurso e o número de vezes que a pessoa sobe no veículo, com uma penalidade de tempo para cada subida. Como o modelo exato só resolve listas pequenas, criaram um algoritmo de programação dinâmica que resolve qualquer tamanho. Compararam sete estratégias por simulação, com 1.000 listas aleatórias por tamanho, em armazéns de 1 ou 2 blocos com 10 ou 20 corredores, e aplicaram o método a 102 listas reais de um centro de distribuição de bebidas nos Países Baixos."
 findings:

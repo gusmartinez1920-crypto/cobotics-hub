@@ -21,6 +21,8 @@ paper:
   venue: "CIRP Annals"
   doi: "10.1016/j.cirp.2024.04.003"
   url: "https://doi.org/10.1016/j.cirp.2024.04.003"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Programming a cobot for every product variation is expensive, and mass personalization calls for tasks with no fixed script. The study shows an architecture in which the person requests the task in natural language and the mixed reality headset acts as a sensor of the scene. For anyone following generative artificial intelligence in robotics, it brings success figures and the stated trade-offs."
 method: "The authors propose a system and test it in the laboratory, with a mobile manipulator (UR5e arm on a MiR100 base), a depth camera and a HoloLens 2 headset. A vision-language model locates the object named in the command; language models split the instruction into steps and generate the robot code. A policy trained by reinforcement learning moves base and arm at the same time, using images and headset data. Object localization was evaluated on 463 image-text pairs, planning on 3 tasks with 20 repetitions each, and the motion policy with 1000 targets in a simulated scene."
 findings:

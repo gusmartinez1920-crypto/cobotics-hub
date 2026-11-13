@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2020.01.066"
   url: "https://doi.org/10.1016/j.promfg.2020.01.066"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Tuning safety parameters in a real cell takes time and exposes people. The study shows how virtual reality makes it possible to test these settings before physical implementation and to measure the effect on collisions and work pace. It also makes the conflict between safety and productivity visible."
 method: "The authors used a virtual environment with an immersive headset and body tracking that reproduces a manual carbon fiber layup cell for aerospace parts with a suspended robot arm. Both strategies trigger when the person is less than 1.5 m from the robot and the time to collision is under 1.5 s. Speed limits per body region were calculated with the collision model of ISO/TS 15066. There were four sets of tests, two with 22 and two with 11 final-year Mechanical Engineering students, logging average speed, collaboration time, triggers and collisions, plus a questionnaire."
 findings:

@@ -18,6 +18,8 @@ paper:
   venue: "Scientific Reports"
   doi: "10.1038/s41598-025-34643-7"
   url: "https://doi.org/10.1038/s41598-025-34643-7"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "La propuesta ataca el tiempo de ciclo de una celda de tomar y colocar sin comprar equipo nuevo: usa solo software y los datos que el propio robot ya registra. Es un ejemplo sencillo de cómo la estadística del comportamiento de quien trabaja en la estación anterior puede ajustar el programa del cobot."
 method: "El autor modela la posición en que se deja la pieza como una variable aleatoria, ajusta una distribución estadística para cada operador y, cuando ninguna sirve, usa una estimación no paramétrica. Con la predicción, la cámara en la muñeca del robot baja y cubre un área menor. Los datos proceden de un banco de laboratorio, con 5 operadores que depositaron 30 rodamientos cada uno. El robot, un UR10e, se probó en simulación en RoboDK, con y sin predicción, con los datos recogidos y después con datos sintéticos de 5, 10 y 15 piezas."
 findings:

@@ -21,6 +21,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3472224"
   url: "https://doi.org/10.1145/3472224"
+  openAccess: true
 whyItMatters: "Muitos cobots vêm com olhos ou rostos na tela, na ideia de que isso aproxima a pessoa do robô. Este estudo indica que, na indústria, um rosto que não informa nada sobre a tarefa pode custar atenção justamente onde as mãos e o robô se encontram. Interessa a quem projeta ou escolhe a interface de um posto colaborativo."
 method: "Os autores fizeram um experimento de laboratório, registrado previamente, com 40 estudantes numa tarefa simulada de montagem: um cobot Sawyer entregava caixas com peças e a pessoa montava e conferia uma placa. Metade viu na tela do robô um rosto abstrato com olhos que piscavam e mudavam de direção sem relação com a tarefa; a outra metade viu o logotipo da empresa. Foram 25 entregas e, na parte final, o robô deixava cair uma caixa. A confiança foi medida por questionários e pelo tempo com as mãos na área de entrega, e a atenção, por rastreamento ocular."
 findings:

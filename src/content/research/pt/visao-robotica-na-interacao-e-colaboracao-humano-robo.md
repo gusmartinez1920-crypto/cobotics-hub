@@ -21,6 +21,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3570731"
   url: "https://doi.org/10.1145/3570731"
+  openAccess: true
 whyItMatters: "A câmera é o principal meio de um robô perceber quem trabalha ao seu lado: é com ela que ele para, desacelera ou desvia quando alguém se aproxima. A revisão mostra o que já é comum e o que ainda falta, como testes com pessoas, medidas comparáveis e cuidado com as imagens captadas."
 method: "Os autores fizeram uma revisão sistemática no padrão PRISMA em três bases (IEEE Xplore, ACM Library e Scopus), com artigos revisados por pares publicados de 2010 a 2020. Só entraram estudos com robô físico, em que a visão tem a pessoa como foco e gera uma ação em tempo real ou quase; simulação e teleoperação ficaram de fora. De 6.771 registros, 310 artigos foram incluídos, e dois avaliadores independentes conferiram 10% deles, com acordo total."
 findings:

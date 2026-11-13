@@ -25,6 +25,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-025-00156-y"
   url: "https://doi.org/10.1007/s41693-025-00156-y"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Anyone building a course or training program on working with robots needs to know whether what universities teach is what companies look for. This study shows where the two sides agree and where they part. The examples are construction robots (painting, 3D printing, drones, autonomous machines), and applying the list to factory cobots is up to the reader."
 method: "The authors started from a list of 20 knowledge areas, 10 skills and 12 abilities drawn from the literature. They applied the Delphi method, a consultation of experts in rounds, over three rounds and separately with an industry panel and an academic panel, both in the United States; the last round had 13 and 14 participants. The two groups' ratings were compared with a statistical test, and the priority of each competency was calculated with a relative importance index ranging from 0 to 1."
 findings:

@@ -24,6 +24,8 @@ paper:
   venue: "Journal of Intelligent & Robotic Systems"
   doi: "10.1007/s10846-022-01744-8"
   url: "https://doi.org/10.1007/s10846-022-01744-8"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Speed, distance and who sets the pace are choices every integrator makes when configuring a collaborative cell. The study shows how each of them changes what the person feels and tests whether a sensor wristband can pick up these reactions. It helps design tasks with the operator's mental load in mind as well."
 method: "A laboratory experiment in Turin with 42 participants, most of them with no previous contact with cobots. Each person assembled two flanges with a UR3e cobot in 12 setups that combined three robot speeds, two distances (30 and 40 cm from the chest) and two pacing modes: the operator releases the robot with a button, or the robot proceeds after a fixed 25 seconds. After each trial, participants answered questionnaires on emotion and interaction quality, and a wristband recorded skin electrical activity and heart rate variability."
 findings:

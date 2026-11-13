@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2017.07.113"
   url: "https://doi.org/10.1016/j.promfg.2017.07.113"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "With small batches and highly varied parts, automating everything does not pay off, and the welder's know-how is still needed. The paper offers a concrete example of how to choose the interaction mode at each step and how to divide work between person and robot. It is useful as a design reference for anyone considering cobots in welding."
 method: "This is a descriptive system design paper, presented at a conference, with no experiment or measurement. The case is the welding of stainless steel structures for blood filtration units, where defective parts are scrapped and the order of the seams is critical. The authors review human-robot interaction modes, compare the skills of welder and robot qualitatively, and describe the programming and a projection system to guide the operator."
 findings:

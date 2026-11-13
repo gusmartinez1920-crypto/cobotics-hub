@@ -26,6 +26,8 @@ paper:
   venue: "Machines"
   doi: "10.3390/machines13090783"
   url: "https://doi.org/10.3390/machines13090783"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Earlier studies disagree: some say the cobot eases mental workload, others that it increases it, and almost all measure it by questionnaire. This one combines a questionnaire with brain signals captured by electroencephalography (EEG) using a wireless device. It shows a way to assess a workstation that goes beyond the operator's opinion."
 method: "Ten engineering students, all men with no experience in assembly or cobots, did the same assembly in three 90-minute scenarios: manual, with a cobot handing over the parts, and with the cobot plus a guide in which a robot prints labels on the part to show the sequence and a camera checks them. The order of the scenarios was fixed, with at least four months between them. Mental workload was estimated with an EEG index and a standardized questionnaire (NASA-TLX); productivity, by the number of correct components out of 75."
 findings:

@@ -25,6 +25,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-025-00164-y"
   url: "https://doi.org/10.1007/s41693-025-00164-y"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O ensino de colaboração humano-robô costuma privilegiar a técnica e deixar de lado quem vai usar o sistema. Este estudo descreve um formato de aula prática que pode ser reproduzido: um demonstrador simples com cobot, rodízio de papéis e uma lista de perguntas para avaliar o projeto. Também mostra onde interfaces de voz e de visão falham fora de condições ideais."
 method: "Estudo de caso de ensino: uma oficina de quatro dias em um instituto de arquitetura de Barcelona, com 17 alunos de mestrado em arquitetura, design e engenharia, em quatro grupos. Os alunos primeiro montaram uma torre de blocos de madeira alternando com um cobot UR10e que não reagia a eles, e depois criaram novos comportamentos para o robô com sensores. Os autores avaliaram cada projeto com uma rubrica de quatro dimensões, com quatro perguntas cada, tirada de um quadro de tecnociência feminista."
 findings:

@@ -22,6 +22,8 @@ paper:
   venue: "Flexible Services and Manufacturing Journal"
   doi: "10.1007/s10696-026-09662-9"
   url: "https://doi.org/10.1007/s10696-026-09662-9"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Anyone designing a line with cobots must decide which tasks go to the person, to the robot or to both together. The study shows that ergonomics can be included in that decision without necessarily losing productivity, and that adding robots has diminishing returns. This matters to anyone deciding how many cobots to buy."
 method: "The authors formulated a mixed-integer linear programming model for lines that assemble several product models. Each task can be done by a person, a robot or in collaboration, and the model minimizes cycle time and two ergonomic risk indicators per station at the same time. The risk of each task combines physical, environmental and psychosocial assessments into a single value. They tested the model on 164 configurations derived from 13 benchmark lines, with randomly generated times and risks, and on two case studies, one of them a power tool line with 62 tasks and 5 stations."
 findings:

@@ -25,6 +25,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2018.04.001"
   url: "https://doi.org/10.1016/j.promfg.2018.04.001"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Quien planea un laboratorio de cobots para la enseñanza encuentra aquí decisiones de diseño ya pensadas: celdas independientes, una distribución que se reconfigura y equipos convencionales al lado para comparar. El texto también recuerda que saber de automatización no basta para decidir cuándo vale la pena la colaboración."
 method: "Descripción de una instalación todavía en construcción, sin recolección de datos ni evaluación con estudiantes. El texto presenta el propósito y los principios de diseño, los componentes (cuatro estaciones con cobots UR5 o UR10, una quinta para montaje con dos brazos y dos vehículos autónomos, uno de ellos con un cobot UR3) y el plan de uso en dos frentes, industrial y de enseñanza. El área tiene 150 m² de planta y 75 m² de salas."
 findings:

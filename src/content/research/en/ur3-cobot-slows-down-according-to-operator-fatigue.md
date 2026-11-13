@@ -22,6 +22,8 @@ paper:
   venue: "Frontiers in Robotics and AI"
   doi: "10.3389/frobt.2026.1897261"
   url: "https://doi.org/10.3389/frobt.2026.1897261"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Robot safety standards treat the operator's capability as constant, even though tiredness changes reaction time and precision. This work shows, with open-source code and an ordinary computer with no graphics card, how to bring the operator's state into the cobot's control loop. It is a starting point for anyone who wants to test human-centric digital twins on a benchtop robot."
 method: "The authors implemented the system on a UR3 cobot with a gripper, an overhead webcam and eye-tracking glasses, and tested the software on a simulated twin before each session with the real robot. The system has three modules: perception (hand landmarks and eye data), reasoning (a state machine and a fatigue score that combines blinks, eye-closure time and hand jerk) and motion. The gesture classifier was trained on 2,600 samples from a single operator, the first author. Because the glasses failed on the day of the trials, the fatigue and stress states were triggered manually from the keyboard, in simulated mode."
 findings:

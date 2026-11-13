@@ -23,6 +23,8 @@ paper:
   venue: "Safety Science"
   doi: "10.1016/j.ssci.2020.104832"
   url: "https://doi.org/10.1016/j.ssci.2020.104832"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La norma condiciona varias protecciones de diseño al resultado del análisis de peligros y de la evaluación de riesgos, pero no dice cómo hacer ese vínculo. En la práctica, la decisión queda en manos de diseñadores e integradores. El estudio ayuda a quien integra cobots a ver dónde los límites de velocidad, fuerza y parada suelen elegirse sin base en la evaluación de riesgos y sugiere métodos para estructurarla."
 method: "Es una revisión narrativa en dos etapas. Los autores primero separaron las cláusulas de la ISO/TS 15066 que condicionan protecciones a la evaluación de riesgos y después buscaron artículos alineados con cada una, priorizando revistas de robótica y de seguridad. El análisis recorre las cláusulas sobre el lugar de trabajo colaborativo, la operación colaborativa y los modos de operación, y organiza la propuesta en las tres fases de la ISO 31000: identificación, análisis y valoración del riesgo."
 findings:

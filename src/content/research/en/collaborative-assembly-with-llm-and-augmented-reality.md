@@ -25,6 +25,8 @@ paper:
   venue: "Electronics"
   doi: "10.3390/electronics14153125"
   url: "https://doi.org/10.3390/electronics14153125"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Assembly in tight spaces relies heavily on the operator's memory and decisions, and the cobot alone does not solve that. The study shows a way to bring process knowledge to the person, in the field of view, and to use a language model to suggest who does what. It also records a point of attention: the cobot without adequate support tended to increase operator stress."
 method: "This is a technical proposal validated in a single case study: the assembly of an aerospace electronics cabin on a bench with two vision-equipped cobots, one for picking parts and one for screwdriving. The tasks were described in structured templates, queried by a language model tuned to the domain, and the guidance appears in augmented reality glasses controlled by voice, gesture or gaze. The authors evaluated the model's answers, pose tracking in three scenarios, and compared four ways of assembling with 20 participants."
 findings:

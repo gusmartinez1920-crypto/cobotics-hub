@@ -23,6 +23,8 @@ paper:
   venue: "Journal of Intelligent & Robotic Systems"
   doi: "10.1007/s10846-022-01744-8"
   url: "https://doi.org/10.1007/s10846-022-01744-8"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Velocidade, distância e quem dá o ritmo são escolhas que todo integrador faz ao configurar uma célula colaborativa. O estudo mostra como cada uma delas muda o que a pessoa sente e testa se uma pulseira com sensores consegue captar essas reações. Ajuda a projetar tarefas pensando também na carga mental do operador."
 method: "Experimento de laboratório em Turim com 42 participantes, a maioria sem contato anterior com cobots. Cada pessoa montou duas flanges com um cobot UR3e em 12 configurações, que combinavam três velocidades do robô, duas distâncias (30 e 40 cm do peito) e dois modos de ritmo: o operador libera o robô por um botão ou o robô segue após 25 segundos fixos. Depois de cada tentativa, os participantes responderam questionários sobre emoção e qualidade da interação, e uma pulseira registrou a atividade elétrica da pele e a variabilidade da frequência cardíaca."
 findings:

@@ -26,6 +26,7 @@ paper:
   venue: "Journal of Higher Education Theory and Practice"
   doi: "10.33423/jhetp.v21i16.4924"
   url: "https://doi.org/10.33423/jhetp.v21i16.4924"
+  openAccess: true
 whyItMatters: "Teachers who want to bring a cobot into the classroom often have no reference for what to teach. This study starts from what industry actually does and arrives at two training profiles, operator and programmer, with a course design that can be adapted: classroom lessons, practice with the robot, a workshop and assessment."
 method: "The study has two stages. In the first, the authors reanalyzed 60 interviews conducted at 21 Dutch manufacturers with cobot experience, with 29 engineers, 11 line managers and 20 shop-floor workers; three researchers classified the statements using a standardized model for describing occupations. In the second, a group of teachers from two vocational schools, researchers, educational designers, company professionals and an integrator designed the course, which was tested in a pilot with 5 students."
 findings:

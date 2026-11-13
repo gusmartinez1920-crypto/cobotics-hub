@@ -24,6 +24,8 @@ paper:
   venue: "Education Sciences"
   doi: "10.3390/educsci14080856"
   url: "https://doi.org/10.3390/educsci14080856"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "El estudio muestra un uso poco común del cobot: recurso de enseñanza para niños que todavía no leen ni escriben. También deja lecciones válidas para cualquier interfaz de voz, en la escuela o en la fábrica: el tiempo fijo de espera y las diferencias de pronunciación dificultan el uso a quien habla de una manera distinta de la esperada."
 method: "Estudio con prueba antes y después, sin grupo de control, con 34 niños de 4 a 6 años de una ciudad pequeña del sur de Chile; 33 hicieron todas las sesiones. El robot era un brazo Ufactory Lite 6 con ventosa, micrófono y altavoz, que interpretaba las órdenes con un modelo de lenguaje y localizaba los objetos por visión artificial. Fueron cinco sesiones de una hora. Los autores aplicaron una prueba de pensamiento computacional de 15 preguntas y analizaron 18 videos de un desafío de montaje."
 findings:

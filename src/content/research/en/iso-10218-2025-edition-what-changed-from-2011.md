@@ -25,6 +25,8 @@ paper:
   venue: "Results in Engineering"
   doi: "10.1016/j.rineng.2026.110486"
   url: "https://doi.org/10.1016/j.rineng.2026.110486"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "ISO 10218 is the baseline standard for industrial robot safety, and the 2025 edition changes terms, requirements and annexes that integrators and designers use every day. This study summarizes the changes and discusses their effect on the design, integration and certification of cells."
 method: "The authors carried out a comparative content analysis of parts 1 and 2 of ISO 10218, in the 2011 and 2025 editions, and of ISO/TS 15066 from 2016. They compared the texts chapter by chapter and classified each change as technical, structural or terminological. It is a review article, with no new data."
 findings:

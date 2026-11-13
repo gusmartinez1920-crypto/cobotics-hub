@@ -22,6 +22,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2018.10.028"
   url: "https://doi.org/10.1016/j.promfg.2018.10.028"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Hoje só se mede a força e a pressão de uma colisão depois que a célula está instalada, quando boa parte do investimento já foi feita. Se a medição reprova, resta reduzir a velocidade ou refazer a ferramenta. Fazer essa conta na simulação, com os dados de planejamento que já existem, antecipa o problema."
 method: "O caso de uso é um parafusamento semiautomático numa linha de montagem de veículos, em que o robô aperta quatro parafusos no modo de limitação de potência e força (PFL). Num estudo experimental, um robô KUKA LBR iiwa colidiu com um medidor de força e pressão do instituto alemão IFA, variando velocidade, limite de força, massa e raio da ferramenta, configuração dos eixos e região do corpo, com cinco medições por série. Depois os autores descrevem um plug-in para o software Siemens Process Simulate que calcula força e pressão pelo método da massa refletida."
 findings:

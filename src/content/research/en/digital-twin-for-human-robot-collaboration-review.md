@@ -25,6 +25,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app12104811"
   url: "https://doi.org/10.3390/app12104811"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A digital twin makes it possible to test the safety and performance of a collaborative cell before installing it. This review helps separate what is already practical from what is still a promise, and explains the difference between a digital model, a digital shadow and a digital twin. It is a starting point for anyone planning to simulate a cobot application."
 method: "This is a narrative literature review with no stated systematic protocol. The authors surveyed the Scopus database in September 2021 and classified the works into two modeling approaches. They added their own conceptual framework for the digital twin of a collaborative arm and their own example of a digital twin of the operator, driven by several depth cameras."
 findings:

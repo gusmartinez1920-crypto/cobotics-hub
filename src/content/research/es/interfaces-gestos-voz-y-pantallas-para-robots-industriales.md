@@ -19,6 +19,8 @@ paper:
   venue: "Current Robotics Reports"
   doi: "10.1007/s43154-020-00005-6"
   url: "https://doi.org/10.1007/s43154-020-00005-6"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Cuanto más cerca trabaja la persona del robot, más cuenta la interfaz: deja de servir solo para programar y pasa a servir para intercambiar información y confirmar acciones. El estudio ayuda a elegir entre pantalla, gesto y voz y muestra dónde la investigación industrial sigue atrasada."
 method: "Las autoras hicieron una revisión narrativa de la literatura, organizada por tipo de interfaz (gestos, voz, interfaces gráficas y combinaciones) y separada en robots industriales y robots de servicio. El texto se apoya en 53 referencias, cita proyectos de investigación en curso y termina con la opinión de las autoras, basada en su propio trabajo con robots industriales fijos y móviles."
 findings:

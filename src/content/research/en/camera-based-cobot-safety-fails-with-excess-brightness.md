@@ -23,6 +23,8 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-025-02676-4"
   url: "https://doi.org/10.1007/s10845-025-02676-4"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Using a camera to monitor the distance between the person and the cobot is a low-cost option, and the authors show it can be done with simple equipment. The study, however, measures how much this monitoring depends on image quality. For people designing a collaborative cell, the message is a warning about lighting and a suggestion not to rely on a single camera."
 method: "The work has two parts. First, a systematic review of articles from 2021 to 2023 in three databases, which started from 4107 records and analyzed 53 in full. Then, a laboratory experiment with two UR10e cobots and an operator who moved between them and caused collisions, filmed by one camera. An object detector identified parts of the operator and the cobot, and the authors' algorithm classified risk into four levels by the shortest distance between them; the reference video was then degraded with altered brightness, noise, chromatic aberration and transmission distortion."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "IEEE Transactions on Robotics"
   doi: "10.1109/tro.2019.2937471"
   url: "https://doi.org/10.1109/tro.2019.2937471"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A avaliação de risco feita à mão é estática e depende de o avaliador imaginar o que pode dar errado. Aqui, o computador percorre todas as sequências possíveis de ações do robô e do operador, inclusive erros e atrasos, ainda na fase de projeto. O estudo mostra o que essa abordagem entrega e quanto custa em tempo."
 method: "É uma proposta de método com estudo de caso. Os autores descrevem em lógica temporal o leiaute, o robô e o operador (com 11 regiões do corpo), além das tarefas divididas em ações elementares. O operador pode atrasar, omitir ou inserir ações. O modelo identifica perigos mecânicos de contato, estima o risco e testa medidas de redução; um verificador automático procura contraexemplos. O caso é a montagem de paletes de máquinas-ferramenta numa fábrica real, com um manipulador sobre base móvel e dois operadores."
 findings:

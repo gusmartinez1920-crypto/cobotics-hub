@@ -25,6 +25,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app12104811"
   url: "https://doi.org/10.3390/app12104811"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "El gemelo digital permite probar la seguridad y el desempeño de una celda colaborativa antes de instalarla. Esta revisión ayuda a separar lo que ya es practicable de lo que todavía es promesa y explica la diferencia entre modelo digital, sombra digital y gemelo digital. Sirve de punto de partida para quien planea simular una aplicación con cobot."
 method: "Es una revisión narrativa de la literatura, sin protocolo sistemático declarado. Los autores hicieron un relevamiento en la base Scopus en septiembre de 2021 y clasificaron los trabajos en dos enfoques de modelado. Añadieron un marco conceptual propio para el gemelo digital de un brazo colaborativo y un ejemplo propio de gemelo digital del operador, movido por varias cámaras de profundidad."
 findings:

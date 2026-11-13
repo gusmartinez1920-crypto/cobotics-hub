@@ -21,6 +21,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3778865"
   url: "https://doi.org/10.1145/3778865"
+  openAccess: true
 whyItMatters: "Trust appears in almost every study on cobot acceptance, and this text helps to read those studies more carefully. According to the authors, the scale most used in industrial collaboration measures how trustworthy the robot seems, not the person's willingness to be exposed to what it does. For anyone researching or evaluating a cell, the lesson is to state clearly what is being measured and to include some situation of real risk."
 method: "This is a position paper, with no new data. The four authors start from a debate at a scientific meeting on trust in human-robot interaction and review theory and methods in light of a classic model, in which perceived trustworthiness leads to trust and trust, depending on perceived risk, leads to risk-taking behavior. They organize the critique into five confusions, with causes and suggestions, and use their own work as examples of the problems."
 findings:

@@ -19,6 +19,8 @@ paper:
   venue: "Architectural Intelligence"
   doi: "10.1007/s44223-025-00085-4"
   url: "https://doi.org/10.1007/s44223-025-00085-4"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The study takes the cobot out of the factory and into construction, and tests how much human decision-making fits into the execution phase. It shows a trade-off found in any collaborative application: more human intervention brings flexibility and spares part of the planning, but costs precision and efficiency. It also warns that a gesture interface can leave people out."
 method: "The work has two stages. In the first, an experiment with small wooden blocks and a UR10e cobot compared two modes: designing everything in augmented reality and then building, or alternating design and construction layer by layer; the assessment was qualitative, based on observation by four researchers. In the second, the authors built a full-scale wall of 13 kg bricks at an exhibition, using a Fanuc CRX-25iA cobot on a mobile base, an augmented reality headset, gesture commands and a camera to correct localization. They measured the deviation of each brick and ran demonstrations with about 20 construction professionals."
 findings:

@@ -27,6 +27,8 @@ paper:
   venue: "Digital"
   doi: "10.3390/digital6020051"
   url: "https://doi.org/10.3390/digital6020051"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Ergonomic assessment of cobot workstations is still usually done by observation, once, at installation. This study tests another route: using biomechanical simulation to estimate joint and muscle effort at each point where the cobot can present the part. For people who design collaborative cells, it is a sample of what a digital twin of the operator can and cannot yet tell."
 method: "The authors ran a laboratory feasibility study with three male participants. A UR5e cobot presented a cube at 28 positions on a 4-by-7 grid, and the participant drove a screw with the right hand, with feet fixed. A markerless depth camera recorded the movements and the cobot's sensor measured the forces; afterward, a simulation on a musculoskeletal model of the upper limb computed joint torques, muscle activations and joint reaction forces. These values were normalized, weighted and added into a score from 1 (best) to 10 (worst) for each position."
 findings:

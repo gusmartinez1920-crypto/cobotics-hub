@@ -20,6 +20,8 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-023-02073-9"
   url: "https://doi.org/10.1007/s10845-023-02073-9"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "En muchas celdas el cobot funciona siempre despacio, muy por debajo de lo que puede, por razones de seguridad. El estudio muestra que el orden y la posición de las tareas pueden recuperar parte de esa productividad sin dispositivos adicionales, y da un ejemplo numérico del cálculo de la distancia de separación basado en la ISO/TS 15066."
 method: "Los autores formularon un modelo no lineal de asignación de tareas para una estación con un operador y un cobot que comparten el espacio, con el objetivo de minimizar el tiempo total de finalización. El tiempo de la tarea del cobot aumenta cada vez que ocurre al mismo tiempo que una tarea del operador a menos de la distancia de seguridad. Probaron el modelo en un caso numérico de 12 tareas, con una distancia de seguridad de 80 cm, y lo compararon con el modelo sin la restricción, variando también el número de tareas (de 9 a 20) y la distancia de seguridad (de 10 a 150 cm)."
 findings:

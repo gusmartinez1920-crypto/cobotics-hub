@@ -23,6 +23,8 @@ paper:
   venue: "The International Journal of Advanced Manufacturing Technology"
   doi: "10.1007/s00170-026-18980-z"
   url: "https://doi.org/10.1007/s00170-026-18980-z"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Justifying a cobot by productivity gains alone does not always add up. The study shows a way to include ergonomics in the investment calculation and indicates where a cobot tends to pay off most: in non-value-added, strenuous tasks such as fetching large parts stored behind the operator. It is useful in the early design phase of an assembly station."
 method: "The authors estimate the manual pick-and-place time for each part according to where it is stored and its characteristics. These times feed an optimization model that divides the tasks between two operators and one cobot, with two objectives: total cycle time and a time-weighted posture index (REBA). An economic layer calculates the simple payback time of the investment. The model was applied to a representative case with 26 tasks, with the layout and robot times checked in simulation."
 findings:

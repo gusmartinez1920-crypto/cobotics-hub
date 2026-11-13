@@ -23,6 +23,7 @@ paper:
   venue: "IEEE Transactions on Robotics"
   doi: "10.1109/tro.2019.2911800"
   url: "https://doi.org/10.1109/tro.2019.2911800"
+  openAccess: true
 whyItMatters: "A robot that delivers parts has to get close to the person, so simply keeping its distance does not solve the problem. The study shows one way to balance safety and working time: the robot learns the worker's pattern so as not to keep them waiting, and moves farther away when the motion departs from the pattern."
 method: "The authors propose an algorithm and test it in an experiment. A statistical model, updated during the work, predicts the worker's position and trajectory; the planner recalculates the robot's trajectory at every instant, weighing arrival at the target at the predicted time, collision avoidance, and speed limits. The test used a two-link laboratory robot that delivers parts and tools at an automotive assembly station with three tasks. Five participants performed regular learning cycles and then regular and irregular motions, for a total of 70 motions evaluated (50 regular and 20 irregular)."
 findings:

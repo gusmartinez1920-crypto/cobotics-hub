@@ -19,6 +19,8 @@ paper:
   venue: "Procedia Computer Science"
   doi: "10.1016/j.procs.2025.02.001"
   url: "https://doi.org/10.1016/j.procs.2025.02.001"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Al planificar una línea con cobots, no basta con decidir quién hace cada tarea: hay que definir en qué estación y con qué pinza. El estudio muestra cómo reunir esas decisiones en un único modelo de optimización y qué costos entran en la cuenta. Sirve de punto de partida para quien estudia el balanceo de líneas con colaboración humano-robot."
 method: "Los autores formularon un modelo de programación lineal entera mixta para una línea recta, de producto único y con tiempos fijos. El modelo minimiza la suma de los costos de estación, de trabajador, de cobot y de pinza, respetando el tiempo de ciclo, el orden de las tareas y el peso máximo de pinzas por cobot. Lo aplicaron a un ejemplo ilustrativo, el montaje de un horno rotativo eléctrico de panadería con 20 tareas y ciclo de 60 minutos, con costos de referencia de empresas medianas de Turquía."
 findings:

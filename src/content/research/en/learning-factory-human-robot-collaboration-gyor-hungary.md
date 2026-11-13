@@ -25,6 +25,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2018.04.001"
   url: "https://doi.org/10.1016/j.promfg.2018.04.001"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Anyone planning a cobot laboratory for teaching will find design decisions already thought through here: independent cells, a reconfigurable layout and conventional equipment alongside for comparison. The text also points out that knowing automation is not enough to decide when collaboration is worthwhile."
 method: "A description of a facility still under construction, with no data collection and no evaluation with students. The text presents the purpose and design principles, the components (four stations with UR5 or UR10 cobots, a fifth for dual-arm assembly and two autonomous vehicles, one of them carrying a UR3 cobot) and the plan for use on two tracks, industrial and educational. The area comprises 150 m² of shop floor and 75 m² of rooms."
 findings:

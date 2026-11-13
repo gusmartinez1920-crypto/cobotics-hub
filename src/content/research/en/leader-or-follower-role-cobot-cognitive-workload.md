@@ -24,6 +24,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app15020744"
   url: "https://doi.org/10.3390/app15020744"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "When designing a collaborative cell, people tend to think about physical ergonomics and forget who decides the pace and order of actions. This study treats the operator's role, leader or follower, as a design variable and shows that it affects mental workload. It is an inexpensive decision to make early in the design."
 method: "The work has two parts. In the first, the authors analyzed 50 collaborative applications from the literature using a framework with four components: interaction level, work role, communication interface and safety controls. In the second, 17 undergraduate students, trained for a semester in collaborative robotics, inspected the paint on wooden blocks with a UR3 cobot in four scenarios that combined supportive or sequential interaction with the leader or follower role. They measured workload (NASA-TLX), spare mental capacity (Bedford Scale) and average heart rate."
 findings:

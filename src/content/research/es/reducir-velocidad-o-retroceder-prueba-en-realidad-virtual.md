@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2020.01.066"
   url: "https://doi.org/10.1016/j.promfg.2020.01.066"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Ajustar los parámetros de seguridad en una celda real cuesta tiempo y expone a las personas. El estudio muestra cómo la realidad virtual permite probar esos ajustes antes de la implementación física y medir el efecto sobre las colisiones y el ritmo de trabajo. También deja a la vista el conflicto entre seguridad y productividad."
 method: "Los autores usaron un entorno virtual con casco inmersivo y seguimiento del cuerpo, que reproduce una celda de laminado manual de fibra de carbono para piezas aeroespaciales con un brazo robótico suspendido. Las dos estrategias se activan cuando la persona está a menos de 1,5 m del robot y el tiempo hasta la colisión es menor que 1,5 s. Los límites de velocidad por región del cuerpo se calcularon con el modelo de colisión de la ISO/TS 15066. Hubo cuatro conjuntos de pruebas, dos con 22 y dos con 11 estudiantes de último año de Ingeniería Mecánica, con registro de velocidad media, tiempo de colaboración, activaciones y colisiones, más un cuestionario."
 findings:

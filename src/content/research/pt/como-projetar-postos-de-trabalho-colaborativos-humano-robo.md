@@ -24,6 +24,7 @@ paper:
   venue: "Journal of Manufacturing Systems"
   doi: "10.1016/j.jmsy.2021.11.007"
   url: "https://doi.org/10.1016/j.jmsy.2021.11.007"
+  openAccess: true
 whyItMatters: "Projetar uma célula com cobot envolve mais do que escolher o robô e evitar colisões: entram confiança, carga mental, divisão de tarefas e organização do trabalho. A revisão serve de mapa do que já se sabe sobre cada um desses fatores e mostra onde ainda faltam ferramentas para decidir se a colaboração é viável em uma tarefa."
 method: "Os autores fizeram uma revisão sistemática da literatura nas bases Scopus e Web of Science, do início das bases até dezembro de 2019, só em inglês, e incluíram 65 artigos após a triagem. Analisaram o conteúdo com a perspectiva de fatores humanos e ergonomia e classificaram os estudos em três níveis: um único fator (operador humano ou tecnologia), desempenho da equipe humano-robô e abordagens integradas."
 findings:

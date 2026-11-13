@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2018.01.026"
   url: "https://doi.org/10.1016/j.procir.2018.01.026"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "El monitoreo de velocidad y separación es uno de los modos colaborativos de la ISO/TS 15066 y suele depender de sensores caros. El estudio prueba una cámara de bajo costo para esa función, con la idea de llevar robots industriales pequeños ya instalados a aplicaciones colaborativas. Sirve como ejemplo didáctico de cómo funciona el modo."
 method: "Es un artículo corto de congreso. El escenario es de coexistencia, sin interacción directa, con el robot accesible por un solo lado. La cámara sigue 11 puntos del cuerpo de la cadera hacia arriba, y el sistema lee las posiciones de las articulaciones del robot en su propio controlador, calcula la menor distancia entre persona y robot y ajusta la velocidad máxima. Las pruebas usaron una persona real frente a la cámara y un robot UR5 simulado."
 findings:

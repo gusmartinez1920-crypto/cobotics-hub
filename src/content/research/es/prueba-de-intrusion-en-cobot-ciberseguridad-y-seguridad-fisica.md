@@ -28,6 +28,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2021.07.029"
   url: "https://doi.org/10.1016/j.promfg.2021.07.029"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Un cobot conectado a la red de la fábrica deja de ser un equipo aislado. Quien cambia a distancia el movimiento del brazo o desactiva la detección de colisiones crea un peligro para la persona que está junto al robot. El estudio muestra que la seguridad de la información debe entrar en la evaluación de seguridad de la celda."
 method: "Es un estudio de caso con un único robot, un Panda con un firmware específico, conectado por su controlador a una red de planta. Los autores trazaron las superficies de ataque físicas y digitales y probaron solo las digitales: la aplicación web del robot, los servicios y la red. La prueba siguió metodologías abiertas de pruebas de seguridad, con un escaneo automático seguido de ataques manuales."
 findings:

@@ -17,6 +17,8 @@ paper:
   venue: "Scientific Reports"
   doi: "10.1038/s41598-025-34643-7"
   url: "https://doi.org/10.1038/s41598-025-34643-7"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "A proposta ataca o tempo de ciclo de uma célula de pegar e colocar sem comprar equipamento novo: usa só software e os dados que o próprio robô já registra. É um exemplo simples de como a estatística do comportamento de quem trabalha na estação anterior pode ajustar o programa do cobot."
 method: "O autor modela a posição em que a peça é deixada como uma variável aleatória, ajusta uma distribuição estatística para cada operador e, quando nenhuma serve, usa uma estimativa não paramétrica. Com a previsão, a câmera no punho do robô desce e cobre uma área menor. Os dados vieram de uma bancada de laboratório, com 5 operadores depositando 30 rolamentos cada. O robô, um UR10e, foi testado em simulação no RoboDK, com e sem a predição, usando os dados coletados e depois dados sintéticos de 5, 10 e 15 peças."
 findings:

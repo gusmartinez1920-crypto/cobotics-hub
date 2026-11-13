@@ -23,6 +23,8 @@ paper:
   venue: "Frontiers of Engineering Management"
   doi: "10.1007/s42524-025-4224-x"
   url: "https://doi.org/10.1007/s42524-025-4224-x"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The lack of prepared people is cited as a barrier to robot adoption, and research tends to look more at technology than at training. This study offers a ranked list of knowledge, skills and abilities that can guide courses and training programs. The sector is construction, and the experts deal mostly with drones, exoskeletons and autonomous equipment; carrying the results over to factory cobots is up to the reader."
 method: "The authors drew 42 competencies from the literature: 20 knowledge areas, 10 skills and 12 abilities. They then applied the Delphi method, a consultation of experts in rounds, with professionals in the United States selected by education, experience and contact with robots: 18 qualified, 16 in the first round and 13 in the second. Each competency received an importance rating, and the final ranking combined these ratings with the participants' choices."
 findings:

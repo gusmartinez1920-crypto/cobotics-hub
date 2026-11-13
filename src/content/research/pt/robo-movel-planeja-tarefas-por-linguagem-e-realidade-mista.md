@@ -20,6 +20,8 @@ paper:
   venue: "CIRP Annals"
   doi: "10.1016/j.cirp.2024.04.003"
   url: "https://doi.org/10.1016/j.cirp.2024.04.003"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Programar um cobot para cada variação de produto é caro, e a personalização em massa pede tarefas sem roteiro fixo. O estudo mostra uma arquitetura em que a pessoa pede a tarefa em linguagem natural e os óculos de realidade mista servem de sensor da cena. Para quem acompanha a inteligência artificial generativa na robótica, traz números de acerto e as contrapartidas declaradas."
 method: "Os autores propõem um sistema e o testam em laboratório, com um manipulador móvel (braço UR5e sobre base MiR100), uma câmera de profundidade e óculos HoloLens 2. Um modelo de visão e linguagem localiza o objeto citado no comando; modelos de linguagem dividem a instrução em etapas e geram o código do robô. Uma política treinada por aprendizado por reforço move base e braço ao mesmo tempo, usando imagens e dados dos óculos. A localização do objeto foi avaliada em 463 pares de imagem e texto, o planejamento em 3 tarefas com 20 repetições cada, e a política de movimento com 1000 alvos em cena simulada."
 findings:

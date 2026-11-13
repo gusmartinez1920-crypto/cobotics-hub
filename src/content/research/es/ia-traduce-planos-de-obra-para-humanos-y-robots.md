@@ -22,6 +22,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-026-00205-0"
   url: "https://doi.org/10.1007/s41693-026-00205-0"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Las personas leen un plano con experiencia y criterio; los robots necesitan pasos explícitos, sin margen de interpretación. Hoy esa traducción se hace con programación manual, lenta y dependiente de especialistas. El estudio sugiere un camino para que persona y robot partan de la misma descripción de la obra, incluso cuando solo existe el plano en papel."
 method: "Es un artículo conceptual con una demostración experimental preliminar. Los autores describen dos modelos en forma de grafo: uno espacial, en el que cada nodo es un elemento de la construcción, y uno procedimental, en el que cada nodo es una acción ejecutable. Un modelo de IA multimodal (Gemini 2.5 Pro), guiado solo por instrucciones y formatos de salida rígidos, sin entrenamiento adicional, generó los dos modelos a partir de planos, con revisión humana en cada etapa. Los dos casos fueron una columna de ladrillos y una pared de montantes de madera irregular, tomados de un manual de construcción de 1936."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2017.04.011"
   url: "https://doi.org/10.1016/j.promfg.2017.04.011"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "En una encuesta de los propios autores, decidir dónde usar la colaboración y quién hace cada tarea apareció como un obstáculo mayor que los problemas técnicos. El procedimiento ofrece una guía sencilla para esa decisión y deja clara una prioridad: lo que daña el cuerpo de la persona pasa al robot, sea cual sea el tiempo, el costo o la calidad."
 method: "El estudio tiene dos partes. Primero, una encuesta en la que 34 participantes, entre ellos 15 fabricantes de robots y 14 integradores, evaluaron 17 desafíos de implantación, además de entrevistas con 5 empresas usuarias. Después, la propuesta del procedimiento: descomponer el proceso en tareas, asignar las tareas de decisión obligatoria mediante una lista de exclusión con 12 capacidades humanas y límites ergonómicos, y asignar las demás mediante indicadores de capacidad sobre un catálogo de 25 criterios. La propuesta se probó de forma cualitativa en dos casos de fábricas de aprendizaje, uno de preparación de kits y uno de montaje final."
 findings:

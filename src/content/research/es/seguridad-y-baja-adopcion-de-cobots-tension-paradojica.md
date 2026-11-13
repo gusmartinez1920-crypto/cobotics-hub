@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2022.02.154"
   url: "https://doi.org/10.1016/j.procir.2022.02.154"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Quien evalúa comprar un cobot oye mensajes que no encajan: el robot es seguro por naturaleza, es demasiado limitado por ser seguro y trae riesgos nuevos. El estudio da nombre a esa tensión y ayuda a entender por qué la decisión es difícil. También sugiere llevar el conocimiento de seguridad a antes de la compra."
 method: "Los autores revisaron la literatura en dos bases (Web of Science y Scopus), en inglés, de 2011 a junio de 2021. Tras el cribado, analizaron 35 textos completos, de los cuales 10 tratan específicamente de factores de adopción de cobots industriales. Clasificaron los factores con un marco ya existente (internos, externos y tecnológicos) y añadieron datos de una encuesta exploratoria de maestría, con 74 participantes y entrevistas con dos fabricantes."
 findings:

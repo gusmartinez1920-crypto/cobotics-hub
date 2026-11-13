@@ -25,6 +25,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-023-00098-3"
   url: "https://doi.org/10.1007/s41693-023-00098-3"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O estudo lembra que automatizar uma tarefa isolada pode piorar o conjunto, porque corta a troca informal de informação entre as pessoas e as máquinas do processo. A matriz de automação e colaboração ajuda a enxergar esse risco antes do projeto. Atenção ao vocabulário: aqui, cobot designa máquinas de construção que colaboram entre si, não o braço colaborativo industrial."
 method: "É um artigo conceitual com estudo de caso. Os autores partem de escalas existentes de nível de automação e adaptam uma escala social para definir seis níveis de colaboração, da coexistência à colaboração plena. Classificam exemplos da literatura numa matriz de automação e colaboração e propõem um roteiro em três passos: análise do processo, integração ao modelo digital da obra (BIM) e desenvolvimento por degraus. No caso, uma placa vibratória foi equipada com posicionamento por satélite e comunicação sem fio para trabalhar com uma escavadeira, com testes parciais num canteiro alemão."
 findings:

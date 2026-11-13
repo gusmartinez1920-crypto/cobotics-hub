@@ -22,6 +22,8 @@ paper:
   venue: "Safety and Health at Work"
   doi: "10.1016/j.shaw.2024.12.002"
   url: "https://doi.org/10.1016/j.shaw.2024.12.002"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La evaluación de riesgos de una celda colaborativa suele concentrarse en los peligros físicos. Este modelo añade estrés, fatiga, formación, confianza en el robot, comunicación y ciberseguridad, en listas de verificación que los trabajadores completan en unos 15 minutos. Complementa la evaluación que exigen las normas, sin sustituirla."
 method: "Los autores, de Corea del Sur, seleccionaron 45 ítems de riesgo a partir de tres modelos de referencia y los organizaron en tres campos (trabajador, sistemas robóticos y entorno de trabajo) y nueve factores. Trece especialistas de fabricantes, usuarios, consultoras y universidades ordenaron los ítems por comparación por pares, según su relevancia para prevenir accidentes con robots. Los autores armaron entonces seis listas de verificación de 20 preguntas cada una y las aplicaron en seis lugares de trabajo, cuatro con accidentes con robots en el pasado y dos sin ellos, con 3 o 4 trabajadores por lugar."
 findings:

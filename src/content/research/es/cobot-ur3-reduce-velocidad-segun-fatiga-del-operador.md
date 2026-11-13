@@ -22,6 +22,8 @@ paper:
   venue: "Frontiers in Robotics and AI"
   doi: "10.3389/frobt.2026.1897261"
   url: "https://doi.org/10.3389/frobt.2026.1897261"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Las normas de seguridad para robots tratan la capacidad del operador como constante, aunque el cansancio cambia el tiempo de reacción y la precisión. Este trabajo muestra, con código abierto y una computadora común sin tarjeta gráfica, cómo llevar el estado del operador al control del cobot. Sirve de punto de partida para quienes quieren probar gemelos digitales centrados en el humano en un robot de banco."
 method: "Los autores implementaron el sistema en un cobot UR3 con pinza, una cámara web suspendida y gafas de seguimiento ocular, y probaron el software en un gemelo simulado antes de cada sesión con el robot real. El sistema tiene tres módulos: percepción (puntos de la mano y datos de los ojos), razonamiento (una máquina de estados y un índice de fatiga que combina parpadeos, tiempo con los ojos cerrados y temblor de la mano) y movimiento. El clasificador de gestos se entrenó con 2.600 muestras de un solo operador, el primer autor. Como las gafas fallaron el día de los ensayos, los estados de fatiga y de estrés se activaron manualmente desde el teclado, en modo simulado."
 findings:

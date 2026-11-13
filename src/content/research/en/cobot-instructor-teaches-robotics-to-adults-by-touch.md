@@ -26,6 +26,8 @@ paper:
   venue: "Heliyon"
   doi: "10.1016/j.heliyon.2021.e07583"
   url: "https://doi.org/10.1016/j.heliyon.2021.e07583"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The shortage of people prepared to use robots cannot be solved only by training young people: adults who are already working need to be reached. This study tests a way of doing so with no instructor present, with the cobot itself giving the lesson, and compares the result with video. The software is open source, which makes the idea easier to reproduce."
 method: "The authors programmed a Sawyer collaborative arm to deliver a course of about 20 minutes, in seven parts, on motors, encoders, feedback, kinematics and waypoints, with images projected onto the table. In a pilot randomized trial, 22 adults aged 18 to 68, without a four-year degree in science and technology fields, were split into two groups of 11: one took the course with the robot and the other watched a video of a person taking the same course. All answered the same test before and after, with 6 self-efficacy questions and 28 knowledge questions."
 findings:

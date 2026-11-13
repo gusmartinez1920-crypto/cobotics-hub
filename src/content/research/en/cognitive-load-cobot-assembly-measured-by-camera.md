@@ -25,6 +25,8 @@ paper:
   venue: "IEEE Transactions on Cognitive and Developmental Systems"
   doi: "10.1109/tcds.2022.3182811"
   url: "https://doi.org/10.1109/tcds.2022.3182811"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Cobots relieve physical effort but can increase mental demand, and measuring this usually calls for specialists, questionnaires filled in after the task or expensive sensors. The study shows a route that uses an ordinary depth camera and no sensor on the body. It also shows that making the robot's state clear weighs on mental load and trust, especially for people unfamiliar with robotics."
 method: "A laboratory experiment in Genoa with 14 volunteers (7 men and 7 women), split into 8 with no experience and 6 with experience in robotics. Each one assembled aluminum profiles, for up to 10 minutes, in three scenarios: with a human assistant; with a cobot triggered by buttons on a tablet, giving no information about its state; and with a cobot that advances along with the instructions and shows the current action on a monitor. A stereo camera tracked head direction and trunk movements to compute mental effort and stress scores. The scores were compared with heartbeat data, skin conductance and questionnaires on workload and trust."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "Journal of Food Engineering"
   doi: "10.1016/j.jfoodeng.2022.111117"
   url: "https://doi.org/10.1016/j.jfoodeng.2022.111117"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O frigorífico reúne quase tudo o que dificulta a robótica: peças que nunca são iguais, ferramentas afiadas, frio e margens baixas. O estudo mostra por que a limitação de força de um cobot, suficiente em outras aplicações, não protege a pessoa quando a ferramenta é uma faca. É uma leitura útil para quem pensa em cobots com ferramentas perigosas ou em setores pouco automatizados."
 method: "É uma revisão crítica narrativa. Os autores buscaram em quatro bases de artigos, sem limite de anos, combinando termos de colaboração e interação humano-robô com termos de carne, alimentos e agricultura. Como quase não há estudos que cruzem colaboração humano-robô e carne, incluíram trabalhos de outros setores. A partir dessa leitura, propõem o conceito de uma célula colaborativa para o corte e a desossa."
 findings:

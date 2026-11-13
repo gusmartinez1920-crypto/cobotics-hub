@@ -22,6 +22,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3359616"
   url: "https://doi.org/10.1145/3359616"
+  openAccess: true
 whyItMatters: "People who trust the robot too little intervene needlessly; people who trust it too much fail to intervene when they should. The study shows that trust can be modeled and used in robot planning, and that seeking maximum trust is not the same as seeking the best result. The task is a household one, not industrial: application to the factory has yet to be demonstrated."
 method: "The model treats trust as a hidden variable, on a scale of 1 to 7, inside a partially observable decision process (POMDP). The task is to clear three water bottles, a can and a wine glass from a table; at each step the person lets the robot act or intervenes. The authors learned the model from data on 222 online participants, who answered a trust questionnaire at each step. They then compared the robot that considers trust with one that ignores it, online with videos (201 valid participants) and with a real robot arm (20 participants). Robot failures were studied only in simulation."
 findings:

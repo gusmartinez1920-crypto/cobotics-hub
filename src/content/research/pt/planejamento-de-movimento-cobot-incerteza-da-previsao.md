@@ -22,6 +22,7 @@ paper:
   venue: "IEEE Transactions on Robotics"
   doi: "10.1109/tro.2019.2911800"
   url: "https://doi.org/10.1109/tro.2019.2911800"
+  openAccess: true
 whyItMatters: "Um robô que entrega peças precisa chegar perto da pessoa, então só manter distância não resolve. O estudo mostra uma forma de equilibrar segurança e tempo de trabalho: o robô aprende o padrão do trabalhador para não fazê-lo esperar e se afasta mais quando o movimento foge do padrão."
 method: "Os autores propõem um algoritmo e o testam em experimento. Um modelo estatístico, atualizado durante o trabalho, prevê a posição e a trajetória do trabalhador; o planejador recalcula a trajetória do robô a cada instante, pesando chegar ao alvo no momento previsto, evitar colisão e respeitar limites de velocidade. O teste usou um robô de laboratório de dois elos que entrega peças e ferramentas num posto de montagem automotiva com três tarefas. Cinco participantes fizeram ciclos regulares de aprendizagem e depois movimentos regulares e irregulares, num total de 70 movimentos avaliados (50 regulares e 20 irregulares)."
 findings:

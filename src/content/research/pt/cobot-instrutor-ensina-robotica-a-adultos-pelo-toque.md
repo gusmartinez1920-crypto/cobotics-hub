@@ -25,6 +25,8 @@ paper:
   venue: "Heliyon"
   doi: "10.1016/j.heliyon.2021.e07583"
   url: "https://doi.org/10.1016/j.heliyon.2021.e07583"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A falta de pessoas preparadas para usar robôs não se resolve só formando jovens: é preciso alcançar adultos que já trabalham. Este estudo testa uma forma de fazer isso sem instrutor presente, com o próprio cobot dando a aula, e compara o resultado com o vídeo. O software é aberto, o que facilita reproduzir a ideia."
 method: "Os autores programaram um braço colaborativo Sawyer para dar um curso de cerca de 20 minutos, em sete partes, sobre motores, encoders, realimentação, cinemática e pontos de passagem, com imagens projetadas na mesa. Num ensaio piloto com sorteio, 22 adultos de 18 a 68 anos, sem graduação de quatro anos em áreas de ciência e tecnologia, foram divididos em dois grupos de 11: um fez o curso com o robô e o outro assistiu ao vídeo de uma pessoa fazendo o mesmo curso. Todos responderam ao mesmo teste antes e depois, com 6 questões de autoeficácia e 28 de conhecimento."
 findings:

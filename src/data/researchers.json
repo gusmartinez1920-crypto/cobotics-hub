@@ -1,0 +1,4697 @@
+{
+ "aaron-geenen": {
+  "affiliations": [
+   {
+    "name": "Zentrum für Mechatronik und Automatisierungstechnik",
+    "country": "DE",
+    "year": 2017
+   }
+  ]
+ },
+ "abiola-akanmu": {
+  "orcid": "0000-0001-9145-4865",
+  "affiliations": [
+   {
+    "name": "Virginia Tech",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "achim-menges": {
+  "orcid": "0000-0001-9055-4039",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2025
+   }
+  ]
+ },
+ "adam-dudek": {
+  "orcid": "0000-0002-3846-5300",
+  "affiliations": [
+   {
+    "name": "Państwowa Wyższa Szkoła Zawodowa w Nysie",
+    "country": "PL",
+    "year": 2025
+   }
+  ]
+ },
+ "adrian-huber": {
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "akinwale-okunola": {
+  "orcid": "0009-0002-5235-1307",
+  "affiliations": [
+   {
+    "name": "Virginia Tech",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "akira-kanazawa": {
+  "orcid": "0000-0003-4790-0172",
+  "affiliations": [
+   {
+    "name": "Hitachi (Japan)",
+    "country": "JP",
+    "year": 2019
+   }
+  ]
+ },
+ "albert-nienhaus": {
+  "orcid": "0000-0003-1881-7302",
+  "affiliations": [
+   {
+    "name": "Universidade do Porto",
+    "country": "PT",
+    "year": 2017
+   },
+   {
+    "name": "Berufsgenossenschaft für Gesundheitsdienst und Wohlfahrtspflege",
+    "country": "DE",
+    "year": 2017
+   },
+   {
+    "name": "University Medical Center Hamburg-Eppendorf",
+    "country": "DE",
+    "year": 2017
+   }
+  ]
+ },
+ "alejandro-ramirez-serrano": {
+  "orcid": "0000-0003-0562-0121",
+  "affiliations": [
+   {
+    "name": "University of Calgary",
+    "country": "CA",
+    "year": 2022
+   }
+  ]
+ },
+ "ales-bernatik": {
+  "orcid": "0000-0002-2625-0441",
+  "affiliations": [
+   {
+    "name": "VSB - Technical University of Ostrava",
+    "country": "CZ",
+    "year": 2026
+   }
+  ]
+ },
+ "ales-vysocky": {
+  "orcid": "0000-0001-6942-4280",
+  "affiliations": [
+   {
+    "name": "VSB - Technical University of Ostrava",
+    "country": "CZ",
+    "year": 2026
+   }
+  ]
+ },
+ "alessio-baratta": {
+  "orcid": "0009-0005-8494-8927",
+  "affiliations": [
+   {
+    "name": "University of Calabria",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "alex-mason": {
+  "orcid": "0000-0002-0147-9135",
+  "affiliations": [
+   {
+    "name": "Animalia (Norway)",
+    "country": "NO",
+    "year": 2022
+   },
+   {
+    "name": "Norwegian University of Life Sciences",
+    "country": "NO",
+    "year": 2022
+   }
+  ]
+ },
+ "alexander-brem": {
+  "orcid": "0000-0002-6901-7498",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2020
+   }
+  ]
+ },
+ "alexandra-lindner": {
+  "affiliations": [
+   {
+    "name": "Freiburger Forschungsstelle für Arbeitswissenschaften GmbH (Germany)",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "alexandros-pasparakis": {
+  "orcid": "0000-0001-7068-5656",
+  "affiliations": [
+   {
+    "name": "Erasmus University Rotterdam",
+    "country": "NL",
+    "year": 2023
+   }
+  ]
+ },
+ "ali-ahmad-malik": {
+  "orcid": "0000-0001-7191-3614"
+ },
+ "ali-ghadirzadeh": {
+  "orcid": "0000-0001-6738-9872",
+  "affiliations": [
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2020
+   }
+  ]
+ },
+ "alice-nicolai": {
+  "orcid": "0000-0002-4083-4988",
+  "affiliations": [
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Inserm",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Université Paris Cité",
+    "country": "FR",
+    "year": 2025
+   }
+  ]
+ },
+ "aljaz-baumkircher": {
+  "orcid": "0000-0001-6825-1656",
+  "affiliations": [
+   {
+    "name": "University of Ljubljana",
+    "country": "SI",
+    "year": 2022
+   }
+  ]
+ },
+ "alper-kiraz": {
+  "orcid": "0000-0001-7067-1473",
+  "affiliations": [
+   {
+    "name": "Sakarya University",
+    "country": "TR",
+    "year": 2026
+   }
+  ]
+ },
+ "amanda-aljinovic": {
+  "orcid": "0000-0002-8329-8759",
+  "affiliations": [
+   {
+    "name": "University of Split",
+    "country": "HR",
+    "year": 2020
+   }
+  ]
+ },
+ "amy-loutfi": {
+  "orcid": "0000-0002-3122-693X",
+  "affiliations": [
+   {
+    "name": "Örebro University",
+    "country": "SE",
+    "year": 2021
+   }
+  ]
+ },
+ "ana-correia-simoes": {
+  "orcid": "0000-0001-7193-3615",
+  "affiliations": [
+   {
+    "name": "INESC TEC",
+    "country": "PT",
+    "year": 2021
+   }
+  ]
+ },
+ "ana-pinto": {
+  "orcid": "0000-0002-8280-9887",
+  "affiliations": [
+   {
+    "name": "University of Coimbra",
+    "country": "PT",
+    "year": 2021
+   }
+  ]
+ },
+ "anara-sandygulova": {
+  "orcid": "0000-0001-9299-5700",
+  "affiliations": [
+   {
+    "name": "Nazarbayev University",
+    "country": "KZ",
+    "year": 2022
+   }
+  ]
+ },
+ "andrea-sbaragli": {
+  "orcid": "0000-0001-5014-2523",
+  "affiliations": [
+   {
+    "name": "University of Trento",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "andreas-muller": {
+  "orcid": "0000-0001-5033-340X",
+  "affiliations": [
+   {
+    "name": "Johannes Kepler University of Linz",
+    "country": "AT",
+    "year": 2025
+   }
+  ]
+ },
+ "andreas-schlotzhauer": {
+  "orcid": "0000-0001-5255-5276",
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Manufacturing Engineering and Automation",
+    "country": "DE",
+    "year": 2022
+   }
+  ]
+ },
+ "andrej-basic": {
+  "affiliations": [
+   {
+    "name": "University of Split",
+    "country": "HR",
+    "year": 2020
+   }
+  ]
+ },
+ "angela-castro": {
+  "orcid": "0000-0002-1732-6520",
+  "affiliations": [
+   {
+    "name": "Universidad San Sebastián",
+    "country": "CL",
+    "year": 2024
+   }
+  ]
+ },
+ "ann-kathrin-wortmeier": {
+  "orcid": "0000-0003-4324-1237",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "anna-chatzimichali": {
+  "orcid": "0000-0002-3040-3594",
+  "affiliations": [
+   {
+    "name": "University of the West of England",
+    "country": "GB",
+    "year": 2020
+   }
+  ]
+ },
+ "anne-reimer": {
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "annica-kristoffersson": {
+  "orcid": "0000-0002-4368-4751",
+  "affiliations": [
+   {
+    "name": "Mälardalen University",
+    "country": "SE",
+    "year": 2021
+   }
+  ]
+ },
+ "annie-h-gh": {
+  "orcid": "0000-0002-0399-8529",
+  "affiliations": [
+   {
+    "name": "Danish National Institute of Public Health",
+    "country": "DK",
+    "year": 2005
+   }
+  ]
+ },
+ "antonella-delle-fave": {
+  "orcid": "0000-0003-1381-6538",
+  "affiliations": [
+   {
+    "name": "University of Milan",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "antonio-cimino": {
+  "affiliations": [
+   {
+    "name": "University of Salento",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "antonio-giallanza": {
+  "orcid": "0000-0001-8923-2454",
+  "affiliations": [
+   {
+    "name": "University of Messina",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "anurag-luharia": {
+  "orcid": "0000-0001-6051-1636",
+  "affiliations": [
+   {
+    "name": "Datta Meghe Institute of Higher Education and Research",
+    "country": "IN",
+    "year": 2023
+   }
+  ]
+ },
+ "arash-ajoudani": {
+  "orcid": "0000-0002-1261-737X",
+  "affiliations": [
+   {
+    "name": "Italian Institute of Technology",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "ariane-haug": {
+  "affiliations": [
+   {
+    "name": "Freiburger Forschungsstelle für Arbeitswissenschaften GmbH (Germany)",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "arie-adriaensen": {
+  "orcid": "0000-0002-6002-7593",
+  "affiliations": [
+   {
+    "name": "KU Leuven",
+    "country": "BE",
+    "year": 2022
+   }
+  ]
+ },
+ "aristotelis-c-tagarakis": {
+  "orcid": "0000-0001-5743-625X",
+  "affiliations": [
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2023
+   }
+  ]
+ },
+ "aristotelis-tagarakis": {
+  "orcid": "0000-0001-5743-625X",
+  "affiliations": [
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2021
+   }
+  ]
+ },
+ "arnold-yu-lok-wong": {
+  "orcid": "0000-0002-5911-5756",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2021
+   }
+  ]
+ },
+ "arso-vukicevic": {
+  "orcid": "0000-0003-4886-373X",
+  "affiliations": [
+   {
+    "name": "University of Kragujevac",
+    "country": "RS",
+    "year": 2025
+   }
+  ]
+ },
+ "ashtarout-ammar": {
+  "orcid": "0000-0002-9656-4761",
+  "affiliations": [
+   {
+    "name": "Virginia Tech",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "astrid-weiss": {
+  "orcid": "0000-0001-7803-9413",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "aswin-k-ramasubramanian": {
+  "affiliations": [
+   {
+    "name": "University College Dublin",
+    "country": "IE",
+    "year": 2022
+   }
+  ]
+ },
+ "athanasios-anagnostis": {
+  "orcid": "0000-0003-2277-5846",
+  "affiliations": [
+   {
+    "name": "University of Thessaly",
+    "country": "GR",
+    "year": 2021
+   },
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2021
+   }
+  ]
+ },
+ "aurelie-landry": {
+  "orcid": "0000-0003-1177-6608",
+  "affiliations": [
+   {
+    "name": "Institut polytechnique de Grenoble",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Laboratoire d'Informatique de Grenoble",
+    "country": "FR",
+    "year": 2024
+   }
+  ]
+ },
+ "avishek-das": {
+  "orcid": "0000-0001-8386-8339",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "axel-roques": {
+  "orcid": "0000-0001-6964-4435",
+  "affiliations": [
+   {
+    "name": "Conservatoire National des Arts et Métiers",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Inserm",
+    "country": "FR",
+    "year": 2025
+   }
+  ]
+ },
+ "azfar-khalid": {
+  "orcid": "0000-0001-5270-6599",
+  "affiliations": [
+   {
+    "name": "Nottingham Trent University",
+    "country": "GB",
+    "year": 2026
+   }
+  ]
+ },
+ "bart-omiej-sawicki": {
+  "orcid": "0000-0002-5632-3461",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "begum-saral": {
+  "orcid": "0000-0002-7357-0675",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "bernhard-brenner": {
+  "orcid": "0000-0001-9549-467X",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "bettina-kubicek": {
+  "orcid": "0000-0003-0725-1657",
+  "affiliations": [
+   {
+    "name": "University of Graz",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "bi-zhang": {
+  "orcid": "0000-0002-4879-0211",
+  "affiliations": [
+   {
+    "name": "Shenyang Institute of Automation",
+    "country": "CN",
+    "year": 2026
+   },
+   {
+    "name": "Chinese Academy of Sciences",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "binbin-lian": {
+  "orcid": "0000-0002-6747-8565",
+  "affiliations": [
+   {
+    "name": "Tianjin University",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "bo-kampmann-walther": {
+  "orcid": "0000-0003-0600-1779",
+  "affiliations": [
+   {
+    "name": "University of Southern Denmark",
+    "country": "DK",
+    "year": 2026
+   }
+  ]
+ },
+ "brendan-tidd": {
+  "orcid": "0000-0002-7721-7799",
+  "affiliations": [
+   {
+    "name": "Queensland University of Technology",
+    "country": "AU",
+    "year": 2022
+   }
+  ]
+ },
+ "brigida-urrutia": {
+  "affiliations": [
+   {
+    "name": "Austral University of Chile",
+    "country": "CL",
+    "year": 2024
+   }
+  ]
+ },
+ "burcin-becerik-gerber": {
+  "orcid": "0000-0001-8648-0989",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "carlo-caiazzo": {
+  "orcid": "0009-0007-2761-7886",
+  "affiliations": [
+   {
+    "name": "University of Kragujevac",
+    "country": "RS",
+    "year": 2025
+   },
+   {
+    "name": "Free University of Bozen-Bolzano",
+    "country": "IT",
+    "year": 2025
+   }
+  ]
+ },
+ "changyun-wei": {
+  "orcid": "0000-0002-5788-6573",
+  "affiliations": [
+   {
+    "name": "Hohai University",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "chen-zheng": {
+  "orcid": "0000-0002-6238-2126",
+  "affiliations": [
+   {
+    "name": "Northwestern Polytechnical University",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "chenguang-yang": {
+  "orcid": "0000-0001-5255-5559",
+  "affiliations": [
+   {
+    "name": "University of the West of England",
+    "country": "GB",
+    "year": 2024
+   },
+   {
+    "name": "Bristol Robotics Laboratory",
+    "country": "GB",
+    "year": 2024
+   }
+  ]
+ },
+ "chengxi-li": {
+  "orcid": "0000-0003-1921-7448",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2024
+   }
+  ]
+ },
+ "christoph-petzoldt": {
+  "orcid": "0000-0003-2873-4404",
+  "affiliations": [
+   {
+    "name": "University of Bremen",
+    "country": "DE",
+    "year": 2023
+   },
+   {
+    "name": "Bremer Institut für Produktion und Logistik GmbH",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "christopher-loffelmann": {
+  "orcid": "0009-0005-6473-1165",
+  "affiliations": [
+   {
+    "name": "University of Technology Sydney",
+    "country": "AU",
+    "year": 2026
+   },
+   {
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "chukwuma-nnaji": {
+  "orcid": "0000-0002-3725-4376",
+  "affiliations": [
+   {
+    "name": "Texas A&M University",
+    "country": "US",
+    "year": 2026
+   }
+  ]
+ },
+ "chunya-sun": {
+  "orcid": "0009-0009-2891-2566",
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "claire-traweek": {
+  "orcid": "0000-0002-0451-192X",
+  "affiliations": [
+   {
+    "name": "Massachusetts Institute of Technology",
+    "country": "US",
+    "year": 2021
+   }
+  ]
+ },
+ "clara-fischer": {
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "clara-laudine-hildebrandt": {
+  "affiliations": [
+   {
+    "name": "Humboldt-Universität zu Berlin",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "claudia-carissoli": {
+  "orcid": "0000-0003-1456-8740",
+  "affiliations": [
+   {
+    "name": "University of Milan",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "concetta-manuela-la-fata": {
+  "orcid": "0000-0002-0250-9201",
+  "affiliations": [
+   {
+    "name": "University of Palermo",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "contini-giuditta": {
+  "orcid": "0000-0003-0240-1046",
+  "affiliations": [
+   {
+    "name": "University of Modena and Reggio Emilia",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "cordula-kropp": {
+  "orcid": "0000-0002-0373-1138",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2025
+   }
+  ]
+ },
+ "cornelius-j-konig": {
+  "orcid": "0000-0003-0477-8293",
+  "affiliations": [
+   {
+    "name": "Saarland University",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "cristhian-aguilera": {
+  "orcid": "0000-0003-2504-9305",
+  "affiliations": [
+   {
+    "name": "Universidad San Sebastián",
+    "country": "CL",
+    "year": 2024
+   }
+  ]
+ },
+ "csaba-kardos": {
+  "affiliations": [
+   {
+    "name": "HUN-REN Institute for Computer Science and Control",
+    "country": "HU",
+    "year": 2018
+   },
+   {
+    "name": "Hungarian Academy of Sciences",
+    "country": "HU",
+    "year": 2018
+   }
+  ]
+ },
+ "cunbo-zhuang": {
+  "orcid": "0000-0002-6524-7667",
+  "affiliations": [
+   {
+    "name": "Beijing Institute of Technology",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "dana-kulic": {
+  "orcid": "0000-0002-4169-2141",
+  "affiliations": [
+   {
+    "name": "Monash University",
+    "country": "AU",
+    "year": 2022
+   }
+  ]
+ },
+ "danica-kragic": {
+  "orcid": "0000-0003-2965-2953",
+  "affiliations": [
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2020
+   }
+  ]
+ },
+ "daniel-hartmann": {
+  "orcid": "0009-0004-7525-3720",
+  "affiliations": [
+   {
+    "name": "VSB - Technical University of Ostrava",
+    "country": "CZ",
+    "year": 2026
+   }
+  ]
+ },
+ "daniel-horvath": {
+  "orcid": "0000-0002-6450-5193",
+  "affiliations": [
+   {
+    "name": "HUN-REN Institute for Computer Science and Control",
+    "country": "HU",
+    "year": 2018
+   },
+   {
+    "name": "Hungarian Academy of Sciences",
+    "country": "HU",
+    "year": 2018
+   }
+  ]
+ },
+ "danna-summers": {
+  "orcid": "0000-0002-9547-2873"
+ },
+ "dario-piga": {
+  "orcid": "0000-0001-7691-4886",
+  "affiliations": [
+   {
+    "name": "University of Applied Sciences and Arts of Southern Switzerland",
+    "country": "CH",
+    "year": 2020
+   },
+   {
+    "name": "Dalle Molle Institute for Artificial Intelligence Research",
+    "country": "CH",
+    "year": 2020
+   },
+   {
+    "name": "Università della Svizzera italiana",
+    "country": "CH",
+    "year": 2020
+   }
+  ]
+ },
+ "dariusz-ceglarek": {
+  "orcid": "0000-0003-0788-4673",
+  "affiliations": [
+   {
+    "name": "University of Warwick",
+    "country": "GB",
+    "year": 2025
+   }
+  ]
+ },
+ "david-alfaro-viquez": {
+  "orcid": "0000-0001-8685-6317",
+  "affiliations": [
+   {
+    "name": "Universidad de Costa Rica",
+    "country": "CR",
+    "year": 2026
+   }
+  ]
+ },
+ "david-bricher": {
+  "orcid": "0000-0002-8335-2874",
+  "affiliations": [
+   {
+    "name": "Johannes Kepler University of Linz",
+    "country": "AT",
+    "year": 2025
+   }
+  ]
+ },
+ "david-hsu": {
+  "orcid": "0000-0002-2309-4535",
+  "affiliations": [
+   {
+    "name": "National University of Singapore",
+    "country": "SG",
+    "year": 2020
+   }
+  ]
+ },
+ "david-kovaluk": {
+  "affiliations": [
+   {
+    "name": "Technical University of Košice",
+    "country": "SK",
+    "year": 2022
+   }
+  ]
+ },
+ "david-ortiz-perez": {
+  "orcid": "0009-0008-4890-8217",
+  "affiliations": [
+   {
+    "name": "University of Alicante",
+    "country": "ES",
+    "year": 2026
+   }
+  ]
+ },
+ "david-raymond": {
+  "affiliations": [
+   {
+    "name": "Datta Meghe Institute of Higher Education and Research",
+    "country": "IN",
+    "year": 2023
+   }
+  ]
+ },
+ "david-romero": {
+  "orcid": "0000-0003-3610-0751",
+  "affiliations": [
+   {
+    "name": "Tecnológico de Monterrey",
+    "country": "MX",
+    "year": 2021
+   }
+  ]
+ },
+ "dimitri-keriven-serpollet": {
+  "orcid": "0000-0003-2750-9002",
+  "affiliations": [
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Inserm",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Université Paris Cité",
+    "country": "FR",
+    "year": 2025
+   }
+  ]
+ },
+ "dimitrios-chrysostomou": {
+  "orcid": "0000-0002-6114-8944",
+  "affiliations": [
+   {
+    "name": "Aalborg University",
+    "country": "DK",
+    "year": 2020
+   }
+  ]
+ },
+ "dimitrios-kateris": {
+  "orcid": "0000-0002-5731-9472",
+  "affiliations": [
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2023
+   }
+  ]
+ },
+ "dimitrios-tsaopoulos": {
+  "orcid": "0000-0001-7355-0511",
+  "affiliations": [
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2021
+   }
+  ]
+ },
+ "dino-mandrioli": {
+  "orcid": "0000-0002-0945-5947",
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2019
+   }
+  ]
+ },
+ "dionysis-bochtis": {
+  "orcid": "0000-0002-7058-5986",
+  "affiliations": [
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2023
+   }
+  ]
+ },
+ "dipanjan-saha": {
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "US",
+    "year": 2024
+   }
+  ]
+ },
+ "djordje-milojevic": {
+  "affiliations": [
+   {
+    "name": "University of Kragujevac",
+    "country": "RS",
+    "year": 2025
+   }
+  ]
+ },
+ "dmytro-romanov": {
+  "orcid": "0000-0002-4077-8306",
+  "affiliations": [
+   {
+    "name": "Norwegian University of Life Sciences",
+    "country": "NO",
+    "year": 2022
+   }
+  ]
+ },
+ "dominik-t-matt": {
+  "orcid": "0000-0002-2365-7529",
+  "affiliations": [
+   {
+    "name": "Free University of Bozen-Bolzano",
+    "country": "IT",
+    "year": 2020
+   },
+   {
+    "name": "Fraunhofer Italia Research",
+    "country": "IT",
+    "year": 2020
+   }
+  ]
+ },
+ "dong-liu": {
+  "orcid": "0000-0003-2902-8536",
+  "affiliations": [
+   {
+    "name": "Yeungnam University",
+    "country": "KR",
+    "year": 2022
+   }
+  ]
+ },
+ "douglas-ammons": {
+  "affiliations": [
+   {
+    "name": "National Institute for Occupational Safety and Health",
+    "country": "US",
+    "year": 2026
+   }
+  ]
+ },
+ "duc-truong-pham": {
+  "orcid": "0000-0003-3148-2404",
+  "affiliations": [
+   {
+    "name": "University of Birmingham",
+    "country": "GB",
+    "year": 2020
+   }
+  ]
+ },
+ "dylan-campbell": {
+  "orcid": "0000-0002-4717-6850",
+  "affiliations": [
+   {
+    "name": "University of Oxford",
+    "country": "GB",
+    "year": 2022
+   }
+  ]
+ },
+ "ebenezer-olukanni": {
+  "orcid": "0000-0002-6086-5888",
+  "affiliations": [
+   {
+    "name": "Virginia Tech",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "eduardo-gamaliel-hernandez-martinez": {
+  "orcid": "0000-0002-2716-6196",
+  "affiliations": [
+   {
+    "name": "Universidad Iberoamericana",
+    "country": "MX",
+    "year": 2025
+   }
+  ]
+ },
+ "eileen-roesler": {
+  "orcid": "0000-0002-7243-4882",
+  "affiliations": [
+   {
+    "name": "George Mason University",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "elena-de-momi": {
+  "orcid": "0000-0002-8819-2734",
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "elias-matsas": {
+  "orcid": "0009-0005-9930-0920",
+  "affiliations": [
+   {
+    "name": "National Technical University of Athens",
+    "country": "GR",
+    "year": 2019
+   }
+  ]
+ },
+ "eric-h-grosse": {
+  "orcid": "0000-0001-6299-1282",
+  "affiliations": [
+   {
+    "name": "Saarland University",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "erwin-rauch": {
+  "orcid": "0000-0002-2033-4265",
+  "affiliations": [
+   {
+    "name": "Free University of Bozen-Bolzano",
+    "country": "IT",
+    "year": 2021
+   }
+  ]
+ },
+ "esmaeil-zarei": {
+  "orcid": "0000-0002-2565-5578",
+  "affiliations": [
+   {
+    "name": "Embry-Riddle Aeronautical University Prescott Arizona Campus",
+    "country": "US",
+    "year": 2025
+   },
+   {
+    "name": "Embry–Riddle Aeronautical University",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "estevao-ananias": {
+  "affiliations": [
+   {
+    "name": "University of Beira Interior",
+    "country": "PT",
+    "year": 2022
+   }
+  ]
+ },
+ "ewart-de-visser": {
+  "orcid": "0000-0001-9238-9081",
+  "affiliations": [
+   {
+    "name": "United States Air Force Academy",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "fabian-ranz": {
+  "orcid": "0000-0003-0184-6844",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2017
+   },
+   {
+    "name": "Fraunhofer Austria",
+    "country": "AT",
+    "year": 2017
+   },
+   {
+    "name": "Reutlingen University",
+    "country": "DE",
+    "year": 2017
+   }
+  ]
+ },
+ "fabien-mangione": {
+  "orcid": "0000-0002-7232-7542",
+  "affiliations": [
+   {
+    "name": "Institut polytechnique de Grenoble",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Laboratoire des Sciences pour la Conception, l'Optimisation et la Production",
+    "country": "FR",
+    "year": 2024
+   }
+  ]
+ },
+ "fabio-alexander-storm": {
+  "orcid": "0000-0002-5977-8090",
+  "affiliations": [
+   {
+    "name": "IRCCS Eugenio Medea",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "fabio-cristini": {
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "federica-tomelleri": {
+  "orcid": "0009-0005-3052-4029",
+  "affiliations": [
+   {
+    "name": "University of Trento",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "federico-vicentini": {
+  "orcid": "0000-0002-7791-7090",
+  "affiliations": [
+   {
+    "name": "National Research Council",
+    "country": "IT",
+    "year": 2019
+   }
+  ]
+ },
+ "felix-gabriel": {
+  "orcid": "0000-0001-5222-301X",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "fiorenzo-franceschini": {
+  "orcid": "0000-0001-7131-4419",
+  "affiliations": [
+   {
+    "name": "Politecnico di Torino",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "florian-neumann": {
+  "affiliations": [
+   {
+    "name": "University of Bremen",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "francesco-longo": {
+  "orcid": "0000-0002-8538-9857",
+  "affiliations": [
+   {
+    "name": "University of Calabria",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "francesco-picariello": {
+  "orcid": "0000-0001-6854-3026",
+  "affiliations": [
+   {
+    "name": "University of Sannio",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "francesco-pilati": {
+  "orcid": "0000-0002-6085-0985",
+  "affiliations": [
+   {
+    "name": "University of Trento",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "franz-dietrich": {
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "frederic-jacob": {
+  "affiliations": [
+   {
+    "name": "Saarland University",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "gale-m-lucas": {
+  "orcid": "0000-0003-3089-9283",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   },
+   {
+    "name": "USC Institute for Creative Technologies",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "gen-liu": {
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "george-charalambous": {
+  "affiliations": [
+   {
+    "name": "Cranfield University",
+    "country": "GB",
+    "year": 2015
+   }
+  ]
+ },
+ "george-christopher-vosniakos": {
+  "orcid": "0000-0002-4484-8359",
+  "affiliations": [
+   {
+    "name": "National Technical University of Athens",
+    "country": "GR",
+    "year": 2019
+   }
+  ]
+ },
+ "george-westerman": {
+  "affiliations": [
+   {
+    "name": "Massachusetts Institute of Technology",
+    "country": "US",
+    "year": 2021
+   }
+  ]
+ },
+ "gerrit-placzek": {
+  "orcid": "0000-0003-4805-350X",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "giada-la-scalia": {
+  "orcid": "0000-0001-8045-208X",
+  "affiliations": [
+   {
+    "name": "University of Palermo",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "gili-ron": {
+  "orcid": "0000-0002-1782-5151",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2025
+   }
+  ]
+ },
+ "gilles-albeaino": {
+  "orcid": "0000-0001-9900-3882",
+  "affiliations": [
+   {
+    "name": "Texas A&M University",
+    "country": "US",
+    "year": 2026
+   }
+  ]
+ },
+ "giuseppe-bucca": {
+  "orcid": "0000-0002-5474-5484",
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2020
+   }
+  ]
+ },
+ "gjeldum-nikola": {
+  "orcid": "0000-0002-1987-2613",
+  "affiliations": [
+   {
+    "name": "University of Split",
+    "country": "HR",
+    "year": 2020
+   }
+  ]
+ },
+ "glenda-s-stump": {
+  "orcid": "0000-0001-6542-6393",
+  "affiliations": [
+   {
+    "name": "Massachusetts Institute of Technology",
+    "country": "US",
+    "year": 2021
+   }
+  ]
+ },
+ "grandi-fabio": {
+  "orcid": "0000-0001-5465-0349",
+  "affiliations": [
+   {
+    "name": "University of Modena and Reggio Emilia",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "gro-ellen-mathisen": {
+  "orcid": "0000-0002-9385-5336",
+  "affiliations": [
+   {
+    "name": "University of Stavanger",
+    "country": "NO",
+    "year": 2022
+   }
+  ]
+ },
+ "guannan-li": {
+  "affiliations": [
+   {
+    "name": "Tianjin University",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "h-harry-asada": {
+  "orcid": "0000-0003-3155-6223",
+  "affiliations": [
+   {
+    "name": "Massachusetts Institute of Technology",
+    "country": "US",
+    "year": 2021
+   }
+  ]
+ },
+ "haitao-wu": {
+  "orcid": "0000-0002-4804-3806",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2023
+   }
+  ]
+ },
+ "hanna-osyk": {
+  "orcid": "0000-0001-6980-3889",
+  "affiliations": [
+   {
+    "name": "University of Zielona Góra",
+    "country": "PL",
+    "year": 2025
+   }
+  ]
+ },
+ "hans-joachim-lincke": {
+  "orcid": "0000-0002-3087-7909",
+  "affiliations": [
+   {
+    "name": "Freiburger Forschungsstelle für Arbeitswissenschaften GmbH (Germany)",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "hao-li": {
+  "orcid": "0000-0002-9528-6333",
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "haoqi-wang": {
+  "orcid": "0000-0002-9012-5370",
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "harald-hannerz": {
+  "orcid": "0000-0003-0687-0499",
+  "affiliations": [
+   {
+    "name": "Danish National Institute of Public Health",
+    "country": "DK",
+    "year": 2005
+   }
+  ]
+ },
+ "harald-kloft": {
+  "orcid": "0000-0003-4891-869X",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "harold-soh": {
+  "orcid": "0000-0002-3278-0035",
+  "affiliations": [
+   {
+    "name": "National University of Singapore",
+    "country": "SG",
+    "year": 2020
+   }
+  ]
+ },
+ "haruki-toda": {
+  "orcid": "0000-0001-8908-1561",
+  "affiliations": [
+   {
+    "name": "National Institute of Advanced Industrial Science and Technology",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "heesun-choi": {
+  "orcid": "0000-0001-5483-1940",
+  "affiliations": [
+   {
+    "name": "Texas Tech University",
+    "country": "US",
+    "year": 2026
+   }
+  ]
+ },
+ "heng-li": {
+  "orcid": "0000-0002-3187-9041",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2021
+   }
+  ]
+ },
+ "hermes-giberti": {
+  "orcid": "0000-0001-8840-8497",
+  "affiliations": [
+   {
+    "name": "University of Pavia",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "houtan-jebelli": {
+  "orcid": "0000-0003-4786-7616",
+  "affiliations": [
+   {
+    "name": "University of Illinois Urbana-Champaign",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "ido-morag": {
+  "orcid": "0000-0002-5424-070X",
+  "affiliations": [
+   {
+    "name": "Shenkar College of Engineering and Design",
+    "country": "IL",
+    "year": 2021
+   }
+  ]
+ },
+ "iina-aaltonen": {
+  "orcid": "0000-0002-2093-0841",
+  "affiliations": [
+   {
+    "name": "VTT Technical Research Centre of Finland",
+    "country": "FI",
+    "year": 2018
+   }
+  ]
+ },
+ "ilari-marstio": {
+  "affiliations": [
+   {
+    "name": "VTT Technical Research Centre of Finland",
+    "country": "FI",
+    "year": 2018
+   }
+  ]
+ },
+ "inara-tusseyeva": {
+  "orcid": "0009-0009-8619-3192",
+  "affiliations": [
+   {
+    "name": "Nazarbayev University",
+    "country": "KZ",
+    "year": 2022
+   }
+  ]
+ },
+ "induni-n-weerarathna": {
+  "orcid": "0009-0007-6996-8270",
+  "affiliations": [
+   {
+    "name": "Datta Meghe Institute of Higher Education and Research",
+    "country": "IN",
+    "year": 2023
+   }
+  ]
+ },
+ "inga-nolle": {
+  "affiliations": [
+   {
+    "name": "Freiburger Forschungsstelle für Arbeitswissenschaften GmbH (Germany)",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "ioannis-bargiotas": {
+  "orcid": "0000-0002-1069-1293",
+  "affiliations": [
+   {
+    "name": "Institut national de recherche en sciences et technologies du numérique",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Université Paris-Saclay",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Complexité, Innovation et Activités Motrices et Sportives",
+    "country": "FR",
+    "year": 2025
+   }
+  ]
+ },
+ "irene-granata": {
+  "orcid": "0000-0001-6233-176X",
+  "affiliations": [
+   {
+    "name": "University of Padua",
+    "country": "IT",
+    "year": 2026
+   }
+  ]
+ },
+ "isidro-soria-arguello": {
+  "orcid": "0000-0002-4615-3200",
+  "affiliations": [
+   {
+    "name": "Universidad Iberoamericana",
+    "country": "MX",
+    "year": 2025
+   }
+  ]
+ },
+ "jae-yong-lim": {
+  "orcid": "0000-0001-7542-0155",
+  "affiliations": [
+   {
+    "name": "Seoul National University of Science and Technology",
+    "country": "KR",
+    "year": 2024
+   }
+  ]
+ },
+ "jamie-wallace": {
+  "affiliations": [
+   {
+    "name": "Aarhus University",
+    "country": "DK",
+    "year": 2021
+   }
+  ]
+ },
+ "jan-semjon": {
+  "orcid": "0000-0002-9076-7808",
+  "affiliations": [
+   {
+    "name": "Technical University of Košice",
+    "country": "SK",
+    "year": 2022
+   }
+  ]
+ },
+ "janos-nacsa": {
+  "orcid": "0000-0002-3950-8501",
+  "affiliations": [
+   {
+    "name": "HUN-REN Institute for Computer Science and Control",
+    "country": "HU",
+    "year": 2018
+   },
+   {
+    "name": "Hungarian Academy of Sciences",
+    "country": "HU",
+    "year": 2018
+   }
+  ]
+ },
+ "jared-donovan": {
+  "orcid": "0000-0002-8025-1947",
+  "affiliations": [
+   {
+    "name": "Queensland University of Technology",
+    "country": "AU",
+    "year": 2025
+   }
+  ]
+ },
+ "jelle-de-vries": {
+  "orcid": "0000-0002-5222-0094",
+  "affiliations": [
+   {
+    "name": "Erasmus University Rotterdam",
+    "country": "NL",
+    "year": 2023
+   }
+  ]
+ },
+ "jeong-hwan-kim": {
+  "orcid": "0000-0002-1092-9388",
+  "affiliations": [
+   {
+    "name": "University of Michigan",
+    "country": "US",
+    "year": 2018
+   }
+  ]
+ },
+ "jerry-ng": {
+  "orcid": "0000-0002-7524-8559",
+  "affiliations": [
+   {
+    "name": "Massachusetts Institute of Technology",
+    "country": "US",
+    "year": 2021
+   }
+  ]
+ },
+ "jia-pan": {
+  "orcid": "0000-0001-9003-2054",
+  "affiliations": [
+   {
+    "name": "University of Hong Kong",
+    "country": "HK",
+    "year": 2023
+   }
+  ]
+ },
+ "jialu-yang": {
+  "orcid": "0000-0003-1463-2677",
+  "affiliations": [
+   {
+    "name": "Cardiff University",
+    "country": "GB",
+    "year": 2024
+   }
+  ]
+ },
+ "jingchen-cong": {
+  "orcid": "0000-0001-6008-6190",
+  "affiliations": [
+   {
+    "name": "Hebei University of Technology",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "joachim-fabini": {
+  "orcid": "0000-0002-8285-1591",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "joana-santos": {
+  "orcid": "0000-0002-2777-3244",
+  "affiliations": [
+   {
+    "name": "Universidade do Porto",
+    "country": "PT",
+    "year": 2021
+   },
+   {
+    "name": "Institute of Mechanical Engineering and Industrial Mangement",
+    "country": "PT",
+    "year": 2021
+   },
+   {
+    "name": "Instituto de Ciência e Inovação em Engenharia Mecânica e Engenharia Industrial",
+    "country": "PT",
+    "year": 2021
+   }
+  ]
+ },
+ "joao-a-fonseca": {
+  "orcid": "0000-0002-0887-8796",
+  "affiliations": [
+   {
+    "name": "Universidade do Porto",
+    "country": "PT",
+    "year": 2017
+   },
+   {
+    "name": "CUF Porto Hospital",
+    "country": "PT",
+    "year": 2017
+   },
+   {
+    "name": "Centre for Health Technology and Services Research",
+    "country": "PT",
+    "year": 2017
+   }
+  ]
+ },
+ "johannes-dirnaichner": {
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "johannes-fottner": {
+  "orcid": "0000-0001-6392-0371",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "jorg-kruger": {
+  "orcid": "0000-0001-5138-0793",
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Production Systems and Design Technology",
+    "country": "DE",
+    "year": 2018
+   },
+   {
+    "name": "Technische Universität Berlin",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "jorg-miehling": {
+  "orcid": "0000-0002-8610-1966",
+  "affiliations": [
+   {
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "country": "DE",
+    "year": 2026
+   },
+   {
+    "name": "Technical University of Denmark",
+    "country": "DK",
+    "year": 2026
+   }
+  ]
+ },
+ "jorge-azorin-lopez": {
+  "orcid": "0000-0003-4762-6927",
+  "affiliations": [
+   {
+    "name": "University of Alicante",
+    "country": "ES",
+    "year": 2026
+   }
+  ]
+ },
+ "jose-garcia-rodriguez": {
+  "orcid": "0000-0002-7798-3055",
+  "affiliations": [
+   {
+    "name": "University of Alicante",
+    "country": "ES",
+    "year": 2026
+   }
+  ]
+ },
+ "jose-torres-da-costa": {
+  "orcid": "0000-0003-3947-8688",
+  "affiliations": [
+   {
+    "name": "Universidade do Porto",
+    "country": "PT",
+    "year": 2017
+   }
+  ]
+ },
+ "julia-berg": {
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Casting, Composite and Processing Technology IGCV",
+    "country": "DE",
+    "year": 2020
+   }
+  ]
+ },
+ "jun-kinugawa": {
+  "affiliations": [
+   {
+    "name": "Tohoku University",
+    "country": "JP",
+    "year": 2019
+   }
+  ]
+ },
+ "junming-fan": {
+  "orcid": "0000-0001-9317-0428",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2024
+   }
+  ]
+ },
+ "junwei-cao": {
+  "orcid": "0000-0002-7809-679X",
+  "affiliations": [
+   {
+    "name": "Yangzhou University",
+    "country": "CN",
+    "year": 2022
+   }
+  ]
+ },
+ "justin-m-haney": {
+  "orcid": "0000-0002-8841-6670",
+  "affiliations": [
+   {
+    "name": "National Institute for Occupational Safety and Health",
+    "country": "US",
+    "year": 2026
+   }
+  ]
+ },
+ "justyna-litwinek": {
+  "orcid": "0009-0008-2789-0716",
+  "affiliations": [
+   {
+    "name": "Maria Curie-Skłodowska University",
+    "country": "PL",
+    "year": 2025
+   }
+  ]
+ },
+ "justyna-patalas-maliszewska": {
+  "orcid": "0000-0003-2439-2865",
+  "affiliations": [
+   {
+    "name": "University of Zielona Góra",
+    "country": "PL",
+    "year": 2025
+   }
+  ]
+ },
+ "kamran-gholamizadeh": {
+  "orcid": "0000-0003-2335-0276",
+  "affiliations": [
+   {
+    "name": "Hamedan University of Medical Sciences",
+    "country": "IR",
+    "year": 2025
+   }
+  ]
+ },
+ "kangdon-lee": {
+  "orcid": "0000-0002-0941-3237",
+  "affiliations": [
+   {
+    "name": "SK Group (South Korea)",
+    "country": "KR",
+    "year": 2024
+   }
+  ]
+ },
+ "kathrin-dorfler": {
+  "orcid": "0000-0001-6557-5604",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "katiso-mabulu": {
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "US",
+    "year": 2024
+   }
+  ]
+ },
+ "katja-seme": {
+  "orcid": "0000-0003-4126-7644",
+  "affiliations": [
+   {
+    "name": "University of Ljubljana",
+    "country": "SI",
+    "year": 2022
+   }
+  ]
+ },
+ "kazuhiro-kosuge": {
+  "orcid": "0000-0002-2060-2936",
+  "affiliations": [
+   {
+    "name": "Tohoku University",
+    "country": "JP",
+    "year": 2019
+   }
+  ]
+ },
+ "kazutsugu-suita": {
+  "affiliations": [
+   {
+    "name": "Toyota Motor Corporation (Japan)",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "khurshid-aliev": {
+  "orcid": "0000-0001-9551-4925",
+  "affiliations": [
+   {
+    "name": "Politecnico di Torino",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "kirsten-tracht": {
+  "orcid": "0000-0001-9740-3962",
+  "affiliations": [
+   {
+    "name": "University of Bremen",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "klaus-droder": {
+  "orcid": "0000-0002-6424-4384",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "konrad-nubel": {
+  "orcid": "0000-0002-2863-1360",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2025
+   }
+  ]
+ },
+ "kristian-kloeckl": {
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "US",
+    "year": 2024
+   }
+  ]
+ },
+ "kristyna-hamrikova": {
+  "affiliations": [
+   {
+    "name": "VSB - Technical University of Ostrava",
+    "country": "CZ",
+    "year": 2026
+   }
+  ]
+ },
+ "lasath-siriwardena": {
+  "orcid": "0000-0001-9100-1321",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2025
+   }
+  ]
+ },
+ "lefteris-benos": {
+  "orcid": "0000-0003-2150-5166",
+  "affiliations": [
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2023
+   }
+  ]
+ },
+ "lidia-atanasova": {
+  "orcid": "0000-0002-5072-7676",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "lihui-wang": {
+  "orcid": "0000-0001-8679-8049",
+  "affiliations": [
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2024
+   }
+  ]
+ },
+ "liliane-pintelon": {
+  "orcid": "0000-0003-4298-1583",
+  "affiliations": [
+   {
+    "name": "KU Leuven",
+    "country": "BE",
+    "year": 2022
+   }
+  ]
+ },
+ "linda-onnasch": {
+  "orcid": "0000-0002-2086-774X",
+  "affiliations": [
+   {
+    "name": "Technische Universität Berlin",
+    "country": "DE",
+    "year": 2025
+   },
+   {
+    "name": "Humboldt-Universität zu Berlin",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "lionel-p-robert": {
+  "orcid": "0000-0002-1410-2601",
+  "affiliations": [
+   {
+    "name": "University of Michigan",
+    "country": "US",
+    "year": 2025
+   }
+  ]
+ },
+ "loris-roveda": {
+  "orcid": "0000-0002-4427-536X",
+  "affiliations": [
+   {
+    "name": "University of Applied Sciences and Arts of Southern Switzerland",
+    "country": "CH",
+    "year": 2020
+   },
+   {
+    "name": "Dalle Molle Institute for Artificial Intelligence Research",
+    "country": "CH",
+    "year": 2020
+   },
+   {
+    "name": "Università della Svizzera italiana",
+    "country": "CH",
+    "year": 2020
+   }
+  ]
+ },
+ "louis-fernandez": {
+  "orcid": "0009-0008-8923-9216",
+  "affiliations": [
+   {
+    "name": "University of Technology Sydney",
+    "country": "AU",
+    "year": 2026
+   }
+  ]
+ },
+ "luca-fortini": {
+  "orcid": "0000-0002-4641-0107",
+  "affiliations": [
+   {
+    "name": "Italian Institute of Technology",
+    "country": "IT",
+    "year": 2023
+   },
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "luca-giagu": {
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "luca-gualtieri": {
+  "orcid": "0000-0002-4976-1893",
+  "affiliations": [
+   {
+    "name": "Free University of Bozen-Bolzano",
+    "country": "IT",
+    "year": 2025
+   }
+  ]
+ },
+ "luca-mastrogiacomo": {
+  "orcid": "0000-0002-8454-5918",
+  "affiliations": [
+   {
+    "name": "Politecnico di Torino",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "luca-negri": {
+  "orcid": "0000-0001-5649-8352",
+  "affiliations": [
+   {
+    "name": "University of Milan",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "lucas-ouillon": {
+  "affiliations": [
+   {
+    "name": "Centrale Lyon ENISE",
+    "country": "FR",
+    "year": 2019
+   }
+  ]
+ },
+ "lucio-soibelman": {
+  "orcid": "0000-0002-8701-0521",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "luis-f-azevedo": {
+  "orcid": "0000-0002-8421-2937",
+  "affiliations": [
+   {
+    "name": "Universidade do Porto",
+    "country": "PT",
+    "year": 2017
+   },
+   {
+    "name": "Centre for Health Technology and Services Research",
+    "country": "PT",
+    "year": 2017
+   }
+  ]
+ },
+ "lujie-zong": {
+  "affiliations": [
+   {
+    "name": "Nanjing University of Aeronautics and Astronautics",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "lukas-masur": {
+  "orcid": "0009-0009-4011-7135",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "lukasz-andrzej-derdowski": {
+  "orcid": "0000-0001-8195-1227",
+  "affiliations": [
+   {
+    "name": "University of Stavanger",
+    "country": "NO",
+    "year": 2022
+   }
+  ]
+ },
+ "mahmut-tutam": {
+  "orcid": "0000-0002-2018-5458",
+  "affiliations": [
+   {
+    "name": "Erzurum Technical University",
+    "country": "TR",
+    "year": 2024
+   }
+  ]
+ },
+ "manuel-muller": {
+  "orcid": "0000-0002-3631-9828",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "marc-carmichael": {
+  "orcid": "0000-0001-8439-0074",
+  "affiliations": [
+   {
+    "name": "University of Technology Sydney",
+    "country": "AU",
+    "year": 2026
+   }
+  ]
+ },
+ "marco-carnevale": {
+  "orcid": "0000-0001-6044-8323",
+  "affiliations": [
+   {
+    "name": "University of Pavia",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "maria-grazia-gnoni": {
+  "orcid": "0000-0001-7930-0556",
+  "affiliations": [
+   {
+    "name": "University of Salento",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "marija-savkovic": {
+  "orcid": "0000-0002-3620-7762",
+  "affiliations": [
+   {
+    "name": "University of Kragujevac",
+    "country": "RS",
+    "year": 2025
+   }
+  ]
+ },
+ "marina-crnjac": {
+  "orcid": "0000-0001-7125-1665",
+  "affiliations": [
+   {
+    "name": "University of Split",
+    "country": "HR",
+    "year": 2020
+   }
+  ]
+ },
+ "mark-zolotas": {
+  "orcid": "0000-0002-7672-940X",
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "US",
+    "year": 2024
+   }
+  ]
+ },
+ "marko-djapan": {
+  "orcid": "0000-0002-8016-8422",
+  "affiliations": [
+   {
+    "name": "University of Kragujevac",
+    "country": "RS",
+    "year": 2025
+   }
+  ]
+ },
+ "marko-mladineo": {
+  "orcid": "0000-0001-6901-5049",
+  "affiliations": [
+   {
+    "name": "University of Split",
+    "country": "HR",
+    "year": 2020
+   }
+  ]
+ },
+ "marko-munih": {
+  "orcid": "0000-0001-5289-4059",
+  "affiliations": [
+   {
+    "name": "University of Ljubljana",
+    "country": "SI",
+    "year": 2022
+   }
+  ]
+ },
+ "markus-rittenbruch": {
+  "orcid": "0000-0001-9279-1599",
+  "affiliations": [
+   {
+    "name": "Queensland University of Technology",
+    "country": "AU",
+    "year": 2025
+   }
+  ]
+ },
+ "marta-bassi": {
+  "orcid": "0000-0003-0886-3989",
+  "affiliations": [
+   {
+    "name": "University of Milan",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "marta-lagomarsino": {
+  "orcid": "0000-0001-9121-1812",
+  "affiliations": [
+   {
+    "name": "Italian Institute of Technology",
+    "country": "IT",
+    "year": 2023
+   },
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "marta-lorenzini": {
+  "orcid": "0000-0002-9458-6844",
+  "affiliations": [
+   {
+    "name": "Italian Institute of Technology",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "marten-bjorkman": {
+  "orcid": "0000-0003-0579-3372",
+  "affiliations": [
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2020
+   }
+  ]
+ },
+ "martin-j-rosenstrauch": {
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Production Systems and Design Technology",
+    "country": "DE",
+    "year": 2018
+   },
+   {
+    "name": "Technische Universität Berlin",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "martin-syc-krivan": {
+  "affiliations": [
+   {
+    "name": "Technical University of Košice",
+    "country": "SK",
+    "year": 2022
+   }
+  ]
+ },
+ "martin-vomstein": {
+  "affiliations": [
+   {
+    "name": "Freiburger Forschungsstelle für Arbeitswissenschaften GmbH (Germany)",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "martina-cantoni": {
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2020
+   }
+  ]
+ },
+ "matjaz-mihelj": {
+  "orcid": "0000-0003-2563-7094",
+  "affiliations": [
+   {
+    "name": "University of Ljubljana",
+    "country": "SI",
+    "year": 2022
+   }
+  ]
+ },
+ "matteo-de-marchi": {
+  "orcid": "0000-0001-7965-4338",
+  "affiliations": [
+   {
+    "name": "Free University of Bozen-Bolzano",
+    "country": "IT",
+    "year": 2025
+   }
+  ]
+ },
+ "matteo-g-rossi": {
+  "orcid": "0000-0002-9193-9560",
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2019
+   }
+  ]
+ },
+ "matteo-rubagotti": {
+  "orcid": "0000-0002-3674-1455",
+  "affiliations": [
+   {
+    "name": "Nazarbayev University",
+    "country": "KZ",
+    "year": 2022
+   }
+  ]
+ },
+ "matthew-kelly": {
+  "affiliations": [
+   {
+    "name": "University College Dublin",
+    "country": "IE",
+    "year": 2022
+   }
+  ]
+ },
+ "matthias-guertler": {
+  "orcid": "0000-0001-7062-6349",
+  "affiliations": [
+   {
+    "name": "University of Technology Sydney",
+    "country": "AU",
+    "year": 2026
+   }
+  ]
+ },
+ "matthias-harms": {
+  "affiliations": [
+   {
+    "name": "University of Bremen",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "matthias-nubling": {
+  "orcid": "0009-0001-1403-5306",
+  "affiliations": [
+   {
+    "name": "Freiburger Forschungsstelle für Arbeitswissenschaften GmbH (Germany)",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "matthias-vette": {
+  "affiliations": [
+   {
+    "name": "Zentrum für Mechatronik und Automatisierungstechnik",
+    "country": "DE",
+    "year": 2017
+   }
+  ]
+ },
+ "matus-sabol": {
+  "affiliations": [
+   {
+    "name": "Technical University of Košice",
+    "country": "SK",
+    "year": 2022
+   }
+  ]
+ },
+ "mauricio-zamora-hernandez": {
+  "orcid": "0000-0002-3631-7558",
+  "affiliations": [
+   {
+    "name": "Universidad de Costa Rica",
+    "country": "CR",
+    "year": 2026
+   }
+  ]
+ },
+ "maurizio-faccio": {
+  "orcid": "0000-0002-7512-5209",
+  "affiliations": [
+   {
+    "name": "University of Padua",
+    "country": "IT",
+    "year": 2026
+   }
+  ]
+ },
+ "mauro-magni": {
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2020
+   }
+  ]
+ },
+ "maxence-denu": {
+  "orcid": "0009-0001-6188-9910",
+  "affiliations": [
+   {
+    "name": "Institut polytechnique de Grenoble",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Laboratoire des Sciences pour la Conception, l'Optimisation et la Production",
+    "country": "FR",
+    "year": 2024
+   }
+  ]
+ },
+ "maximilian-papa": {
+  "orcid": "0000-0002-3740-4303",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "maximilian-schoberl": {
+  "orcid": "0000-0003-3055-5739",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "maxwell-fordjour-antwi-afari": {
+  "orcid": "0000-0002-6812-7839",
+  "affiliations": [
+   {
+    "name": "Aston University",
+    "country": "GB",
+    "year": 2021
+   }
+  ]
+ },
+ "mehrnoosh-askarpour": {
+  "orcid": "0000-0001-6526-2544",
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2019
+   }
+  ]
+ },
+ "mert-oytun": {
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "michael-fernandez-vega": {
+  "orcid": "0009-0001-6400-7389",
+  "affiliations": [
+   {
+    "name": "University of Alicante",
+    "country": "ES",
+    "year": 2026
+   },
+   {
+    "name": "Universidad de Costa Rica",
+    "country": "CR",
+    "year": 2026
+   }
+  ]
+ },
+ "michael-freitag": {
+  "orcid": "0000-0003-1767-9104",
+  "affiliations": [
+   {
+    "name": "University of Bremen",
+    "country": "DE",
+    "year": 2023
+   },
+   {
+    "name": "Bremer Institut für Produktion und Logistik GmbH",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "michael-weyrich": {
+  "orcid": "0000-0003-3176-9288",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "mien-van": {
+  "orcid": "0000-0001-9616-6061",
+  "affiliations": [
+   {
+    "name": "Queen's University Belfast",
+    "country": "GB",
+    "year": 2025
+   }
+  ]
+ },
+ "milad-rahmati": {
+  "orcid": "0009-0009-8471-0969",
+  "affiliations": [
+   {
+    "name": "Western University",
+    "country": "CA",
+    "year": 2025
+   }
+  ]
+ },
+ "milan-wolffgramm": {
+  "orcid": "0000-0002-5686-0574",
+  "affiliations": [
+   {
+    "name": "University of Groningen",
+    "country": "NL",
+    "year": 2021
+   },
+   {
+    "name": "Saxion",
+    "country": "NL",
+    "year": 2021
+   }
+  ]
+ },
+ "min-chen": {
+  "orcid": "0000-0002-6558-2334",
+  "affiliations": [
+   {
+    "name": "National University of Singapore",
+    "country": "SG",
+    "year": 2020
+   }
+  ]
+ },
+ "ming-zhang": {
+  "orcid": "0000-0003-3082-4951",
+  "affiliations": [
+   {
+    "name": "City University of Hong Kong",
+    "country": "HK",
+    "year": 2023
+   }
+  ]
+ },
+ "mirte-disberg-van-geloven": {
+  "affiliations": [
+   {
+    "name": "Saxion",
+    "country": "NL",
+    "year": 2021
+   }
+  ]
+ },
+ "mitsunori-tada": {
+  "orcid": "0000-0001-6784-2016",
+  "affiliations": [
+   {
+    "name": "National Institute of Advanced Industrial Science and Technology",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "muge-belek-fialho-teixeira": {
+  "orcid": "0000-0003-0593-9597",
+  "affiliations": [
+   {
+    "name": "Queensland University of Technology",
+    "country": "AU",
+    "year": 2025
+   }
+  ]
+ },
+ "nana-kwabena-asamoah-antwi": {
+  "affiliations": [
+   {
+    "name": "Texas A&M University",
+    "country": "US",
+    "year": 2026
+   }
+  ]
+ },
+ "naoum-tsolakis": {
+  "orcid": "0000-0003-2042-7047",
+  "affiliations": [
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2021
+   }
+  ]
+ },
+ "nasser-jazdi": {
+  "orcid": "0000-0001-6722-0911",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "neziha-akalin": {
+  "orcid": "0000-0001-6168-0706",
+  "affiliations": [
+   {
+    "name": "Örebro University",
+    "country": "SE",
+    "year": 2021
+   }
+  ]
+ },
+ "nguyen-minh-nhat": {
+  "orcid": "0009-0006-5915-8605",
+  "affiliations": [
+   {
+    "name": "Queen's University Belfast",
+    "country": "GB",
+    "year": 2025
+   }
+  ]
+ },
+ "nicholas-stearns-selby": {
+  "orcid": "0000-0001-9476-4850",
+  "affiliations": [
+   {
+    "name": "Massachusetts Institute of Technology",
+    "country": "US",
+    "year": 2021
+   }
+  ]
+ },
+ "nicola-haberle": {
+  "orcid": "0000-0001-6860-6517",
+  "affiliations": [
+   {
+    "name": "Freiburger Forschungsstelle für Arbeitswissenschaften GmbH (Germany)",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "nicolas-vayatis": {
+  "orcid": "0000-0003-4308-4681",
+  "affiliations": [
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Inserm",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Université Paris Cité",
+    "country": "FR",
+    "year": 2025
+   }
+  ]
+ },
+ "nicole-berx": {
+  "orcid": "0000-0003-2473-3105",
+  "affiliations": [
+   {
+    "name": "KU Leuven",
+    "country": "BE",
+    "year": 2022
+   }
+  ]
+ },
+ "nicole-robinson": {
+  "orcid": "0000-0002-7144-3082",
+  "affiliations": [
+   {
+    "name": "Queensland University of Technology",
+    "country": "AU",
+    "year": 2022
+   },
+   {
+    "name": "Monash University",
+    "country": "AU",
+    "year": 2022
+   }
+  ]
+ },
+ "nikolaos-papakostas": {
+  "orcid": "0000-0002-0443-221X",
+  "affiliations": [
+   {
+    "name": "University College Dublin",
+    "country": "IE",
+    "year": 2022
+   }
+  ]
+ },
+ "ning-wang": {
+  "orcid": "0000-0002-3264-1852",
+  "affiliations": [
+   {
+    "name": "University of the West of England",
+    "country": "GB",
+    "year": 2024
+   },
+   {
+    "name": "Bristol Robotics Laboratory",
+    "country": "GB",
+    "year": 2024
+   }
+  ]
+ },
+ "ningshuang-zeng": {
+  "orcid": "0000-0003-3963-9488",
+  "affiliations": [
+   {
+    "name": "Southeast University",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "odd-ivar-lekang": {
+  "orcid": "0000-0002-1921-4960",
+  "affiliations": [
+   {
+    "name": "Norwegian University of Life Sciences",
+    "country": "NO",
+    "year": 2022
+   }
+  ]
+ },
+ "odette-lobato-calleros": {
+  "orcid": "0000-0001-8756-7840",
+  "affiliations": [
+   {
+    "name": "Universidad Iberoamericana",
+    "country": "MX",
+    "year": 2025
+   }
+  ]
+ },
+ "olga-korostynska": {
+  "orcid": "0000-0003-0387-6609",
+  "affiliations": [
+   {
+    "name": "OsloMet – Oslo Metropolitan University",
+    "country": "NO",
+    "year": 2022
+   },
+   {
+    "name": "Norwegian University of Life Sciences",
+    "country": "NO",
+    "year": 2022
+   }
+  ]
+ },
+ "pablo-segura": {
+  "orcid": "0000-0001-5611-1779",
+  "affiliations": [
+   {
+    "name": "Universidad Iberoamericana",
+    "country": "MX",
+    "year": 2025
+   }
+  ]
+ },
+ "pai-zheng": {
+  "orcid": "0000-0002-2329-8634",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2024
+   }
+  ]
+ },
+ "patrick-b-rodrigues": {
+  "orcid": "0000-0002-2607-9955",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "patrick-schwerdtner": {
+  "orcid": "0000-0002-4954-1700",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "patrizia-busato": {
+  "orcid": "0009-0007-6709-2834",
+  "affiliations": [
+   {
+    "name": "Politecnico di Torino",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "paul-bobka": {
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "pedro-dinis-gaspar": {
+  "orcid": "0000-0003-1691-1709",
+  "affiliations": [
+   {
+    "name": "University of Beira Interior",
+    "country": "PT",
+    "year": 2022
+   }
+  ]
+ },
+ "peng-lin": {
+  "affiliations": [
+   {
+    "name": "Southeast University",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "per-lage-gotvall": {
+  "affiliations": [
+   {
+    "name": "Volvo (Sweden)",
+    "country": "SE",
+    "year": 2019
+   }
+  ]
+ },
+ "peruzzini-margherita": {
+  "orcid": "0000-0003-2260-0392",
+  "affiliations": [
+   {
+    "name": "University of Bologna",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "peter-chemweno": {
+  "orcid": "0000-0001-5252-3813",
+  "affiliations": [
+   {
+    "name": "University of Twente",
+    "country": "NL",
+    "year": 2021
+   }
+  ]
+ },
+ "peter-corke": {
+  "orcid": "0000-0001-6650-367X",
+  "affiliations": [
+   {
+    "name": "Queensland University of Technology",
+    "country": "AU",
+    "year": 2022
+   }
+  ]
+ },
+ "peter-duking": {
+  "orcid": "0000-0003-0277-9858",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "peter-j-woods": {
+  "orcid": "0000-0003-3641-0848",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "philip-webb": {
+  "orcid": "0000-0002-5789-4207",
+  "affiliations": [
+   {
+    "name": "Cranfield University",
+    "country": "GB",
+    "year": 2015
+   }
+  ]
+ },
+ "phillip-l-morgan": {
+  "orcid": "0000-0002-5672-0758",
+  "affiliations": [
+   {
+    "name": "Cardiff University",
+    "country": "GB",
+    "year": 2024
+   }
+  ]
+ },
+ "pierpaolo-ruttico": {
+  "orcid": "0000-0003-2642-6053",
+  "affiliations": [
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2025
+   }
+  ]
+ },
+ "pierre-david": {
+  "orcid": "0000-0002-0186-2556",
+  "affiliations": [
+   {
+    "name": "Institut polytechnique de Grenoble",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2024
+   },
+   {
+    "name": "Laboratoire des Sciences pour la Conception, l'Optimisation et la Production",
+    "country": "FR",
+    "year": 2024
+   }
+  ]
+ },
+ "pierre-paul-vidal": {
+  "orcid": "0000-0001-9548-6135",
+  "affiliations": [
+   {
+    "name": "Centre National de la Recherche Scientifique",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Inserm",
+    "country": "FR",
+    "year": 2025
+   },
+   {
+    "name": "Université Paris Cité",
+    "country": "FR",
+    "year": 2025
+   }
+  ]
+ },
+ "pietro-balatti": {
+  "orcid": "0000-0001-8303-9733",
+  "affiliations": [
+   {
+    "name": "Italian Institute of Technology",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "pooya-adami": {
+  "orcid": "0000-0001-9624-3768",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "qiming-li": {
+  "orcid": "0000-0003-4183-9913",
+  "affiliations": [
+   {
+    "name": "Southeast University",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "qingwei-nie": {
+  "orcid": "0000-0003-3274-543X",
+  "affiliations": [
+   {
+    "name": "Yangzhou University",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "quan-liu": {
+  "orcid": "0000-0002-4956-5737",
+  "affiliations": [
+   {
+    "name": "Wuhan University of Technology",
+    "country": "CN",
+    "year": 2020
+   }
+  ]
+ },
+ "rainer-muller": {
+  "orcid": "0000-0001-9470-556X",
+  "affiliations": [
+   {
+    "name": "Zentrum für Mechatronik und Automatisierungstechnik",
+    "country": "DE",
+    "year": 2017
+   }
+  ]
+ },
+ "ramez-awad": {
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Manufacturing Engineering and Automation",
+    "country": "DE",
+    "year": 2022
+   }
+  ]
+ },
+ "ranidu-p-goonetilleke": {
+  "affiliations": [
+   {
+    "name": "Nottingham Trent University",
+    "country": "GB",
+    "year": 2026
+   }
+  ]
+ },
+ "rashmi-singh": {
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "renato-vidoni": {
+  "orcid": "0000-0002-7429-0974",
+  "affiliations": [
+   {
+    "name": "Free University of Bozen-Bolzano",
+    "country": "IT",
+    "year": 2021
+   }
+  ]
+ },
+ "rene-de-koster": {
+  "orcid": "0000-0002-1740-7822",
+  "affiliations": [
+   {
+    "name": "Erasmus University Rotterdam",
+    "country": "NL",
+    "year": 2024
+   }
+  ]
+ },
+ "riccardo-gervasi": {
+  "orcid": "0000-0002-3006-3382",
+  "affiliations": [
+   {
+    "name": "Politecnico di Torino",
+    "country": "IT",
+    "year": 2022
+   }
+  ]
+ },
+ "riccardo-minto": {
+  "orcid": "0000-0002-0324-5359",
+  "affiliations": [
+   {
+    "name": "University of Padua",
+    "country": "IT",
+    "year": 2026
+   }
+  ]
+ },
+ "richard-beregi": {
+  "orcid": "0000-0002-1709-8150",
+  "affiliations": [
+   {
+    "name": "HUN-REN Institute for Computer Science and Control",
+    "country": "HU",
+    "year": 2018
+   },
+   {
+    "name": "Hungarian Academy of Sciences",
+    "country": "HU",
+    "year": 2018
+   }
+  ]
+ },
+ "richardo-khonasty": {
+  "orcid": "0000-0002-2576-2322",
+  "affiliations": [
+   {
+    "name": "University of Technology Sydney",
+    "country": "AU",
+    "year": 2026
+   }
+  ]
+ },
+ "roberto-raffaeli": {
+  "orcid": "0000-0003-0301-454X",
+  "affiliations": [
+   {
+    "name": "University of Modena and Reggio Emilia",
+    "country": "IT",
+    "year": 2024
+   }
+  ]
+ },
+ "robin-dorrie": {
+  "orcid": "0000-0001-8473-7218",
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "robins-mathew": {
+  "orcid": "0000-0002-3398-2413",
+  "affiliations": [
+   {
+    "name": "University College Dublin",
+    "country": "IE",
+    "year": 2022
+   }
+  ]
+ },
+ "rosa-micale": {
+  "orcid": "0000-0002-2835-8974",
+  "affiliations": [
+   {
+    "name": "University of Messina",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "ross-harrison": {
+  "affiliations": [
+   {
+    "name": "University of the West of England",
+    "country": "GB",
+    "year": 2020
+   }
+  ]
+ },
+ "rui-luo": {
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "US",
+    "year": 2024
+   }
+  ]
+ },
+ "rui-xu": {
+  "orcid": "0000-0003-4361-1971",
+  "affiliations": [
+   {
+    "name": "City University of Hong Kong",
+    "country": "HK",
+    "year": 2023
+   }
+  ]
+ },
+ "ruobing-wang": {
+  "orcid": "0000-0001-8363-0371",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2021
+   },
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2021
+   }
+  ]
+ },
+ "salah-bazzi": {
+  "orcid": "0000-0002-8631-0426",
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "US",
+    "year": 2024
+   }
+  ]
+ },
+ "samuel-leder": {
+  "orcid": "0000-0003-3533-3633",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2025
+   }
+  ]
+ },
+ "sandro-wartzack": {
+  "orcid": "0000-0002-0244-5033",
+  "affiliations": [
+   {
+    "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "sanghyun-lee": {
+  "orcid": "0000-0002-2246-7440",
+  "affiliations": [
+   {
+    "name": "University of Michigan",
+    "country": "US",
+    "year": 2018
+   }
+  ]
+ },
+ "sangseok-you": {
+  "orcid": "0000-0003-0101-8408",
+  "affiliations": [
+   {
+    "name": "HEC Paris",
+    "country": "FR",
+    "year": 2018
+   }
+  ]
+ },
+ "sarah-fletcher": {
+  "orcid": "0000-0001-6606-7556",
+  "affiliations": [
+   {
+    "name": "Cranfield University",
+    "country": "GB",
+    "year": 2015
+   }
+  ]
+ },
+ "sean-mcloone": {
+  "orcid": "0000-0002-3016-6197",
+  "affiliations": [
+   {
+    "name": "Queen's University Belfast",
+    "country": "GB",
+    "year": 2025
+   }
+  ]
+ },
+ "sebastian-kreppold": {
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "sebastian-schlund": {
+  "orcid": "0000-0002-8142-0255",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "secil-kulac": {
+  "orcid": "0000-0003-3432-0099",
+  "affiliations": [
+   {
+    "name": "Bursa Technical University",
+    "country": "TR",
+    "year": 2026
+   }
+  ]
+ },
+ "shahnawaz-anwer": {
+  "orcid": "0000-0003-3187-8062",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2021
+   }
+  ]
+ },
+ "shuang-lu": {
+  "orcid": "0000-0001-7308-2850",
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Casting, Composite and Processing Technology IGCV",
+    "country": "DE",
+    "year": 2020
+   }
+  ]
+ },
+ "shufei-li": {
+  "orcid": "0000-0002-5684-6756",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2023
+   }
+  ]
+ },
+ "shuo-ji": {
+  "orcid": "0009-0003-8622-0011",
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "shuqi-zhang": {
+  "orcid": "0009-0008-9869-9556",
+  "affiliations": [
+   {
+    "name": "The 28th Research Institute of China Electronics Technology Group Corporation",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "shuzhi-sam-ge": {
+  "orcid": "0000-0001-5549-312X",
+  "affiliations": [
+   {
+    "name": "National University of Singapore",
+    "country": "SG",
+    "year": 2025
+   }
+  ]
+ },
+ "siddhartha-srinivasa": {
+  "orcid": "0000-0002-5091-106X",
+  "affiliations": [
+   {
+    "name": "University of Washington",
+    "country": "US",
+    "year": 2020
+   }
+  ]
+ },
+ "siegfried-hollerer": {
+  "orcid": "0000-0002-3814-6019",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "simon-pearson": {
+  "orcid": "0000-0002-4297-4837",
+  "affiliations": [
+   {
+    "name": "University of Lincoln",
+    "country": "GB",
+    "year": 2023
+   }
+  ]
+ },
+ "sofia-pinheiro": {
+  "orcid": "0000-0003-2705-8803",
+  "affiliations": [
+   {
+    "name": "Universidade do Porto",
+    "country": "PT",
+    "year": 2021
+   }
+  ]
+ },
+ "soheil-gholami": {
+  "orcid": "0000-0001-5050-319X",
+  "affiliations": [
+   {
+    "name": "Italian Institute of Technology",
+    "country": "IT",
+    "year": 2023
+   },
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2023
+   }
+  ]
+ },
+ "stefan-morana": {
+  "orcid": "0000-0002-2266-1286",
+  "affiliations": [
+   {
+    "name": "Saarland University",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "stefanos-nikolaidis": {
+  "orcid": "0000-0002-8617-3871",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2020
+   }
+  ]
+ },
+ "stephan-corporaal": {
+  "orcid": "0000-0003-4060-2447",
+  "affiliations": [
+   {
+    "name": "Saxion",
+    "country": "NL",
+    "year": 2021
+   }
+  ]
+ },
+ "stephan-kessler": {
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2023
+   }
+  ]
+ },
+ "stephane-buffat": {
+  "orcid": "0000-0002-7484-9627"
+ },
+ "stephen-mcilvanna": {
+  "orcid": "0000-0002-7227-6933",
+  "affiliations": [
+   {
+    "name": "Queen's University Belfast",
+    "country": "GB",
+    "year": 2025
+   }
+  ]
+ },
+ "susel-rosario": {
+  "orcid": "0000-0002-9031-4622",
+  "affiliations": [
+   {
+    "name": "Universidade do Porto",
+    "country": "PT",
+    "year": 2017
+   }
+  ]
+ },
+ "tage-s-kristensen": {
+  "orcid": "0000-0003-2646-4818"
+ },
+ "tamas-ruppert": {
+  "orcid": "0000-0001-9441-843X",
+  "affiliations": [
+   {
+    "name": "University of Pannonia",
+    "country": "HU",
+    "year": 2023
+   }
+  ]
+ },
+ "tanja-zseby": {
+  "orcid": "0000-0002-5391-467X",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "tao-sun": {
+  "affiliations": [
+   {
+    "name": "Tianjin University",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "task-n-pad-r": {
+  "orcid": "0000-0001-5123-5801",
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "US",
+    "year": 2024
+   }
+  ]
+ },
+ "tatsuro-mori": {
+  "affiliations": [
+   {
+    "name": "Toyota Motor Corporation (Japan)",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "tessa-j-pannen": {
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Production Systems and Design Technology",
+    "country": "DE",
+    "year": 2018
+   },
+   {
+    "name": "Technische Universität Berlin",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "thomas-wortmann": {
+  "orcid": "0000-0002-5604-1624",
+  "affiliations": [
+   {
+    "name": "University of Stuttgart",
+    "country": "DE",
+    "year": 2025
+   }
+  ]
+ },
+ "tian-wang": {
+  "orcid": "0009-0004-8891-7389",
+  "affiliations": [
+   {
+    "name": "Hong Kong Polytechnic University",
+    "country": "HK",
+    "year": 2023
+   }
+  ]
+ },
+ "til-stotz": {
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Manufacturing Engineering and Automation",
+    "country": "DE",
+    "year": 2022
+   }
+  ]
+ },
+ "timo-salmi": {
+  "orcid": "0000-0002-1531-3195",
+  "affiliations": [
+   {
+    "name": "VTT Technical Research Centre of Finland",
+    "country": "FI",
+    "year": 2018
+   }
+  ]
+ },
+ "tizian-rein": {
+  "orcid": "0009-0007-0554-5906",
+  "affiliations": [
+   {
+    "name": "Technical University of Munich",
+    "country": "DE",
+    "year": 2026
+   }
+  ]
+ },
+ "tobias-stefanak": {
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "tom-tijink": {
+  "affiliations": [
+   {
+    "name": "Saxion",
+    "country": "NL",
+    "year": 2021
+   }
+  ]
+ },
+ "tomas-germann": {
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "tommaso-abbattista": {
+  "affiliations": [
+   {
+    "name": "ABB (Germany)",
+    "country": "DE",
+    "year": 2022
+   }
+  ]
+ },
+ "torsten-sebastian-sievers": {
+  "orcid": "0000-0002-0500-1761",
+  "affiliations": [
+   {
+    "name": "University of Bremen",
+    "country": "DE",
+    "year": 2021
+   }
+  ]
+ },
+ "toshio-ueshiba": {
+  "orcid": "0000-0001-9553-7705",
+  "affiliations": [
+   {
+    "name": "National Institute of Advanced Industrial Science and Technology",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "tsubasa-maruyama": {
+  "orcid": "0000-0003-0628-4828",
+  "affiliations": [
+   {
+    "name": "National Institute of Advanced Industrial Science and Technology",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "ukasz-sobaszek": {
+  "orcid": "0000-0003-1298-2438",
+  "affiliations": [
+   {
+    "name": "Lublin University of Technology",
+    "country": "PL",
+    "year": 2026
+   }
+  ]
+ },
+ "uwe-dombrowski": {
+  "affiliations": [
+   {
+    "name": "Technische Universität Braunschweig",
+    "country": "DE",
+    "year": 2018
+   }
+  ]
+ },
+ "v-borg": {
+  "affiliations": [
+   {
+    "name": "Danish National Institute of Public Health",
+    "country": "DK",
+    "year": 2005
+   }
+  ]
+ },
+ "vasileios-moysiadis": {
+  "orcid": "0000-0001-5772-1392",
+  "affiliations": [
+   {
+    "name": "University of Thessaly",
+    "country": "GR",
+    "year": 2023
+   },
+   {
+    "name": "Centre for Research and Technology Hellas",
+    "country": "GR",
+    "year": 2023
+   }
+  ]
+ },
+ "vendula-laciok": {
+  "orcid": "0000-0001-7266-2351",
+  "affiliations": [
+   {
+    "name": "VSB - Technical University of Ostrava",
+    "country": "CZ",
+    "year": 2026
+   }
+  ]
+ },
+ "vera-hummel": {
+  "affiliations": [
+   {
+    "name": "Reutlingen University",
+    "country": "DE",
+    "year": 2017
+   }
+  ]
+ },
+ "veza-ivica": {
+  "affiliations": [
+   {
+    "name": "University of Split",
+    "country": "HR",
+    "year": 2020
+   }
+  ]
+ },
+ "vincent-hargaden": {
+  "orcid": "0000-0003-1247-613X",
+  "affiliations": [
+   {
+    "name": "University College Dublin",
+    "country": "IE",
+    "year": 2022
+   }
+  ]
+ },
+ "vineet-kamat": {
+  "orcid": "0000-0003-0788-5588",
+  "affiliations": [
+   {
+    "name": "University of Michigan",
+    "country": "US",
+    "year": 2018
+   }
+  ]
+ },
+ "wei-win-loy": {
+  "orcid": "0000-0001-8283-978X",
+  "affiliations": [
+   {
+    "name": "Queensland University of Technology",
+    "country": "AU",
+    "year": 2025
+   }
+  ]
+ },
+ "weichen-zhang": {
+  "orcid": "0009-0006-8252-7966",
+  "affiliations": [
+   {
+    "name": "Harbin Institute of Technology",
+    "country": "CN",
+    "year": 2025
+   },
+   {
+    "name": "Ministry of Industry and Information Technology",
+    "country": "CN",
+    "year": 2025
+   },
+   {
+    "name": "Politecnico di Milano",
+    "country": "IT",
+    "year": 2025
+   }
+  ]
+ },
+ "weipeng-yang": {
+  "orcid": "0000-0002-8057-2863",
+  "affiliations": [
+   {
+    "name": "Education University of Hong Kong",
+    "country": "HK",
+    "year": 2024
+   }
+  ]
+ },
+ "weiyong-si": {
+  "orcid": "0000-0003-4531-2596",
+  "affiliations": [
+   {
+    "name": "University of Essex",
+    "country": "GB",
+    "year": 2024
+   },
+   {
+    "name": "University of the West of England",
+    "country": "GB",
+    "year": 2024
+   },
+   {
+    "name": "Bristol Robotics Laboratory",
+    "country": "GB",
+    "year": 2024
+   }
+  ]
+ },
+ "wenchao-yang": {
+  "orcid": "0009-0002-6677-3949",
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "wenjie-yin": {
+  "orcid": "0000-0002-7189-1336",
+  "affiliations": [
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2020
+   }
+  ]
+ },
+ "wenjun-xu": {
+  "orcid": "0000-0001-5370-3437",
+  "affiliations": [
+   {
+    "name": "Wuhan University of Technology",
+    "country": "CN",
+    "year": 2020
+   }
+  ]
+ },
+ "wenxiang-ren": {
+  "orcid": "0009-0003-9398-890X",
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "werner-kraus": {
+  "orcid": "0000-0001-8452-1468",
+  "affiliations": [
+   {
+    "name": "Fraunhofer Institute for Manufacturing Engineering and Automation",
+    "country": "DE",
+    "year": 2022
+   }
+  ]
+ },
+ "wilfried-sihn": {
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2017
+   },
+   {
+    "name": "Fraunhofer Austria",
+    "country": "AT",
+    "year": 2017
+   }
+  ]
+ },
+ "wilm-decre": {
+  "orcid": "0000-0002-9724-8103",
+  "affiliations": [
+   {
+    "name": "KU Leuven",
+    "country": "BE",
+    "year": 2022
+   }
+  ]
+ },
+ "wolfgang-kastner": {
+  "orcid": "0000-0001-5420-404X",
+  "affiliations": [
+   {
+    "name": "TU Wien",
+    "country": "AT",
+    "year": 2021
+   }
+  ]
+ },
+ "xi-chen": {
+  "orcid": "0000-0002-3680-7485",
+  "affiliations": [
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2020
+   }
+  ]
+ },
+ "xiaowei-luo": {
+  "orcid": "0000-0002-9360-7308",
+  "affiliations": [
+   {
+    "name": "City University of Hong Kong",
+    "country": "HK",
+    "year": 2023
+   }
+  ]
+ },
+ "xiaoyu-wen": {
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "xinran-wang": {
+  "orcid": "0000-0002-3885-6870",
+  "affiliations": [
+   {
+    "name": "Wuhan University of Technology",
+    "country": "CN",
+    "year": 2020
+   }
+  ]
+ },
+ "yakup-kara": {
+  "orcid": "0000-0001-8458-7328",
+  "affiliations": [
+   {
+    "name": "Konya Technical University",
+    "country": "TR",
+    "year": 2025
+   }
+  ]
+ },
+ "yannick-james": {
+  "affiliations": [
+   {
+    "name": "Thales (France)",
+    "country": "FR",
+    "year": 2025
+   }
+  ]
+ },
+ "yasemin-copur-gencturk": {
+  "orcid": "0000-0001-8819-3035",
+  "affiliations": [
+   {
+    "name": "University of Southern California",
+    "country": "US",
+    "year": 2023
+   }
+  ]
+ },
+ "ye-ma": {
+  "affiliations": [
+   {
+    "name": "Nanjing University of Aeronautics and Astronautics",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "yijie-cai": {
+  "orcid": "0000-0003-3283-0132",
+  "affiliations": [
+   {
+    "name": "Wuhan University of Technology",
+    "country": "CN",
+    "year": 2020
+   }
+  ]
+ },
+ "ying-liu": {
+  "orcid": "0000-0001-9319-5940",
+  "affiliations": [
+   {
+    "name": "Cardiff University",
+    "country": "GB",
+    "year": 2024
+   }
+  ]
+ },
+ "yingchao-you": {
+  "orcid": "0000-0002-4193-3304",
+  "affiliations": [
+   {
+    "name": "Hohai University",
+    "country": "CN",
+    "year": 2026
+   },
+   {
+    "name": "Cardiff University",
+    "country": "GB",
+    "year": 2025
+   }
+  ]
+ },
+ "yiping-shen": {
+  "affiliations": [
+   {
+    "name": "Shanghai Academy of Spaceflight Technology",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "yongle-wang": {
+  "orcid": "0009-0005-7558-0374",
+  "affiliations": [
+   {
+    "name": "Zhengzhou University of Light Industry",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "yoshihiro-nakabo": {
+  "orcid": "0000-0002-6450-2099",
+  "affiliations": [
+   {
+    "name": "National Institute of Advanced Industrial Science and Technology",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "yu-chen": {
+  "affiliations": [
+   {
+    "name": "Nanjing University of Aeronautics and Astronautics",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "yui-endo": {
+  "orcid": "0000-0002-5541-5882",
+  "affiliations": [
+   {
+    "name": "National Institute of Advanced Industrial Science and Technology",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "yukiyasu-domae": {
+  "orcid": "0000-0002-1366-9657",
+  "affiliations": [
+   {
+    "name": "National Institute of Advanced Industrial Science and Technology",
+    "country": "JP",
+    "year": 2021
+   }
+  ]
+ },
+ "yuksel-degirmencioglu-demiralay": {
+  "orcid": "0000-0001-9964-0865",
+  "affiliations": [
+   {
+    "name": "Konya Technical University",
+    "country": "TR",
+    "year": 2025
+   }
+  ]
+ },
+ "yunbo-zhangwa": {
+  "affiliations": [
+   {
+    "name": "Nanjing University of Aeronautics and Astronautics",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "yunlong-tang": {
+  "affiliations": [
+   {
+    "name": "Monash University",
+    "country": "AU",
+    "year": 2026
+   }
+  ]
+ },
+ "yunuo-su": {
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "yuval-cohen": {
+  "orcid": "0000-0002-8225-6960",
+  "affiliations": [
+   {
+    "name": "Afeka College of Engineering",
+    "country": "IL",
+    "year": 2023
+   }
+  ]
+ },
+ "yuyang-du": {
+  "affiliations": [
+   {
+    "name": "Shenyang Institute of Automation",
+    "country": "CN",
+    "year": 2026
+   },
+   {
+    "name": "Northwestern Polytechnical University",
+    "country": "CN",
+    "year": 2026
+   },
+   {
+    "name": "Chinese Academy of Sciences",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "yuzhu-sun": {
+  "orcid": "0000-0002-4776-592X",
+  "affiliations": [
+   {
+    "name": "Queen's University Belfast",
+    "country": "GB",
+    "year": 2025
+   }
+  ]
+ },
+ "ze-ji": {
+  "orcid": "0000-0002-8968-9902",
+  "affiliations": [
+   {
+    "name": "Cardiff University",
+    "country": "GB",
+    "year": 2026
+   }
+  ]
+ },
+ "ze-zheng": {
+  "affiliations": [
+   {
+    "name": "Nanjing University of Aeronautics and Astronautics",
+    "country": "CN",
+    "year": 2025
+   }
+  ]
+ },
+ "zhengrong-yi": {
+  "affiliations": [
+   {
+    "name": "KTH Royal Institute of Technology",
+    "country": "SE",
+    "year": 2020
+   }
+  ]
+ },
+ "zhihao-liu": {
+  "orcid": "0000-0002-0222-912X",
+  "affiliations": [
+   {
+    "name": "Wuhan University of Technology",
+    "country": "CN",
+    "year": 2020
+   }
+  ]
+ },
+ "zhiheng-cai": {
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "zijie-yu": {
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "ziyan-zhao": {
+  "orcid": "0000-0002-5858-4489",
+  "affiliations": [
+   {
+    "name": "Northeastern University",
+    "country": "CN",
+    "year": 2026
+   }
+  ]
+ },
+ "zsolt-kemeny": {
+  "orcid": "0000-0003-3866-6556",
+  "affiliations": [
+   {
+    "name": "HUN-REN Institute for Computer Science and Control",
+    "country": "HU",
+    "year": 2018
+   },
+   {
+    "name": "Hungarian Academy of Sciences",
+    "country": "HU",
+    "year": 2018
+   }
+  ]
+ },
+ "zude-zhou": {
+  "orcid": "0000-0001-9257-7154",
+  "affiliations": [
+   {
+    "name": "Wuhan University of Technology",
+    "country": "CN",
+    "year": 2020
+   }
+  ]
+ }
+}

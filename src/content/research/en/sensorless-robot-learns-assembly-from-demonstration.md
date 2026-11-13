@@ -22,6 +22,8 @@ paper:
   venue: "Robotics and Autonomous Systems"
   doi: "10.1016/j.robot.2020.103711"
   url: "https://doi.org/10.1016/j.robot.2020.103711"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Force/torque sensors make a cell more expensive, and many industrial robots do not have them. The study shows a way to teach a tight-fit assembly by guiding the robot by hand and letting it correct part position errors on its own. It is relevant to anyone who programs cobots by demonstration and has to deal with parts that never arrive in exactly the same place."
 method: "Experiment with a Franka EMIKA Panda robot that mounts a gear on a square-section shaft, with a tight tolerance and parts positioned with an error of up to ±7.5 mm. Fifteen people guided the robot by hand, five times per step (approach, insertion and pushing). A Hidden Markov Model (HMM) picks the most reliable demonstration, and Bayesian Optimization tunes the target point and the control stiffness after the assembly position is shifted by ±7.5 mm and ±5°. The final comparison used 10 repetitions per person, 150 per method."
 findings:

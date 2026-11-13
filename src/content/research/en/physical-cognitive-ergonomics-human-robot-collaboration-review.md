@@ -25,6 +25,8 @@ paper:
   venue: "Frontiers in Robotics and AI"
   doi: "10.3389/frobt.2022.813907"
   url: "https://doi.org/10.3389/frobt.2022.813907"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "For anyone designing a collaborative cell, the text works as a guide to what exists for assessing posture, effort and mental load, and to which sensors suit the shop floor. It shows where research is mature, which is posture, and where the foundations are still missing, which is cognitive load. It is also a reminder that monitoring workers raises questions of cost and privacy."
 method: "A narrative review with keyword searches in Google Scholar and Scopus. The works on ergonomic human-robot collaboration cover 2011 to August 2022; the ergonomic assessment tools were surveyed from the earliest reports in the field. Teleoperation and exoskeletons were left out, and the focus is the workstation, not work organization. The paper does not say how many studies were included."
 findings:

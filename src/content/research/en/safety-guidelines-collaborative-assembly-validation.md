@@ -23,6 +23,8 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2021.107801"
   url: "https://doi.org/10.1016/j.cie.2021.107801"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Many companies have no robot safety expert on the design team. The study indicates that an organized set of guidelines, aligned with the standards, helps manufacturing engineers reach a safer design. It also shows the price: the biggest gain came from separating person and robot."
 method: "The guidelines come from standards (ISO 12100, ISO 10218, ISO/TS 15066 and ISO/TR 20218-1), manufacturers' manuals and the scientific literature, and deal only with mechanical hazards. For validation, in a laboratory in Bolzano, the team built an assembly cell for a metal piece of furniture with a UR10 robot without considering safety, and a certified expert assessed the risk. Three manufacturing engineers with no safety training redesigned the cell using the guidelines; the new version was modeled as a digital twin and reassessed by the same expert."
 findings:

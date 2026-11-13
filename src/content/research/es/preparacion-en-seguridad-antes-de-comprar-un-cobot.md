@@ -26,6 +26,8 @@ paper:
   venue: "Safety"
   doi: "10.3390/safety8030048"
   url: "https://doi.org/10.3390/safety8030048"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La evaluación de riesgos obligatoria solo ocurre en la fase de diseño, cuando la compra ya está decidida. Este estudio propone mirar antes, y de forma amplia: personas, organización y entorno, además de la máquina. Para la empresa que considera su primer cobot, ofrece una guía de lo que necesita saber y de dónde están sus lagunas."
 method: "Los autores combinan una revisión narrativa de la literatura con su investigación anterior sobre factores de riesgo y, a partir de ahí, hacen el modelado conceptual de una herramienta de autoevaluación basada en una rejilla de madurez. Solo se tratan las dos primeras fases del desarrollo: preparar y construir el modelo. La evaluación con especialistas y las pruebas en empresas quedan para después."
 findings:

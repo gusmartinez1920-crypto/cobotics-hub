@@ -21,6 +21,8 @@ paper:
   venue: "Advanced Intelligent Systems"
   doi: "10.1002/aisy.202300359"
   url: "https://doi.org/10.1002/aisy.202300359"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Cada sensor falla a su manera: la cámara pierde la pieza con la oclusión, el micrófono se pierde en el ruido de la fábrica. Combinar modalidades es la salida, y esta revisión ordena las opciones, las formas de fusionar los datos y los límites de cada sensor. Es un buen punto de partida para quien diseña la percepción de una celda colaborativa."
 method: "Los autores hicieron una revisión de la literatura en las bases Web of Science y Scopus, restringida a revistas de primer nivel y a congresos de robótica e inteligencia artificial, con búsqueda en diciembre de 2022. Tras el cribado y la inclusión por referencias, el conjunto final tiene 199 artículos. El material se organiza en cuatro modalidades (visión, audio y lenguaje, tacto y señales fisiológicas) y en tres dimensiones: percepción, cognición y acción."
 findings:

@@ -25,6 +25,7 @@ paper:
   venue: "Journal of Manufacturing Systems"
   doi: "10.1016/j.jmsy.2021.11.007"
   url: "https://doi.org/10.1016/j.jmsy.2021.11.007"
+  openAccess: true
 whyItMatters: "Diseñar una celda con cobot implica más que elegir el robot y evitar colisiones: entran la confianza, la carga mental, el reparto de tareas y la organización del trabajo. La revisión sirve de mapa de lo que ya se sabe sobre cada uno de esos factores y muestra dónde faltan todavía herramientas para decidir si la colaboración es viable en una tarea."
 method: "Los autores hicieron una revisión sistemática de la literatura en las bases Scopus y Web of Science, desde el inicio de las bases hasta diciembre de 2019, solo en inglés, e incluyeron 65 artículos tras el cribado. Analizaron el contenido con la perspectiva de factores humanos y ergonomía y clasificaron los estudios en tres niveles: un único factor (operador humano o tecnología), desempeño del equipo humano-robot y enfoques integrados."
 findings:

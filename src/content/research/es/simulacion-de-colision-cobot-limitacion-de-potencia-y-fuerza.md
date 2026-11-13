@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2018.10.028"
   url: "https://doi.org/10.1016/j.promfg.2018.10.028"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Hoy la fuerza y la presión de una colisión solo se miden después de instalar la celda, cuando buena parte de la inversión ya está hecha. Si la medición no se aprueba, queda reducir la velocidad o rehacer la herramienta. Hacer ese cálculo en la simulación, con los datos de planificación que ya existen, anticipa el problema."
 method: "El caso de uso es un atornillado semiautomático en una línea de montaje de vehículos, en el que el robot aprieta cuatro tornillos en el modo de limitación de potencia y fuerza (PFL). En un estudio experimental, un robot KUKA LBR iiwa chocó con un medidor de fuerza y presión del instituto alemán IFA, variando velocidad, límite de fuerza, masa y radio de la herramienta, configuración de los ejes y región del cuerpo, con cinco mediciones por serie. Después los autores describen un plug-in para el software Siemens Process Simulate que calcula fuerza y presión por el método de la masa reflejada."
 findings:

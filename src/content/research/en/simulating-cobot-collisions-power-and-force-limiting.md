@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2018.10.028"
   url: "https://doi.org/10.1016/j.promfg.2018.10.028"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Today the force and pressure of a collision can only be measured after the cell is installed, when much of the investment has already been made. If the measurement fails, the only options are to slow the robot down or redesign the tool. Doing this calculation in simulation, with planning data that already exist, brings the problem forward."
 method: "The use case is a semi-automatic screwdriving task on a vehicle assembly line, in which the robot tightens four screws in power and force limiting (PFL) mode. In an experimental study, a KUKA LBR iiwa robot collided with a force and pressure measuring device from the German institute IFA, varying speed, force limit, tool mass and radius, axis configuration and body region, with five measurements per series. The authors then describe a plug-in for the Siemens Process Simulate software that calculates force and pressure using the reflected mass method."
 findings:

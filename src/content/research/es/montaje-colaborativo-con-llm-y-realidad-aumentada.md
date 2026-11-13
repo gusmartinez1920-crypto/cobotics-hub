@@ -25,6 +25,8 @@ paper:
   venue: "Electronics"
   doi: "10.3390/electronics14153125"
   url: "https://doi.org/10.3390/electronics14153125"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "El montaje en espacios reducidos depende mucho de la memoria y de la decisión del operador, y el cobot por sí solo no lo resuelve. El estudio muestra una forma de llevar el conocimiento del proceso hasta la persona, en su campo de visión, y de usar un modelo de lenguaje para sugerir quién hace qué. También registra un punto de atención: el cobot sin el apoyo adecuado tendió a aumentar el estrés del operador."
 method: "Es una propuesta técnica validada en un único estudio de caso: el montaje de una cabina electrónica aeroespacial, en un banco con dos cobots con visión, uno para tomar piezas y otro para atornillar. Las tareas se describieron en fichas estructuradas, consultadas por un modelo de lenguaje ajustado al dominio, y la orientación aparece en gafas de realidad aumentada controladas por voz, gesto o mirada. Los autores evaluaron las respuestas del modelo, el seguimiento de posición en tres escenarios y compararon cuatro formas de montaje con 20 participantes."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "Safety Science"
   doi: "10.1016/j.ssci.2020.104832"
   url: "https://doi.org/10.1016/j.ssci.2020.104832"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The standard makes several design safeguards conditional on the outcome of hazard analysis and risk assessment, but does not say how to make that link. In practice, the decision is left to designers and integrators. The study helps cobot integrators see where speed, force and stop limits are often chosen without a basis in risk assessment, and suggests methods to structure it."
 method: "This is a narrative review in two stages. The authors first singled out the ISO/TS 15066 clauses that make safeguards conditional on risk assessment and then searched for papers aligned with each one, prioritizing robotics and safety journals. The analysis goes through the clauses on the collaborative workplace, collaborative operation and the operating modes, and organizes the proposal into the three phases of ISO 31000: risk identification, analysis and evaluation."
 findings:

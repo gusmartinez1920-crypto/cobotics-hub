@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2022.05.073"
   url: "https://doi.org/10.1016/j.procir.2022.05.073"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Em aplicações com limitação de potência e força, o contato entre robô e pessoa é permitido desde que respeite limites biomecânicos. Hoje só dá para medir essa carga depois que a aplicação está montada, e o projeto pode ter de ser refeito. Uma estimativa no planejamento ajudaria a saber cedo se a velocidade e o tempo de ciclo desejados são viáveis."
 method: "É uma proposta conceitual com protótipo, apresentada em conferência, sem dados experimentais. Num banco de ensaios, um robô industrial posiciona um dispositivo de medição que imita o corpo humano e um cobot leva um impactador modular contra ele. Variam-se posição e direção do contato, velocidade, carga útil, material e forma da superfície e a parte do corpo atingida. Os valores ficam num banco de dados por tipo de robô, e um sistema especialista sugere o conjunto de parâmetros seguro mais próximo."
 findings:

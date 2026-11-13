@@ -29,6 +29,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s21248266"
   url: "https://doi.org/10.3390/s21248266"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Los gemelos digitales de celdas con robot suelen modelar bien la máquina y mal a la persona. Este trabajo incluye un modelo detallado del cuerpo del trabajador y calcula el esfuerzo en cada articulación, en lugar de usar índices rápidos de postura. Muestra una forma de vincular la ergonomía y la programación de la producción en tiempo real, y también lo que aún falta para llevarlo a una fábrica."
 method: "Los autores desarrollaron y demostraron un sistema con tres módulos conectados por comunicación inalámbrica. El primero es un humano digital con 48 grados de libertad, ajustado al cuerpo del trabajador y alimentado por captura óptica de movimiento con 16 cámaras y 37 marcadores en la ropa; calcula el par en las articulaciones. El segundo es el modelo virtual de un robot móvil. El tercero prevé el tiempo de ciclo y reasigna piezas del trabajador al robot. El escenario fue la preparación de piezas en 40 cajas, con una demostración en vivo con un operador, en 8 ciclos de 40 piezas, y una validación con datos que imitan tres perfiles de retraso."
 findings:

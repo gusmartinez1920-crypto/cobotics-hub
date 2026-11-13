@@ -21,6 +21,8 @@ paper:
   venue: "Procedia Computer Science"
   doi: "10.1016/j.procs.2022.12.389"
   url: "https://doi.org/10.1016/j.procs.2022.12.389"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "It is a good entry point for newcomers: it defines human-robot collaboration, separates the four types of interaction between person and robot, and shows which themes the research concentrates on. It helps place a project or a reading within the field."
 method: "The authors searched the Scopus database for the terms human-robot collaboration and human-robot interaction, with no time limit, and selected the 2,000 most-cited papers. They analyzed the network formed by the keywords of those papers. They then wrote a narrative review of the trends, with examples of case studies."
 findings:

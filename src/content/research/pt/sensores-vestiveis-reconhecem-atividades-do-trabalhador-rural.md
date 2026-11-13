@@ -22,6 +22,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app11052188"
   url: "https://doi.org/10.3390/app11052188"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Para trabalhar perto de uma pessoa, o robô precisa saber o que ela está fazendo. Este estudo testa esse reconhecimento no campo, onde a luz varia e não há como instalar câmeras fixas, usando sensores vestíveis. O robô aqui é um veículo de transporte agrícola, não um braço colaborativo, mas o método interessa a qualquer aplicação em que o robô precise acompanhar a atividade humana."
 method: "O experimento foi feito em uma fazenda na Grécia com 20 participantes saudáveis. Cada um caminhava, levantava uma caixa (vazia ou com cerca de 20% da própria massa) e a colocava sobre um de dois robôs parados, com alturas de depósito de 40 e 80 cm. Cinco sensores inerciais, no tronco e nos dois punhos, registraram os movimentos, que foram rotulados com apoio de vídeo. Uma rede neural recorrente do tipo LSTM foi treinada para classificar seis subatividades, com os dados de quatro participantes reservados para teste."
 findings:

@@ -26,6 +26,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-023-00098-3"
   url: "https://doi.org/10.1007/s41693-023-00098-3"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The study is a reminder that automating one isolated task can make the whole worse, because it cuts the informal exchange of information between the people and machines in the process. The automation and collaboration matrix helps spot that risk before the design. Mind the vocabulary: here, cobot refers to construction machines that collaborate with each other, not the industrial collaborative arm."
 method: "This is a conceptual paper with a case study. The authors start from existing scales of automation level and adapt a social scale to define six levels of collaboration, from coexistence to full collaboration. They classify examples from the literature in an automation and collaboration matrix and propose a three-step roadmap: process analysis, integration with the digital building model (BIM), and step-by-step development. In the case, a vibratory plate was fitted with satellite positioning and wireless communication to work with an excavator, with partial tests on a German construction site."
 findings:

@@ -24,6 +24,8 @@ paper:
   venue: "Systems"
   doi: "10.3390/systems13100856"
   url: "https://doi.org/10.3390/systems13100856"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La obra es muy distinta de la fábrica: el entorno cambia todo el tiempo, las tareas varían y circula mucha gente. La revisión muestra que las reglas pensadas para el robot industrial no bastan allí y reúne lo que la investigación ya intentó. Sirve de contraste para quien conoce los cobots de fábrica y quiere entender otro sector."
 method: "Los autores hicieron una revisión de método mixto. Buscaron en la base Scopus estudios de 2005 a 2025 y, de 14.128 registros iniciales, llegaron a 287 tras los filtros, el cribado de resúmenes y la lectura completa. Analizaron el conjunto con un programa de bibliometría (países, fuentes más citadas, palabras clave y su evolución) e hicieron una síntesis cualitativa en cinco temas."
 findings:

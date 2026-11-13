@@ -21,6 +21,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3778865"
   url: "https://doi.org/10.1145/3778865"
+  openAccess: true
 whyItMatters: "La confianza aparece en casi todos los estudios sobre aceptación de cobots, y este texto ayuda a leerlos con más cuidado. Según los autores, la escala más usada en la colaboración industrial mide cuánto parece fiable el robot, y no la disposición de la persona a exponerse a lo que este hace. Para quien investiga o evalúa una celda, la lección es decir con claridad qué se mide e incluir alguna situación de riesgo real."
 method: "Es un artículo de posición, sin datos nuevos. Los cuatro autores parten de un debate en un encuentro científico sobre la confianza en la interacción humano-robot y revisan teoría y métodos a la luz de un modelo clásico, en el que la fiabilidad percibida lleva a la confianza y esta, según el riesgo percibido, lleva a un comportamiento de riesgo. Organizan la crítica en cinco confusiones, con causas y sugerencias, y usan trabajos propios como ejemplo de los problemas."
 findings:

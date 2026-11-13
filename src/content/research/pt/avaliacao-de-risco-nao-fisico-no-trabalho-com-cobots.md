@@ -21,6 +21,8 @@ paper:
   venue: "Safety and Health at Work"
   doi: "10.1016/j.shaw.2024.12.002"
   url: "https://doi.org/10.1016/j.shaw.2024.12.002"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A avaliação de risco de uma célula colaborativa costuma se concentrar em perigos físicos. Este modelo acrescenta estresse, fadiga, treinamento, confiança no robô, comunicação e cibersegurança, em listas de verificação que os trabalhadores preenchem em cerca de 15 minutos. Ele complementa a avaliação exigida pelas normas, sem substituí-la."
 method: "Os autores, da Coreia do Sul, selecionaram 45 itens de risco a partir de três modelos de referência e os organizaram em três campos (trabalhador, sistemas robóticos e ambiente de trabalho) e nove fatores. Treze especialistas de fabricantes, usuários, consultorias e universidades ordenaram os itens por comparação aos pares, segundo a relevância para prevenir acidentes com robôs. Os autores montaram então seis listas de verificação com 20 questões cada e as aplicaram em seis locais de trabalho, quatro com acidentes com robôs no passado e dois sem, com 3 ou 4 trabalhadores por local."
 findings:

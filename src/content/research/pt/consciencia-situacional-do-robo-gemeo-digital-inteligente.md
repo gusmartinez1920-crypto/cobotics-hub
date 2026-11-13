@@ -20,6 +20,8 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-023-02138-9"
   url: "https://doi.org/10.1007/s10845-023-02138-9"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Os autores partem da ideia de que a imprevisibilidade do robô, e a dúvida sobre se ele entende o que acontece ao redor, é fonte de estresse para o operador. Medir o quanto o robô \"sabe\" da situação, e mostrar isso à pessoa pelo gêmeo digital, é um caminho para tornar a colaboração mais previsível. O estudo também mostra como usar essa medida para decidir quando vale a pena adaptar os modelos do robô."
 method: "O trabalho combina uma proposta formal com um experimento de demonstração. Os autores definem três métricas: a qualidade do contexto percebido, o grau de consistência entre sensores e modelos e a cobertura dos modelos ativos. Depois testam um processo de melhoria dos modelos em uma plataforma móvel Festo Robotino, numa fábrica-modelo com armazém automatizado e quatro estações, usando laser, câmera e simulação. O resultado é comparado com um agente de aprendizado por reforço."
 findings:

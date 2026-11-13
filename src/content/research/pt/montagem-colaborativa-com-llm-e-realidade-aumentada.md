@@ -24,6 +24,8 @@ paper:
   venue: "Electronics"
   doi: "10.3390/electronics14153125"
   url: "https://doi.org/10.3390/electronics14153125"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A montagem em espaços apertados depende muito da memória e da decisão do operador, e o cobot sozinho não resolve isso. O estudo mostra uma forma de levar o conhecimento do processo até a pessoa, no campo de visão, e de usar um modelo de linguagem para sugerir quem faz o quê. Também registra um ponto de atenção: o cobot sem apoio adequado tendeu a aumentar o estresse do operador."
 method: "É uma proposta técnica validada em um único estudo de caso: a montagem de uma cabine eletrônica aeroespacial, em uma bancada com dois cobots com visão, um para pegar peças e outro para aparafusar. As tarefas foram descritas em fichas estruturadas, consultadas por um modelo de linguagem ajustado ao domínio, e a orientação aparece em óculos de realidade aumentada comandados por voz, gesto ou olhar. Os autores avaliaram as respostas do modelo, o rastreamento de posição em três cenários e compararam quatro formas de montagem com 20 participantes."
 findings:

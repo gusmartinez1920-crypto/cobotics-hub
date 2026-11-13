@@ -25,6 +25,8 @@ paper:
   venue: "Safety"
   doi: "10.3390/safety8030048"
   url: "https://doi.org/10.3390/safety8030048"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A avaliação de risco obrigatória só acontece na fase de projeto, quando a compra já foi decidida. Este estudo propõe olhar antes, e de forma ampla: pessoas, organização e ambiente, além da máquina. Para a empresa que está considerando seu primeiro cobot, oferece um roteiro do que precisa saber e de onde estão suas lacunas."
 method: "Os autores combinam uma revisão narrativa da literatura com sua pesquisa anterior sobre fatores de risco e, a partir daí, fazem a modelagem conceitual de uma ferramenta de autoavaliação baseada em grade de maturidade. Só as duas primeiras fases do desenvolvimento são tratadas: preparar e construir o modelo. A avaliação com especialistas e os testes em empresas ficam para depois."
 findings:

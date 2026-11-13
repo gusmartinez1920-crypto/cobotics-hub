@@ -22,6 +22,7 @@ paper:
   venue: "Transportation Research Part E: Logistics and Transportation Review"
   doi: "10.1016/j.tre.2024.103696"
   url: "https://doi.org/10.1016/j.tre.2024.103696"
+  openAccess: true
 whyItMatters: "En los almacenes de palés, el operario sube y baja del vehículo unas 1.200 veces por turno, según un fabricante citado, lo que cansa y exige las rodillas. El estudio muestra que planificar juntos la ruta y los tramos a pie reduce a la vez el tiempo y ese esfuerzo. El vehículo aquí es una carretilla autónoma de preparación de pedidos, no un brazo colaborativo: la colaboración es el reparto del recorrido entre caminar e ir montado."
 method: "Es un trabajo de investigación operativa. Los autores formularon un modelo que minimiza el tiempo total de recorrido y el número de veces que la persona sube al vehículo, con una penalización de tiempo por cada subida. Como el modelo exacto solo resuelve listas pequeñas, crearon un algoritmo de programación dinámica que resuelve cualquier tamaño. Compararon siete estrategias por simulación, con 1.000 listas aleatorias por tamaño, en almacenes de 1 o 2 bloques con 10 o 20 pasillos, y aplicaron el método a 102 listas reales de un centro de distribución de bebidas de los Países Bajos."
 findings:

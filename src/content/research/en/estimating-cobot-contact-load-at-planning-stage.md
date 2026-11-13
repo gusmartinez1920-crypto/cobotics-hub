@@ -24,6 +24,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2022.05.073"
   url: "https://doi.org/10.1016/j.procir.2022.05.073"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "In power and force limiting applications, contact between robot and person is allowed as long as it stays within biomechanical limits. Today that load can only be measured once the application is built, and the design may have to be redone. An estimate at the planning stage would help show early whether the desired speed and cycle time are feasible."
 method: "This is a conceptual proposal with a prototype, presented at a conference, with no experimental data. On a testbed, an industrial robot positions a measuring device that mimics the human body and a cobot drives a modular impactor against it. The setup varies contact position and direction, speed, payload, surface material and shape, and the body part hit. The values are stored in a database per robot type, and an expert system suggests the closest safe set of parameters."
 findings:

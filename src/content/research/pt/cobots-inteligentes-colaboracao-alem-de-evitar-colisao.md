@@ -18,6 +18,7 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-023-02142-z"
   url: "https://doi.org/10.1007/s10845-023-02142-z"
+  openAccess: true
 whyItMatters: "O texto funciona como um mapa rápido dos temas de pesquisa em cobots inteligentes: segurança, programação com realidade aumentada, divisão de tarefas, motivação, falhas e inspeção. Serve para localizar assuntos e decidir o que ler em seguida, mais do que como evidência."
 method: "É um editorial de três páginas, sem pesquisa própria. Os editores abrem com uma introdução conceitual curta e depois resumem, em um parágrafo cada, os 10 artigos aceitos na edição especial, encadeados por tema."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2022.05.055"
   url: "https://doi.org/10.1016/j.procir.2022.05.055"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Quem projeta uma aplicação com cobot encontra dezenas de normas e não sabe por onde começar. O estudo propõe uma ordem de prioridade e mostra como a escolha muda conforme a tarefa. Também alerta para um hábito comum: avaliar o cobot com os mesmos procedimentos usados para robôs convencionais."
 method: "Os autores fizeram um levantamento narrativo da literatura, com 40 referências, apresentado em conferência. Identificaram as normas citadas nesses trabalhos e as classificaram pela estrutura de tipos A, B1, B2 e C da ISO 12100. A partir daí propuseram uma pirâmide de prioridade e agruparam estudos de caso por aplicação: montagem, manipulação de material, inspeção de qualidade, usinagem e soldagem."
 findings:

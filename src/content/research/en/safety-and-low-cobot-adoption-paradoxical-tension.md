@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2022.02.154"
   url: "https://doi.org/10.1016/j.procir.2022.02.154"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Anyone considering a cobot hears messages that do not fit together: the robot is inherently safe, it is too limited because it is safe, and it brings new risks. The study names this tension and helps explain why the decision is hard. It also suggests bringing safety knowledge in before the purchase."
 method: "The authors reviewed the literature in two databases (Web of Science and Scopus), in English, from 2011 to June 2021. After screening, they analyzed 35 texts in full, 10 of which deal specifically with adoption factors for industrial cobots. They classified the factors using an existing framework (internal, external and technological) and added data from an exploratory master's survey with 74 respondents and interviews with two manufacturers."
 findings:

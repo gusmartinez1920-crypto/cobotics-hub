@@ -23,6 +23,8 @@ paper:
   venue: "IEEE Transactions on Human-Machine Systems"
   doi: "10.1109/thms.2021.3092684"
   url: "https://doi.org/10.1109/thms.2021.3092684"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The paper helps separate the sales pitch for cobots from what happens on the shop floor. It shows that making interaction simpler can take away the operator's understanding and control of the system, and that co-workers, maintenance, supervisors and unions are also affected. It is useful reading for anyone planning an implementation or choosing a research topic."
 method: "A position paper with a narrative review and no search protocol. The authors organize the literature on human-robot interaction, work psychology and the sociology of work into five themes and reflect on a project of their own, with a UR10 cobot in two uses: tightening screws in engine assembly and polishing casting molds. From there they propose a research roadmap at three levels: individual, team and organization."
 findings:

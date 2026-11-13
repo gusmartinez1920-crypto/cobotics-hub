@@ -25,6 +25,7 @@ paper:
   venue: "Automation in Construction"
   doi: "10.1016/j.autcon.2018.09.008"
   url: "https://doi.org/10.1016/j.autcon.2018.09.008"
+  openAccess: true
 whyItMatters: "Un puesto puede ser seguro según las normas y aun así la persona puede no sentirse segura en él. El estudio muestra que esa sensación influye en la disposición a trabajar con el robot y que depende de la confianza y de sentirse parte del equipo. También muestra el uso de un entorno virtual para probar un puesto de trabajo antes de que exista."
 method: "Los autores hicieron un experimento de laboratorio con 30 participantes de una universidad de Estados Unidos, divididos en dos grupos: área compartida con el robot (14) o áreas separadas por una pila de bloques (16). Con gafas de realidad virtual, cada persona colocó bloques en un muro durante 7 minutos junto a un robot virtual de albañilería. Los cuestionarios midieron identificación con el equipo, confianza en el robot, seguridad percibida e intención de trabajar con el robot, y el análisis usó modelos estadísticos de mediación."
 findings:

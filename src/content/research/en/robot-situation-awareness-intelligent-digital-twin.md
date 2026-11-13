@@ -21,6 +21,8 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-023-02138-9"
   url: "https://doi.org/10.1007/s10845-023-02138-9"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The authors start from the idea that the robot's unpredictability, and the doubt about whether it understands what is happening around it, is a source of stress for the operator. Measuring how much the robot \"knows\" about the situation, and showing that to the person through the digital twin, is one way to make collaboration more predictable. The study also shows how to use this measure to decide when adapting the robot's models is worthwhile."
 method: "The work combines a formal proposal with a demonstration experiment. The authors define three metrics: the quality of the perceived context, the degree of consistency between sensors and models, and the coverage of the active models. They then test a model improvement process on a Festo Robotino mobile platform in a model factory with an automated warehouse and four stations, using a laser scanner, a camera and simulation. The result is compared with a reinforcement learning agent."
 findings:

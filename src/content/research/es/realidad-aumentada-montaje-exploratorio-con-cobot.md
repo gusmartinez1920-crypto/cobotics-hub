@@ -21,6 +21,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-025-00165-x"
   url: "https://doi.org/10.1007/s41693-025-00165-x"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Programar un robot antes y ejecutar solo después deja poco margen para cambiar de idea en medio del montaje. El estudio muestra cómo la realidad aumentada puede hacer visibles el movimiento y los límites del cobot para quien no sabe de robótica. Muestra también los límites de la idea: exceso de información en el campo de visión y colisiones que la previsualización no evitó."
 method: "Los autores construyeron un sistema que conecta gafas de realidad aumentada (HoloLens 2) con un cobot UR10. La interacción es por turnos: la persona ve la trayectoria prevista, la evalúa y solo entonces ordena al robot ejecutarla. Evaluaron el sistema en dos estudios consecutivos, cada uno con 5 participantes con formación en arquitectura: un taller de 2 horas en Australia y un taller de 3 días en Singapur, con el montaje de una estructura ligera de clavijas de madera. Recogieron cuestionarios, testimonios, videos y un escaneo 3D de la estructura e hicieron un análisis temático."
 findings:

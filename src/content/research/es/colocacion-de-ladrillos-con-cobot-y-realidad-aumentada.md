@@ -19,6 +19,8 @@ paper:
   venue: "Architectural Intelligence"
   doi: "10.1007/s44223-025-00085-4"
   url: "https://doi.org/10.1007/s44223-025-00085-4"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "El estudio lleva el cobot fuera de la fábrica, a la construcción, y prueba cuánta decisión humana cabe durante la ejecución. Muestra un compromiso que aparece en cualquier aplicación colaborativa: más intervención de la persona da flexibilidad y ahorra parte de la planificación, pero cuesta precisión y eficiencia. También advierte que la interfaz por gestos puede dejar gente fuera."
 method: "El trabajo tiene dos etapas. En la primera, un experimento con bloques pequeños de madera y un cobot UR10e comparó dos modos: diseñar todo en realidad aumentada y después construir, o alternar diseño y construcción capa a capa; la evaluación fue cualitativa, por observación de cuatro investigadores. En la segunda, los autores construyeron en una exposición un muro a escala real con ladrillos de 13 kg, usando un cobot Fanuc CRX-25iA sobre base móvil, gafas de realidad aumentada, mando por gestos y una cámara para corregir la localización. Midieron la desviación de cada ladrillo e hicieron demostraciones con unos 20 profesionales de la construcción."
 findings:

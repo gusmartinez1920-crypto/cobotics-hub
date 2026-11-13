@@ -22,6 +22,8 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2025.103025"
   url: "https://doi.org/10.1016/j.rcim.2025.103025"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "El reparto de tareas entre persona y cobot suele definirse por el tiempo de ciclo, no por el cansancio de quien trabaja. Este estudio muestra un camino para que el robot decida, durante el montaje, qué asumir a partir de una estimación del esfuerzo físico, sin imponer una secuencia fija al operador. Interesa a quienes investigan la asignación dinámica de tareas y la ergonomía en celdas colaborativas."
 method: "Los autores modelaron el montaje como un juego por turnos entre persona y robot y entrenaron una política de aprendizaje por refuerzo cuya recompensa penaliza el aumento del esfuerzo muscular. El esfuerzo proviene de un modelo musculoesquelético del miembro superior, alimentado por sensores inerciales en el cuerpo y acelerado por una red neuronal. Una máscara bloquea las acciones fuera del orden de montaje o que superan la capacidad de la pinza. La validación tuvo dos partes: una simulación con dos productos (una computadora de escritorio de 9 piezas y una bomba de 36 piezas), comparada con otros siete algoritmos, y un montaje real de la computadora con un cobot KUKA LBR iiwa y 8 participantes, que hicieron cinco montajes con la política entrenada y cinco con una política aleatoria."
 findings:

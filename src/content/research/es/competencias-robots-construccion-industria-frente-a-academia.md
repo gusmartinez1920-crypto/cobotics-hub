@@ -25,6 +25,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-025-00156-y"
   url: "https://doi.org/10.1007/s41693-025-00156-y"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Quien diseña un curso o una capacitación sobre el trabajo con robots necesita saber si lo que enseña la universidad es lo que busca la empresa. Este estudio muestra dónde coinciden las dos partes y dónde se separan. Los ejemplos son robots de construcción (pintura, impresión 3D, drones, máquinas autónomas), y la aplicación de la lista a los cobots de fábrica corresponde al lector."
 method: "Los autores partieron de una lista de 20 conocimientos, 10 habilidades y 12 aptitudes tomada de la literatura. Aplicaron el método Delphi, una consulta a expertos por rondas, en tres rondas y por separado con un panel de la industria y otro de la academia, ambos en Estados Unidos; en la última ronda había 13 y 14 participantes. Las notas de los dos grupos se compararon con una prueba estadística, y la prioridad de cada competencia se calculó con un índice de importancia relativa que va de 0 a 1."
 findings:

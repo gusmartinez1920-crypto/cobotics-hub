@@ -22,6 +22,8 @@ paper:
   venue: "Applied System Innovation"
   doi: "10.3390/asi5040072"
   url: "https://doi.org/10.3390/asi5040072"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Anyone who wants to build a robot for teaching or research on a small budget will find a detailed design here and a frank account of the problems. The case shows that calling an arm collaborative is not enough: without reliable collision detection, classroom use requires precautions that the study does not discuss."
 method: "Prototype development and testing, with no students and no assessment of learning. The structure started from an open model and was printed in PLA plastic; the joints use stepper motors, with one ESP32 microcontroller per axis and a graphical interface in MATLAB. Inverse kinematics is computed by particle swarm optimization, and a neural network was meant to detect collisions from motor current. The authors ran five tests, including accuracy and repeatability under the ISO 9283 standard, with 30 repetitions."
 findings:

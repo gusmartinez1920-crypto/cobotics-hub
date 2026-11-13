@@ -25,6 +25,7 @@ paper:
   venue: "Journal of Manufacturing Systems"
   doi: "10.1016/j.jmsy.2021.11.007"
   url: "https://doi.org/10.1016/j.jmsy.2021.11.007"
+  openAccess: true
 whyItMatters: "Designing a cobot cell involves more than choosing the robot and avoiding collisions: trust, mental workload, task sharing and work organization all come in. The review works as a map of what is already known about each of these factors and shows where tools are still missing for deciding whether collaboration is feasible for a task."
 method: "The authors carried out a systematic literature review in the Scopus and Web of Science databases, from their start to December 2019, in English only, and included 65 papers after screening. They analyzed the content from a human factors and ergonomics perspective and classified the studies into three levels: a single factor (human operator or technology), human-robot team performance, and integrated approaches."
 findings:

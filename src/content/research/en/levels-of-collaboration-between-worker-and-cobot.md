@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2018.03.214"
   url: "https://doi.org/10.1016/j.procir.2018.03.214"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Coexistence, cooperation and collaboration mean different things from one author to the next, which gets in the way of designing and evaluating a cobot cell. This study offers a common vocabulary that serves both the safety analysis and the question of what the worker experiences at the station."
 method: "The authors reviewed previously published classifications of collaboration levels and proposed their own framework, with levels and sublevels. They then applied it to two cases from the research institute where they work: assembling seals with an ABB YuMi robot, and a robot that holds the part during welding. Technical feasibility, productivity and cycle time were out of scope."
 findings:

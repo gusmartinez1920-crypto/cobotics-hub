@@ -25,6 +25,7 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2021.107827"
   url: "https://doi.org/10.1016/j.cie.2021.107827"
+  openAccess: true
 whyItMatters: "Quien instala un cobot suele evaluar el riesgo de contacto físico y detenerse ahí. Este estudio ofrece una lista más amplia, que sirve de guía para la evaluación de riesgos al inicio del proyecto: incluye lo que ocurre con la persona, con la organización del trabajo y con los datos."
 method: "Los autores hicieron una revisión del estado del arte en dos bases de artículos (Web of Science y Scopus), de 2011 a comienzos de 2021, y añadieron documentos de organismos europeos y normas ISO, con un total de 32 fuentes. Extrajeron cada factor de riesgo mencionado, agruparon los factores en clases en tres rondas de comparación y contrastaron el resultado con modelos de sistemas sociotécnicos."
 findings:

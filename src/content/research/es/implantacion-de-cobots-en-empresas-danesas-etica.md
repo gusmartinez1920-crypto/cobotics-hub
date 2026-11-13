@@ -23,6 +23,8 @@ paper:
   venue: "Paladyn, Journal of Behavioral Robotics"
   doi: "10.1515/pjbr-2021-0019"
   url: "https://doi.org/10.1515/pjbr-2021-0019"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Quien planea comprar un cobot suele mirar el retorno de la inversión y la promesa de colaboración. Este estudio muestra lo que ocurre después de la compra, en la planta: el esfuerzo para hacer funcionar el cobot, la dependencia de personas motivadas y el efecto sobre quien pierde parte de su tarea. Sirve de advertencia para quien prepara una implantación."
 method: "Estudio cualitativo de inspiración etnográfica, con entrevistas semiestructuradas en 15 empresas danesas entre junio y diciembre de 2019: 8 con menos de 250 empleados, 3 con 250 a 500 y 4 con más de 500. Cada entrevista se hizo en la empresa, después de una presentación del proceso y de la observación de las instalaciones, con un guion de 24 preguntas. Las empresas sumaban 28 cobots, casi todos de Universal Robots. El autor codificó las respuestas y llegó a cuatro temas: aprendizaje, valores, habilidad humana y reconfiguración del trabajo."
 findings:

@@ -24,6 +24,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app12104811"
   url: "https://doi.org/10.3390/app12104811"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O gêmeo digital permite testar a segurança e o desempenho de uma célula colaborativa antes de instalá-la. Esta revisão ajuda a separar o que já é praticável do que ainda é promessa e explica a diferença entre modelo digital, sombra digital e gêmeo digital. Serve de ponto de partida para quem planeja simular uma aplicação com cobot."
 method: "É uma revisão narrativa da literatura, sem protocolo sistemático declarado. Os autores fizeram um levantamento na base Scopus em setembro de 2021 e classificaram os trabalhos em duas abordagens de modelagem. Acrescentaram um quadro conceitual próprio para o gêmeo digital de um braço colaborativo e um exemplo próprio de gêmeo digital do operador, movido por várias câmeras de profundidade."
 findings:

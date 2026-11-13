@@ -21,6 +21,7 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2020.102092"
   url: "https://doi.org/10.1016/j.rcim.2020.102092"
+  openAccess: true
 whyItMatters: "Modelos de simulação costumam ser abandonados quando a célula começa a produzir. Este caso mostra, passo a passo, como manter o modelo vivo: do leiaute ao programa do robô e aos dados de operação que voltam para corrigir o projeto. É um roteiro concreto para quem quer montar o gêmeo digital de uma célula colaborativa."
 method: "É um estudo de caso único com demonstrador físico. Os autores primeiro propõem um modelo conceitual: gêmeo digital e gêmeo físico que evoluem juntos, um ciclo de avaliação em sete passos e cinco formas do gêmeo conforme a fase (projeto, desenvolvimento, comissionamento, operação e manutenção). Depois aplicam o modelo à montagem de um pacote de baterias com oito tarefas, antes feita por dois operadores; quatro tarefas passaram ao robô. O gêmeo foi construído num software de simulação com um cobot UR5, um manequim digital e sensores virtuais; o programa do robô foi gerado no modelo e transferido ao robô real, que enviou dados a uma nuvem durante 30 montagens."
 findings:

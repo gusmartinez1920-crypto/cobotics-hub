@@ -21,6 +21,8 @@ paper:
   venue: "Robotics and Autonomous Systems"
   doi: "10.1016/j.robot.2020.103711"
   url: "https://doi.org/10.1016/j.robot.2020.103711"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Sensores de força e torque encarecem a célula, e muitos robôs industriais não os têm. O estudo mostra um caminho para ensinar uma montagem de encaixe justo guiando o robô com a mão e deixar que ele mesmo corrija os desvios de posição das peças. Interessa a quem programa cobots por demonstração e precisa lidar com peças que nunca chegam exatamente no mesmo lugar."
 method: "Experimento com um robô Franka EMIKA Panda que monta uma engrenagem em um eixo de seção quadrada, com tolerância justa e peças posicionadas com erro de até ±7,5 mm. Quinze pessoas guiaram o robô com a mão, cinco vezes por etapa (aproximação, inserção e empurrão). Um Modelo Oculto de Markov (HMM) escolhe a demonstração mais confiável, e uma Otimização Bayesiana ajusta o ponto de destino e a rigidez do controle depois que a posição de montagem é alterada em ±7,5 mm e ±5°. A comparação final teve 10 repetições por pessoa, 150 por método."
 findings:

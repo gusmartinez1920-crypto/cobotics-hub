@@ -23,6 +23,7 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2026.103293"
   url: "https://doi.org/10.1016/j.rcim.2026.103293"
+  openAccess: true
 whyItMatters: "La mayoría de los planificadores de montaje colaborativo solo intenta reducir el tiempo total y trata a la persona como una máquina de tiempo fijo. Este estudio muestra una forma de incluir en el cálculo el cansancio muscular y la variación natural del trabajo humano, y sugiere un criterio práctico: dar al robot las tareas más imprevisibles, no solo las más lentas."
 method: "Los autores representan la duración y el esfuerzo de cada tarea con números que incorporan la incertidumbre y calculan el esfuerzo físico con un modelo de acumulación y recuperación muscular. Un agente de aprendizaje por refuerzo decide quién hace cada tarea (humano, robot o ambos) y en qué orden, buscando reducir a la vez el tiempo total y el esfuerzo excesivo. La validación tiene un estudio numérico con datos sintéticos de una caja de engranajes con 24 tareas y una prueba de concepto en laboratorio: el montaje de una caja de computadora por 1 persona y 1 robot, con 4 participantes y 5 ensayos por grupo."
 findings:

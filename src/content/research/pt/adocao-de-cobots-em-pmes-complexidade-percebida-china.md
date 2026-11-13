@@ -21,6 +21,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app121910085"
   url: "https://doi.org/10.3390/app121910085"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "As pequenas e médias empresas (PMEs) são o principal mercado dos cobots, mas quase não há estudos sobre a decisão de adoção no nível da empresa. Este indica onde fabricantes, integradores e formadores podem agir: reduzir a dificuldade percebida, deixar a empresa testar e ver o robô funcionando e dar suporte técnico. Pressão dos concorrentes e apoio do governo, ao contrário do esperado, não pesaram."
 method: "Os autores aplicaram um questionário online a gestores de PMEs da província de Guangdong, de março a maio de 2022, e obtiveram 242 respostas válidas de 373 distribuídas. O questionário mediu dez fatores ligados à tecnologia, à organização e ao ambiente da empresa, além da intenção de adotar cobots. As relações foram testadas com um modelo de equações estruturais."
 findings:

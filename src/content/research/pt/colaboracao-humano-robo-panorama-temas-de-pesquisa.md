@@ -20,6 +20,8 @@ paper:
   venue: "Procedia Computer Science"
   doi: "10.1016/j.procs.2022.12.389"
   url: "https://doi.org/10.1016/j.procs.2022.12.389"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "É uma boa porta de entrada para quem está começando: define a colaboração humano-robô, separa os quatro tipos de interação entre pessoa e robô e mostra em que temas a pesquisa se concentra. Ajuda a situar um projeto ou uma leitura dentro do campo."
 method: "Os autores buscaram na base Scopus os termos de colaboração e de interação humano-robô, sem limite de período, e selecionaram os 2000 artigos mais citados. Analisaram a rede formada pelas palavras-chave desses artigos. Depois fizeram uma revisão narrativa das tendências, com exemplos de estudos de caso."
 findings:

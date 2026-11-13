@@ -24,6 +24,8 @@ paper:
   venue: "Systems"
   doi: "10.3390/systems13100856"
   url: "https://doi.org/10.3390/systems13100856"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A construction site is very different from a factory: the environment changes all the time, tasks vary and many people move around. The review shows that rules designed for industrial robots are not enough there and gathers what research has tried so far. It offers a contrast for those who know factory cobots and want to understand another sector."
 method: "The authors carried out a mixed-method review. They searched the Scopus database for studies from 2005 to 2025 and, from 14,128 initial records, reached 287 after filters, abstract screening and full-text reading. They analyzed the set with bibliometric software (countries, most cited sources, keywords and their evolution) and produced a qualitative synthesis in five themes."
 findings:

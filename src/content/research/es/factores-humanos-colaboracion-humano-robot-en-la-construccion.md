@@ -23,6 +23,8 @@ paper:
   venue: "Journal of Safety Research"
   doi: "10.1016/j.jsr.2026.08.009"
   url: "https://doi.org/10.1016/j.jsr.2026.08.009"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La revisión reúne lo que se sabe sobre cómo reaccionan los trabajadores ante robots y exoesqueletos: carga cognitiva, confianza, estrés, fatiga. Quien trabaja con cobots industriales encuentra aquí resultados sobre autonomía, fallos y comunicación, pero debe recordar que el estudio trata de la construcción y que los brazos robóticos son minoría en él."
 method: "Los autores hicieron una revisión sistemática según el protocolo PRISMA en dos bases (Scopus y Web of Science), de 2000 a enero de 2026. De 1682 registros únicos, leyeron 411 completos e incluyeron 163 estudios, 14 de ellos hallados mediante el rastreo de citas. Un investigador extrajo y codificó los resultados por temas y un segundo los revisó."
 findings:

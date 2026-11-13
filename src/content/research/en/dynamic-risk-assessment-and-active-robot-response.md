@@ -27,6 +27,7 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2020.106302"
   url: "https://doi.org/10.1016/j.cie.2020.106302"
+  openAccess: true
 whyItMatters: "Conventional speed and separation monitoring stops the robot whenever the person comes close, which protects but interrupts the work. This study shows an alternative in which the robot slows down or changes its path according to the risk at that moment, and in which the operator sees the risk zone through augmented reality."
 method: "The authors start from the risk indicators in ISO/TS 15066 and split them into two types: inherent ones, scored beforehand by experts with a risk matrix, and dynamic ones (robot speed, operator motion and position), assessed in real time. Two depth cameras track the person's skeleton. Validation is mainly by simulation of a part handling and processing task, with a spherical obstacle in place of the person, and by comparison with two speed and separation monitoring methods. The authors also describe integration with an ABB robot and augmented reality glasses."
 findings:

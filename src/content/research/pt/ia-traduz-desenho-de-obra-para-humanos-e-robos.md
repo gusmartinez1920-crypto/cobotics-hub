@@ -21,6 +21,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-026-00205-0"
   url: "https://doi.org/10.1007/s41693-026-00205-0"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Pessoas leem um desenho com experiência e julgamento; robôs precisam de passos explícitos, sem margem para interpretação. Hoje essa tradução é feita por programação manual, lenta e dependente de especialistas. O estudo sugere um caminho para que pessoa e robô partam da mesma descrição da obra, inclusive quando só existe o desenho em papel."
 method: "É um artigo conceitual com uma demonstração experimental preliminar. Os autores descrevem dois modelos em forma de grafo: um espacial, em que cada nó é um elemento da construção, e um procedimental, em que cada nó é uma ação executável. Um modelo de IA multimodal (Gemini 2.5 Pro), orientado só por instruções e formatos de saída rígidos, sem treinamento adicional, gerou os dois modelos a partir de desenhos, com revisão humana a cada etapa. Os dois casos foram uma coluna de tijolos e uma parede de montantes de madeira irregular, tirados de um manual de construção de 1936."
 findings:

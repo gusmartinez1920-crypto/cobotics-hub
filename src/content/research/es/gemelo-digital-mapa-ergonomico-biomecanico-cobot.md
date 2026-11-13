@@ -27,6 +27,8 @@ paper:
   venue: "Digital"
   doi: "10.3390/digital6020051"
   url: "https://doi.org/10.3390/digital6020051"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La evaluación ergonómica de los puestos con cobot todavía suele hacerse por observación, una sola vez, en la instalación. Este estudio prueba otro camino: usar simulación biomecánica para estimar el esfuerzo de articulaciones y músculos en cada punto donde el cobot puede presentar la pieza. Para quien diseña celdas colaborativas, es una muestra de lo que un gemelo digital del operador puede y todavía no puede decir."
 method: "Los autores hicieron un estudio de viabilidad en laboratorio con tres participantes hombres. Un cobot UR5e presentaba un cubo en 28 posiciones de una cuadrícula de 4 por 7, y el participante atornillaba con la mano derecha, con los pies fijos. Una cámara de profundidad sin marcadores registró los movimientos y el sensor del cobot midió las fuerzas; después, una simulación en un modelo musculoesquelético del miembro superior calculó pares articulares, activaciones musculares y fuerzas de reacción en las articulaciones. Esos valores se normalizaron, se ponderaron y se sumaron en una nota de 1 (mejor) a 10 (peor) por posición."
 findings:

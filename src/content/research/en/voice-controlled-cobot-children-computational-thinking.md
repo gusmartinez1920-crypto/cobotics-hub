@@ -24,6 +24,8 @@ paper:
   venue: "Education Sciences"
   doi: "10.3390/educsci14080856"
   url: "https://doi.org/10.3390/educsci14080856"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The study shows an unusual use of a cobot: as a teaching resource for children who cannot yet read or write. It also offers lessons that apply to any voice interface, at school or in a factory: a fixed waiting time and differences in pronunciation get in the way of people who speak differently from what the system expects."
 method: "A pre-test and post-test study with no control group, with 34 children aged 4 to 6 from a small town in southern Chile; 33 completed all sessions. The robot was a Ufactory Lite 6 arm with a suction cup, microphone and speaker, which interpreted commands with a language model and located objects by computer vision. There were five one-hour sessions. The authors applied a 15-question computational thinking test and analyzed 18 videos of an assembly challenge."
 findings:

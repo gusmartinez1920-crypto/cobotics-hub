@@ -23,6 +23,8 @@ paper:
   venue: "International Journal of Production Research"
   doi: "10.1080/00207543.2023.2183343"
   url: "https://doi.org/10.1080/00207543.2023.2183343"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "It is common to assume that giving up autonomy to the machine makes workers less satisfied. This experiment found the opposite, at least in the short term, and shows that how useful the person finds the robot weighs on satisfaction. It matters to anyone designing how control is shared between person and robot in logistics."
 method: "The authors ran a controlled experiment with 60 students from a vocational logistics college in the Netherlands, with an average age of 18. In a laboratory warehouse with 300 pick locations, each participant picked orders in three ways, in 20-minute rounds: by hand with a cart, leading an autonomous mobile robot, and following the robot. Questionnaires measured job satisfaction, self-esteem, confidence in one's own ability and confidence in interacting with robots. The analysis used statistical models that account for repeated measures from each person."
 findings:

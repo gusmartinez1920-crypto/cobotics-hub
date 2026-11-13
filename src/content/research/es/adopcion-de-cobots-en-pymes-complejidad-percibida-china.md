@@ -22,6 +22,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app121910085"
   url: "https://doi.org/10.3390/app121910085"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Las pequeñas y medianas empresas (pymes) son el principal mercado de los cobots, pero casi no hay estudios sobre la decisión de adopción a nivel de empresa. Este indica dónde pueden actuar fabricantes, integradores y formadores: reducir la dificultad percibida, dejar que la empresa pruebe y vea el robot funcionando y dar soporte técnico. La presión de los competidores y el apoyo del gobierno, al contrario de lo esperado, no pesaron."
 method: "Los autores aplicaron un cuestionario en línea a directivos de pymes de la provincia de Guangdong, de marzo a mayo de 2022, y obtuvieron 242 respuestas válidas de 373 distribuidas. El cuestionario midió diez factores relacionados con la tecnología, la organización y el entorno de la empresa, además de la intención de adoptar cobots. Las relaciones se probaron con un modelo de ecuaciones estructurales."
 findings:

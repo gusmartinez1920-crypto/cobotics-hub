@@ -18,6 +18,8 @@ paper:
   venue: "Procedia Computer Science"
   doi: "10.1016/j.procs.2025.02.001"
   url: "https://doi.org/10.1016/j.procs.2025.02.001"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Ao planejar uma linha com cobots, não basta decidir quem faz cada tarefa: é preciso definir em qual estação e com qual garra. O estudo mostra como colocar essas decisões num único modelo de otimização e quais custos entram na conta. Serve de ponto de partida para quem estuda o balanceamento de linhas com colaboração humano-robô."
 method: "Os autores formularam um modelo de programação linear inteira mista para uma linha reta, de produto único e com tempos fixos. O modelo minimiza a soma dos custos de estação, de trabalhador, de cobot e de garra, respeitando o tempo de ciclo, a ordem das tarefas e o peso máximo de garras por cobot. Eles o aplicaram a um exemplo ilustrativo, a montagem de um forno rotativo elétrico de padaria com 20 tarefas e ciclo de 60 minutos, com custos de referência de empresas de porte médio da Turquia."
 findings:

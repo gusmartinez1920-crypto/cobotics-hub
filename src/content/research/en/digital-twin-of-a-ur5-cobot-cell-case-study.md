@@ -22,6 +22,7 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2020.102092"
   url: "https://doi.org/10.1016/j.rcim.2020.102092"
+  openAccess: true
 whyItMatters: "Simulation models are often abandoned once the cell starts producing. This case shows, step by step, how to keep the model alive: from layout to robot program to the operating data that come back to correct the design. It is a concrete guide for anyone who wants to build the digital twin of a collaborative cell."
 method: "This is a single case study with a physical demonstrator. The authors first propose a conceptual model: a digital twin and a physical twin that evolve together, a seven-step evaluation cycle and five forms of the twin by phase (design, development, commissioning, operation and maintenance). They then apply the model to the assembly of a battery pack with eight tasks, previously done by two operators; four tasks went to the robot. The twin was built in simulation software with a UR5 cobot, a digital human model and virtual sensors; the robot program was generated in the model and transferred to the real robot, which sent data to a cloud during 30 assemblies."
 findings:

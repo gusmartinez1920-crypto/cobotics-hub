@@ -22,6 +22,7 @@ paper:
   venue: "Transportation Research Part E: Logistics and Transportation Review"
   doi: "10.1016/j.tre.2024.103696"
   url: "https://doi.org/10.1016/j.tre.2024.103696"
+  openAccess: true
 whyItMatters: "In pallet warehouses, the picker steps on and off the vehicle about 1,200 times per shift, according to a manufacturer cited, which is tiring and strains the knees. The study shows that planning the route and the walking stretches together reduces both time and that strain. The vehicle here is an autonomous order picking truck, not a collaborative arm: collaboration means splitting the trip between walking and riding."
 method: "This is an operations research study. The authors formulated a model that minimizes total travel time and the number of times the person steps onto the vehicle, with a time penalty for each step-on. Because the exact model only solves small lists, they created a dynamic programming algorithm that solves any size. They compared seven strategies by simulation, with 1,000 random lists per size, in warehouses with 1 or 2 blocks and 10 or 20 aisles, and applied the method to 102 real lists from a beverage distribution center in the Netherlands."
 findings:

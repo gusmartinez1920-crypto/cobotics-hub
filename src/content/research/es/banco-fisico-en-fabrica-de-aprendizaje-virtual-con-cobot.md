@@ -23,6 +23,7 @@ paper:
   venue: "SSRN Electronic Journal"
   doi: "10.2139/ssrn.3858350"
   url: "https://doi.org/10.2139/ssrn.3858350"
+  openAccess: true
 whyItMatters: "Los entornos virtuales son una salida barata para enseñar robótica colaborativa sin tener un cobot para cada estudiante. Este estudio muestra que añadir objetos reales a la escena no mejora la experiencia por sí solo, y que los fallos de alineación entre la imagen y el objeto pueden incluso estorbar. Es una advertencia útil antes de invertir en realidad mixta para la capacitación."
 method: "Experimento con 12 estudiantes universitarios de áreas diversas, de los cuales 11 entregaron cuestionarios válidos. Cada uno cambió una pinza defectuosa en un cobot UR5 virtual, con gafas de realidad virtual, en dos rondas: una solo virtual y otra con un banco de montaje real alineado con la imagen, con el orden alternado entre los participantes. Después de cada ronda respondieron un cuestionario estandarizado de 14 ítems sobre la sensación de presencia, con preguntas abiertas sobre lo que les estorbó."
 findings:

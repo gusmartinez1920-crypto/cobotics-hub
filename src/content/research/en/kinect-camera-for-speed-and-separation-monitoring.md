@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2018.01.026"
   url: "https://doi.org/10.1016/j.procir.2018.01.026"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Speed and separation monitoring is one of the collaborative modes in ISO/TS 15066 and usually depends on expensive sensors. The study tests a low-cost camera for this function, with the idea of bringing small industrial robots that are already installed into collaborative applications. It works as a teaching example of how the mode operates."
 method: "This is a short conference paper. The scenario is coexistence, with no direct interaction, and the robot is accessible from one side only. The camera tracks 11 points of the body from the hip up, and the system reads the robot's joint positions from its own controller, calculates the shortest distance between person and robot and adjusts the maximum speed. The tests used a real person in front of the camera and a simulated UR5 robot."
 findings:

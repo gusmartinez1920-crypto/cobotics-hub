@@ -23,6 +23,7 @@ paper:
   venue: "Applied Ergonomics"
   doi: "10.1016/j.apergo.2026.104747"
   url: "https://doi.org/10.1016/j.apergo.2026.104747"
+  openAccess: true
 whyItMatters: "El estudio trata de un robot móvil autónomo de almacén, no de un brazo colaborativo: el puente con los cobots lo pone el lector. Aun así, aporta evidencia útil para quien diseña espacios compartidos entre personas y robots, porque muestra que la forma de aproximarse cambia lo que siente el trabajador y cómo se comporta. También es un ejemplo del uso de simulación inmersiva para probar la interacción antes de poner un robot real en el pasillo."
 method: "Experimento en una sala de realidad virtual por proyección, con seguimiento del cuerpo, que simulaba un almacén. Participaron 56 adultos de la población general, con una edad media de 24,8 años; solo 9 tenían alguna experiencia con robots. Cada uno tomó una caja y la colocó en el robot virtual en 18 condiciones, que combinaban tres alturas de estante del robot, tres velocidades (0,5, 1,0 y 1,5 m/s) y dos trayectorias (recta y curva). Los autores midieron sorpresa y miedo, carga mental, confianza, tiempos de la tarea y distancia mantenida respecto al robot."
 findings:

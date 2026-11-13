@@ -24,6 +24,8 @@ paper:
   venue: "International Journal of Production Research"
   doi: "10.1080/00207543.2026.2639732"
   url: "https://doi.org/10.1080/00207543.2026.2639732"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "To work close to a person without hitting them, the robot has to anticipate their movements and intentions. The review shows what each type of method delivers in data dependence, transparency and safety, which helps in choosing an approach and in being wary of promises of safety obtained through learning alone."
 method: "The authors searched Google Scholar and Web of Science for papers in English from 2010 to 2025, with one search string for each family of methods. The January 2025 search returned 524 and 1,687 records; screening left 282, and full reading plus a search of the reference lists led to 180 papers. The studies were tabulated by scenario, application, data type and model, and the authors also reviewed 10 datasets and proposed a unified framework."
 findings:

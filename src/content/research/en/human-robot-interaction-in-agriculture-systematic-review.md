@@ -27,6 +27,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s23156776"
   url: "https://doi.org/10.3390/s23156776"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The field is an uncertain environment where replacing the worker with an autonomous robot is very difficult; sharing the task between the two emerges as an alternative. The review organizes the modes of joint work and the levels of automation, two classifications that are also useful for people designing cobot applications in the factory. The robots studied are mobile agricultural machines, not industrial collaborative arms."
 method: "The authors carried out a systematic review with a protocol defined before the search, in five article databases, with the last search in December 2022. They selected 32 studies, 21 from journals and 11 from conferences, and assessed the quality of each with a risk-of-bias tool. They classified the studies by mode of joint work and by a 10-level automation scale, which runs from the human doing everything to the robot deciding and acting on its own."
 findings:

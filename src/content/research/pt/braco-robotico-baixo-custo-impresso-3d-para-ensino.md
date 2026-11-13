@@ -21,6 +21,8 @@ paper:
   venue: "Applied System Innovation"
   doi: "10.3390/asi5040072"
   url: "https://doi.org/10.3390/asi5040072"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Quem quer montar um robô para ensino ou pesquisa com pouco dinheiro encontra aqui um projeto detalhado e um relato franco dos problemas. O caso mostra que chamar um braço de colaborativo não basta: sem detecção de colisão confiável, o uso em aula pede cuidados que o estudo não discute."
 method: "Desenvolvimento e teste de protótipo, sem alunos nem avaliação de aprendizagem. A estrutura partiu de um modelo aberto e foi impressa em plástico PLA; as juntas usam motores de passo, com um microcontrolador ESP32 por eixo e uma interface gráfica em MATLAB. A cinemática inversa é calculada por otimização por enxame de partículas, e uma rede neural deveria detectar colisões pela corrente dos motores. Os autores fizeram cinco ensaios, entre eles o de exatidão e repetibilidade pela norma ISO 9283, com 30 repetições."
 findings:

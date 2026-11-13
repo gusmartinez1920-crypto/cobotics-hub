@@ -27,6 +27,7 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2020.106302"
   url: "https://doi.org/10.1016/j.cie.2020.106302"
+  openAccess: true
 whyItMatters: "El monitoreo convencional de velocidad y separación detiene el robot siempre que la persona se acerca, lo que protege pero interrumpe el trabajo. Este estudio muestra una alternativa en la que el robot reduce la velocidad o cambia de trayectoria según el riesgo del momento, y en la que el operador ve la zona de riesgo mediante realidad aumentada."
 method: "Los autores parten de los indicadores de riesgo de la ISO/TS 15066 y los dividen en dos tipos: los inherentes, puntuados de antemano por especialistas con una matriz de riesgo, y los dinámicos (velocidad del robot, movimiento y posición del operador), evaluados en tiempo real. Dos cámaras de profundidad siguen el esqueleto de la persona. La validación se hace principalmente por simulación de una tarea de transporte y procesamiento de piezas, con un obstáculo esférico en lugar de la persona, y por comparación con dos métodos de monitoreo de velocidad y separación. Los autores describen además la integración con un robot ABB y gafas de realidad aumentada."
 findings:

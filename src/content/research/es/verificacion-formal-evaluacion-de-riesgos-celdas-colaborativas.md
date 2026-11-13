@@ -24,6 +24,8 @@ paper:
   venue: "IEEE Transactions on Robotics"
   doi: "10.1109/tro.2019.2937471"
   url: "https://doi.org/10.1109/tro.2019.2937471"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La evaluación de riesgos hecha a mano es estática y depende de que el evaluador imagine lo que puede salir mal. Aquí, el computador recorre todas las secuencias posibles de acciones del robot y del operador, incluidos errores y retrasos, ya en la fase de diseño. El estudio muestra lo que ofrece este enfoque y cuánto cuesta en tiempo."
 method: "Es una propuesta de método con estudio de caso. Los autores describen en lógica temporal la distribución de la celda, el robot y el operador (con 11 regiones del cuerpo), además de las tareas divididas en acciones elementales. El operador puede retrasar, omitir o insertar acciones. El modelo identifica peligros mecánicos de contacto, estima el riesgo y prueba medidas de reducción; un verificador automático busca contraejemplos. El caso es el montaje de palés de máquinas-herramienta en una fábrica real, con un manipulador sobre base móvil y dos operadores."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2020.02.188"
   url: "https://doi.org/10.1016/j.procir.2020.02.188"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Um cobot sai de fábrica com medidas de segurança, mas essa condição muda quando ele recebe uma garra e entra num posto de trabalho. O artigo junta num só lugar o que o integrador precisa considerar, e lembra que ergonomia e eficiência costumam ficar de fora do projeto."
 method: "Os autores compilaram e classificaram diretrizes a partir de normas internacionais, trabalhos de pesquisa e casos de uso, seguindo a lógica da engenharia simultânea, que trata produto, ciclo de montagem, robô, leiaute e operador ao mesmo tempo. As diretrizes de segurança vêm de normas como ISO 12100, ISO 10218-2 e ISO/TS 15066; as de ergonomia física, da ISO/TR 12295; as de ergonomia cognitiva, de oito estudos; as de eficiência, de cinco fontes sobre projeto para montagem e visão de máquina."
 findings:

@@ -22,6 +22,8 @@ paper:
   venue: "The International Journal of Advanced Manufacturing Technology"
   doi: "10.1007/s00170-026-18980-z"
   url: "https://doi.org/10.1007/s00170-026-18980-z"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Justificar um cobot só pelo ganho de produtividade nem sempre fecha a conta. O estudo mostra uma forma de incluir a ergonomia no cálculo do investimento e indica onde o cobot tende a render mais: nas tarefas sem valor agregado e desgastantes, como buscar peças grandes atrás do operador. É útil na fase inicial do projeto de uma estação de montagem."
 method: "Os autores estimam o tempo manual de coleta e posicionamento de cada peça conforme o local onde ela fica guardada e suas características. Esses tempos entram num modelo de otimização que divide as tarefas entre dois operadores e um cobot, com dois objetivos: o tempo total do ciclo e um índice de postura (REBA) ponderado pelo tempo. Uma camada econômica calcula o tempo de retorno simples do investimento. O modelo foi aplicado a um caso representativo de 26 tarefas, com leiaute e tempos do robô conferidos em simulação."
 findings:

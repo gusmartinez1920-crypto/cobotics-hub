@@ -23,6 +23,7 @@ paper:
   venue: "Applied Ergonomics"
   doi: "10.1016/j.apergo.2026.104747"
   url: "https://doi.org/10.1016/j.apergo.2026.104747"
+  openAccess: true
 whyItMatters: "The study deals with an autonomous mobile robot in a warehouse, not a collaborative arm: the bridge to cobots is the reader's. Even so, it offers useful evidence for anyone designing spaces shared by people and robots, because it shows that the way a robot approaches changes what the worker feels and how the worker behaves. It is also an example of using immersive simulation to test interaction before putting a real robot in the aisle."
 method: "An experiment in a projection-based virtual reality room, with body tracking, that simulated a warehouse. The participants were 56 adults from the general population, with a mean age of 24.8 years; only 9 had any experience with robots. Each one picked up a box and placed it on the virtual robot in 18 conditions that combined three robot shelf heights, three speeds (0.5, 1.0 and 1.5 m/s) and two paths (straight and curved). The authors measured surprise and fear, mental workload, trust, task times and the distance kept from the robot."
 findings:

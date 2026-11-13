@@ -23,6 +23,8 @@ paper:
   venue: "Machines"
   doi: "10.3390/machines14070780"
   url: "https://doi.org/10.3390/machines14070780"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Factories have machine noise, poor light and hidden objects, and these get in the way of a cobot controlled by voice and camera. The study shows a way for the system to notice that a signal has degraded and decide not to act rather than act wrongly. It also logs the weights behind each decision, which makes it easier to audit why the robot did or did not do something."
 method: "The authors built the system in simulation, with a virtual two-arm ABB YuMi robot, a depth camera and a language model that runs locally. Voice goes through speech recognition and the image through object detection; a fusion engine weights each channel according to its quality, and a threshold rejects low-confidence commands before they reach the language model. The virtual bench held three colored cubes and a screwdriver. A single operator recorded 15 commands, repeated under seven conditions of audio noise and image degradation, with adaptive fusion and with fixed weights of 50% per channel, for a total of 210 runs."
 findings:

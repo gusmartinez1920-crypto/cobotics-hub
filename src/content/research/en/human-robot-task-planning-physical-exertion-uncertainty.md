@@ -23,6 +23,7 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2026.103293"
   url: "https://doi.org/10.1016/j.rcim.2026.103293"
+  openAccess: true
 whyItMatters: "Most collaborative assembly planners only try to cut total time and treat the person as a fixed-time machine. This study shows a way to bring muscle fatigue and the natural variation of human work into the calculation, and suggests a practical criterion: give the robot the most unpredictable tasks, not just the slowest ones."
 method: "The authors represent the duration and exertion of each task with numbers that carry uncertainty and compute physical exertion with a model of muscle fatigue build-up and recovery. A reinforcement learning agent decides who does each task (human, robot or both) and in what order, seeking to reduce total time and excessive exertion at once. Validation consists of a numerical study with synthetic data for a gearbox with 24 tasks and a laboratory proof of concept: the assembly of a computer case by 1 person and 1 robot, with 4 participants and 5 trials per group."
 findings:

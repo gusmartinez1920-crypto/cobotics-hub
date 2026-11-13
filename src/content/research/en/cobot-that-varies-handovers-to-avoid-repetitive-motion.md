@@ -27,6 +27,8 @@ paper:
   venue: "IISE Transactions on Occupational Ergonomics and Human Factors"
   doi: "10.1080/24725838.2024.2329114"
   url: "https://doi.org/10.1080/24725838.2024.2329114"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Programming the cobot to always hand over the part at the ergonomically ideal point looks like the obvious choice. The authors argue that this repeats the same movement hundreds of times and removes the body's natural variation, which protects against repetitive strain injuries. The study offers early data for anyone designing robot-to-human handovers and assessing ergonomics beyond a single cycle."
 method: "The paper combines a narrative review of motor variability at work with a reanalysis of an earlier experiment by the authors. In it, 16 participants aged 20 to 34 received a 6.8 kg package from a robotic arm and carried it about 4 meters, over 39 handovers per mode. In the assistive mode, the robot chose the handover point that kept the person's center of mass in the middle of the base of support; in the stimulating mode, it chose a point in a random corner of that base. Posture was estimated by camera, and the authors compared the REBA posture score, trunk rotation, center-of-mass movement, balance and perceived workload (NASA-TLX)."
 findings:

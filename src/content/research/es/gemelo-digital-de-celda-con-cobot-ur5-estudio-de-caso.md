@@ -22,6 +22,7 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2020.102092"
   url: "https://doi.org/10.1016/j.rcim.2020.102092"
+  openAccess: true
 whyItMatters: "Los modelos de simulación suelen abandonarse cuando la celda empieza a producir. Este caso muestra, paso a paso, cómo mantener vivo el modelo: del layout al programa del robot y a los datos de operación que vuelven para corregir el diseño. Es una guía concreta para quienes quieren montar el gemelo digital de una celda colaborativa."
 method: "Es un estudio de caso único con demostrador físico. Los autores primero proponen un modelo conceptual: gemelo digital y gemelo físico que evolucionan juntos, un ciclo de evaluación en siete pasos y cinco formas del gemelo según la fase (diseño, desarrollo, puesta en marcha, operación y mantenimiento). Después aplican el modelo al montaje de un paquete de baterías con ocho tareas, que antes hacían dos operadores; cuatro tareas pasaron al robot. El gemelo se construyó en un software de simulación con un cobot UR5, un maniquí digital y sensores virtuales; el programa del robot se generó en el modelo y se transfirió al robot real, que envió datos a una nube durante 30 montajes."
 findings:

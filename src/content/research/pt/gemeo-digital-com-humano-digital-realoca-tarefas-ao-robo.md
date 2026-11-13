@@ -28,6 +28,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s21248266"
   url: "https://doi.org/10.3390/s21248266"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Gêmeos digitais de células com robô costumam modelar bem a máquina e mal a pessoa. Este trabalho inclui um modelo detalhado do corpo do trabalhador e calcula o esforço em cada articulação, em vez de usar índices rápidos de postura. Mostra uma forma de ligar ergonomia e programação da produção em tempo real, e também o que ainda falta para levar isso a uma fábrica."
 method: "Os autores desenvolveram e demonstraram um sistema com três módulos ligados por comunicação sem fio. O primeiro é um humano digital com 48 graus de liberdade, ajustado ao corpo do trabalhador e alimentado por captura óptica de movimento com 16 câmeras e 37 marcadores na roupa; ele calcula o torque nas articulações. O segundo é o modelo virtual de um robô móvel. O terceiro prevê o tempo de ciclo e realoca peças do trabalhador para o robô. O cenário foi a separação de peças em 40 caixas, com uma demonstração ao vivo com um operador, em 8 ciclos de 40 peças, e uma validação com dados que imitam três perfis de atraso."
 findings:

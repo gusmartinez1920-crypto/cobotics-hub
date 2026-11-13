@@ -25,6 +25,8 @@ paper:
   venue: "International Journal of Human–Computer Interaction"
   doi: "10.1080/10447318.2023.2254639"
   url: "https://doi.org/10.1080/10447318.2023.2254639"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "Most cobot research aims to improve the performance of the human-robot pair, not the operator's experience. This review organizes what is known about what tires the mind of someone working with the robot, how to measure it and which solutions have been tested. It also warns about the privacy cost of solutions based on body-worn sensors."
 method: "The authors carried out a scoping review in four article databases, with the search run in June 2022 and no year limit. From 165 records, two authors independently selected 23 studies on mental workload in collaboration with cobots in real or simulated industrial settings. Studies dealing only with physical load were left out."
 findings:

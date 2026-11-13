@@ -20,6 +20,7 @@ paper:
   venue: "Journal of Manufacturing Systems"
   doi: "10.1016/j.jmsy.2021.07.017"
   url: "https://doi.org/10.1016/j.jmsy.2021.07.017"
+  openAccess: true
 whyItMatters: "O texto oferece um mapa de para onde a pesquisa em cobots quer ir: do robô que reage a comandos ao robô que entende o contexto e prevê o próximo passo da pessoa. Ajuda estudantes e pesquisadores a situar tecnologias como gêmeo digital, realidade aumentada e aprendizado de máquina dentro de um mesmo roteiro. Vale ler com olhar crítico, porque é uma visão de futuro, não um resultado testado."
 method: "É uma nota técnica conceitual, curta, apoiada em 53 referências; não há método empírico. Os autores organizam a evolução da relação entre pessoas e robôs segundo o papel de cada um e o nível de automação, traçam uma linha histórica a partir de 1980 e propõem um roteiro e uma arquitetura de controle. Discutem cada habilidade com base na literatura de visão computacional, gêmeo digital, realidade aumentada, internet industrial das coisas e aprendizado de máquina."
 findings:

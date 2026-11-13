@@ -19,6 +19,8 @@ paper:
   venue: "Cureus"
   doi: "10.7759/cureus.49210"
   url: "https://doi.org/10.7759/cureus.49210"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O texto serve de mapa das aplicações de robôs que trabalham perto de pessoas fora da fábrica: hospital, laboratório e indústria farmacêutica. Ele também reúne as questões que aparecem quando o robô chega perto de pacientes e profissionais: privacidade, cibersegurança, responsabilidade por danos e custo."
 method: "Os autores buscaram estudos de 2004 a 2023 em quatro bases (PubMed, Web of Science, Scopus e Google Scholar), em inglês, sobre robótica em cirurgia, telemedicina e reabilitação. Uma tabela resume 47 estudos incluídos. A síntese é narrativa e se organiza em cinco temas: cirurgia, telemedicina, reabilitação, ética e barreiras."
 findings:

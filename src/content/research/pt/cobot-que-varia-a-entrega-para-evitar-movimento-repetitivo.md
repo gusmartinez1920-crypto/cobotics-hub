@@ -26,6 +26,8 @@ paper:
   venue: "IISE Transactions on Occupational Ergonomics and Human Factors"
   doi: "10.1080/24725838.2024.2329114"
   url: "https://doi.org/10.1080/24725838.2024.2329114"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Programar o cobot para entregar a peça sempre no ponto ergonomicamente ideal parece a escolha óbvia. Os autores argumentam que isso repete o mesmo movimento centenas de vezes e elimina a variação natural do corpo, que protege contra lesões por esforço repetitivo. O estudo traz dados iniciais para quem projeta entregas robô-humano e avalia ergonomia além de um único ciclo."
 method: "O artigo combina uma revisão narrativa sobre variabilidade motora no trabalho com a reanálise de um experimento anterior dos autores. Nele, 16 participantes de 20 a 34 anos receberam de um braço robótico um pacote de 6,8 kg e o levaram a cerca de 4 metros, em 39 entregas por modo. No modo assistivo, o robô escolhia o ponto de entrega que mantinha o centro de massa da pessoa no meio da base de apoio; no modo estimulante, escolhia um ponto num canto aleatório dessa base. A postura foi estimada por câmera, e os autores compararam o índice de postura REBA, a rotação do tronco, o movimento do centro de massa, o equilíbrio e a carga de trabalho percebida (NASA-TLX)."
 findings:

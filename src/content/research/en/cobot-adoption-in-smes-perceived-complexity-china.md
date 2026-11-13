@@ -22,6 +22,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app121910085"
   url: "https://doi.org/10.3390/app121910085"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Small and medium-sized enterprises (SMEs) are the main market for cobots, but there are almost no studies of the adoption decision at company level. This one indicates where manufacturers, integrators and trainers can act: reduce perceived difficulty, let the company try the robot and see it working, and provide technical support. Contrary to expectations, competitive pressure and government support did not matter."
 method: "The authors administered an online questionnaire to managers of SMEs in Guangdong province from March to May 2022 and obtained 242 valid responses out of 373 distributed. The questionnaire measured ten factors related to the technology, the organization and the company's environment, as well as the intention to adopt cobots. The relationships were tested with a structural equation model."
 findings:

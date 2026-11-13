@@ -24,6 +24,8 @@ paper:
   venue: "Robotics and Autonomous Systems"
   doi: "10.1016/j.robot.2022.104047"
   url: "https://doi.org/10.1016/j.robot.2022.104047"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Um cobot pode cumprir todos os limites de força e velocidade e, mesmo assim, deixar o operador tenso. Esta revisão reúne o que os experimentos indicam sobre distância, velocidade, previsibilidade do movimento e controle pelo operador, e serve de lista de verificação para o projeto de uma célula. Também mostra como medir essa percepção, de questionários a sinais fisiológicos."
 method: "Os autores revisaram artigos, anais de congressos e capítulos de livro em inglês publicados até 2020 que trouxessem experimentos com pessoas dividindo o espaço com um robô, físico ou em realidade virtual, e alguma medida de segurança percebida. Partiram dos estudos citados em cinco revisões anteriores, seguiram as citações para trás e para a frente e completaram com buscas diretas em quatro bases, chegando a 114 artigos. Cobriram seis tipos de sistema: manipuladores industriais, robôs móveis, manipuladores móveis, humanoides, drones e veículos autônomos."
 findings:

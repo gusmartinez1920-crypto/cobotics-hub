@@ -28,6 +28,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2021.07.029"
   url: "https://doi.org/10.1016/j.promfg.2021.07.029"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A cobot connected to the factory network is no longer an isolated piece of equipment. Someone who remotely changes the arm's motion or disables collision detection creates a hazard for the person next to the robot. The study shows that information security needs to be part of the cell's safety assessment."
 method: "This is a case study with a single robot, a Panda with a specific firmware version, connected through its controller to a shop-floor network. The authors mapped the physical and digital attack surfaces and tested only the digital ones: the robot's web application, its services and the network. The test followed open security testing methodologies, with automated scanning followed by manual attacks."
 findings:

@@ -22,6 +22,8 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2021.107801"
   url: "https://doi.org/10.1016/j.cie.2021.107801"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Muitas empresas não têm um especialista em segurança de robôs na equipe de projeto. O estudo indica que um conjunto organizado de diretrizes, alinhado às normas, ajuda engenheiros de manufatura a chegar a um projeto mais seguro. Também mostra o preço: o maior ganho veio de separar pessoa e robô."
 method: "As diretrizes vêm de normas (ISO 12100, ISO 10218, ISO/TS 15066 e ISO/TR 20218-1), de manuais de fabricantes e da literatura científica, e tratam só de perigos mecânicos. Na validação, num laboratório em Bolzano, a equipe montou uma célula de montagem de um móvel metálico com um robô UR10 sem pensar em segurança, e um especialista certificado avaliou o risco. Três engenheiros de manufatura sem formação em segurança redesenharam a célula com as diretrizes; a nova versão foi modelada em gêmeo digital e reavaliada pelo mesmo especialista."
 findings:

@@ -23,6 +23,8 @@ paper:
   venue: "Machines"
   doi: "10.3390/machines14070780"
   url: "https://doi.org/10.3390/machines14070780"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Las fábricas tienen ruido de máquinas, poca luz y objetos tapados, y eso dificulta el trabajo de un cobot controlado por voz y cámara. El estudio muestra una forma de que el sistema note que una señal empeoró y decida no actuar, en lugar de actuar mal. También registra los pesos de cada decisión, lo que facilita auditar por qué el robot hizo o dejó de hacer algo."
 method: "Los autores montaron el sistema en simulación, con un robot de dos brazos ABB YuMi virtual, una cámara de profundidad y un modelo de lenguaje que se ejecuta localmente. La voz pasa por reconocimiento del habla y la imagen por detección de objetos; un motor de fusión pondera cada canal según su calidad, y un umbral rechaza los comandos de baja confianza antes de que lleguen al modelo de lenguaje. En el banco virtual había tres cubos de colores y un destornillador. Un único operador grabó 15 comandos, repetidos en siete condiciones de ruido sonoro y degradación de la imagen, con la fusión adaptativa y con pesos fijos del 50% para cada canal, con un total de 210 ejecuciones."
 findings:

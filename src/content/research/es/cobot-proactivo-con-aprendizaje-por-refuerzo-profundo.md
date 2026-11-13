@@ -23,6 +23,7 @@ paper:
   venue: "IEEE Robotics and Automation Letters"
   doi: "10.1109/lra.2020.3047730"
   url: "https://doi.org/10.1109/lra.2020.3047730"
+  openAccess: true
 whyItMatters: "Un robot que solo actúa cuando está seguro de lo que hizo la persona deja a su compañero esperando; uno que actúa demasiado pronto se equivoca y retrasa la tarea. El estudio muestra una forma de que el robot aprenda ese equilibrio por sí solo, sin que alguien tenga que etiquetar a mano las actividades humanas."
 method: "El robot recibe únicamente el movimiento del cuerpo de la persona, captado por un traje de captura de movimiento, y obtiene como recompensa el tiempo que ahorra al actuar antes; la acción equivocada se penaliza con el retraso necesario para deshacerla. La percepción y la política de decisión son redes neuronales entrenadas juntas con aprendizaje por refuerzo profundo. El entrenamiento usó un simulador de las interacciones, construido con 200 sesiones reales de colaboración entre dos personas, en una tarea de embalaje con un robot ABB YuMi. Los autores compararon el resultado con un clasificador supervisado que solo actúa por encima de cierto nivel de confianza."
 findings:

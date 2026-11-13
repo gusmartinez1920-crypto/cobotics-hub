@@ -22,6 +22,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3570731"
   url: "https://doi.org/10.1145/3570731"
+  openAccess: true
 whyItMatters: "The camera is a robot's main way of perceiving whoever works beside it: it is what lets the robot stop, slow down or change course when someone approaches. The review shows what is already common and what is still missing, such as tests with people, comparable measures and care with the images captured."
 method: "The authors carried out a systematic review following the PRISMA standard in three databases (IEEE Xplore, ACM Library and Scopus), with peer-reviewed papers published from 2010 to 2020. Only studies with a physical robot were included, in which vision focuses on the person and produces an action in real time or close to it; simulation and teleoperation were left out. Of 6,771 records, 310 papers were included, and two independent reviewers checked 10% of them, with full agreement."
 findings:

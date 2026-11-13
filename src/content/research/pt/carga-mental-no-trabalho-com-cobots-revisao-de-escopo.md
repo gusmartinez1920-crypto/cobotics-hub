@@ -24,6 +24,8 @@ paper:
   venue: "International Journal of Human–Computer Interaction"
   doi: "10.1080/10447318.2023.2254639"
   url: "https://doi.org/10.1080/10447318.2023.2254639"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "A maior parte da pesquisa sobre cobots busca melhorar o desempenho da dupla humano-robô, não a experiência do operador. Esta revisão organiza o que se sabe sobre o que cansa a mente de quem trabalha com o robô, como medir isso e que soluções já foram testadas. Também alerta para o custo de privacidade das soluções baseadas em sensores no corpo."
 method: "Os autores fizeram uma revisão de escopo em quatro bases de artigos, com busca em junho de 2022 e sem limite de ano. De 165 registros, dois autores selecionaram de forma independente 23 estudos sobre carga mental na colaboração com cobots em ambiente industrial real ou simulado. Ficaram de fora os estudos que tratavam só de carga física."
 findings:

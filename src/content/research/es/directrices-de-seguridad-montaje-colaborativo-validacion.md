@@ -23,6 +23,8 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2021.107801"
   url: "https://doi.org/10.1016/j.cie.2021.107801"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Muchas empresas no tienen un especialista en seguridad de robots en el equipo de diseño. El estudio indica que un conjunto organizado de directrices, alineado con las normas, ayuda a los ingenieros de manufactura a llegar a un diseño más seguro. También muestra el precio: la mayor mejora vino de separar a la persona y al robot."
 method: "Las directrices provienen de normas (ISO 12100, ISO 10218, ISO/TS 15066 e ISO/TR 20218-1), de manuales de fabricantes y de la literatura científica, y tratan solo de peligros mecánicos. En la validación, en un laboratorio de Bolzano, el equipo montó una celda de montaje de un mueble metálico con un robot UR10 sin pensar en la seguridad, y un especialista certificado evaluó el riesgo. Tres ingenieros de manufactura sin formación en seguridad rediseñaron la celda con las directrices; la nueva versión se modeló en un gemelo digital y fue reevaluada por el mismo especialista."
 findings:

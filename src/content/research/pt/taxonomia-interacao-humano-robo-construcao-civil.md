@@ -25,6 +25,7 @@ paper:
   venue: "Automation in Construction"
   doi: "10.1016/j.autcon.2023.104845"
   url: "https://doi.org/10.1016/j.autcon.2023.104845"
+  openAccess: true
 whyItMatters: "Sem vocabulário comum, é difícil comparar estudos e projetos com robôs. A taxonomia oferece uma grade para descrever quem faz o quê, com que robô, em que tarefa e onde. Foi feita para a construção civil, mas os papéis humanos, os níveis de autonomia e os mecanismos de segurança que ela lista servem de referência também para quem trabalha com cobots em outros setores."
 method: "Os autores fizeram uma revisão sistemática qualitativa em duas bases (Web of Science e Scopus), sem restrição de setor, cobrindo de 1985 a 2022. De 7.794 registros chegaram a 326 estudos empíricos sobre tarefas físicas com robôs. Cinco avaliadores construíram as categorias e mediram a concordância entre si em nove rodadas. Depois validaram a taxonomia com 97 artigos de construção sorteados e a compararam com quatro taxonomias existentes."
 findings:

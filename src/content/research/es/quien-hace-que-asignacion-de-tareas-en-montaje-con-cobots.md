@@ -23,6 +23,8 @@ paper:
   venue: "International Journal of Computer Integrated Manufacturing"
   doi: "10.1080/0951192x.2023.2204467"
   url: "https://doi.org/10.1080/0951192x.2023.2204467"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Decidir qué queda para la persona y qué para el robot define el tiempo de ciclo, la ergonomía e incluso si el trabajo será monótono o estresante. La revisión ordena las opciones y muestra lo que suele quedar fuera de la decisión, como la seguridad, lo que ayuda a quien planifica una celda colaborativa."
 method: "Los autores hicieron una revisión sistemática con búsqueda en enero de 2022 en las bases Scopus e IEEE Xplore, restringida a textos revisados por pares en inglés o alemán. De los 576 registros, tres rondas de cribado dejaron 24 estudios de alta relevancia, y la búsqueda en referencias y citas añadió 13, con un total de 37. Los enfoques se clasificaron en dos categorías y cuatro subcategorías, definidas en discusión entre los autores."
 findings:

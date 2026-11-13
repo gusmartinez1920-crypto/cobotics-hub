@@ -21,6 +21,8 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2025.103025"
   url: "https://doi.org/10.1016/j.rcim.2025.103025"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A divisão de tarefas entre pessoa e cobot costuma ser definida pelo tempo de ciclo, não pelo cansaço de quem trabalha. Este estudo mostra um caminho para o robô decidir, durante a montagem, o que assumir com base numa estimativa do esforço físico, sem impor uma sequência fixa ao operador. Interessa a quem pesquisa alocação dinâmica de tarefas e ergonomia em células colaborativas."
 method: "Os autores modelaram a montagem como um jogo de turnos entre pessoa e robô e treinaram uma política de aprendizado por reforço cuja recompensa penaliza o aumento do esforço muscular. O esforço vem de um modelo musculoesquelético do membro superior, alimentado por sensores inerciais no corpo e acelerado por uma rede neural. Uma máscara bloqueia ações fora da ordem de montagem ou além da capacidade da garra. A validação teve duas partes: simulação com dois produtos (um computador de mesa de 9 peças e uma bomba de 36 peças), comparada com sete outros algoritmos, e uma montagem real do computador com um cobot KUKA LBR iiwa e 8 participantes, que fizeram cinco montagens com a política treinada e cinco com uma política aleatória."
 findings:

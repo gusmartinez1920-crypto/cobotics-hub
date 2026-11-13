@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2020.04.088"
   url: "https://doi.org/10.1016/j.promfg.2020.04.088"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "The study uses a simple case to show how to measure whether the division of tasks between a person and a cobot is flowing well. The four measures used (robot idle time, human idle time, concurrent activity and delay) can be reproduced in a teaching lab or at a real workstation before deciding where to install the robot."
 method: "A case study at the first station of a manual assembly line in the learning factory of the University of Split, which produces a small children's vehicle. A Panda cobot from Franka Emika positions the axle and places the wheels; the person fits washers and nuts and fastens the axle to the base plate. The authors measured active and inactive times in three variants (robot first, person first and simultaneous operations) and calculated four objective fluency measures. They then increased the speed of the arm."
 findings:

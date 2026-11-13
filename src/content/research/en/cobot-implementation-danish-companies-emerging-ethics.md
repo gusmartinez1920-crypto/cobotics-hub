@@ -23,6 +23,8 @@ paper:
   venue: "Paladyn, Journal of Behavioral Robotics"
   doi: "10.1515/pjbr-2021-0019"
   url: "https://doi.org/10.1515/pjbr-2021-0019"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "People planning to buy a cobot usually look at the return on investment and the promise of collaboration. This study shows what happens after the purchase, on the shop floor: the effort to get the cobot working, the reliance on motivated individuals and the effect on those who lose part of their task. It is a warning for anyone preparing an implementation."
 method: "A qualitative, ethnographically inspired study with semi-structured interviews at 15 Danish companies between June and December 2019: 8 with fewer than 250 employees, 3 with 250 to 500 and 4 with more than 500. Each interview took place at the company, after a presentation of the process and observation of the facilities, using a 24-question guide. The companies had 28 cobots in total, almost all from Universal Robots. The author coded the answers and arrived at four themes: learning, values, human skill and the reconfiguration of work."
 findings:

@@ -22,6 +22,8 @@ paper:
   venue: "Robotics and Autonomous Systems"
   doi: "10.1016/j.robot.2020.103711"
   url: "https://doi.org/10.1016/j.robot.2020.103711"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Los sensores de fuerza y par encarecen la celda, y muchos robots industriales no los tienen. El estudio muestra un camino para enseñar un montaje de ajuste estrecho guiando el robot con la mano y dejar que él mismo corrija los desvíos de posición de las piezas. Interesa a quien programa cobots por demostración y debe lidiar con piezas que nunca llegan exactamente al mismo lugar."
 method: "Experimento con un robot Franka EMIKA Panda que monta un engranaje en un eje de sección cuadrada, con tolerancia estrecha y piezas colocadas con un error de hasta ±7,5 mm. Quince personas guiaron el robot con la mano, cinco veces por etapa (aproximación, inserción y empuje). Un Modelo Oculto de Markov (HMM) elige la demostración más confiable, y una Optimización Bayesiana ajusta el punto de destino y la rigidez del control después de que la posición de montaje se altera en ±7,5 mm y ±5°. La comparación final tuvo 10 repeticiones por persona, 150 por método."
 findings:

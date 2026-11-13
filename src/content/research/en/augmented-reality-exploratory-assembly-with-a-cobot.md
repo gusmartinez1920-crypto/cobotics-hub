@@ -21,6 +21,8 @@ paper:
   venue: "Construction Robotics"
   doi: "10.1007/s41693-025-00165-x"
   url: "https://doi.org/10.1007/s41693-025-00165-x"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Programming a robot first and running it only afterward leaves little room to change your mind in the middle of assembly. The study shows how augmented reality can make the cobot's motion and limits visible to people who do not know robotics. It also shows the limits of the idea: too much information in the field of view and collisions that the preview did not prevent."
 method: "The authors built a system that links augmented reality glasses (HoloLens 2) to a UR10 cobot. Interaction is turn-based: the person sees the planned path, evaluates it and only then tells the robot to execute. They evaluated the system in two consecutive studies, each with 5 participants trained in architecture: a 2-hour workshop in Australia and a 3-day workshop in Singapore, assembling a lightweight structure of wooden dowels. They collected questionnaires, statements, videos and a 3D scan of the structure and carried out a thematic analysis."
 findings:

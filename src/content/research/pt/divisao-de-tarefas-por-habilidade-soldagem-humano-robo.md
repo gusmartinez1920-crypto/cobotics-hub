@@ -22,6 +22,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2017.07.113"
   url: "https://doi.org/10.1016/j.promfg.2017.07.113"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Em lotes pequenos e peças muito variadas, automatizar tudo não compensa, e o saber do soldador continua necessário. O artigo oferece um exemplo concreto de como escolher o modo de interação em cada etapa e de como dividir o trabalho entre pessoa e robô. É útil como referência de projeto para quem pensa em cobots na soldagem."
 method: "É um trabalho descritivo de concepção de sistema, apresentado em congresso, sem experimento nem medição. O caso é a soldagem de estruturas de aço inoxidável para unidades de filtragem de sangue, em que peças com defeito são descartadas e a ordem dos cordões é crítica. Os autores revisam os modos de interação humano-robô, comparam de forma qualitativa as habilidades do soldador e do robô e descrevem a programação e um sistema de projeção para orientar o operador."
 findings:

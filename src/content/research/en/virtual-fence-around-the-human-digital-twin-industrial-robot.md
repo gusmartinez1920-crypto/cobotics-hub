@@ -22,6 +22,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2018.02.010"
   url: "https://doi.org/10.1016/j.procir.2018.02.010"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "The separation distance required by ISO/TS 15066 is usually applied with fixed zones that stop or slow the robot and cost productivity. This work reverses the logic: the safety envelope follows the person and the robot replans its path around it. The problems the authors report also show researchers in the field where machine learning perception fails."
 method: "This is an engineering proof of concept presented at a conference, with no user study. The authors built a simulation platform in MATLAB that they call a digital twin. In it, they compared two ways of representing the worker as an obstacle: a convex hull and a grid shaped like a cylinder with a hemisphere, which follows the person's position. Avoidance was tested on a bench with a KUKA KR6 industrial robot. In parallel, they trained a neural network on 3D models of the robot's parts to recognize objects in point clouds."
 findings:

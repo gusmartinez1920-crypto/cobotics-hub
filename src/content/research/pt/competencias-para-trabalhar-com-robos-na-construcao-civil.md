@@ -22,6 +22,8 @@ paper:
   venue: "Frontiers of Engineering Management"
   doi: "10.1007/s42524-025-4224-x"
   url: "https://doi.org/10.1007/s42524-025-4224-x"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "A falta de pessoas preparadas é apontada como barreira à adoção de robôs, e a pesquisa costuma olhar mais para a tecnologia do que para a formação. Este estudo oferece uma lista ordenada de conhecimentos, habilidades e aptidões que pode orientar cursos e treinamentos. O setor é a construção civil, e os especialistas lidam sobretudo com drones, exoesqueletos e equipamentos autônomos; a transposição para cobots de fábrica cabe ao leitor."
 method: "Os autores levantaram na literatura 42 competências: 20 conhecimentos, 10 habilidades e 12 aptidões. Depois aplicaram o método Delphi, uma consulta a especialistas em rodadas, com profissionais dos Estados Unidos selecionados por formação, experiência e contato com robôs: 18 qualificados, 16 na primeira rodada e 13 na segunda. Cada competência recebeu uma nota de importância, e o ranking final combinou essas notas com as escolhas dos participantes."
 findings:

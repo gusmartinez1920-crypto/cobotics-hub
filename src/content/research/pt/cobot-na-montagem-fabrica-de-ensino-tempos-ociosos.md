@@ -22,6 +22,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2020.04.088"
   url: "https://doi.org/10.1016/j.promfg.2020.04.088"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "O estudo mostra, com um caso simples, como medir se a divisão de tarefas entre pessoa e cobot está fluindo bem. As quatro medidas usadas (tempo ocioso do robô, tempo ocioso da pessoa, atividade simultânea e atraso) podem ser reproduzidas em um laboratório de ensino ou em uma estação real antes de decidir onde instalar o robô."
 method: "Estudo de caso na primeira estação de uma linha de montagem manual da fábrica de ensino da Universidade de Split, que produz um pequeno veículo infantil. Um cobot Panda, da Franka Emika, posiciona o eixo e coloca as rodas; a pessoa monta arruelas e porcas e fixa o eixo na placa-base. Os autores mediram os tempos de atividade e de inatividade em três variantes (robô primeiro, pessoa primeiro e operações simultâneas) e calcularam quatro medidas objetivas de fluência. Depois, aumentaram a velocidade do braço."
 findings:

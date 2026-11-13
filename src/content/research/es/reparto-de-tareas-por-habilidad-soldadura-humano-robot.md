@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2017.07.113"
   url: "https://doi.org/10.1016/j.promfg.2017.07.113"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Con lotes pequeños y piezas muy variadas, automatizarlo todo no compensa, y el saber del soldador sigue siendo necesario. El artículo ofrece un ejemplo concreto de cómo elegir el modo de interacción en cada etapa y de cómo repartir el trabajo entre persona y robot. Es útil como referencia de diseño para quien piensa en cobots para soldadura."
 method: "Es un trabajo descriptivo de concepción de sistema, presentado en un congreso, sin experimento ni medición. El caso es la soldadura de estructuras de acero inoxidable para unidades de filtración de sangre, donde las piezas defectuosas se descartan y el orden de los cordones es crítico. Los autores revisan los modos de interacción humano-robot, comparan de forma cualitativa las habilidades del soldador y del robot y describen la programación y un sistema de proyección para orientar al operador."
 findings:

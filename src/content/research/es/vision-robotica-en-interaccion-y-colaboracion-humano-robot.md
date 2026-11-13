@@ -22,6 +22,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3570731"
   url: "https://doi.org/10.1145/3570731"
+  openAccess: true
 whyItMatters: "La cámara es el principal medio de un robot para percibir a quien trabaja a su lado: con ella se detiene, reduce la velocidad o se desvía cuando alguien se acerca. La revisión muestra lo que ya es común y lo que todavía falta, como pruebas con personas, medidas comparables y cuidado con las imágenes captadas."
 method: "Los autores hicieron una revisión sistemática según el estándar PRISMA en tres bases (IEEE Xplore, ACM Library y Scopus), con artículos revisados por pares publicados de 2010 a 2020. Solo entraron estudios con robot físico, en los que la visión tiene a la persona como foco y genera una acción en tiempo real o casi; la simulación y la teleoperación quedaron fuera. De 6.771 registros, se incluyeron 310 artículos, y dos evaluadores independientes revisaron el 10% de ellos, con acuerdo total."
 findings:

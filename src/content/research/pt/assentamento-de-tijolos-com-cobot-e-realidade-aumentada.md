@@ -18,6 +18,8 @@ paper:
   venue: "Architectural Intelligence"
   doi: "10.1007/s44223-025-00085-4"
   url: "https://doi.org/10.1007/s44223-025-00085-4"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O estudo leva o cobot para fora da fábrica, para a construção, e testa quanto de decisão humana cabe durante a execução. Mostra uma troca que aparece em qualquer aplicação colaborativa: mais intervenção da pessoa dá flexibilidade e dispensa parte do planejamento, mas custa precisão e eficiência. Também alerta que a interface por gestos pode deixar gente de fora."
 method: "O trabalho tem duas etapas. Na primeira, um experimento com blocos pequenos de madeira e um cobot UR10e comparou dois modos: projetar tudo em realidade aumentada e depois construir, ou alternar projeto e construção camada a camada; a avaliação foi qualitativa, por observação de quatro pesquisadores. Na segunda, os autores construíram em uma exposição uma parede em escala real com tijolos de 13 kg, usando um cobot Fanuc CRX-25iA sobre base móvel, óculos de realidade aumentada, comando por gestos e uma câmera para corrigir a localização. Mediram o desvio de cada tijolo e fizeram demonstrações com cerca de 20 profissionais da construção."
 findings:

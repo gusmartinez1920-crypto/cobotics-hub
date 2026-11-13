@@ -22,6 +22,8 @@ paper:
   venue: "IEEE Transactions on Human-Machine Systems"
   doi: "10.1109/thms.2021.3092684"
   url: "https://doi.org/10.1109/thms.2021.3092684"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "O texto ajuda a separar o discurso de venda do cobot daquilo que acontece no chão de fábrica. Mostra que tornar a interação mais simples pode tirar do operador a compreensão e o controle do sistema, e que colegas, manutenção, chefia e sindicato também são afetados. É uma leitura útil para quem planeja uma implantação ou escolhe um tema de pesquisa."
 method: "Artigo de posição com revisão narrativa, sem protocolo de busca. As autoras organizam a literatura de interação humano-robô, psicologia do trabalho e sociologia do trabalho em cinco temas e refletem sobre um projeto próprio, com um cobot UR10 em dois usos: aperto de parafusos na montagem de motores e polimento de moldes de fundição. A partir daí propõem uma agenda de pesquisa em três níveis: indivíduo, equipe e organização."
 findings:

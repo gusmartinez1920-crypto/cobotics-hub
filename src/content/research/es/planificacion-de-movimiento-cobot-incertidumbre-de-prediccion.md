@@ -23,6 +23,7 @@ paper:
   venue: "IEEE Transactions on Robotics"
   doi: "10.1109/tro.2019.2911800"
   url: "https://doi.org/10.1109/tro.2019.2911800"
+  openAccess: true
 whyItMatters: "Un robot que entrega piezas necesita acercarse a la persona, así que solo mantener la distancia no resuelve el problema. El estudio muestra una forma de equilibrar seguridad y tiempo de trabajo: el robot aprende el patrón del trabajador para no hacerlo esperar y se aleja más cuando el movimiento se sale del patrón."
 method: "Los autores proponen un algoritmo y lo prueban en un experimento. Un modelo estadístico, actualizado durante el trabajo, predice la posición y la trayectoria del trabajador; el planificador recalcula la trayectoria del robot a cada instante, ponderando llegar al objetivo en el momento previsto, evitar la colisión y respetar límites de velocidad. La prueba usó un robot de laboratorio de dos eslabones que entrega piezas y herramientas en un puesto de montaje automotriz con tres tareas. Cinco participantes hicieron ciclos regulares de aprendizaje y después movimientos regulares e irregulares, con un total de 70 movimientos evaluados (50 regulares y 20 irregulares)."
 findings:

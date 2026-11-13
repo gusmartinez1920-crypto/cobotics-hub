@@ -24,6 +24,8 @@ paper:
   venue: "International Journal of Production Research"
   doi: "10.1080/00207543.2026.2639732"
   url: "https://doi.org/10.1080/00207543.2026.2639732"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Para trabajar cerca de una persona sin golpearla, el robot necesita anticipar sus movimientos e intenciones. La revisión muestra lo que ofrece cada tipo de método en dependencia de datos, transparencia y seguridad, lo que ayuda a elegir un enfoque y a desconfiar de promesas de seguridad obtenida solo por aprendizaje."
 method: "Los autores buscaron en Google Scholar y Web of Science artículos en inglés de 2010 a 2025, con una cadena de búsqueda para cada familia de métodos. La búsqueda de enero de 2025 arrojó 524 y 1.687 registros; el cribado dejó 282 y la lectura completa, sumada a la búsqueda en las referencias, llegó a 180 artículos. Los estudios se tabularon por escenario, aplicación, tipo de dato y modelo, y los autores también revisaron 10 bases de datos y propusieron un marco unificado."
 findings:

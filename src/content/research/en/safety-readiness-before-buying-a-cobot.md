@@ -26,6 +26,8 @@ paper:
   venue: "Safety"
   doi: "10.3390/safety8030048"
   url: "https://doi.org/10.3390/safety8030048"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The mandatory risk assessment only happens in the design phase, when the purchase has already been decided. This study proposes looking earlier and more broadly: people, organization and environment, in addition to the machine. For a company considering its first cobot, it offers a guide to what it needs to know and where its gaps are."
 method: "The authors combine a narrative literature review with their earlier research on risk factors and, from there, do the conceptual modeling of a self-assessment tool based on a maturity grid. Only the first two development phases are covered: preparing and building the model. Evaluation with experts and tests in companies are left for later."
 findings:

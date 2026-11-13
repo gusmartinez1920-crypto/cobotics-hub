@@ -22,6 +22,7 @@ paper:
   venue: "ACM Transactions on Human-Robot Interaction"
   doi: "10.1145/3359616"
   url: "https://doi.org/10.1145/3359616"
+  openAccess: true
 whyItMatters: "Quien confía poco en el robot interviene sin necesidad; quien confía demasiado deja de intervenir cuando debería. El estudio muestra que se puede modelar la confianza y usarla en la planificación del robot, y que buscar la confianza máxima no es lo mismo que buscar el mejor resultado. La tarea es doméstica, no industrial: la aplicación a la fábrica todavía está por demostrar."
 method: "El modelo trata la confianza como una variable oculta, en una escala de 1 a 7, dentro de un proceso de decisión con observación parcial (POMDP). La tarea es retirar de la mesa tres botellas de agua, una lata y una copa de vino; en cada paso la persona deja actuar al robot o interviene. Los autores aprendieron el modelo con datos de 222 participantes en línea, que respondían a un cuestionario de confianza en cada paso. Después compararon el robot que considera la confianza con uno que la ignora, en línea con videos (201 participantes válidos) y con un brazo robótico real (20 participantes). Los fallos del robot se estudiaron solo en simulación."
 findings:

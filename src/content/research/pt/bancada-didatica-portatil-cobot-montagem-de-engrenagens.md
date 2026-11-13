@@ -23,6 +23,8 @@ paper:
   venue: "Technical Sciences and Technologies"
   doi: "10.25140/2411-5363-2022-3(29)-37-44"
   url: "https://doi.org/10.25140/2411-5363-2022-3(29)-37-44"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "O projeto dá uma ideia concreta de exercício prático com cobot: uma tarefa de montagem que mistura cálculo, programação e trabalho manual, e que pode ficar mais fácil ou mais difícil. Quem monta um laboratório de ensino ou um treinamento interno pode aproveitar o desenho da tarefa, mesmo sem dados sobre o quanto se aprende com ela."
 method: "Relato de projeto de engenharia de uma universidade técnica da Eslováquia, sem experimento com pessoas. Os autores criaram três variantes do posto e escolheram a melhor em preço e facilidade de fabricação. A bancada usa um cobot Fanuc CRX-10iA, programado por guiagem manual e por tablet, com uma garra elétrica colaborativa de dedos impressos em 3D. O texto descreve o projeto mecânico e a sequência da tarefa em fluxograma."
 findings:

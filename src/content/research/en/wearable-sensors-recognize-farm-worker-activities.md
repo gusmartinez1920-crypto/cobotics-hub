@@ -23,6 +23,8 @@ paper:
   venue: "Applied Sciences"
   doi: "10.3390/app11052188"
   url: "https://doi.org/10.3390/app11052188"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "To work near a person, the robot needs to know what that person is doing. This study tests such recognition in the field, where light varies and fixed cameras cannot be installed, using wearable sensors. The robot here is an agricultural transport vehicle, not a collaborative arm, but the method matters for any application in which the robot must follow human activity."
 method: "The experiment took place on a farm in Greece with 20 healthy participants. Each one walked, lifted a crate (empty or loaded with about 20% of their own body mass) and placed it on one of two stationary robots, with deposit heights of 40 and 80 cm. Five inertial sensors, on the trunk and both wrists, recorded the movements, which were labeled with the help of video. A recurrent neural network of the LSTM type was trained to classify six sub-activities, with data from four participants held out for testing."
 findings:

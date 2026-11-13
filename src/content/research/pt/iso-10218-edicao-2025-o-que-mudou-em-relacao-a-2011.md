@@ -24,6 +24,8 @@ paper:
   venue: "Results in Engineering"
   doi: "10.1016/j.rineng.2026.110486"
   url: "https://doi.org/10.1016/j.rineng.2026.110486"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "A ISO 10218 é a norma de base para a segurança de robôs industriais, e a edição de 2025 altera termos, exigências e anexos que integradores e projetistas usam no dia a dia. Este estudo resume as mudanças e discute o efeito delas no projeto, na integração e na certificação de células."
 method: "Os autores fizeram uma análise de conteúdo comparativa das partes 1 e 2 da ISO 10218, nas edições de 2011 e 2025, e da ISO/TS 15066 de 2016. Compararam os textos capítulo a capítulo e classificaram cada mudança como técnica, estrutural ou de terminologia. É um artigo de revisão, sem dados novos."
 findings:

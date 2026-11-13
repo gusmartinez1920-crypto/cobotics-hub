@@ -24,6 +24,8 @@ paper:
   venue: "IEEE Transactions on Cognitive and Developmental Systems"
   doi: "10.1109/tcds.2022.3182811"
   url: "https://doi.org/10.1109/tcds.2022.3182811"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Cobots aliviam o esforço físico, mas podem aumentar a exigência mental, e medir isso costuma pedir especialistas, questionários aplicados depois da tarefa ou sensores caros. O estudo mostra um caminho com uma câmera comum de profundidade e sem sensor no corpo. Mostra também que deixar claro o estado do robô pesa na carga mental e na confiança, sobretudo para quem não conhece robótica."
 method: "Experimento de laboratório em Gênova com 14 voluntários (7 homens e 7 mulheres), divididos em 8 sem experiência e 6 com experiência em robótica. Cada um montou perfis de alumínio, por até 10 minutos, em três cenários: com um assistente humano; com um cobot acionado por botões em um tablet, sem informar seu estado; e com um cobot que avança conforme as instruções e mostra em um monitor a ação em curso. Uma câmera estéreo acompanhou a direção da cabeça e os movimentos do tronco para calcular escores de esforço mental e de estresse. Os escores foram comparados com batimentos cardíacos, condutância da pele e questionários de carga de trabalho e de confiança."
 findings:

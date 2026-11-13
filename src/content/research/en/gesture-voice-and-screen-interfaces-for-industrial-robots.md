@@ -19,6 +19,8 @@ paper:
   venue: "Current Robotics Reports"
   doi: "10.1007/s43154-020-00005-6"
   url: "https://doi.org/10.1007/s43154-020-00005-6"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The more closely a person works with the robot, the more the interface matters: it stops being only a programming tool and becomes a way to exchange information and confirm actions. The study helps in choosing among screen, gesture and voice, and shows where industrial research is still behind."
 method: "The authors carried out a narrative literature review, organized by type of interface (gestures, voice, graphical interfaces and combinations) and split into industrial robots and service robots. The text draws on 53 references, mentions ongoing research projects and ends with the authors' opinion, based on their own work with stationary and mobile industrial robots."
 findings:

@@ -22,6 +22,8 @@ paper:
   venue: "International Journal of Production Research"
   doi: "10.1080/00207543.2023.2183343"
   url: "https://doi.org/10.1080/00207543.2023.2183343"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "É comum supor que perder autonomia para a máquina deixa o trabalhador menos satisfeito. Este experimento encontrou o contrário, ao menos no curto prazo, e mostra que a utilidade que a pessoa vê no robô pesa na satisfação. Interessa a quem desenha a divisão de controle entre pessoa e robô na logística."
 method: "Os autores fizeram um experimento controlado com 60 estudantes de um colégio técnico de logística nos Países Baixos, com idade média de 18 anos. Num armazém-laboratório com 300 posições de coleta, cada participante separou pedidos de três formas, em rodadas de 20 minutos: à mão com carrinho, conduzindo um robô móvel autônomo e seguindo o robô. Questionários mediram satisfação no trabalho, autoestima, confiança na própria capacidade e confiança para interagir com robôs. A análise usou modelos estatísticos que levam em conta as medidas repetidas de cada pessoa."
 findings:

@@ -24,6 +24,8 @@ paper:
   venue: "Frontiers in Robotics and AI"
   doi: "10.3389/frobt.2022.813907"
   url: "https://doi.org/10.3389/frobt.2022.813907"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Para quem projeta uma célula colaborativa, o texto funciona como um guia do que existe para avaliar postura, esforço e carga mental, e de quais sensores servem no chão de fábrica. Mostra onde a pesquisa está madura, que é a postura, e onde ainda falta base, que é a carga cognitiva. Também lembra que monitorar o trabalhador traz questões de custo e de privacidade."
 method: "Revisão narrativa com busca por palavras-chave no Google Scholar e no Scopus. Os trabalhos sobre colaboração humano-robô ergonômica cobrem de 2011 a agosto de 2022; as ferramentas de avaliação ergonômica foram levantadas desde os primeiros relatos da área. Teleoperação e exoesqueletos ficaram de fora, e o foco é o posto de trabalho, não a organização do trabalho. O artigo não informa quantos estudos entraram."
 findings:

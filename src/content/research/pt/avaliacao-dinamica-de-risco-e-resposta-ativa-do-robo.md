@@ -26,6 +26,7 @@ paper:
   venue: "Computers & Industrial Engineering"
   doi: "10.1016/j.cie.2020.106302"
   url: "https://doi.org/10.1016/j.cie.2020.106302"
+  openAccess: true
 whyItMatters: "O monitoramento convencional de velocidade e separação para o robô sempre que a pessoa se aproxima, o que protege mas interrompe o trabalho. Este estudo mostra uma alternativa em que o robô reduz a velocidade ou muda de trajetória conforme o risco do momento, e em que o operador vê a zona de risco por realidade aumentada."
 method: "Os autores partem dos indicadores de risco da ISO/TS 15066 e os dividem em dois tipos: os inerentes, pontuados antes por especialistas com uma matriz de risco, e os dinâmicos (velocidade do robô, movimento e posição do operador), avaliados em tempo real. Duas câmeras de profundidade acompanham o esqueleto da pessoa. A validação é feita principalmente por simulação de uma tarefa de transporte e processamento de peças, com um obstáculo esférico no lugar da pessoa, e por comparação com dois métodos de monitoramento de velocidade e separação. Os autores descrevem ainda a integração com um robô ABB e óculos de realidade aumentada."
 findings:

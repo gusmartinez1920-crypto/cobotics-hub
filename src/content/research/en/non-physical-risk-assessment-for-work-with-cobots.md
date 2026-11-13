@@ -22,6 +22,8 @@ paper:
   venue: "Safety and Health at Work"
   doi: "10.1016/j.shaw.2024.12.002"
   url: "https://doi.org/10.1016/j.shaw.2024.12.002"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Risk assessment of a collaborative cell usually focuses on physical hazards. This model adds stress, fatigue, training, trust in the robot, communication and cybersecurity, in checklists that workers fill out in about 15 minutes. It complements the assessment required by the standards without replacing it."
 method: "The authors, from South Korea, selected 45 risk items from three reference models and organized them into three fields (worker, robot systems and work environment) and nine factors. Thirteen experts from manufacturers, users, consultancies and universities ranked the items by pairwise comparison, according to their relevance for preventing robot accidents. The authors then built six checklists of 20 questions each and applied them at six workplaces, four with past robot accidents and two without, with 3 or 4 workers per site."
 findings:

@@ -24,6 +24,8 @@ paper:
   venue: "Technical Sciences and Technologies"
   doi: "10.25140/2411-5363-2022-3(29)-37-44"
   url: "https://doi.org/10.25140/2411-5363-2022-3(29)-37-44"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "The design offers a concrete idea for a hands-on exercise with a cobot: an assembly task that mixes calculation, programming and manual work, and that can be made easier or harder. Anyone setting up a teaching lab or in-house training can reuse the task design, even without data on how much people learn from it."
 method: "An engineering design report from a technical university in Slovakia, with no experiment involving people. The authors created three variants of the workstation and chose the best in terms of price and ease of manufacture. The bench uses a Fanuc CRX-10iA cobot, programmed by hand guiding and by tablet, with a collaborative electric gripper with 3D-printed fingers. The text describes the mechanical design and the task sequence as a flowchart."
 findings:

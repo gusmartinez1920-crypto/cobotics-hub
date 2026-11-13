@@ -24,6 +24,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2022.05.055"
   url: "https://doi.org/10.1016/j.procir.2022.05.055"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Anyone designing a cobot application faces dozens of standards and does not know where to start. The study proposes an order of priority and shows how the choice changes with the task. It also warns about a common habit: assessing the cobot with the same procedures used for conventional robots."
 method: "The authors carried out a narrative literature survey with 40 references, presented at a conference. They identified the standards cited in those works and classified them using the type A, B1, B2 and C structure of ISO 12100. From there they proposed a priority pyramid and grouped case studies by application: assembly, material handling, quality inspection, machining and welding."
 findings:

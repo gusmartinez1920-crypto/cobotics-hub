@@ -24,6 +24,8 @@ paper:
   venue: "International Journal of Robust and Nonlinear Control"
   doi: "10.1002/rnc.7922"
   url: "https://doi.org/10.1002/rnc.7922"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "In physical collaboration, the robot has to yield when a person pushes it on purpose and, at the same time, stay out of forbidden zones, which may be a moving obstacle or the operator. The study shows how control engineering handles this problem: safety becomes a mathematical position constraint, which is different from the force limits in the standards."
 method: "This is a theoretical and simulation study, with no physical robot or participants. The controller brings together admittance control, which treats human force as an input rather than a disturbance, a barrier function that keeps the robot from crossing time-varying limits, guaranteed fixed-time convergence, and a neural network that compensates for unknown dynamics. The authors prove stability and test the method on a planar two-link manipulator, with simulated human force, and on a simulated UR10 with a moving obstacle."
 findings:

@@ -19,6 +19,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s25237136"
   url: "https://doi.org/10.3390/s25237136"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "En muchas celdas colaborativas, el robot va siempre a la velocidad más baja permitida, incluso cuando la colisión es improbable, y eso alarga el ciclo. El estudio muestra, con el cálculo de la distancia de separación desglosado término a término, cuánto se puede ganar cuando el sistema sabe dónde están la cabeza, las manos y el tronco de la persona. Muestra también por qué esto aún no es un sistema de seguridad certificado."
 method: "Experimento de laboratorio con un robot KUKA LBR iiwa y una cámara de color y profundidad. Los autores compararon cuatro métodos de aprendizaje profundo: reconocimiento del cuerpo, segmentación del cuerpo, estimación de pose y segmentación de partes del cuerpo. Midieron la latencia de cada método, el error de posición frente a un sistema de captura de movimiento en una sola persona y las velocidades máximas por parte del cuerpo a partir de fuerzas y presiones de contacto. La validación fue una tarea de atornillado en un bloque de motor, con diez repeticiones por método, comparada con un escáner láser y con la operación sin sistema adicional de seguridad."
 findings:

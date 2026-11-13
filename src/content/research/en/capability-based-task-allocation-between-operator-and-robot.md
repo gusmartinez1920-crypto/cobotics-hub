@@ -23,6 +23,8 @@ paper:
   venue: "Procedia Manufacturing"
   doi: "10.1016/j.promfg.2017.04.011"
   url: "https://doi.org/10.1016/j.promfg.2017.04.011"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "In a survey by the authors themselves, deciding where to use collaboration and who does each task emerged as a bigger obstacle than technical problems. The procedure gives a simple path for that decision and makes one priority clear: whatever harms the person's body goes to the robot, regardless of time, cost or quality."
 method: "The study has two parts. First, a survey in which 34 respondents, among them 15 robot manufacturers and 14 integrators, rated 17 deployment challenges, plus interviews with 5 user companies. Then the proposed procedure: break the process down into tasks, allocate the tasks with a mandatory decision using an exclusion list of 12 human capabilities and ergonomic limits, and allocate the rest using capability indicators over a catalog of 25 criteria. The proposal was tested qualitatively in two learning factory cases, one in kitting and one in final assembly."
 findings:

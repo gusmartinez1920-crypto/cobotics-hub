@@ -1,0 +1,115 @@
+---
+// Normas e regulamentos que se aplicam à cobótica: lista com resumo curto.
+// Os dados ficam em src/data/standards.ts.
+import Base from "../../layouts/Base.astro";
+import { formatDate, langs, type Lang } from "../../i18n/ui";
+import { STANDARD_GROUPS, STANDARDS_CHECKED, standards, standardsText } from "../../data/standards";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const tx = standardsText[lang];
+const groups = STANDARD_GROUPS.map((g) => ({ id: g, name: tx.groups[g], items: standards.filter((s) => s.group === g) }));
+---
+
+<Base lang={lang} title={tx.title} description={tx.lead}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{tx.title}</h1>
+      <p class="lead">{tx.lead}</p>
+      <p class="notice">{tx.caution}</p>
+    </header>
+
+    <nav class="groups" aria-label={tx.title}>
+      {groups.map((g) => <a href={`#${g.id}`}>{g.name} <span>{g.items.length}</span></a>)}
+    </nav>
+
+    {groups.map((g) => (
+      <section class="group" id={g.id}>
+        <h2>{g.name}</h2>
+        <ul class="list">
+          {g.items.map((s) => (
+            <li class="item">
+              <h3>{s.code}</h3>
+              <p class="official" lang={s.group === "law" && s.code.includes("Brasil") ? "pt-BR" : "en"}>{s.title}</p>
+              <p>{s.summary[lang]}</p>
+              {s.note && <p class="status">{s.note[lang]}</p>}
+              <p class="src"><a href={s.url} rel="noopener">{tx.source} →</a></p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))}
+
+    <p class="checked">{tx.checked} <time datetime={STANDARDS_CHECKED}>{formatDate(lang, new Date(STANDARDS_CHECKED))}</time>.</p>
+  </div>
+</Base>
+
+<style>
+  .notice {
+    max-width: 62ch;
+    margin-top: 1rem;
+  }
+  .groups {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+    margin-bottom: 2rem;
+    font-size: var(--step--1);
+  }
+  .groups span {
+    font-family: var(--font-mono);
+    color: var(--graphite-soft);
+  }
+  .group {
+    margin-bottom: 2.5rem;
+    scroll-margin-top: 5rem;
+  }
+  .group h2 {
+    font-size: var(--step-1);
+    margin-bottom: 1rem;
+  }
+  .list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr));
+    gap: 1rem;
+  }
+  .item {
+    padding: 1.1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .item h3 {
+    font-family: var(--font-mono);
+    font-size: var(--step-0);
+    margin-bottom: 0.25rem;
+  }
+  .item p {
+    margin-bottom: 0.5rem;
+  }
+  .official,
+  .status,
+  .src {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .official {
+    font-style: italic;
+  }
+  .status {
+    border-left: 3px solid var(--line);
+    padding-left: 0.6rem;
+  }
+  .item .src {
+    margin: 0;
+  }
+  .checked {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+</style>

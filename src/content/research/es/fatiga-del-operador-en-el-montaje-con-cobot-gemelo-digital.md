@@ -30,6 +30,8 @@ paper:
   venue: "Digital Twin"
   doi: "10.1080/27525783.2025.2610579"
   url: "https://doi.org/10.1080/27525783.2025.2610579"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "La fatiga física suele evaluarse con una sola medida y sin considerar que las personas son distintas. Este estudio muestra cómo reunir cámaras y sensores musculares en un gemelo digital del operador para señalar el puesto más pesado de la línea y probar ajustes de altura, distancia y apoyo. Es un ejemplo concreto de sensores vestibles y simulación al servicio de la ergonomía en una celda colaborativa."
 method: "Los autores modelaron el proceso de montaje de un diferencial de nueve piezas para localizar los puestos de mayor carga. En el puesto elegido, midieron la fatiga con tres fuentes: cierre de los ojos y ángulos de las articulaciones, captados por cámara, y señales eléctricas de dos músculos (electromiografía de superficie), clasificadas por una red neuronal entrenada con 10 voluntarios. Los tres índices se ponderaron y se fusionaron en una nota de 0 a 1. En laboratorio, con un cobot ligero de banco, compararon tres configuraciones del puesto con tres participantes hombres."
 findings:

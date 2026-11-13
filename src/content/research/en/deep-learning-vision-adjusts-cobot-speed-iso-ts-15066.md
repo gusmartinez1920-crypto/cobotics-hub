@@ -19,6 +19,8 @@ paper:
   venue: "Sensors"
   doi: "10.3390/s25237136"
   url: "https://doi.org/10.3390/s25237136"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "In many collaborative cells the robot always runs at the lowest permitted speed, even when a collision is unlikely, and this lengthens the cycle. The study shows, with the separation distance calculation laid out term by term, how much can be gained when the system knows where the person's head, hands and torso are. It also shows why this is not yet a certified safety system."
 method: "Laboratory experiment with a KUKA LBR iiwa robot and a color and depth camera. The authors compared four deep learning methods: body recognition, body segmentation, pose estimation and body part segmentation. They measured the latency of each method, the position error against a motion capture system on a single person, and the maximum speeds per body part from contact forces and pressures. Validation was a screwing task on an engine block, with ten repetitions per method, compared with a laser scanner and with operation without an additional safety system."
 findings:

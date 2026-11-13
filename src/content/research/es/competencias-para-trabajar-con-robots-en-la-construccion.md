@@ -23,6 +23,8 @@ paper:
   venue: "Frontiers of Engineering Management"
   doi: "10.1007/s42524-025-4224-x"
   url: "https://doi.org/10.1007/s42524-025-4224-x"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La falta de personas preparadas se señala como barrera para la adopción de robots, y la investigación suele mirar más a la tecnología que a la formación. Este estudio ofrece una lista ordenada de conocimientos, habilidades y aptitudes que puede orientar cursos y capacitaciones. El sector es la construcción, y los expertos trabajan sobre todo con drones, exoesqueletos y equipos autónomos; la transposición a los cobots de fábrica corresponde al lector."
 method: "Los autores extrajeron de la literatura 42 competencias: 20 conocimientos, 10 habilidades y 12 aptitudes. Después aplicaron el método Delphi, una consulta a expertos por rondas, con profesionales de Estados Unidos seleccionados por formación, experiencia y contacto con robots: 18 calificados, 16 en la primera ronda y 13 en la segunda. Cada competencia recibió una nota de importancia, y la clasificación final combinó esas notas con las elecciones de los participantes."
 findings:

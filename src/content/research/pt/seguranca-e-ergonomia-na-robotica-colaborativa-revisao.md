@@ -22,6 +22,8 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2020.101998"
   url: "https://doi.org/10.1016/j.rcim.2020.101998"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "A revisão funciona como mapa do campo: separa evitar o contato, detectar e reduzir o contato, ergonomia física e ergonomia cognitiva e organizacional. Para quem projeta uma célula, mostra que tornar o robô seguro não basta se a pessoa não aceita ou não confia no sistema."
 method: "Os autores fizeram uma revisão sistemática da literatura na base Scopus, com artigos de periódicos em inglês publicados de 2015 a 2018 nas áreas de engenharia e computação. Partiram de 7.589 documentos sobre robótica colaborativa e, após filtros e triagem por três pesquisadores independentes, chegaram a 55 artigos. Classificaram cada artigo por tema e mediram a produção e o crescimento anual de cada grupo."
 findings:

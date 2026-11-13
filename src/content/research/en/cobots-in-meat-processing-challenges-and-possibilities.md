@@ -24,6 +24,8 @@ paper:
   venue: "Journal of Food Engineering"
   doi: "10.1016/j.jfoodeng.2022.111117"
   url: "https://doi.org/10.1016/j.jfoodeng.2022.111117"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The meat plant brings together almost everything that makes robotics hard: parts that are never the same, sharp tools, cold and low margins. The study shows why a cobot's force limiting, sufficient in other applications, does not protect the person when the tool is a knife. It is useful reading for anyone considering cobots with dangerous tools or in sectors with little automation."
 method: "This is a critical narrative review. The authors searched four article databases, with no limit on years, combining terms for human-robot collaboration and interaction with terms for meat, food and agriculture. Because almost no studies combine human-robot collaboration and meat, they included work from other sectors. Based on this reading, they propose the concept of a collaborative cell for cutting and deboning."
 findings:

@@ -29,6 +29,8 @@ paper:
   venue: "Digital Twin"
   doi: "10.1080/27525783.2025.2610579"
   url: "https://doi.org/10.1080/27525783.2025.2610579"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "A fadiga física costuma ser avaliada por uma única medida e sem considerar que as pessoas são diferentes. Este estudo mostra como juntar câmeras e sensores musculares em um gêmeo digital do operador para apontar o posto mais pesado da linha e testar ajustes de altura, distância e apoio. É um exemplo concreto de sensores vestíveis e simulação a serviço da ergonomia em uma célula colaborativa."
 method: "Os autores modelaram o processo de montagem de um diferencial com nove peças para localizar os postos de maior carga. No posto escolhido, mediram a fadiga por três fontes: fechamento dos olhos e ângulos das articulações, captados por câmera, e sinais elétricos de dois músculos (eletromiografia de superfície), classificados por uma rede neural treinada com 10 voluntários. Os três índices foram ponderados e fundidos em uma nota de 0 a 1. Em laboratório, com um cobot leve de bancada, compararam três configurações do posto com três participantes homens."
 findings:

@@ -21,6 +21,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2018.02.010"
   url: "https://doi.org/10.1016/j.procir.2018.02.010"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "A distância de separação exigida pela ISO/TS 15066 costuma ser aplicada com zonas fixas, que param ou desaceleram o robô e custam produtividade. Este trabalho inverte a lógica: o envelope de segurança acompanha a pessoa e o robô replaneja a trajetória ao redor dele. Os problemas que os autores relatam também mostram a quem pesquisa o tema onde a percepção por aprendizado de máquina falha."
 method: "É uma prova de conceito de engenharia apresentada em congresso, sem estudo com usuários. Os autores construíram em MATLAB uma plataforma de simulação que chamam de gêmeo digital. Nela, compararam duas formas de representar o trabalhador como obstáculo: uma envoltória convexa e uma grade em forma de cilindro com hemisfério, que acompanha a posição da pessoa. O desvio foi testado em bancada com um robô industrial KUKA KR6. Em paralelo, treinaram uma rede neural com modelos 3D das partes do robô para reconhecer objetos em nuvens de pontos."
 findings:

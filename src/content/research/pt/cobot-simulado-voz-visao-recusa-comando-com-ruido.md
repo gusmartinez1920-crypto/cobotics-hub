@@ -22,6 +22,8 @@ paper:
   venue: "Machines"
   doi: "10.3390/machines14070780"
   url: "https://doi.org/10.3390/machines14070780"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Fábricas têm ruído de máquinas, pouca luz e objetos encobertos, e isso atrapalha um cobot comandado por voz e câmera. O estudo mostra uma forma de o sistema perceber que um sinal piorou e decidir não agir, em vez de agir errado. Também registra os pesos de cada decisão, o que facilita auditar por que o robô fez ou deixou de fazer algo."
 method: "Os autores montaram o sistema em simulação, com um robô de dois braços ABB YuMi virtual, uma câmera de profundidade e um modelo de linguagem que roda localmente. A voz passa por reconhecimento de fala e a imagem por detecção de objetos; um motor de fusão dá peso a cada canal conforme sua qualidade, e um limiar rejeita comandos de baixa confiança antes de chegarem ao modelo de linguagem. Na bancada virtual havia três cubos coloridos e uma chave de fenda. Um único operador gravou 15 comandos, repetidos em sete condições de ruído sonoro e degradação da imagem, com a fusão adaptativa e com pesos fixos de 50% para cada canal, num total de 210 execuções."
 findings:

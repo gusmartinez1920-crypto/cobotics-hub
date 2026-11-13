@@ -25,6 +25,8 @@ paper:
   venue: "Robotics"
   doi: "10.3390/robotics11010009"
   url: "https://doi.org/10.3390/robotics11010009"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "La programación compleja se señala como una de las principales barreras para la difusión de los cobots, sobre todo en lotes pequeños y variados. El estudio muestra una forma de repartir el trabajo entre especialistas, ingeniería de procesos y operadores, para que el cobot cambie de puesto con frecuencia. También ofrece una fórmula sencilla para decidir a partir de qué tamaño de lote conviene usar el robot."
 method: "Es una propuesta de método probada en un caso piloto industrial. Especialistas en robótica preparan bibliotecas de habilidades listas, la ingeniería de procesos arma la secuencia de la tarea, y el operador introduce parámetros y corrige errores con ayuda de una interfaz gráfica. La prueba se hizo en una fábrica de ABB en la zona de Milán, en una tarea de tomar y colocar placas electrónicas con un cobot de dos brazos, con dos usuarios no especialistas. El análisis económico abarcó seis procesos del mismo departamento, con simulación de la demanda a partir de datos históricos."
 findings:

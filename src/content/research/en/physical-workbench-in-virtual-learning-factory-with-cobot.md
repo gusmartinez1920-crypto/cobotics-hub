@@ -23,6 +23,7 @@ paper:
   venue: "SSRN Electronic Journal"
   doi: "10.2139/ssrn.3858350"
   url: "https://doi.org/10.2139/ssrn.3858350"
+  openAccess: true
 whyItMatters: "Virtual environments are a cheap way to teach collaborative robotics without having a cobot for every student. This study shows that adding real objects to the scene does not improve the experience by itself, and that misalignment between the image and the object can even get in the way. It is a useful warning before investing in mixed reality for training."
 method: "An experiment with 12 university students from various fields, 11 of whom returned valid questionnaires. Each one replaced a defective gripper on a virtual UR5 cobot, wearing a virtual reality headset, in two runs: one purely virtual and one with a real assembly workbench aligned with the image, with the order alternating between participants. After each run they answered a standardized 14-item questionnaire on the sense of presence, with open questions about what got in the way."
 findings:

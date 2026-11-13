@@ -22,6 +22,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2018.02.010"
   url: "https://doi.org/10.1016/j.procir.2018.02.010"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "La distancia de separación que exige la ISO/TS 15066 suele aplicarse con zonas fijas, que detienen o frenan el robot y cuestan productividad. Este trabajo invierte la lógica: la envolvente de seguridad acompaña a la persona y el robot replanifica la trayectoria a su alrededor. Los problemas que relatan los autores también muestran a quienes investigan el tema dónde falla la percepción por aprendizaje automático."
 method: "Es una prueba de concepto de ingeniería presentada en un congreso, sin estudio con usuarios. Los autores construyeron en MATLAB una plataforma de simulación a la que llaman gemelo digital. En ella compararon dos formas de representar al trabajador como obstáculo: una envolvente convexa y una malla con forma de cilindro con hemisferio, que acompaña la posición de la persona. La evasión se probó en banco con un robot industrial KUKA KR6. En paralelo, entrenaron una red neuronal con modelos 3D de las partes del robot para reconocer objetos en nubes de puntos."
 findings:

@@ -24,6 +24,8 @@ paper:
   venue: "Technical Sciences and Technologies"
   doi: "10.25140/2411-5363-2022-3(29)-37-44"
   url: "https://doi.org/10.25140/2411-5363-2022-3(29)-37-44"
+  openAccess: true
+  license: "CC BY-NC"
 whyItMatters: "El diseño ofrece una idea concreta de ejercicio práctico con cobot: una tarea de montaje que mezcla cálculo, programación y trabajo manual, y que puede hacerse más fácil o más difícil. Quien monta un laboratorio de enseñanza o una capacitación interna puede aprovechar el diseño de la tarea, aun sin datos sobre cuánto se aprende con ella."
 method: "Relato de un proyecto de ingeniería de una universidad técnica de Eslovaquia, sin experimento con personas. Los autores crearon tres variantes del puesto y eligieron la mejor en precio y facilidad de fabricación. El banco usa un cobot Fanuc CRX-10iA, programado por guiado manual y por tableta, con una pinza eléctrica colaborativa de dedos impresos en 3D. El texto describe el diseño mecánico y la secuencia de la tarea en un diagrama de flujo."
 findings:

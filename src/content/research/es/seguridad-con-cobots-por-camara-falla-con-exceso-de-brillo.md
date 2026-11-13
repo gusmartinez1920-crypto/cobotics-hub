@@ -23,6 +23,8 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-025-02676-4"
   url: "https://doi.org/10.1007/s10845-025-02676-4"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Vigilar con una cámara la distancia entre la persona y el cobot es una opción barata, y los autores muestran que puede hacerse con equipo sencillo. El estudio, sin embargo, mide cuánto depende esa vigilancia de la calidad de la imagen. Para quien diseña una celda colaborativa, queda la advertencia sobre la iluminación y la sugerencia de no confiar en una sola cámara."
 method: "El trabajo tiene dos partes. Primero, una revisión sistemática de artículos de 2021 a 2023 en tres bases, que partió de 4107 registros y analizó 53 por completo. Después, un experimento de laboratorio con dos cobots UR10e y un operador que se movía entre ellos y provocaba colisiones, filmado por una cámara. Un detector de objetos identificaba partes del operador y del cobot, y un algoritmo de los autores clasificaba el riesgo en cuatro niveles según la menor distancia entre ellos; el video de referencia se degradó luego con brillo alterado, ruido, aberración cromática y distorsión de transmisión."
 findings:

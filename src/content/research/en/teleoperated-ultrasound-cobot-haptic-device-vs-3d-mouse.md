@@ -20,6 +20,7 @@ paper:
   venue: "IEEE Transactions on Automation Science and Engineering"
   doi: "10.1109/tase.2024.3350524"
   url: "https://doi.org/10.1109/tase.2024.3350524"
+  openAccess: true
 whyItMatters: "Choosing a teleoperation interface is often a cost decision made without usage data. This study proposes a set of objective and subjective measures for comparing interfaces and shows a common tension in collaborative robotics: the best-performing option may be the one that loads the operator most."
 method: "The authors built a teleoperation system in which the operator drives a Franka Emika Panda cobot holding an ultrasound probe, using either a haptic device (Touch X) or a low-cost 3D mouse. The robot uses impedance control, which makes it compliant in contact. Six people scanned a training phantom while trying to keep a contact force of 10 N. The measures were perceived workload (NASA-TLX questionnaire), learning and execution times, force error, image quality and muscle fatigue by electromyography."
 findings:

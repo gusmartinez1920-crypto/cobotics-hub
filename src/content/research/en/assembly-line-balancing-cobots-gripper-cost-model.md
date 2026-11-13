@@ -19,6 +19,8 @@ paper:
   venue: "Procedia Computer Science"
   doi: "10.1016/j.procs.2025.02.001"
   url: "https://doi.org/10.1016/j.procs.2025.02.001"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "When planning a line with cobots, deciding who does each task is not enough: you also have to define at which station and with which gripper. The study shows how to put these decisions into a single optimization model and which costs go into the calculation. It is a starting point for those studying line balancing with human-robot collaboration."
 method: "The authors formulated a mixed-integer linear programming model for a straight, single-product line with fixed task times. The model minimizes the sum of station, worker, cobot and gripper costs, subject to cycle time, task precedence and the maximum gripper weight per cobot. They applied it to an illustrative example, the assembly of an electric rotary bakery oven with 20 tasks and a 60-minute cycle, using reference costs from medium-sized companies in Turkey."
 findings:

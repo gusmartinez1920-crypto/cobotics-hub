@@ -22,6 +22,8 @@ paper:
   venue: "Procedia CIRP"
   doi: "10.1016/j.procir.2018.03.214"
   url: "https://doi.org/10.1016/j.procir.2018.03.214"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Coexistência, cooperação e colaboração mudam de sentido de um autor para outro, o que atrapalha projetar e avaliar uma célula com cobot. Este estudo oferece um vocabulário comum, que serve tanto para a análise de segurança quanto para pensar no que o trabalhador vive no posto."
 method: "Os autores revisaram as classificações de níveis de colaboração já publicadas e propuseram um quadro próprio, com níveis e subníveis. Depois aplicaram o quadro a dois casos do instituto de pesquisa onde trabalham: a montagem de vedações com um robô ABB YuMi e um robô que segura a peça durante a soldagem. Viabilidade técnica, produtividade e tempo de ciclo ficaram fora do escopo."
 findings:

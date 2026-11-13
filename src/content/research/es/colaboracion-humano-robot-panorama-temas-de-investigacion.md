@@ -21,6 +21,8 @@ paper:
   venue: "Procedia Computer Science"
   doi: "10.1016/j.procs.2022.12.389"
   url: "https://doi.org/10.1016/j.procs.2022.12.389"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Es una buena puerta de entrada para quien empieza: define la colaboración humano-robot, separa los cuatro tipos de interacción entre persona y robot y muestra en qué temas se concentra la investigación. Ayuda a situar un proyecto o una lectura dentro del campo."
 method: "Los autores buscaron en la base Scopus los términos de colaboración y de interacción humano-robot, sin límite de período, y seleccionaron los 2000 artículos más citados. Analizaron la red formada por las palabras clave de esos artículos. Después hicieron una revisión narrativa de las tendencias, con ejemplos de estudios de caso."
 findings:

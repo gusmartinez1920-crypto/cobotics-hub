@@ -18,6 +18,8 @@ paper:
   venue: "Current Robotics Reports"
   doi: "10.1007/s43154-020-00005-6"
   url: "https://doi.org/10.1007/s43154-020-00005-6"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Quanto mais de perto a pessoa trabalha com o robô, mais a interface conta: ela deixa de servir só para programar e passa a servir para trocar informação e confirmar ações. O estudo ajuda a escolher entre tela, gesto e voz e mostra onde a pesquisa industrial ainda está atrasada."
 method: "As autoras fizeram uma revisão narrativa da literatura, organizada por tipo de interface (gestos, voz, interfaces gráficas e combinações) e separada em robôs industriais e robôs de serviço. O texto se apoia em 53 referências, cita projetos de pesquisa em andamento e termina com a opinião das autoras, baseada no próprio trabalho com robôs industriais fixos e móveis."
 findings:

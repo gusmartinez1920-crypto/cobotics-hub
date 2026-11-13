@@ -21,6 +21,8 @@ paper:
   venue: "CIRP Annals"
   doi: "10.1016/j.cirp.2024.04.003"
   url: "https://doi.org/10.1016/j.cirp.2024.04.003"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "Programar un cobot para cada variación de producto es caro, y la personalización en masa pide tareas sin guion fijo. El estudio muestra una arquitectura en la que la persona pide la tarea en lenguaje natural y las gafas de realidad mixta sirven de sensor de la escena. Para quien sigue la inteligencia artificial generativa en la robótica, aporta cifras de acierto y las contrapartidas declaradas."
 method: "Los autores proponen un sistema y lo prueban en laboratorio, con un manipulador móvil (brazo UR5e sobre base MiR100), una cámara de profundidad y gafas HoloLens 2. Un modelo de visión y lenguaje localiza el objeto citado en la orden; modelos de lenguaje dividen la instrucción en pasos y generan el código del robot. Una política entrenada por aprendizaje por refuerzo mueve la base y el brazo a la vez, usando imágenes y datos de las gafas. La localización del objeto se evaluó en 463 pares de imagen y texto, la planificación en 3 tareas con 20 repeticiones cada una, y la política de movimiento con 1000 objetivos en una escena simulada."
 findings:

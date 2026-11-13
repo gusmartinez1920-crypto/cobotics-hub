@@ -23,6 +23,8 @@ paper:
   venue: "International Journal of Computer Integrated Manufacturing"
   doi: "10.1080/0951192x.2023.2204467"
   url: "https://doi.org/10.1080/0951192x.2023.2204467"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Deciding what goes to the person and what goes to the robot shapes cycle time, ergonomics and even whether the work will be monotonous or stressful. The review organizes the options and shows what tends to be left out of the decision, such as safety, which helps anyone planning a collaborative cell."
 method: "The authors carried out a systematic review with a search in January 2022 in the Scopus and IEEE Xplore databases, restricted to peer-reviewed texts in English or German. Of the 576 records, three rounds of screening left 24 highly relevant studies, and searching references and citations added 13, for a total of 37. The approaches were classified into two categories and four subcategories, defined in discussion among the authors."
 findings:

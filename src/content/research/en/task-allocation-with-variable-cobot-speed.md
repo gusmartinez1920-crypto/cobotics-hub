@@ -20,6 +20,8 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-023-02073-9"
   url: "https://doi.org/10.1007/s10845-023-02073-9"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "In many cells the cobot always runs slowly, well below what it can do, for safety reasons. The study shows that the order and position of tasks can recover part of that productivity without additional devices, and gives a numerical example of calculating the separation distance based on ISO/TS 15066."
 method: "The authors formulated a nonlinear task allocation model for a station with one operator and one cobot sharing the space, with the goal of minimizing total completion time. The cobot's task time increases whenever it takes place at the same time as an operator task closer than the safety distance. They tested the model on a numerical case of 12 tasks, with a safety distance of 80 cm, and compared it with the model without the constraint, also varying the number of tasks (from 9 to 20) and the safety distance (from 10 to 150 cm)."
 findings:

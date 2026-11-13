@@ -22,6 +22,8 @@ paper:
   venue: "Robotics and Computer-Integrated Manufacturing"
   doi: "10.1016/j.rcim.2025.103025"
   url: "https://doi.org/10.1016/j.rcim.2025.103025"
+  openAccess: true
+  license: "CC BY"
 whyItMatters: "The split of tasks between person and cobot is usually set by cycle time, not by how tired the worker gets. This study shows a way for the robot to decide, during assembly, what to take on based on an estimate of physical exertion, without imposing a fixed sequence on the operator. It is relevant to anyone researching dynamic task allocation and ergonomics in collaborative cells."
 method: "The authors modeled assembly as a turn-based game between person and robot and trained a reinforcement learning policy whose reward penalizes increases in muscle exertion. Exertion comes from a musculoskeletal model of the upper limb, fed by inertial sensors on the body and sped up by a neural network. A mask blocks actions that break the assembly order or exceed the gripper's capacity. Validation had two parts: a simulation with two products (a 9-part desktop computer and a 36-part pump), compared against seven other algorithms, and a real assembly of the computer with a KUKA LBR iiwa cobot and 8 participants, who did five assemblies with the trained policy and five with a random policy."
 findings:

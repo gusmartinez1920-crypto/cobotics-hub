@@ -22,6 +22,8 @@ paper:
   venue: "Journal of Intelligent Manufacturing"
   doi: "10.1007/s10845-025-02676-4"
   url: "https://doi.org/10.1007/s10845-025-02676-4"
+  openAccess: true
+  license: "CC BY-NC-ND"
 whyItMatters: "Monitorar por câmera a distância entre a pessoa e o cobot é uma opção barata, e os autores mostram que dá para fazer isso com equipamento simples. O estudo, porém, mede quanto esse monitoramento depende da qualidade da imagem. Para quem projeta uma célula colaborativa, fica o alerta sobre iluminação e a sugestão de não confiar em uma única câmera."
 method: "O trabalho tem duas partes. Primeiro, uma revisão sistemática de artigos de 2021 a 2023 em três bases, que partiu de 4107 registros e analisou 53 por completo. Depois, um experimento em laboratório com dois cobots UR10e e um operador que se movia entre eles e provocava colisões, filmado por uma câmera. Um detector de objetos identificava partes do operador e do cobot, e um algoritmo dos autores classificava o risco em quatro níveis pela menor distância entre eles; o vídeo de referência foi então degradado com brilho alterado, ruído, aberração cromática e distorção de transmissão."
 findings:
