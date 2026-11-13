@@ -1,0 +1,172 @@
+---
+// "Quem é quem": autores dos artigos resumidos no hub.
+import Base from "../../layouts/Base.astro";
+import { langs, path, useT, type Lang, type UIKey } from "../../i18n/ui";
+import { entries, splitId } from "../../lib/content";
+import { buildResearchers, initial, type Researcher } from "../../lib/researchers";
+import { REPO_URL } from "../../site-config";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const list = await entries("research", lang);
+const people = buildResearchers(list, lang);
+const frequent = people.filter((r) => r.papers.length > 1).sort((a, b) => b.papers.length - a.papers.length);
+const letters = [...new Set(people.map(initial))];
+const byLetter = letters.map((letter) => ({ letter, items: people.filter((r) => initial(r) === letter) }));
+const count = (r: Researcher) => `${r.papers.length} ${t(r.papers.length === 1 ? "who.summary" : "who.summaries")}`;
+---
+
+<Base lang={lang} title={t("who.title")} description={t("who.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="back"><a href={path(lang, "research")}>← {t("research.title")}</a></p>
+      <h1>{t("who.title")}</h1>
+      <p class="lead">{t("who.lead")}</p>
+      <p class="note">{t("who.notRanking")}</p>
+    </header>
+
+    {people.length === 0 ? (
+      <p>{t("list.empty.research")}</p>
+    ) : (
+      <>
+        {frequent.length > 0 && (
+          <section class="frequent">
+            <h2>{t("who.frequent")}</h2>
+            <ul>
+              {frequent.map((r) => (
+                <li><a href={`#${r.id}`}>{r.name}</a> <span>{r.papers.length}</span></li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <nav class="letters" aria-label={t("who.index")}>
+          {letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}
+        </nav>
+
+        {byLetter.map((g) => (
+          <section class="letter" id={`letter-${g.letter}`}>
+            <h2>{g.letter}</h2>
+            <div class="people">
+              {g.items.map((r) => (
+                <article class="person" id={r.id}>
+                  <h3>{r.name}</h3>
+                  <p class="meta">
+                    {count(r)}
+                    {r.topics.length > 0 && <> · {r.topics.map((tp) => t(`topic.${tp}` as UIKey)).join(" · ")}</>}
+                  </p>
+                  <ul>
+                    {r.papers.map((e) => (
+                      <li>
+                        <a href={path(lang, `research/${splitId(e.id).slug}`)}>{e.data.title}</a>
+                        <span class="paper">{e.data.paper.title} ({e.data.paper.year})</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {r.coauthors.length > 0 && (
+                    <p class="co">
+                      {t("who.coauthors")}:{" "}
+                      {r.coauthors.map((c, i) => <>{i > 0 && ", "}<a href={`#${c.id}`}>{c.name}</a></>)}
+                    </p>
+                  )}
+                </article>
+              ))}
+            </div>
+          </section>
+        ))}
+
+        <p class="note">
+          {t("who.correction")} <a href={`${REPO_URL}/issues/new/choose`}>{t("who.correction.cta")}</a>
+        </p>
+      </>
+    )}
+  </div>
+</Base>
+
+<style>
+  .back {
+    font-size: var(--step--1);
+    margin-bottom: 0.5rem;
+  }
+  .note {
+    max-width: 60ch;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .frequent ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+  }
+  .frequent span {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .letters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.9rem;
+    margin-block: 1.5rem 2rem;
+    font-family: var(--font-mono);
+  }
+  .letter {
+    margin-bottom: 2rem;
+    scroll-margin-top: 5rem;
+  }
+  .letter > h2 {
+    font-size: var(--step-1);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  .people {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr));
+    gap: 1rem;
+  }
+  .person {
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    scroll-margin-top: 5rem;
+  }
+  .person:target {
+    border-color: var(--twin);
+    box-shadow: inset 3px 0 0 var(--twin);
+  }
+  .person h3 {
+    font-size: var(--step-0);
+    margin-bottom: 0.2rem;
+  }
+  .person .meta,
+  .person .co {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    margin-bottom: 0.5rem;
+  }
+  .person .meta {
+    font-family: var(--font-mono);
+  }
+  .person ul {
+    padding-left: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .person li {
+    margin-bottom: 0.4rem;
+  }
+  .paper {
+    display: block;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .person .co {
+    margin: 0;
+  }
+</style>

@@ -10,6 +10,18 @@ const lang = z.enum(["en", "pt", "es"]);
 /** Os três pilares da Indústria 5.0 tratados no hub. */
 export const pillar = z.enum(["iot", "twin", "cobot"]);
 
+/** Temas dos resumos de pesquisa, na ordem em que aparecem na lista. */
+export const RESEARCH_TOPICS = [
+  "fundamentals",
+  "safety",
+  "human-factors",
+  "industry-5-0",
+  "applications",
+  "implementation",
+  "education",
+] as const;
+const researchTopic = z.enum(RESEARCH_TOPICS);
+
 const common = {
   title: z.string(),
   description: z.string().max(220),
@@ -74,6 +86,8 @@ const research = defineCollection({
   loader: glob({ pattern: ["**/*.md", "!**/_*.md"], base: "./src/content/research" }),
   schema: z.object({
     ...common,
+    /** Tema do resumo (agrupa a lista). Nomes exibidos: chaves `topic.*` em src/i18n/ui.ts. */
+    topic: researchTopic.optional(),
     paper: z.object({
       title: z.string(),
       authors: z.array(z.string()).min(1),

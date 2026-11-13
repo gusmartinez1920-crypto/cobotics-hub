@@ -4,6 +4,8 @@ import Base from "../../../layouts/Base.astro";
 import EntryHeader from "../../../components/EntryHeader.astro";
 import { useT, type Lang } from "../../../i18n/ui";
 import { alternatesFor, entries, splitId, translationsOf } from "../../../lib/content";
+import { authorId } from "../../../lib/researchers";
+import { path } from "../../../i18n/ui";
 
 export async function getStaticPaths() {
   const all = await entries("research");
@@ -34,7 +36,9 @@ const paperHref = paper.doi ? `https://doi.org/${paper.doi}` : paper.url;
       <aside class="ref" aria-label={t("paper.original")}>
         <p class="eyebrow">{t("paper.original")}</p>
         <p class="ref-title">{paper.title}</p>
-        <p class="ref-authors">{paper.authors.join(", ")}</p>
+        <p class="ref-authors">
+          {paper.authors.map((a, i) => <>{i > 0 && ", "}<a href={`${path(lang, "researchers")}#${authorId(a)}`}>{a}</a></>)}
+        </p>
         <p class="ref-venue">{paper.venue}, {paper.year}</p>
         {paper.doi && <p class="ref-doi">DOI <a href={paperHref}>{paper.doi}</a></p>}
         {!paper.doi && <p><a href={paperHref}>{paperHref}</a></p>}
@@ -83,6 +87,10 @@ const paperHref = paper.doi ? `https://doi.org/${paper.doi}` : paper.url;
   }
   .ref p {
     margin-bottom: 0.5rem;
+  }
+  .ref-authors a {
+    color: inherit;
+    text-decoration-color: var(--line);
   }
   .ref-title {
     font-weight: 600;
