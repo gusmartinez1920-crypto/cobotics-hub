@@ -1,0 +1,12 @@
+<!DOCTYPE html><html lang="en" data-astro-cid-j7pv25f6> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Cobotics Hub</title><link rel="alternate" hreflang="en" href="/en/"><link rel="alternate" hreflang="pt-BR" href="/pt/"><link rel="alternate" hreflang="es" href="/es/"><link rel="alternate" hreflang="x-default" href="/en/"><script>
+      (function () {
+        var supported = ["pt", "es", "en"];
+        var prefs = navigator.languages || [navigator.language || "en"];
+        for (var i = 0; i < prefs.length; i++) {
+          var code = String(prefs[i]).slice(0, 2).toLowerCase();
+          if (supported.indexOf(code) !== -1) return location.replace("/" + code + "/");
+        }
+        location.replace("/en/");
+      })();
+    </script><style>body{font-family:system-ui,sans-serif;display:grid;place-items:center;min-height:100vh;margin:0}a[data-astro-cid-j7pv25f6]{margin:0 .75rem}
+</style></head> <body data-astro-cid-j7pv25f6> <p data-astro-cid-j7pv25f6><a href="/en/" data-astro-cid-j7pv25f6>English</a><a href="/pt/" data-astro-cid-j7pv25f6>Português</a><a href="/es/" data-astro-cid-j7pv25f6>Español</a></p> </body></html>
