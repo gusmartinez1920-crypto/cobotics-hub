@@ -12,6 +12,12 @@ export function getStaticPaths() {
 const lang = Astro.params.lang as Lang;
 const t = useT(lang);
 const list = await entries("research", lang);
+// Sínteses por tema: artigos com translationKey "synthesis-<tema>".
+const syntheses = new Map(
+  (await entries("articles", lang))
+    .filter((a) => a.data.translationKey.startsWith("synthesis-"))
+    .map((a) => [a.data.translationKey.slice("synthesis-".length), path(lang, `learn/${splitId(a.id).slug}`)] as const),
+);
 
 // Agrupa por tema, na ordem de RESEARCH_TOPICS; dentro do tema, artigos mais recentes primeiro.
 const byPaper = (a: (typeof list)[number], b: (typeof list)[number]) =>
@@ -53,6 +59,7 @@ const groups = [
           {groups.map((g) => (
             <section class="topic" id={g.id}>
               {groups.length > 1 && <h2>{g.name}</h2>}
+              {syntheses.get(g.id) && <p class="synthesis"><a href={syntheses.get(g.id)}>{t("research.synthesis")} →</a></p>}
               <div class="grid">
                 {g.items.map((e) => (
                   <EntryCard
@@ -93,7 +100,14 @@ const groups = [
   }
   .topic h2 {
     font-size: var(--step-1);
+    margin-bottom: 0.4rem;
+  }
+  .topic .synthesis {
+    font-size: var(--step--1);
     margin-bottom: 1rem;
+  }
+  .topic .grid {
+    margin-top: 1rem;
   }
   .grid {
     display: grid;

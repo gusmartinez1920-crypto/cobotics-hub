@@ -2,14 +2,19 @@
 // Normas e regulamentos que se aplicam à cobótica: lista com resumo curto.
 // Os dados ficam em src/data/standards.ts.
 import Base from "../../layouts/Base.astro";
-import { formatDate, langs, type Lang } from "../../i18n/ui";
-import { STANDARD_GROUPS, STANDARDS_CHECKED, standards, standardsText } from "../../data/standards";
+import { formatDate, langs, path, useT, type Lang } from "../../i18n/ui";
+import { STANDARD_GROUPS, STANDARD_MATCH, STANDARDS_CHECKED, standardId, standards, standardsText } from "../../data/standards";
+import { entries, splitId } from "../../lib/content";
+import { mentioning } from "../../lib/related";
 
 export function getStaticPaths() {
   return langs.map((lang) => ({ params: { lang } }));
 }
 const lang = Astro.params.lang as Lang;
 const tx = standardsText[lang];
+const t = useT(lang);
+const research = await entries("research", lang);
+const related = (code: string) => mentioning(research, STANDARD_MATCH[code] ?? []);
 const groups = STANDARD_GROUPS.map((g) => ({ id: g, name: tx.groups[g], items: standards.filter((s) => s.group === g) }));
 ---
 
@@ -30,11 +35,21 @@ const groups = STANDARD_GROUPS.map((g) => ({ id: g, name: tx.groups[g], items: s
         <h2>{g.name}</h2>
         <ul class="list">
           {g.items.map((s) => (
-            <li class="item">
+            <li class="item" id={standardId(s.code)}>
               <h3>{s.code}</h3>
               <p class="official" lang={s.group === "law" && s.code.includes("Brasil") ? "pt-BR" : "en"}>{s.title}</p>
               <p>{s.summary[lang]}</p>
               {s.note && <p class="status">{s.note[lang]}</p>}
+              {related(s.code).length > 0 && (
+                <details>
+                  <summary>{t("related.standard")} <span>{related(s.code).length}</span></summary>
+                  <ul>
+                    {related(s.code).map((e) => (
+                      <li><a href={path(lang, `research/${splitId(e.id).slug}`)}>{e.data.title}</a></li>
+                    ))}
+                  </ul>
+                </details>
+              )}
               <p class="src"><a href={s.url} rel="noopener">{tx.source} →</a></p>
             </li>
           ))}
@@ -103,6 +118,31 @@ const groups = STANDARD_GROUPS.map((g) => ({ id: g, name: tx.groups[g], items: s
   .status {
     border-left: 3px solid var(--line);
     padding-left: 0.6rem;
+  }
+  .item {
+    scroll-margin-top: 5rem;
+  }
+  .item:target {
+    border-color: var(--twin);
+    box-shadow: inset 3px 0 0 var(--twin);
+  }
+  .item details {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    margin-bottom: 0.5rem;
+  }
+  .item summary {
+    cursor: pointer;
+  }
+  .item summary span {
+    font-family: var(--font-mono);
+  }
+  .item details ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.1rem;
+  }
+  .item details li {
+    margin-bottom: 0.3rem;
   }
   .item .src {
     margin: 0;

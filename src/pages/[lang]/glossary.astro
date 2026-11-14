@@ -1,0 +1,130 @@
+---
+// Glossário trilíngue, ligado aos resumos de pesquisa e às normas. Dados em src/data/glossary.ts.
+import Base from "../../layouts/Base.astro";
+import { langs, path, type Lang } from "../../i18n/ui";
+import { entries, splitId } from "../../lib/content";
+import { mentioning } from "../../lib/related";
+import { glossary, glossaryText } from "../../data/glossary";
+import { standardId } from "../../data/standards";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const tx = glossaryText[lang];
+const research = await entries("research", lang);
+const terms = glossary
+  .map((g) => ({ ...g, name: g.term[lang], related: mentioning(research, g.match[lang]) }))
+  .sort((a, b) => a.name.localeCompare(b.name, lang));
+---
+
+<Base lang={lang} title={tx.title} description={tx.lead}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{tx.title}</h1>
+      <p class="lead">{tx.lead}</p>
+      <p class="notice">{tx.caution}</p>
+    </header>
+
+    <nav class="index" aria-label={tx.title}>
+      {terms.map((g) => <a href={`#${g.id}`}>{g.name}</a>)}
+    </nav>
+
+    <dl class="terms">
+      {terms.map((g) => (
+        <div class="term" id={g.id}>
+          <dt>
+            {g.name}
+            {g.abbr && <span class="abbr" title={tx.alsoCalled}>{g.abbr}</span>}
+          </dt>
+          <dd>
+            <p>{g.definition[lang]}</p>
+            {g.standards && g.standards.length > 0 && (
+              <p class="rel">
+                {tx.inStandards}:{" "}
+                {g.standards.map((code, i) => <>{i > 0 && " · "}<a href={`${path(lang, "standards")}#${standardId(code)}`}>{code}</a></>)}
+              </p>
+            )}
+            {g.related.length > 0 && (
+              <details>
+                <summary>{tx.inSummaries} <span>{g.related.length}</span></summary>
+                <ul>
+                  {g.related.map((e) => (
+                    <li><a href={path(lang, `research/${splitId(e.id).slug}`)}>{e.data.title}</a></li>
+                  ))}
+                </ul>
+              </details>
+            )}
+          </dd>
+        </div>
+      ))}
+    </dl>
+  </div>
+</Base>
+
+<style>
+  .notice {
+    max-width: 62ch;
+    margin-top: 1rem;
+  }
+  .index {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem 1.1rem;
+    margin-bottom: 2rem;
+    font-size: var(--step--1);
+  }
+  .terms {
+    max-width: 52rem;
+    display: grid;
+    gap: 1rem;
+  }
+  .term {
+    padding: 1.1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    scroll-margin-top: 5rem;
+  }
+  .term:target {
+    border-color: var(--twin);
+    box-shadow: inset 3px 0 0 var(--twin);
+  }
+  dt {
+    font-family: var(--font-display, inherit);
+    font-weight: 600;
+    font-size: var(--step-1);
+    margin-bottom: 0.4rem;
+  }
+  .abbr {
+    margin-left: 0.5rem;
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    font-weight: 400;
+    color: var(--graphite-soft);
+  }
+  dd {
+    margin: 0;
+  }
+  dd p {
+    margin-bottom: 0.5rem;
+  }
+  .rel,
+  details {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  summary {
+    cursor: pointer;
+  }
+  summary span {
+    font-family: var(--font-mono);
+  }
+  details ul {
+    margin: 0.5rem 0 0;
+    padding-left: 1.1rem;
+  }
+  details li {
+    margin-bottom: 0.3rem;
+  }
+</style>

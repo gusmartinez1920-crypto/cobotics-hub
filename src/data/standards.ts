@@ -67,6 +67,39 @@ export const standardsText: Record<Lang, { title: string; lead: string; caution:
   },
 };
 
+/** Âncora da norma na página: "ISO/TS 15066:2016" → "iso-ts-15066-2016". */
+export function standardId(code: string) {
+  return code
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+/** Trechos que identificam a norma no texto dos resumos (ver src/lib/related.ts). */
+export const STANDARD_MATCH: Record<string, string[]> = {
+  "ISO 10218-1:2025": ["iso 10218"],
+  "ISO 10218-2:2025": ["iso 10218"],
+  "ISO/TS 15066:2016": ["15066"],
+  "ISO/PAS 5672:2023": ["iso/pas 5672"],
+  "ISO/TR 20218-1:2018": ["20218"],
+  "ISO/TR 20218-2:2017": ["20218"],
+  "ISO 8373:2021": ["iso 8373"],
+  "ISO 12100:2010": ["12100"],
+  "ISO 13849-1:2023": ["13849"],
+  "IEC 62061:2021": ["62061"],
+  "ISO 13855:2024": ["13855"],
+  "ISO 13850:2015": ["13850"],
+  "ISO 11228-1:2021": ["11228"],
+  "ISO 45003:2021": ["45003"],
+  "ISO 3691-4:2023": ["3691"],
+  "NR-12 (Brasil)": ["nr-12", "nr 12"],
+  "NR-01 (Brasil)": ["nr-01", "nr 01", "nr-1"],
+  "Regulamento (UE) 2023/1230": ["2023/1230", "regulamento de maquinas", "machinery regulation", "reglamento de maquinas"],
+  "Regulamento (UE) 2024/1689 — AI Act": ["ai act", "2024/1689", "regulamento de ia", "reglamento de ia"],
+};
+
 export const STANDARD_GROUPS: StandardGroup[] = ["cobot", "machinery", "people", "mobile", "law"];
 
 export const standards: Standard[] = [
