@@ -25,6 +25,7 @@ const nav = [
   ["research", t("nav.research")],
   ["tutorials", t("nav.tutorials")],
   ["sectors", t("nav.sectors")],
+  ["standards", t("nav.standards")],
   ["catalog", t("nav.catalog")],
   ["roi", t("nav.roi")],
   ["sdgs", t("nav.sdgs")],
@@ -69,6 +70,7 @@ const isActive = (seg: string) => current.startsWith(path(lang, seg));
           </ul>
         </nav>
 
+        <a class="search-link" href={path(lang, "search")}>{t("nav.search")}</a>
         <nav class="langs" aria-label={t("lang.label")}>
           {langs.map((l) => (
             <a href={sameUrlIn(l)} hreflang={htmlLang[l]} lang={htmlLang[l]} aria-current={l === lang ? "true" : undefined} title={languages[l]}>
@@ -79,7 +81,7 @@ const isActive = (seg: string) => current.startsWith(path(lang, seg));
       </div>
     </header>
 
-    <main id="main">
+    <main id="main" data-pagefind-body>
       <slot />
     </main>
 
@@ -90,6 +92,11 @@ const isActive = (seg: string) => current.startsWith(path(lang, seg));
           <p>{t("site.tagline")}</p>
         </div>
         <ul>
+          <li><a href={path(lang, "start")}>{t("nav.start")}</a></li>
+          <li><a href={path(lang, "glossary")}>{t("nav.glossary")}</a></li>
+          <li><a href={path(lang, "courses")}>{t("nav.courses")}</a></li>
+          <li><a href={path(lang, "researchers")}>{t("who.title")}</a></li>
+          <li><a href={path(lang, "search")}>{t("nav.search")}</a></li>
           <li><a href={path(lang, "team")}>{t("nav.team")}</a></li>
           <li><a href={path(lang, "contribute")}>{t("nav.contribute")}</a></li>
           <li><a href={REPO_URL} rel="noopener">{t("footer.source")}</a></li>
@@ -160,6 +167,10 @@ const isActive = (seg: string) => current.startsWith(path(lang, seg));
   }
   .menu {
     margin-left: auto;
+  }
+  .search-link {
+    font-size: var(--step--1);
+    white-space: nowrap;
   }
   .menu-toggle {
     display: none;

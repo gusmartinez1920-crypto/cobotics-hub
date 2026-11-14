@@ -1,0 +1,75 @@
+---
+// Busca no site com Pagefind (gratuito, sem servidor). O índice é gerado depois do build
+// (`npm run build` roda `pagefind --site dist`), por isso a busca não funciona em `npm run dev`.
+import Base from "../../layouts/Base.astro";
+import { langs, useT, type Lang } from "../../i18n/ui";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const labels = {
+  placeholder: t("search.placeholder"),
+  zero_results: t("search.none"),
+  clear_search: t("search.clear"),
+  load_more: t("search.more"),
+  many_results: t("search.many"),
+  one_result: t("search.one"),
+  searching: t("search.searching"),
+};
+---
+
+<Base lang={lang} title={t("search.title")} description={t("search.lead")}>
+  <div class="wrap" data-pagefind-ignore>
+    <header class="page-head">
+      <h1>{t("search.title")}</h1>
+      <p class="lead">{t("search.lead")}</p>
+    </header>
+    <div id="search" data-labels={JSON.stringify(labels)}></div>
+    <noscript><p class="notice">{t("search.nojs")}</p></noscript>
+    <p id="search-missing" class="notice" hidden>{t("search.unavailable")}</p>
+  </div>
+</Base>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
+<script is:inline>
+  (function () {
+    var box = document.getElementById("search");
+    if (!window.PagefindUI) {
+      document.getElementById("search-missing").hidden = false;
+      return;
+    }
+    new window.PagefindUI({
+      element: "#search",
+      showSubResults: false,
+      showImages: false,
+      resetStyles: false,
+      autofocus: true,
+      translations: JSON.parse(box.dataset.labels),
+    });
+    // /pt/search/?q=termo
+    var q = new URLSearchParams(location.search).get("q");
+    if (q) {
+      var input = box.querySelector("input");
+      if (input) {
+        input.value = q;
+        input.dispatchEvent(new Event("input", { bubbles: true }));
+      }
+    }
+  })();
+</script>
+
+<style is:global>
+  #search {
+    max-width: 48rem;
+    --pagefind-ui-primary: var(--twin);
+    --pagefind-ui-text: var(--graphite);
+    --pagefind-ui-background: var(--surface);
+    --pagefind-ui-border: var(--line);
+    --pagefind-ui-tag: var(--surface);
+    --pagefind-ui-border-radius: var(--radius);
+    --pagefind-ui-font: inherit;
+  }
+</style>

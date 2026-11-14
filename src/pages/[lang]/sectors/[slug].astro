@@ -2,7 +2,8 @@
 import { render } from "astro:content";
 import Base from "../../../layouts/Base.astro";
 import EntryHeader from "../../../components/EntryHeader.astro";
-import { useT, type Lang } from "../../../i18n/ui";
+import { path, useT, type Lang } from "../../../i18n/ui";
+import { mentioning } from "../../../lib/related";
 import { alternatesFor, entries, splitId, translationsOf } from "../../../lib/content";
 
 export async function getStaticPaths() {
@@ -17,6 +18,27 @@ const { Content } = await render(entry);
 const translations = await translationsOf("sectors", entry);
 const alternates = alternatesFor("sectors", lang, splitId(entry.id).slug, translations);
 const d = entry.data;
+
+// Trechos que identificam o setor no texto dos resumos, por idioma (sem acento).
+const SECTOR_MATCH: Record<string, Record<Lang, string[]>> = {
+  automotive: {
+    pt: ["automotiv", "automobil", "montadora"],
+    en: ["automotive", "car manufactur", "automaker"],
+    es: ["automotriz", "automovil", "automocion"],
+  },
+  electronics: { pt: ["eletronic", "eletroeletronic"], en: ["electronics"], es: ["electronic"] },
+  "food-beverage": {
+    pt: ["alimento", "frigorifico", "carne", "bebida"],
+    en: ["food", "meat", "beverage"],
+    es: ["alimento", "frigorifico", "carne", "bebida", "carnic"],
+  },
+  logistics: {
+    pt: ["armazem", "armazens", "logistic", "separacao de pedidos", "paletiza"],
+    en: ["warehouse", "logistics", "order picking", "palletiz"],
+    es: ["almacen", "logistic", "preparacion de pedidos", "paletiza"],
+  },
+};
+const related = mentioning(await entries("research", lang), SECTOR_MATCH[d.translationKey]?.[lang] ?? []);
 ---
 
 <Base lang={lang} title={d.title} description={d.description} alternates={alternates}>
@@ -30,6 +52,20 @@ const d = entry.data;
       <Content />
       {d.aiAssisted && d.humanReviewed && <p class="ai">{t("meta.ai")}</p>}
     </div>
+    {related.length > 0 && (
+      <section class="related">
+        <h2>{t("related.research")}</h2>
+        <p class="related-lead">{t("related.research.lead")}</p>
+        <ul>
+          {related.map((e) => (
+            <li>
+              <a href={path(lang, `research/${splitId(e.id).slug}`)}>{e.data.title}</a>
+              <span>{e.data.paper.authors[0]}{e.data.paper.authors.length > 1 ? " et al." : ""} · {e.data.paper.year}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
   </article>
 </Base>
 
@@ -49,6 +85,32 @@ const d = entry.data;
   }
   .apps li {
     margin-bottom: 0.35rem;
+  }
+  .related {
+    max-width: var(--measure);
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+  .related h2 {
+    font-size: var(--step-1);
+    margin-bottom: 0.3rem;
+  }
+  .related-lead {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .related ul {
+    padding-left: 1.1rem;
+  }
+  .related li {
+    margin-bottom: 0.6rem;
+  }
+  .related li span {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
   }
   .ai {
     margin-top: 2.5rem;

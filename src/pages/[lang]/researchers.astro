@@ -1,0 +1,236 @@
+---
+// "Quem é quem": autores dos artigos resumidos no hub.
+import Base from "../../layouts/Base.astro";
+import { langs, path, useT, type Lang, type UIKey } from "../../i18n/ui";
+import { entries, splitId } from "../../lib/content";
+import { buildResearchers, initial, type Researcher } from "../../lib/researchers";
+import { REPO_URL } from "../../site-config";
+import extra from "../../data/researchers.json";
+
+type Extra = { orcid?: string; affiliations?: { name: string; country: string | null; year: number | null }[] };
+const info = (id: string) => (extra as Record<string, Extra>)[id] ?? {};
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const t = useT(lang);
+const list = await entries("research", lang);
+const people = buildResearchers(list, lang);
+const frequent = people.filter((r) => r.papers.length > 1).sort((a, b) => b.papers.length - a.papers.length);
+const letters = [...new Set(people.map(initial))];
+const byLetter = letters.map((letter) => ({ letter, items: people.filter((r) => initial(r) === letter) }));
+const regionNames = new Intl.DisplayNames([lang], { type: "region" });
+const country = (code: string | null) => {
+  if (!code) return "";
+  try {
+    return regionNames.of(code) ?? code;
+  } catch {
+    return code;
+  }
+};
+// Autores por país da afiliação mais recente.
+const tally = new Map<string, number>();
+for (const r of people) {
+  const code = info(r.id).affiliations?.[0]?.country;
+  if (code) tally.set(code, (tally.get(code) ?? 0) + 1);
+}
+const countries = [...tally.entries()].sort((a, b) => b[1] - a[1] || country(a[0]).localeCompare(country(b[0]), lang));
+const count = (r: Researcher) => `${r.papers.length} ${t(r.papers.length === 1 ? "who.summary" : "who.summaries")}`;
+---
+
+<Base lang={lang} title={t("who.title")} description={t("who.lead")}>
+  <div class="wrap">
+    <header class="page-head">
+      <p class="back"><a href={path(lang, "research")}>← {t("research.title")}</a></p>
+      <h1>{t("who.title")}</h1>
+      <p class="lead">{t("who.lead")}</p>
+      <p class="note">{t("who.notRanking")}</p>
+    </header>
+
+    {people.length === 0 ? (
+      <p>{t("list.empty.research")}</p>
+    ) : (
+      <>
+        {frequent.length > 0 && (
+          <section class="frequent">
+            <h2>{t("who.frequent")}</h2>
+            <ul>
+              {frequent.map((r) => (
+                <li><a href={`#${r.id}`}>{r.name}</a> <span>{r.papers.length}</span></li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        {countries.length > 0 && (
+          <section class="frequent countries">
+            <h2>{t("who.countries")}</h2>
+            <p class="note">{t("who.countries.note")}</p>
+            <ul>
+              {countries.map(([code, n]) => (
+                <li>{country(code)} <span>{n}</span></li>
+              ))}
+            </ul>
+          </section>
+        )}
+
+        <nav class="letters" aria-label={t("who.index")}>
+          {letters.map((l) => <a href={`#letter-${l}`}>{l}</a>)}
+        </nav>
+
+        {byLetter.map((g) => (
+          <section class="letter" id={`letter-${g.letter}`}>
+            <h2>{g.letter}</h2>
+            <div class="people">
+              {g.items.map((r) => (
+                <article class="person" id={r.id}>
+                  <h3>
+                    {r.name}
+                    {info(r.id).orcid && (
+                      <a class="orcid" href={`https://orcid.org/${info(r.id).orcid}`} rel="noopener" title={`ORCID ${info(r.id).orcid}`}>ORCID</a>
+                    )}
+                  </h3>
+                  {info(r.id).affiliations?.[0] && (
+                    <p class="aff">
+                      {info(r.id).affiliations![0].name}
+                      {info(r.id).affiliations![0].country && <> · {country(info(r.id).affiliations![0].country)}</>}
+                      {info(r.id).affiliations![0].year && <span> ({t("who.affiliation")}, {info(r.id).affiliations![0].year})</span>}
+                    </p>
+                  )}
+                  <p class="meta">
+                    {count(r)}
+                    {r.topics.length > 0 && <> · {r.topics.map((tp) => t(`topic.${tp}` as UIKey)).join(" · ")}</>}
+                  </p>
+                  <ul>
+                    {r.papers.map((e) => (
+                      <li>
+                        <a href={path(lang, `research/${splitId(e.id).slug}`)}>{e.data.title}</a>
+                        <span class="paper">{e.data.paper.title} ({e.data.paper.year})</span>
+                      </li>
+                    ))}
+                  </ul>
+                  {r.coauthors.length > 0 && (
+                    <p class="co">
+                      {t("who.coauthors")}:{" "}
+                      {r.coauthors.map((c, i) => <>{i > 0 && ", "}<a href={`#${c.id}`}>{c.name}</a></>)}
+                    </p>
+                  )}
+                </article>
+              ))}
+            </div>
+          </section>
+        ))}
+
+        <p class="note">{t("who.source")}</p>
+        <p class="note">
+          {t("who.correction")} <a href={`${REPO_URL}/issues/new/choose`}>{t("who.correction.cta")}</a>
+        </p>
+      </>
+    )}
+  </div>
+</Base>
+
+<style>
+  .back {
+    font-size: var(--step--1);
+    margin-bottom: 0.5rem;
+  }
+  .note {
+    max-width: 60ch;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .frequent ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+  }
+  .frequent span {
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .countries {
+    margin-top: 1.5rem;
+  }
+  .countries .note {
+    margin-bottom: 0.6rem;
+  }
+  .orcid {
+    margin-left: 0.4rem;
+    font-family: var(--font-mono);
+    font-size: var(--step--1);
+    font-weight: 400;
+  }
+  .person .aff {
+    font-size: var(--step--1);
+    margin-bottom: 0.3rem;
+  }
+  .person .aff span {
+    color: var(--graphite-soft);
+  }
+  .letters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.25rem 0.9rem;
+    margin-block: 1.5rem 2rem;
+    font-family: var(--font-mono);
+  }
+  .letter {
+    margin-bottom: 2rem;
+    scroll-margin-top: 5rem;
+  }
+  .letter > h2 {
+    font-size: var(--step-1);
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 0.3rem;
+    margin-bottom: 1rem;
+  }
+  .people {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 24rem), 1fr));
+    gap: 1rem;
+  }
+  .person {
+    padding: 1rem 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    scroll-margin-top: 5rem;
+  }
+  .person:target {
+    border-color: var(--twin);
+    box-shadow: inset 3px 0 0 var(--twin);
+  }
+  .person h3 {
+    font-size: var(--step-0);
+    margin-bottom: 0.2rem;
+  }
+  .person .meta,
+  .person .co {
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+    margin-bottom: 0.5rem;
+  }
+  .person .meta {
+    font-family: var(--font-mono);
+  }
+  .person ul {
+    padding-left: 1.1rem;
+    margin-bottom: 0.5rem;
+  }
+  .person li {
+    margin-bottom: 0.4rem;
+  }
+  .paper {
+    display: block;
+    font-size: var(--step--1);
+    color: var(--graphite-soft);
+  }
+  .person .co {
+    margin: 0;
+  }
+</style>

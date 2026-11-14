@@ -1,0 +1,86 @@
+---
+// "Comece por aqui": roteiro em passos, com links para as áreas do site. Textos em src/data/start.ts.
+import Base from "../../layouts/Base.astro";
+import { langs, type Lang } from "../../i18n/ui";
+import { startText } from "../../data/start";
+
+export function getStaticPaths() {
+  return langs.map((lang) => ({ params: { lang } }));
+}
+const lang = Astro.params.lang as Lang;
+const tx = startText[lang];
+/** "research/#safety" → "/pt/research/#safety" */
+const href = (to: string) => {
+  const [p, hash] = to.split("#");
+  const clean = p.replace(/^\/+|\/+$/g, "");
+  return `/${lang}/${clean ? clean + "/" : ""}${hash ? "#" + hash : ""}`;
+};
+---
+
+<Base lang={lang} title={tx.title} description={tx.lead}>
+  <div class="wrap">
+    <header class="page-head">
+      <h1>{tx.title}</h1>
+      <p class="lead">{tx.lead}</p>
+    </header>
+
+    <ol class="steps">
+      {tx.steps.map((s, i) => (
+        <li class="step">
+          <span class="n" aria-hidden="true">{i + 1}</span>
+          <div>
+            <h2>{s.title}</h2>
+            <p>{s.text}</p>
+            <ul>
+              {s.links.map((l) => <li><a href={href(l.to)}>{l.label} →</a></li>)}
+            </ul>
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <p class="notice">{tx.caution}</p>
+  </div>
+</Base>
+
+<style>
+  .steps {
+    list-style: none;
+    padding: 0;
+    max-width: 48rem;
+    display: grid;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .step {
+    display: grid;
+    grid-template-columns: 2.5rem minmax(0, 1fr);
+    gap: 1rem;
+    padding: 1.25rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .n {
+    font-family: var(--font-mono);
+    font-size: var(--step-2);
+    line-height: 1;
+    color: var(--twin);
+  }
+  .step h2 {
+    font-size: var(--step-1);
+    margin-bottom: 0.4rem;
+  }
+  .step ul {
+    list-style: none;
+    padding: 0;
+    margin: 0.75rem 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 1.25rem;
+    font-size: var(--step--1);
+  }
+  .notice {
+    max-width: 48rem;
+  }
+</style>
